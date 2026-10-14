@@ -1,15 +1,15 @@
 {
  "domain": "nih.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-13T19:33:04.936Z",
- "pagesScanned": 1793,
- "pagesAudited": 10,
+ "generatedAt": "2026-10-14T10:12:02.131Z",
+ "pagesScanned": 1943,
+ "pagesAudited": 11,
  "coverage": {
-  "sustainability": 174,
-  "axe": 10,
-  "resources": 10,
-  "alfa": 6,
-  "standards": 6,
+  "sustainability": 198,
+  "axe": 11,
+  "resources": 11,
+  "alfa": 7,
+  "standards": 7,
   "deprecated-html": 1,
   "security": 1,
   "lighthouse": 2,
@@ -17,14 +17,14 @@
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 74,
-  "pagesWithViolations": 10,
-  "pagesScanned": 10,
+  "violationTotal": 82,
+  "pagesWithViolations": 11,
+  "pagesScanned": 11,
   "medianViolations": 8,
   "rules": {
    "heading-order": {
-    "count": 7,
-    "pages": 7,
+    "count": 8,
+    "pages": 8,
     "impact": "moderate",
     "help": "Heading levels should only increase by one",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/heading-order?application=axeAPI",
@@ -34,7 +34,7 @@
     "examplePages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
     ],
     "affectedPages": [
      {
@@ -43,6 +43,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 1
      },
      {
@@ -78,6 +82,11 @@
       "html": "<h3></h3>"
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "target": ".callout__text > h3",
+      "html": "<h3>At a Glance</h3>"
+     },
+     {
       "url": "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
       "target": "h3:nth-child(4)",
       "html": "<h3>What</h3>"
@@ -86,17 +95,12 @@
       "url": "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
       "target": "h3:nth-child(2)",
       "html": "<h3>Opening Remarks</h3>"
-     },
-     {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-      "target": ".callout__text > h3",
-      "html": "<h3>At a Glance</h3>"
      }
     ]
    },
    "link-in-text-block": {
-    "count": 37,
-    "pages": 10,
+    "count": 41,
+    "pages": 11,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=axeAPI",
@@ -107,7 +111,7 @@
     "examplePages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
     ],
     "affectedPages": [
      {
@@ -117,6 +121,10 @@
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
       "instances": 6
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "instances": 4
      },
      {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
@@ -180,8 +188,8 @@
     ]
    },
    "region": {
-    "count": 20,
-    "pages": 10,
+    "count": 22,
+    "pages": 11,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=axeAPI",
@@ -191,7 +199,7 @@
     "examplePages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
     ],
     "affectedPages": [
      {
@@ -200,6 +208,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 2
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 2
      },
      {
@@ -257,7 +269,7 @@
       "html": "<h2 id=\"system-breadcrumb\" class=\"visually-hidden\">Breadcrumb</h2>"
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": ".usa-alert",
       "html": "<div class=\"usa-alert\">"
      }
@@ -300,8 +312,8 @@
     ]
    },
    "landmark-unique": {
-    "count": 6,
-    "pages": 6,
+    "count": 7,
+    "pages": 7,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -310,12 +322,16 @@
     ],
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 1
      },
      {
@@ -346,6 +362,11 @@
       "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "target": "#block-nih2-uswds-search",
+      "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
+     },
+     {
       "url": "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
       "target": "#block-nih2-uswds-search",
       "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
@@ -357,11 +378,6 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-      "target": "#block-nih2-uswds-search",
-      "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
-     },
-     {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
       "target": "#block-nih2-uswds-search",
       "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
      }
@@ -407,24 +423,28 @@
   }
  },
  "alfa": {
-  "failedTotal": 520,
-  "pagesWithFailures": 6,
-  "pagesScanned": 6,
-  "medianFailures": 89,
+  "failedTotal": 613,
+  "pagesWithFailures": 7,
+  "pagesScanned": 7,
+  "medianFailures": 93,
   "rules": {
    "sia-r66": {
-    "count": 280,
-    "pages": 6,
+    "count": 332,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r66",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
       "instances": 39
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "instances": 52
      },
      {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
@@ -464,12 +484,12 @@
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "text: \"Get the Latest Updates and FAQs\"",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "text: \"Health Information\"",
       "html": null
      }
@@ -507,17 +527,21 @@
     ]
    },
    "sia-r53": {
-    "count": 3,
-    "pages": 3,
+    "count": 4,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r53",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 1
      },
      {
@@ -536,6 +560,11 @@
       "html": null
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "target": "<h3>",
+      "html": null
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
       "target": "<h3>",
       "html": null
@@ -548,17 +577,21 @@
     ]
    },
    "sia-r73": {
-    "count": 19,
-    "pages": 6,
+    "count": 22,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r73",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 3
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 3
      },
      {
@@ -599,30 +632,34 @@
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "<p class=\"usa-banner__header-text\">",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "<p class=\"usa-identifier__identity-domain\">",
       "html": null
      }
     ]
    },
    "sia-r62": {
-    "count": 12,
-    "pages": 6,
+    "count": 14,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r62",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
       "instances": 3
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "instances": 2
      },
      {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
@@ -662,29 +699,33 @@
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-      "target": "<a href=\"/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program\">",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "target": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38710950/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
       "html": null
      }
     ]
    },
    "sia-r18": {
-    "count": 12,
-    "pages": 6,
+    "count": 14,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r18",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 2
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 2
      },
      {
@@ -720,34 +761,38 @@
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "@aria-label=\"Descripción de la agencia\"",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "@aria-label=\"Official website of the Department of Health and Human Services\"",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
       "target": "@aria-label=\"Descripción de la agencia\"",
       "html": null
      }
     ]
    },
    "sia-r61": {
-    "count": 6,
-    "pages": 6,
+    "count": 7,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r61",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 1
      },
      {
@@ -778,6 +823,11 @@
       "html": null
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+      "html": null
+     },
+     {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
       "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
       "html": null
@@ -791,26 +841,25 @@
       "url": "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
       "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
       "html": null
-     },
-     {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-      "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
-      "html": null
      }
     ]
    },
    "sia-r57": {
-    "count": 24,
-    "pages": 6,
+    "count": 28,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r57",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 4
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 4
      },
      {
@@ -851,12 +900,12 @@
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "text: \"NIH Websites Are Changing\"",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "text: \"NIH is moving the launch of its new website to the fall to ensure the best possible experience for everyone who relies on our websites for health information, research, funding opportunities, a",
       "html": null
      }
@@ -884,18 +933,22 @@
     ]
    },
    "sia-r111": {
-    "count": 161,
-    "pages": 6,
+    "count": 189,
+    "pages": 7,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r111",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15"
     ],
     "affectedPages": [
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
       "instances": 20
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "instances": 28
      },
      {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
@@ -935,12 +988,12 @@
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "<a class=\"usa-button\" href=\"/web-modernization\">",
       "html": null
      },
      {
-      "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
       "html": null
      }
@@ -949,12 +1002,12 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 84,
+  "uniqueIssues": 96,
   "consensus": 1,
-  "axeOnly": 36,
-  "alfaOnly": 47,
-  "rawAxe": 37,
-  "rawAlfa": 48,
+  "axeOnly": 40,
+  "alfaOnly": 55,
+  "rawAxe": 41,
+  "rawAlfa": 56,
   "byKey": {
    "axe-core:heading-order": {
     "actRuleId": null,
@@ -962,7 +1015,7 @@
      "heading-order"
     ],
     "alfaRules": [],
-    "pages": 7,
+    "pages": 8,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -971,7 +1024,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 10,
+    "pages": 11,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -980,7 +1033,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 10,
+    "pages": 11,
     "engines": "axe"
    },
    "act:ffd0e9": {
@@ -1000,7 +1053,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 6,
+    "pages": 7,
     "engines": "axe"
    },
    "axe-core:list": {
@@ -1018,7 +1071,7 @@
     "alfaRules": [
      "sia-r66"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    },
    "alfa:sia-r85": {
@@ -1036,7 +1089,7 @@
     "alfaRules": [
      "sia-r53"
     ],
-    "pages": 3,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r73": {
@@ -1045,7 +1098,7 @@
     "alfaRules": [
      "sia-r73"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    },
    "alfa:sia-r62": {
@@ -1054,7 +1107,7 @@
     "alfaRules": [
      "sia-r62"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    },
    "act:5c01ea": {
@@ -1063,7 +1116,7 @@
     "alfaRules": [
      "sia-r18"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    },
    "alfa:sia-r61": {
@@ -1072,7 +1125,7 @@
     "alfaRules": [
      "sia-r61"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    },
    "alfa:sia-r57": {
@@ -1081,7 +1134,7 @@
     "alfaRules": [
      "sia-r57"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    },
    "alfa:sia-r111": {
@@ -1090,27 +1143,27 @@
     "alfaRules": [
      "sia-r111"
     ],
-    "pages": 6,
+    "pages": 7,
     "engines": "alfa"
    }
   }
  },
  "sustainability": {
-  "pages": 174,
+  "pages": 198,
   "medianBytes": 64562,
-  "meanBytes": 84275,
+  "meanBytes": 81885,
   "medianRequests": 7,
-  "totalCo2g": 2.18,
-  "meanCo2g": 0.0125,
-  "totalEnergyWh": 4.4,
-  "meanEnergyWh": 0.0253
+  "totalCo2g": 2.41,
+  "meanCo2g": 0.0122,
+  "totalEnergyWh": 4.87,
+  "meanEnergyWh": 0.0246
  },
  "deprecatedHtml": null,
  "resources": {
-  "total": 55,
+  "total": 56,
   "byType": {
    "embedded-media": 1,
-   "image": 5,
+   "image": 6,
    "document": 24,
    "spreadsheet": 16,
    "pdf": 9
@@ -1130,6 +1183,14 @@
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab"
+    ]
+   },
+   {
+    "url": "https://nih.gov/sites/default/files/2025-03/20240514-alz.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
     ]
    },
    {
@@ -1559,96 +1620,96 @@
   ]
  },
  "standards": {
-  "pagesChecked": 6,
+  "pagesChecked": 7,
   "checks": [
    {
     "id": "schema-gov",
     "label": "schema.org GovernmentOrganization markup",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0
    },
    {
     "id": "hreflang",
     "label": "hreflang alternates declared",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0
    },
    {
     "id": "open-social",
     "label": "Open social presence (Mastodon/Bluesky) linked",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0
    },
    {
     "id": "description",
     "label": "Meta description present",
-    "pass": 5,
-    "total": 6,
-    "rate": 83
+    "pass": 6,
+    "total": 7,
+    "rate": 86
    },
    {
     "id": "canonical",
     "label": "Canonical URL declared",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    },
    {
     "id": "title",
     "label": "Page has a <title>",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    },
    {
     "id": "charset",
     "label": "Character encoding declared",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    },
    {
     "id": "lang",
     "label": "Document language (lang) set",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    },
    {
     "id": "viewport",
     "label": "Responsive viewport (zoom not disabled)",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    },
    {
     "id": "open-graph",
     "label": "Open Graph tags (6/6)",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    },
    {
     "id": "twitter-card",
     "label": "Twitter card metadata",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100
    }
   ],
   "social": []
  },
  "resilience": {
-  "pagesChecked": 6,
+  "pagesChecked": 7,
   "checks": [
    {
     "id": "pwa-manifest",
     "label": "Web app manifest declared",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "A web app manifest is required for installability and controls how the app appears when launched.",
     "evidenceExamples": []
@@ -1657,7 +1718,7 @@
     "id": "pwa-service-worker",
     "label": "Service worker registered",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "A service worker is what makes offline access, caching, and background sync possible.",
     "evidenceExamples": []
@@ -1666,7 +1727,7 @@
     "id": "pwa-theme-color",
     "label": "Theme color declared",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "Theme color controls the browser chrome/status-bar color when the site is installed or bookmarked.",
     "evidenceExamples": []
@@ -1675,7 +1736,7 @@
     "id": "pwa-apple-touch-icon",
     "label": "Apple touch icon (iOS/bookmark icon)",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "iOS uses this icon for home-screen bookmarks and \"Add to Home Screen\" — without it the icon falls back to a screenshot.",
     "evidenceExamples": []
@@ -1684,7 +1745,7 @@
     "id": "manifest-parsed",
     "label": "Manifest fetched and parsed successfully",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "A manifest that fails to parse cannot drive installability or launch behavior even if the link is present.",
     "evidenceExamples": [
@@ -1694,11 +1755,11 @@
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
      }
     ]
    },
@@ -1706,7 +1767,7 @@
     "id": "manifest-maskable-icon",
     "label": "Manifest declares a maskable icon",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "A maskable icon lets the OS safely crop/mask the app icon on different device shapes without clipping content.",
     "evidenceExamples": [
@@ -1716,11 +1777,11 @@
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
      }
     ]
    },
@@ -1728,7 +1789,7 @@
     "id": "sw-active",
     "label": "Service worker is active (not just registered)",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "An active service worker (not just registered) is what actually intercepts requests and serves cached content.",
     "evidenceExamples": []
@@ -1737,7 +1798,7 @@
     "id": "sw-controlling",
     "label": "Service worker controls this page load",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "A controlling service worker means THIS page load is being served/intercepted, not just a future one.",
     "evidenceExamples": []
@@ -1746,7 +1807,7 @@
     "id": "installable",
     "label": "Meets basic installability criteria",
     "pass": 0,
-    "total": 6,
+    "total": 7,
     "rate": 0,
     "why": "Determines whether the browser can realistically offer \"Add to Home Screen\" / install, based on manifest + service worker + HTTPS together.",
     "evidenceExamples": [
@@ -1756,19 +1817,19 @@
      },
      {
       "evidence": "no readable web app manifest; no service worker registered",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
      },
      {
       "evidence": "no readable web app manifest; no service worker registered",
-      "url": "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
      }
     ]
    },
    {
     "id": "pwa-https",
     "label": "HTTPS (required for service workers)",
-    "pass": 6,
-    "total": 6,
+    "pass": 7,
+    "total": 7,
     "rate": 100,
     "why": "HTTPS is required for service workers and most install prompts.",
     "evidenceExamples": []
@@ -2434,7 +2495,7 @@
   ]
  },
  "linkCheck": {
-  "brokenCount": 5,
+  "brokenCount": 7,
   "broken": [
    {
     "url": "http://clinicalcenter.nih.gov/nursing/about.html",
@@ -2474,6 +2535,22 @@
     "reason": "HTTP 404",
     "foundOn": [
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "url": "https://www.nia.nih.gov/health/genetics-and-family-history/alzheimers-disease-genetics-fact-sheet",
+    "status": 405,
+    "reason": "HTTP 405",
+    "foundOn": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
+    ]
+   },
+   {
+    "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors",
+    "status": 405,
+    "reason": "HTTP 405",
+    "foundOn": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
     ]
    }
   ]
@@ -2516,6 +2593,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/news-events/nih-research-matters/improving-parkinsons-disease-treatment",
+   "status": 403
+  },
+  {
    "url": "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/nih-foia-library/contact-information-nih-supported-pis",
    "status": 403
   },
@@ -2533,6 +2614,10 @@
   },
   {
    "url": "https://nih.gov/nih-style-guide/nih",
+   "status": 403
+  },
+  {
+   "url": "https://www.nih.gov/news-events/nih-research-matters/obesity-metabolic-health",
    "status": 403
   },
   {
@@ -2570,122 +2655,121 @@
   {
    "url": "https://nih.gov/news-events/nih-research-matters/neural-signature-predicts-antidepressant-response",
    "status": 403
-  },
-  {
-   "url": "https://nih.gov/about-nih/what-we-do/nih-almanac",
-   "status": 403
-  },
-  {
-   "url": "https://nih.gov/news-events/nih-research-matters/oral-antiviral-drug-effective-against-covid-19-hamsters",
-   "status": 403
   }
  ],
  "tech": null,
  "images": {
-  "pagesScanned": 10,
-  "totalImages": 138,
-  "uniqueImages": 18,
+  "pagesScanned": 11,
+  "totalImages": 153,
+  "uniqueImages": 19,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 138,
+  "withAlt": 153,
   "altVerdicts": {
-   "GOOD": 15,
+   "GOOD": 16,
    "SUSPICIOUS": 1,
    "TOO_SHORT": 2
   }
  },
  "techFindings": null,
  "thirdParty": {
-  "pagesScanned": 1,
+  "pagesScanned": 2,
   "vendors": [
    {
     "origin": "googletagmanager.com",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
-    "medianBytes": 646599,
-    "medianDurationMs": 937,
+    "medianBytes": 646618,
+    "medianDurationMs": 733,
     "medianRequests": 4,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    },
    {
     "origin": "crazyegg.com",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
-    "medianBytes": 71020,
-    "medianDurationMs": 347,
+    "medianBytes": 71017,
+    "medianDurationMs": 338,
     "medianRequests": 4,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    },
    {
     "origin": "cloudflareinsights.com",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
     "medianBytes": 31679,
-    "medianDurationMs": 32,
+    "medianDurationMs": 52,
     "medianRequests": 1,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    },
    {
     "origin": "digitalgov.gov",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
     "medianBytes": 30230,
-    "medianDurationMs": 157,
+    "medianDurationMs": 123,
     "medianRequests": 1,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    },
    {
     "origin": "google-analytics.com",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
     "medianBytes": 20805,
-    "medianDurationMs": 53,
+    "medianDurationMs": 106,
     "medianRequests": 4,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    },
    {
     "origin": "pinterest.com",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
     "medianBytes": 18901,
-    "medianDurationMs": 251,
+    "medianDurationMs": 309,
     "medianRequests": 3,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    },
    {
     "origin": "verint-cdn.com",
-    "pages": 1,
-    "pagesWithScripts": 1,
+    "pages": 2,
+    "pagesWithScripts": 2,
     "isScriptVendor": true,
     "medianBytes": 107,
-    "medianDurationMs": 98,
+    "medianDurationMs": 123,
     "medianRequests": 1,
-    "pagesWithFindings": 1,
+    "pagesWithFindings": 2,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
     ]
    }
@@ -2696,16 +2780,16 @@
   "design_system_label": "none",
   "design_system_theme": null,
   "template_page_threshold": 10,
-  "total_clusters": 52,
+  "total_clusters": 53,
   "clusters": [
    {
     "id": "cc-340e0be35f96",
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -2715,17 +2799,51 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 14.4,
+    "action_score": 16.8,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-cffcfd807590",
+    "engine_key": "alfa",
+    "rule_id": "sia-r61",
+    "severity": "Moderate",
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
+    "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
+    "snippet_shape": "",
+    "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 1,
+    "action_score": 14,
+    "estimated_fix_impact": {
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -2735,9 +2853,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
-    "pages_affected": 10,
-    "instances": 10,
+    "rule_pages_affected": 11,
+    "pages_affected": 11,
+    "instances": 11,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -2747,15 +2865,16 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 12,
+    "action_score": 13.2,
     "estimated_fix_impact": {
-     "findings": 10,
-     "pages": 10,
-     "statement": "Fix one place, resolve ~10 finding(s) on 10 page(s)."
+     "findings": 11,
+     "pages": 11,
+     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
@@ -2771,9 +2890,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
-    "pages_affected": 10,
-    "instances": 10,
+    "rule_pages_affected": 11,
+    "pages_affected": 11,
+    "instances": 11,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -2783,15 +2902,16 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 12,
+    "action_score": 13.2,
     "estimated_fix_impact": {
-     "findings": 10,
-     "pages": 10,
-     "statement": "Fix one place, resolve ~10 finding(s) on 10 page(s)."
+     "findings": 11,
+     "pages": 11,
+     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
@@ -2803,33 +2923,31 @@
     ]
    },
    {
-    "id": "cc-cffcfd807590",
+    "id": "cc-990743262834",
     "engine_key": "alfa",
-    "rule_id": "sia-r61",
+    "rule_id": "sia-r53",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
-    "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "<h3>",
     "snippet_shape": "",
-    "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+    "representative_selector": "<h3>",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 12,
+    "action_score": 8,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -2867,9 +2985,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r18",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "@aria-label=\"descripción de la agencia\"",
     "snippet_shape": "",
     "representative_selector": "@aria-label=\"Descripción de la agencia\"",
@@ -2879,14 +2997,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 2,
-    "action_score": 6,
+    "action_score": 7,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -2899,9 +3018,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r18",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "@aria-label=\"official website of the department of health and human services\"",
     "snippet_shape": "",
     "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
@@ -2911,46 +3030,18 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 2,
-    "action_score": 6,
+    "action_score": 7,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
-    "id": "cc-990743262834",
-    "engine_key": "alfa",
-    "rule_id": "sia-r53",
-    "severity": "Moderate",
-    "rule_pages_affected": 3,
-    "pages_affected": 3,
-    "instances": 3,
-    "selector_path": "<h3>",
-    "snippet_shape": "",
-    "representative_selector": "<h3>",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 1,
-    "action_score": 6,
-    "estimated_fix_impact": {
-     "findings": 3,
-     "pages": 3,
-     "statement": "Fix one place, resolve ~3 finding(s) on 3 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -2960,9 +3051,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -2972,14 +3063,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -2992,9 +3084,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"health information\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Health Information\"",
@@ -3004,14 +3096,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3024,9 +3117,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"grants & funding\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Grants & Funding\"",
@@ -3036,14 +3129,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3056,9 +3150,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r57",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"nih websites are changing\"",
     "snippet_shape": "",
     "representative_selector": "text: \"NIH Websites Are Changing\"",
@@ -3068,14 +3162,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3088,9 +3183,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r57",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"nih is moving the launch of its new website to the fall to ensure the best possible experience for everyone who relies on our websites for health information, research, funding opportunities, a",
     "snippet_shape": "",
     "representative_selector": "text: \"NIH is moving the launch of its new website to the fall to ensure the best possible experience for everyone who relies on our websites for health information, research, funding opportunities, a",
@@ -3100,14 +3195,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3120,9 +3216,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r57",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -3132,14 +3228,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3152,9 +3249,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r111",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "<a class=\"usa-button\" href=\"/web-modernization\">",
     "snippet_shape": "",
     "representative_selector": "<a class=\"usa-button\" href=\"/web-modernization\">",
@@ -3164,14 +3261,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3184,9 +3282,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r111",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "<button type=\"button\" aria-label=\"ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
     "snippet_shape": "",
     "representative_selector": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
@@ -3196,14 +3294,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3216,9 +3315,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r111",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "<a href=\"/virtual-tour\">",
     "snippet_shape": "",
     "representative_selector": "<a href=\"/virtual-tour\">",
@@ -3228,14 +3327,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3248,9 +3348,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "<p class=\"usa-banner__header-text\">",
     "snippet_shape": "",
     "representative_selector": "<p class=\"usa-banner__header-text\">",
@@ -3260,14 +3360,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 4,
-    "action_score": 3,
+    "action_score": 3.5,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3280,12 +3381,45 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "<p class=\"usa-identifier__identity-domain\">",
     "snippet_shape": "",
     "representative_selector": "<p class=\"usa-identifier__identity-domain\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 4,
+    "action_score": 3.5,
+    "estimated_fix_impact": {
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-e5e84016a2ec",
+    "engine_key": "alfa",
+    "rule_id": "sia-r73",
+    "severity": "Moderate",
+    "rule_pages_affected": 7,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
+    "snippet_shape": "",
+    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
@@ -3300,40 +3434,39 @@
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
    {
-    "id": "cc-e5e84016a2ec",
-    "engine_key": "alfa",
-    "rule_id": "sia-r73",
+    "id": "cc-3c4299c743bc",
+    "engine_key": "axe-core",
+    "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
-    "snippet_shape": "",
-    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
-    "representative_snippet": null,
+    "rule_pages_affected": 8,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": ".callout__text > h3",
+    "snippet_shape": "h3:",
+    "representative_selector": ".callout__text > h3",
+    "representative_snippet": "<h3>At a Glance</h3>",
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 4,
-    "action_score": 2.5,
+    "action_score": 2.4,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "statement": "Fix one place, resolve ~5 finding(s) on 5 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
     },
     "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -3343,9 +3476,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
     "snippet_shape": "",
     "representative_selector": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -3354,15 +3487,16 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 6,
+    "distinct_components_for_rule": 7,
     "action_score": 2,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -3398,40 +3532,11 @@
     ]
    },
    {
-    "id": "cc-3c4299c743bc",
-    "engine_key": "axe-core",
-    "rule_id": "heading-order",
-    "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 3,
-    "instances": 3,
-    "selector_path": ".callout__text > h3",
-    "snippet_shape": "h3:",
-    "representative_selector": ".callout__text > h3",
-    "representative_snippet": "<h3>At a Glance</h3>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 4,
-    "action_score": 1.8,
-    "estimated_fix_impact": {
-     "findings": 3,
-     "pages": 3,
-     "statement": "Fix one place, resolve ~3 finding(s) on 3 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-61c26a3768ea",
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "h3:nth-child(*)",
@@ -3513,7 +3618,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 4,
     "instances": 4,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -3539,31 +3644,61 @@
     ]
    },
    {
-    "id": "cc-5373c45b4edc",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "<a href=\"/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program\">",
-    "representative_snippet": null,
+    "id": "cc-7593579d1f63",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 11,
+    "pages_affected": 3,
+    "instances": 4,
+    "selector_path": "p:nth-child(*) > a:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(4) > a:nth-child(2)",
+    "representative_snippet": "<a href=\"https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison\">Office of Communications and Public Liaison</a>",
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.67,
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 16,
+    "action_score": 0.68,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 3,
+     "statement": "Fix one place, resolve ~4 finding(s) on 3 page(s)."
     },
     "affected_pages": [
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-c3982f3f2935",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 11,
+    "pages_affected": 3,
+    "instances": 3,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38710950/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">APOE4 homozygozity represents a disti",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 16,
+    "action_score": 0.68,
+    "estimated_fix_impact": {
+     "findings": 3,
+     "pages": 3,
+     "statement": "Fix one place, resolve ~3 finding(s) on 3 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
    {
@@ -3571,7 +3706,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > h3",
@@ -3625,7 +3760,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "article[data-history-node-id=\"#\"] > div > h3",
@@ -3675,11 +3810,39 @@
     ]
    },
    {
+    "id": "cc-5373c45b4edc",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 7,
+    "pages_affected": 2,
+    "instances": 2,
+    "selector_path": "<a href=\"/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.57,
+    "estimated_fix_impact": {
+     "findings": 2,
+     "pages": 2,
+     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
+    ]
+   },
+   {
     "id": "cc-d432f0651242",
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
+    "rule_pages_affected": 7,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<p class=\"nih-subtitle\">",
@@ -3706,7 +3869,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a",
@@ -3730,39 +3893,11 @@
     ]
    },
    {
-    "id": "cc-c3982f3f2935",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 10,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(15) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31176749\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.45,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-0975fb981253",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -3786,39 +3921,11 @@
     ]
    },
    {
-    "id": "cc-7593579d1f63",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 10,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "p:nth-child(*) > a:nth-child(*)",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(4) > a:nth-child(2)",
-    "representative_snippet": "<a href=\"https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison\">Office of Communications and Public Liaison</a>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.45,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-49160fe35aa1",
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
+    "rule_pages_affected": 7,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://jamanetwork.com/journals/jama/fullarticle/#.#/jama.#.#?guestaccesskey=d98d9357-ab4b-477a-b97c-ae5c9382870c&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_lin",
@@ -3829,8 +3936,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -3845,7 +3952,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
+    "rule_pages_affected": 7,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://ieeexplore.ieee.org/document/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -3856,8 +3963,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -3868,11 +3975,38 @@
     ]
    },
    {
+    "id": "cc-ad7c1fbc82f1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 7,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/#/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/38710950/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
+    ]
+   },
+   {
     "id": "cc-73cb402f3c8e",
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
+    "rule_pages_affected": 7,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/#/\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
@@ -3883,8 +4017,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -3899,7 +4033,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
+    "rule_pages_affected": 7,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -3910,8 +4044,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -3926,7 +4060,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -3953,7 +4087,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".field__item:nth-child(*) > .background--gray.paragraph--type--callout.callout > .callout__body > .callout__text.clearfix > p:nth-child(*) > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -3980,7 +4114,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"storycorps.org/\"]",
@@ -4007,7 +4141,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"mailto:storycorps@nih.gov\"]",
@@ -4034,7 +4168,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"][data-extlink=\"\"]",
@@ -4061,7 +4195,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"radx\"]",
@@ -4088,7 +4222,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"nibib.nih.gov/\"]",
@@ -4115,7 +4249,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href=\"mailto:kpekoc@niaid.nih.gov\"]",
@@ -4142,7 +4276,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"www.niaid.nih.gov\"]",
@@ -4169,7 +4303,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -4196,7 +4330,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4225,9 +4359,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -4237,17 +4371,51 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 14.4,
+    "action_score": 16.8,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-cffcfd807590",
+    "engine_key": "alfa",
+    "rule_id": "sia-r61",
+    "severity": "Moderate",
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
+    "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
+    "snippet_shape": "",
+    "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 1,
+    "action_score": 14,
+    "estimated_fix_impact": {
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -4257,9 +4425,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
-    "pages_affected": 10,
-    "instances": 10,
+    "rule_pages_affected": 11,
+    "pages_affected": 11,
+    "instances": 11,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -4269,15 +4437,16 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 12,
+    "action_score": 13.2,
     "estimated_fix_impact": {
-     "findings": 10,
-     "pages": 10,
-     "statement": "Fix one place, resolve ~10 finding(s) on 10 page(s)."
+     "findings": 11,
+     "pages": 11,
+     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
@@ -4293,9 +4462,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
-    "pages_affected": 10,
-    "instances": 10,
+    "rule_pages_affected": 11,
+    "pages_affected": 11,
+    "instances": 11,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -4305,15 +4474,16 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 12,
+    "action_score": 13.2,
     "estimated_fix_impact": {
-     "findings": 10,
-     "pages": 10,
-     "statement": "Fix one place, resolve ~10 finding(s) on 10 page(s)."
+     "findings": 11,
+     "pages": 11,
+     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
@@ -4325,33 +4495,31 @@
     ]
    },
    {
-    "id": "cc-cffcfd807590",
+    "id": "cc-990743262834",
     "engine_key": "alfa",
-    "rule_id": "sia-r61",
+    "rule_id": "sia-r53",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
-    "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "<h3>",
     "snippet_shape": "",
-    "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+    "representative_selector": "<h3>",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 12,
+    "action_score": 8,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -4389,9 +4557,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r18",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "@aria-label=\"descripción de la agencia\"",
     "snippet_shape": "",
     "representative_selector": "@aria-label=\"Descripción de la agencia\"",
@@ -4401,14 +4569,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 2,
-    "action_score": 6,
+    "action_score": 7,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -4421,9 +4590,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r18",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "@aria-label=\"official website of the department of health and human services\"",
     "snippet_shape": "",
     "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
@@ -4433,46 +4602,18 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 2,
-    "action_score": 6,
+    "action_score": 7,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
-    "id": "cc-990743262834",
-    "engine_key": "alfa",
-    "rule_id": "sia-r53",
-    "severity": "Moderate",
-    "rule_pages_affected": 3,
-    "pages_affected": 3,
-    "instances": 3,
-    "selector_path": "<h3>",
-    "snippet_shape": "",
-    "representative_selector": "<h3>",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 1,
-    "action_score": 6,
-    "estimated_fix_impact": {
-     "findings": 3,
-     "pages": 3,
-     "statement": "Fix one place, resolve ~3 finding(s) on 3 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -4482,9 +4623,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -4494,14 +4635,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -4514,9 +4656,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 6,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 7,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": "text: \"health information\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Health Information\"",
@@ -4526,14 +4668,15 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4,
+    "action_score": 4.67,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -4548,6 +4691,6 @@
   "drift_pages": [],
   "drift_clusters": []
  },
- "pagesAttempted": 1800,
- "pagesSucceeded": 10
+ "pagesAttempted": 1950,
+ "pagesSucceeded": 11
 }
