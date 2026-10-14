@@ -1,0 +1,95 @@
+{
+ "runId": "2026-10-14T10-38-48-517Z-045c36",
+ "week": "2026-W42",
+ "domain": "data.healthcare.gov",
+ "startedAt": "2026-10-14T10:38:48.813Z",
+ "scanned": [
+  "a0b696d9a75d5cda",
+  "3e704be031180dd4",
+  "706ae317c877937a",
+  "1495597008d2a2a8",
+  "26a1b190140852af"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "linkCheck": {
+  "total": 81,
+  "checked": 81,
+  "brokenCount": 4,
+  "broken": [
+   {
+    "url": "https://data.healthcare.gov/whats-new",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/nyb9-erui?page=4",
+     "https://data.healthcare.gov/dataset/8c491ff0-8e6e-4988-b02a-e4736783aed3?page=2",
+     "https://data.healthcare.gov/ab-registration-completion-list?page=3",
+     "https://data.healthcare.gov/dataset/46ta-x4hv?page=3"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=4",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/nyb9-erui?page=4"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=2",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/nyb9-erui?page=4",
+     "https://data.healthcare.gov/dataset/46ta-x4hv?page=3"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=3",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/nyb9-erui?page=4"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 4,
+  "plain-language": 2,
+  "resources": 4,
+  "images": 4,
+  "standards": 2,
+  "third-party": 3,
+  "link-check": 4,
+  "alfa": 2,
+  "tech": 1
+ },
+ "tally": {
+  "ok": 4,
+  "blocked": 0,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 1,
+  "error": 0
+ },
+ "finishedAt": "2026-10-14T10:39:22.968Z"
+}
