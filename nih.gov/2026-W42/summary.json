@@ -1,30 +1,30 @@
 {
  "domain": "nih.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-14T10:12:02.131Z",
- "pagesScanned": 1943,
- "pagesAudited": 11,
+ "generatedAt": "2026-10-14T12:35:49.503Z",
+ "pagesScanned": 2093,
+ "pagesAudited": 12,
  "coverage": {
-  "sustainability": 198,
-  "axe": 11,
-  "resources": 11,
-  "alfa": 7,
+  "sustainability": 213,
+  "axe": 12,
+  "resources": 12,
+  "alfa": 8,
   "standards": 7,
   "deprecated-html": 1,
   "security": 1,
   "lighthouse": 2,
-  "plain-language": 2
+  "plain-language": 3
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 82,
-  "pagesWithViolations": 11,
-  "pagesScanned": 11,
-  "medianViolations": 8,
+  "violationTotal": 91,
+  "pagesWithViolations": 12,
+  "pagesScanned": 12,
+  "medianViolations": 9,
   "rules": {
    "heading-order": {
-    "count": 8,
-    "pages": 8,
+    "count": 9,
+    "pages": 9,
     "impact": "moderate",
     "help": "Heading levels should only increase by one",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/heading-order?application=axeAPI",
@@ -66,6 +66,10 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits",
       "instances": 1
      }
@@ -99,8 +103,8 @@
     ]
    },
    "link-in-text-block": {
-    "count": 41,
-    "pages": 11,
+    "count": 46,
+    "pages": 12,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=axeAPI",
@@ -155,6 +159,10 @@
       "instances": 5
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+      "instances": 5
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits",
       "instances": 5
      }
@@ -188,8 +196,8 @@
     ]
    },
    "region": {
-    "count": 22,
-    "pages": 11,
+    "count": 24,
+    "pages": 12,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=axeAPI",
@@ -240,6 +248,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 2
      },
      {
@@ -312,8 +324,8 @@
     ]
    },
    "landmark-unique": {
-    "count": 7,
-    "pages": 7,
+    "count": 8,
+    "pages": 8,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -348,6 +360,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 1
      },
      {
@@ -423,14 +439,14 @@
   }
  },
  "alfa": {
-  "failedTotal": 613,
-  "pagesWithFailures": 7,
-  "pagesScanned": 7,
-  "medianFailures": 93,
+  "failedTotal": 704,
+  "pagesWithFailures": 8,
+  "pagesScanned": 8,
+  "medianFailures": 92,
   "rules": {
    "sia-r66": {
-    "count": 332,
-    "pages": 7,
+    "count": 384,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r66",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -460,6 +476,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 52
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 52
      },
      {
@@ -527,8 +547,8 @@
     ]
    },
    "sia-r53": {
-    "count": 4,
-    "pages": 4,
+    "count": 5,
+    "pages": 5,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r53",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -546,6 +566,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 1
      },
      {
@@ -570,6 +594,11 @@
       "html": null
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+      "target": "<h3>",
+      "html": null
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits",
       "target": "<h3>",
       "html": null
@@ -577,8 +606,8 @@
     ]
    },
    "sia-r73": {
-    "count": 22,
-    "pages": 7,
+    "count": 25,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r73",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -608,6 +637,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 3
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 3
      },
      {
@@ -644,8 +677,8 @@
     ]
    },
    "sia-r62": {
-    "count": 14,
-    "pages": 7,
+    "count": 15,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r62",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -676,6 +709,10 @@
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
       "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+      "instances": 1
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits",
@@ -711,8 +748,8 @@
     ]
    },
    "sia-r18": {
-    "count": 14,
-    "pages": 7,
+    "count": 16,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r18",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -742,6 +779,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 2
      },
      {
@@ -778,8 +819,8 @@
     ]
    },
    "sia-r61": {
-    "count": 7,
-    "pages": 7,
+    "count": 8,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r61",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -809,6 +850,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 1
      },
      {
@@ -845,8 +890,8 @@
     ]
    },
    "sia-r57": {
-    "count": 28,
-    "pages": 7,
+    "count": 32,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r57",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -876,6 +921,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+      "instances": 4
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
       "instances": 4
      },
      {
@@ -933,8 +982,8 @@
     ]
    },
    "sia-r111": {
-    "count": 189,
-    "pages": 7,
+    "count": 216,
+    "pages": 8,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r111",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -965,6 +1014,10 @@
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
       "instances": 28
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+      "instances": 27
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits",
@@ -1002,12 +1055,12 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 96,
+  "uniqueIssues": 108,
   "consensus": 1,
-  "axeOnly": 40,
-  "alfaOnly": 55,
-  "rawAxe": 41,
-  "rawAlfa": 56,
+  "axeOnly": 44,
+  "alfaOnly": 63,
+  "rawAxe": 45,
+  "rawAlfa": 64,
   "byKey": {
    "axe-core:heading-order": {
     "actRuleId": null,
@@ -1015,7 +1068,7 @@
      "heading-order"
     ],
     "alfaRules": [],
-    "pages": 8,
+    "pages": 9,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -1024,7 +1077,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 11,
+    "pages": 12,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -1033,7 +1086,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 11,
+    "pages": 12,
     "engines": "axe"
    },
    "act:ffd0e9": {
@@ -1053,7 +1106,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 7,
+    "pages": 8,
     "engines": "axe"
    },
    "axe-core:list": {
@@ -1071,7 +1124,7 @@
     "alfaRules": [
      "sia-r66"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    },
    "alfa:sia-r85": {
@@ -1089,7 +1142,7 @@
     "alfaRules": [
      "sia-r53"
     ],
-    "pages": 4,
+    "pages": 5,
     "engines": "alfa"
    },
    "alfa:sia-r73": {
@@ -1098,7 +1151,7 @@
     "alfaRules": [
      "sia-r73"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    },
    "alfa:sia-r62": {
@@ -1107,7 +1160,7 @@
     "alfaRules": [
      "sia-r62"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    },
    "act:5c01ea": {
@@ -1116,7 +1169,7 @@
     "alfaRules": [
      "sia-r18"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    },
    "alfa:sia-r61": {
@@ -1125,7 +1178,7 @@
     "alfaRules": [
      "sia-r61"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    },
    "alfa:sia-r57": {
@@ -1134,7 +1187,7 @@
     "alfaRules": [
      "sia-r57"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    },
    "alfa:sia-r111": {
@@ -1143,27 +1196,27 @@
     "alfaRules": [
      "sia-r111"
     ],
-    "pages": 7,
+    "pages": 8,
     "engines": "alfa"
    }
   }
  },
  "sustainability": {
-  "pages": 198,
-  "medianBytes": 64562,
-  "meanBytes": 81885,
+  "pages": 213,
+  "medianBytes": 64561,
+  "meanBytes": 80665,
   "medianRequests": 7,
-  "totalCo2g": 2.41,
-  "meanCo2g": 0.0122,
-  "totalEnergyWh": 4.87,
-  "meanEnergyWh": 0.0246
+  "totalCo2g": 2.55,
+  "meanCo2g": 0.012,
+  "totalEnergyWh": 5.16,
+  "meanEnergyWh": 0.0242
  },
  "deprecatedHtml": null,
  "resources": {
-  "total": 56,
+  "total": 57,
   "byType": {
    "embedded-media": 1,
-   "image": 6,
+   "image": 7,
    "document": 24,
    "spreadsheet": 16,
    "pdf": 9
@@ -1610,6 +1663,14 @@
     ]
    },
    {
+    "url": "https://www.nih.gov/sites/default/files/2025-03/20220215-covid.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
     "url": "https://www.nih.gov/sites/default/files/2025-03/20190402-eating.jpg",
     "type": "image",
     "pages": 1,
@@ -1893,18 +1954,27 @@
  },
  "publicInterest": null,
  "plainLanguage": {
-  "pagesChecked": 2,
-  "pagesScored": 2,
-  "medianWordsPerPage": 481,
-  "medianReadingEase": 49,
-  "medianGrade": 11,
+  "pagesChecked": 3,
+  "pagesScored": 3,
+  "medianWordsPerPage": 706,
+  "medianReadingEase": 51.5,
+  "medianGrade": 10.9,
   "topUnexplainedAcronyms": [
    {
     "acronym": "NIH",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "acronym": "PMID",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
@@ -1971,14 +2041,43 @@
     ]
    },
    {
-    "acronym": "PMID",
+    "acronym": "COVID",
     "pages": 1,
     "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "acronym": "SARS",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "acronym": "CD",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "acronym": "CDC",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    }
   ],
   "topMisspellings": [
+   {
+    "word": "doi",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
    {
     "word": "Sessoms",
     "pages": 1,
@@ -2071,13 +2170,6 @@
     ]
    },
    {
-    "word": "doi",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
-    ]
-   },
-   {
     "word": "jaac",
     "pages": 1,
     "examplePages": [
@@ -2089,6 +2181,69 @@
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
+    ]
+   },
+   {
+    "word": "CoV",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Drazen",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Zigic",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Shutterstock",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Drs",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Crotty",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Grifoni",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Alessandro",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Sette",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    }
   ]
@@ -2495,7 +2650,7 @@
   ]
  },
  "linkCheck": {
-  "brokenCount": 7,
+  "brokenCount": 8,
   "broken": [
    {
     "url": "http://clinicalcenter.nih.gov/nursing/about.html",
@@ -2551,6 +2706,14 @@
     "reason": "HTTP 405",
     "foundOn": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
+    ]
+   },
+   {
+    "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    }
   ]
@@ -2659,118 +2822,125 @@
  ],
  "tech": null,
  "images": {
-  "pagesScanned": 11,
-  "totalImages": 153,
-  "uniqueImages": 19,
+  "pagesScanned": 12,
+  "totalImages": 168,
+  "uniqueImages": 20,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 153,
+  "withAlt": 168,
   "altVerdicts": {
-   "GOOD": 16,
+   "GOOD": 17,
    "SUSPICIOUS": 1,
    "TOO_SHORT": 2
   }
  },
  "techFindings": null,
  "thirdParty": {
-  "pagesScanned": 2,
+  "pagesScanned": 3,
   "vendors": [
    {
     "origin": "googletagmanager.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
-    "medianBytes": 646618,
-    "medianDurationMs": 733,
+    "medianBytes": 646633,
+    "medianDurationMs": 529,
     "medianRequests": 4,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "origin": "crazyegg.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
-    "medianBytes": 71017,
-    "medianDurationMs": 338,
+    "medianBytes": 71015,
+    "medianDurationMs": 329,
     "medianRequests": 4,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "origin": "cloudflareinsights.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 31679,
-    "medianDurationMs": 52,
+    "medianDurationMs": 40,
     "medianRequests": 1,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "origin": "digitalgov.gov",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 30230,
-    "medianDurationMs": 123,
+    "medianDurationMs": 117,
     "medianRequests": 1,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "origin": "google-analytics.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 20805,
-    "medianDurationMs": 106,
+    "medianDurationMs": 74,
     "medianRequests": 4,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "origin": "pinterest.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 18901,
-    "medianDurationMs": 309,
+    "medianDurationMs": 251,
     "medianRequests": 3,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "origin": "verint-cdn.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 107,
-    "medianDurationMs": 123,
+    "medianDurationMs": 147,
     "medianRequests": 1,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    }
   ]
@@ -2780,16 +2950,16 @@
   "design_system_label": "none",
   "design_system_theme": null,
   "template_page_threshold": 10,
-  "total_clusters": 53,
+  "total_clusters": 55,
   "clusters": [
    {
     "id": "cc-340e0be35f96",
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -2799,11 +2969,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 16.8,
+    "action_score": 19.2,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -2812,6 +2982,7 @@
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -2820,9 +2991,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r61",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
     "snippet_shape": "",
     "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
@@ -2832,11 +3003,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 14,
+    "action_score": 16,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -2845,6 +3016,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -2853,9 +3025,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -2865,11 +3037,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
-     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
+     "findings": 12,
+     "pages": 12,
+     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
@@ -2882,6 +3054,7 @@
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -2890,9 +3063,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -2902,11 +3075,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
-     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
+     "findings": 12,
+     "pages": 12,
+     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
@@ -2919,6 +3092,7 @@
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -2927,9 +3101,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r53",
     "severity": "Moderate",
-    "rule_pages_affected": 4,
-    "pages_affected": 4,
-    "instances": 4,
+    "rule_pages_affected": 5,
+    "pages_affected": 5,
+    "instances": 5,
     "selector_path": "<h3>",
     "snippet_shape": "",
     "representative_selector": "<h3>",
@@ -2939,16 +3113,85 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 8,
+    "action_score": 10,
     "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 4,
-     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
+     "findings": 5,
+     "pages": 5,
+     "statement": "Fix one place, resolve ~5 finding(s) on 5 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-cd5f617ba5c1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
+    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 8,
+    "estimated_fix_impact": {
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-424dd2ea2877",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
+    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 8,
+    "estimated_fix_impact": {
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -2981,79 +3224,13 @@
     ]
    },
    {
-    "id": "cc-cd5f617ba5c1",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
-    "selector_path": "@aria-label=\"descripción de la agencia\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 7,
-    "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
-    "id": "cc-424dd2ea2877",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
-    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 7,
-    "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-8e242a862e3a",
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -3063,11 +3240,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3076,6 +3253,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3084,9 +3262,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"health information\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Health Information\"",
@@ -3096,11 +3274,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3109,6 +3287,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3117,9 +3296,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"grants & funding\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Grants & Funding\"",
@@ -3129,11 +3308,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3142,6 +3321,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3150,9 +3330,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r57",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"nih websites are changing\"",
     "snippet_shape": "",
     "representative_selector": "text: \"NIH Websites Are Changing\"",
@@ -3162,11 +3342,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3175,6 +3355,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3183,9 +3364,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r57",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"nih is moving the launch of its new website to the fall to ensure the best possible experience for everyone who relies on our websites for health information, research, funding opportunities, a",
     "snippet_shape": "",
     "representative_selector": "text: \"NIH is moving the launch of its new website to the fall to ensure the best possible experience for everyone who relies on our websites for health information, research, funding opportunities, a",
@@ -3195,11 +3376,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3208,6 +3389,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3216,9 +3398,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r57",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -3228,11 +3410,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3241,6 +3423,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3249,9 +3432,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r111",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "<a class=\"usa-button\" href=\"/web-modernization\">",
     "snippet_shape": "",
     "representative_selector": "<a class=\"usa-button\" href=\"/web-modernization\">",
@@ -3261,11 +3444,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3274,6 +3457,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3282,9 +3466,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r111",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "<button type=\"button\" aria-label=\"ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
     "snippet_shape": "",
     "representative_selector": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
@@ -3294,11 +3478,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3307,6 +3491,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3315,9 +3500,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r111",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "<a href=\"/virtual-tour\">",
     "snippet_shape": "",
     "representative_selector": "<a href=\"/virtual-tour\">",
@@ -3327,11 +3512,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3340,6 +3525,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3348,9 +3534,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "<p class=\"usa-banner__header-text\">",
     "snippet_shape": "",
     "representative_selector": "<p class=\"usa-banner__header-text\">",
@@ -3360,11 +3546,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 4,
-    "action_score": 3.5,
+    "action_score": 4,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3373,6 +3559,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3381,9 +3568,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "<p class=\"usa-identifier__identity-domain\">",
     "snippet_shape": "",
     "representative_selector": "<p class=\"usa-identifier__identity-domain\">",
@@ -3393,6 +3580,40 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 4,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-e5e84016a2ec",
+    "engine_key": "alfa",
+    "rule_id": "sia-r73",
+    "severity": "Moderate",
+    "rule_pages_affected": 8,
+    "pages_affected": 7,
+    "instances": 7,
+    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
+    "snippet_shape": "",
+    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 4,
     "action_score": 3.5,
     "estimated_fix_impact": {
      "findings": 7,
@@ -3404,40 +3625,8 @@
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
-    "id": "cc-e5e84016a2ec",
-    "engine_key": "alfa",
-    "rule_id": "sia-r73",
-    "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 6,
-    "instances": 6,
-    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
-    "snippet_shape": "",
-    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 4,
-    "action_score": 3,
-    "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3446,9 +3635,9 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
-    "pages_affected": 4,
-    "instances": 4,
+    "rule_pages_affected": 9,
+    "pages_affected": 5,
+    "instances": 5,
     "selector_path": ".callout__text > h3",
     "snippet_shape": "h3:",
     "representative_selector": ".callout__text > h3",
@@ -3458,16 +3647,17 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 4,
-    "action_score": 2.4,
+    "action_score": 3,
     "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 4,
-     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
+     "findings": 5,
+     "pages": 5,
+     "statement": "Fix one place, resolve ~5 finding(s) on 5 page(s)."
     },
     "affected_pages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3476,9 +3666,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
     "snippet_shape": "",
     "representative_selector": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -3488,11 +3678,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 7,
-    "action_score": 2,
+    "action_score": 2.29,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -3501,6 +3691,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -3536,7 +3727,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 9,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "h3:nth-child(*)",
@@ -3614,11 +3805,41 @@
     ]
    },
    {
+    "id": "cc-7593579d1f63",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 12,
+    "pages_affected": 4,
+    "instances": 5,
+    "selector_path": "p:nth-child(*) > a:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(4) > a:nth-child(2)",
+    "representative_snippet": "<a href=\"https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison\">Office of Communications and Public Liaison</a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 18,
+    "action_score": 0.8,
+    "estimated_fix_impact": {
+     "findings": 5,
+     "pages": 4,
+     "statement": "Fix one place, resolve ~5 finding(s) on 4 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
     "id": "cc-0cb84ddbdf67",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 4,
     "instances": 4,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -3629,8 +3850,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.9,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.8,
     "estimated_fix_impact": {
      "findings": 4,
      "pages": 4,
@@ -3644,40 +3865,11 @@
     ]
    },
    {
-    "id": "cc-7593579d1f63",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 11,
-    "pages_affected": 3,
-    "instances": 4,
-    "selector_path": "p:nth-child(*) > a:nth-child(*)",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(4) > a:nth-child(2)",
-    "representative_snippet": "<a href=\"https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison\">Office of Communications and Public Liaison</a>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.68,
-    "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 3,
-     "statement": "Fix one place, resolve ~4 finding(s) on 3 page(s)."
-    },
-    "affected_pages": [
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-c3982f3f2935",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 3,
     "instances": 3,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -3688,8 +3880,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.68,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.6,
     "estimated_fix_impact": {
      "findings": 3,
      "pages": 3,
@@ -3706,7 +3898,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 9,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > h3",
@@ -3760,7 +3952,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 9,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "article[data-history-node-id=\"#\"] > div > h3",
@@ -3814,7 +4006,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "<a href=\"/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program\">",
@@ -3842,7 +4034,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<p class=\"nih-subtitle\">",
@@ -3869,7 +4061,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a",
@@ -3880,8 +4072,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.45,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.4,
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 2,
@@ -3897,7 +4089,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -3908,8 +4100,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.45,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.4,
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 2,
@@ -3925,7 +4117,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://jamanetwork.com/journals/jama/fullarticle/#.#/jama.#.#?guestaccesskey=d98d9357-ab4b-477a-b97c-ae5c9382870c&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_lin",
@@ -3952,7 +4144,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://ieeexplore.ieee.org/document/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -3979,7 +4171,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/#/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -4006,7 +4198,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/#/\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
@@ -4033,7 +4225,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
+    "rule_pages_affected": 8,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -4060,7 +4252,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4071,8 +4263,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 1,
@@ -4087,7 +4279,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".field__item:nth-child(*) > .background--gray.paragraph--type--callout.callout > .callout__body > .callout__text.clearfix > p:nth-child(*) > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -4098,8 +4290,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4114,7 +4306,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"storycorps.org/\"]",
@@ -4125,8 +4317,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4141,7 +4333,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"mailto:storycorps@nih.gov\"]",
@@ -4152,8 +4344,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4168,7 +4360,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"][data-extlink=\"\"]",
@@ -4179,8 +4371,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4195,7 +4387,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"radx\"]",
@@ -4206,8 +4398,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4222,7 +4414,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"nibib.nih.gov/\"]",
@@ -4233,8 +4425,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4249,7 +4441,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href=\"mailto:kpekoc@niaid.nih.gov\"]",
@@ -4260,8 +4452,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4276,7 +4468,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"www.niaid.nih.gov\"]",
@@ -4287,8 +4479,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4303,7 +4495,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -4314,8 +4506,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4330,7 +4522,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4341,8 +4533,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 16,
-    "action_score": 0.22,
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4350,6 +4542,60 @@
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain"
+    ]
+   },
+   {
+    "id": "cc-a8a38bf8d708",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 12,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(22) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(1)",
+    "representative_snippet": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/35139340/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">SARS-CoV-2 vaccination induces immuno",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "id": "cc-0b473cc478cf",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 12,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(6)",
+    "representative_snippet": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/35102312/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Vaccines Elicit Highly Conserved Cell",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 18,
+    "action_score": 0.2,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    }
   ],
@@ -4359,9 +4605,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -4371,11 +4617,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 16.8,
+    "action_score": 19.2,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -4384,6 +4630,7 @@
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -4392,9 +4639,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r61",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
     "snippet_shape": "",
     "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
@@ -4404,11 +4651,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 14,
+    "action_score": 16,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -4417,6 +4664,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -4425,9 +4673,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -4437,11 +4685,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
-     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
+     "findings": 12,
+     "pages": 12,
+     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
@@ -4454,6 +4702,7 @@
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -4462,9 +4711,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -4474,11 +4723,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
-     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
+     "findings": 12,
+     "pages": 12,
+     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
@@ -4491,6 +4740,7 @@
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -4499,9 +4749,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r53",
     "severity": "Moderate",
-    "rule_pages_affected": 4,
-    "pages_affected": 4,
-    "instances": 4,
+    "rule_pages_affected": 5,
+    "pages_affected": 5,
+    "instances": 5,
     "selector_path": "<h3>",
     "snippet_shape": "",
     "representative_selector": "<h3>",
@@ -4511,16 +4761,85 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 8,
+    "action_score": 10,
     "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 4,
-     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
+     "findings": 5,
+     "pages": 5,
+     "statement": "Fix one place, resolve ~5 finding(s) on 5 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-cd5f617ba5c1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
+    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 8,
+    "estimated_fix_impact": {
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
+    "id": "cc-424dd2ea2877",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
+    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 8,
+    "estimated_fix_impact": {
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
+     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -4553,79 +4872,13 @@
     ]
    },
    {
-    "id": "cc-cd5f617ba5c1",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
-    "selector_path": "@aria-label=\"descripción de la agencia\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 7,
-    "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
-    "id": "cc-424dd2ea2877",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
-    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 7,
-    "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
-     "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-8e242a862e3a",
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -4635,11 +4888,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -4648,6 +4901,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
@@ -4656,9 +4910,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 7,
-    "pages_affected": 7,
-    "instances": 7,
+    "rule_pages_affected": 8,
+    "pages_affected": 8,
+    "instances": 8,
     "selector_path": "text: \"health information\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Health Information\"",
@@ -4668,11 +4922,11 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 4.67,
+    "action_score": 5.33,
     "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+     "findings": 8,
+     "pages": 8,
+     "statement": "Fix one place, resolve ~8 finding(s) on 8 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
@@ -4681,6 +4935,7 @@
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    }
@@ -4691,6 +4946,6 @@
   "drift_pages": [],
   "drift_clusters": []
  },
- "pagesAttempted": 1950,
- "pagesSucceeded": 11
+ "pagesAttempted": 2100,
+ "pagesSucceeded": 12
 }
