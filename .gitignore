@@ -1,0 +1,7 @@
+# HF-only (VA) targets are scanned on Hugging Face, never in GitHub Actions.
+# Playwright may capture CSRF/OAuth tokens on those pages, so their scan
+# data must never be committed here. See vital-core CLAUDE.md.
+www.va.gov/
+volunteer.va.gov/
+news.va.gov/
+benefits.va.gov/
