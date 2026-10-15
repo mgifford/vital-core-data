@@ -1,0 +1,70 @@
+{
+ "runId": "2026-10-15T09-55-45-378Z-8f81f1",
+ "week": "2026-W42",
+ "domain": "data.healthcare.gov",
+ "startedAt": "2026-10-15T09:55:45.965Z",
+ "scanned": [
+  "15f63ffcd07b6651",
+  "0d355808c731d2a2",
+  "d646a99e20ce9442",
+  "9b2095573fcb4fd6",
+  "53e557d86d283d81",
+  "6d26919dc1f83451",
+  "1ce1fcf3da4eb04f",
+  "e3acd9e5b3fbbf8e",
+  "cca4f4bb7b51e019"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "linkCheck": {
+  "total": 43,
+  "checked": 43,
+  "brokenCount": 1,
+  "broken": [
+   {
+    "url": "https://data.healthcare.gov/whats-new",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/kty9-8vvq"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "sustainability": 1,
+  "axe": 1,
+  "alfa": 1,
+  "plain-language": 1,
+  "resources": 1,
+  "images": 1,
+  "third-party": 1,
+  "link-check": 1
+ },
+ "tally": {
+  "ok": 1,
+  "blocked": 0,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 8,
+  "error": 0
+ },
+ "finishedAt": "2026-10-15T09:56:14.573Z"
+}
