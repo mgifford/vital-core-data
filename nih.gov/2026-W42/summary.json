@@ -1,30 +1,31 @@
 {
  "domain": "nih.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-15T17:22:22.091Z",
- "pagesScanned": 2843,
- "pagesAudited": 16,
+ "generatedAt": "2026-10-16T16:57:45.871Z",
+ "pagesScanned": 3333,
+ "pagesAudited": 20,
  "coverage": {
-  "sustainability": 294,
-  "axe": 16,
-  "resources": 16,
+  "sustainability": 343,
+  "axe": 20,
+  "resources": 20,
   "alfa": 9,
-  "standards": 9,
+  "standards": 10,
+  "plain-language": 9,
+  "lighthouse": 5,
   "deprecated-html": 1,
   "security": 1,
-  "lighthouse": 4,
-  "plain-language": 6
+  "tech": 1
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 117,
-  "pagesWithViolations": 16,
-  "pagesScanned": 16,
+  "violationTotal": 147,
+  "pagesWithViolations": 20,
+  "pagesScanned": 20,
   "medianViolations": 8,
   "rules": {
    "heading-order": {
-    "count": 12,
-    "pages": 12,
+    "count": 15,
+    "pages": 15,
     "impact": "moderate",
     "help": "Heading levels should only increase by one",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/heading-order?application=axeAPI",
@@ -34,7 +35,7 @@
     "examplePages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
     ],
     "affectedPages": [
      {
@@ -43,6 +44,14 @@
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
       "instances": 1
      },
      {
@@ -78,6 +87,10 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
       "instances": 1
      },
@@ -98,25 +111,25 @@
       "html": "<h3></h3>"
      },
      {
-      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
       "target": ".callout__text > h3",
       "html": "<h3>At a Glance</h3>"
      },
      {
-      "url": "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
-      "target": "h3:nth-child(4)",
-      "html": "<h3>What</h3>"
+      "url": "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+      "target": ".callout__text > h3",
+      "html": "<h3>At a Glance</h3>"
      },
      {
-      "url": "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
-      "target": "h3:nth-child(2)",
-      "html": "<h3>Opening Remarks</h3>"
+      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "target": ".callout__text > h3",
+      "html": "<h3>At a Glance</h3>"
      }
     ]
    },
    "link-in-text-block": {
-    "count": 56,
-    "pages": 16,
+    "count": 71,
+    "pages": 20,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=axeAPI",
@@ -127,7 +140,7 @@
     "examplePages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
     ],
     "affectedPages": [
      {
@@ -139,12 +152,24 @@
       "instances": 6
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+      "instances": 5
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+      "instances": 5
+     },
+     {
       "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 4
      },
      {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
       "instances": 2
+     },
+     {
+      "url": "https://nih.gov/research-training/training-opportunities",
+      "instances": 1
      },
      {
       "url": "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
@@ -185,6 +210,10 @@
      {
       "url": "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
       "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
+      "instances": 4
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -224,8 +253,8 @@
     ]
    },
    "region": {
-    "count": 32,
-    "pages": 16,
+    "count": 40,
+    "pages": 20,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=axeAPI",
@@ -235,7 +264,7 @@
     "examplePages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease"
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
     ],
     "affectedPages": [
      {
@@ -247,11 +276,23 @@
       "instances": 2
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+      "instances": 2
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+      "instances": 2
+     },
+     {
       "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "instances": 2
      },
      {
       "url": "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+      "instances": 2
+     },
+     {
+      "url": "https://nih.gov/research-training/training-opportunities",
       "instances": 2
      },
      {
@@ -295,6 +336,10 @@
       "instances": 2
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
+      "instances": 2
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
       "instances": 2
      },
@@ -325,7 +370,7 @@
       "html": "<h2 id=\"system-breadcrumb\" class=\"visually-hidden\">Breadcrumb</h2>"
      },
      {
-      "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
       "target": ".usa-alert",
       "html": "<div class=\"usa-alert\">"
      }
@@ -368,8 +413,8 @@
     ]
    },
    "landmark-unique": {
-    "count": 12,
-    "pages": 12,
+    "count": 16,
+    "pages": 16,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -378,8 +423,8 @@
     ],
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ],
     "affectedPages": [
      {
@@ -387,7 +432,19 @@
       "instances": 1
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+      "instances": 1
+     },
+     {
       "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+      "instances": 1
+     },
+     {
+      "url": "https://nih.gov/research-training/training-opportunities",
       "instances": 1
      },
      {
@@ -423,6 +480,10 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
       "instances": 1
      },
@@ -438,22 +499,22 @@
       "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
      },
      {
+      "url": "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+      "target": "#block-nih2-uswds-search",
+      "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
+     },
+     {
+      "url": "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+      "target": "#block-nih2-uswds-search",
+      "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
+     },
+     {
       "url": "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
       "target": "#block-nih2-uswds-search",
       "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
      },
      {
-      "url": "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
-      "target": "#block-nih2-uswds-search",
-      "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
-     },
-     {
-      "url": "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
-      "target": "#block-nih2-uswds-search",
-      "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
-     },
-     {
-      "url": "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society",
+      "url": "https://nih.gov/research-training/training-opportunities",
       "target": "#block-nih2-uswds-search",
       "html": "<div class=\"search-block-form usa-form block block-search container-inline\" data-drupal-selector=\"search-block-form\" id=\"block-nih2-uswds-search\" role=\"search\">"
      }
@@ -1174,11 +1235,11 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 132,
+  "uniqueIssues": 147,
   "consensus": 1,
-  "axeOnly": 60,
+  "axeOnly": 75,
   "alfaOnly": 71,
-  "rawAxe": 61,
+  "rawAxe": 76,
   "rawAlfa": 72,
   "byKey": {
    "axe-core:heading-order": {
@@ -1187,7 +1248,7 @@
      "heading-order"
     ],
     "alfaRules": [],
-    "pages": 12,
+    "pages": 15,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -1196,7 +1257,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 16,
+    "pages": 20,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -1205,7 +1266,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 16,
+    "pages": 20,
     "engines": "axe"
    },
    "act:ffd0e9": {
@@ -1225,7 +1286,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 12,
+    "pages": 16,
     "engines": "axe"
    },
    "axe-core:list": {
@@ -1323,21 +1384,21 @@
   }
  },
  "sustainability": {
-  "pages": 294,
+  "pages": 343,
   "medianBytes": 64561,
-  "meanBytes": 76228,
-  "medianRequests": 6,
-  "totalCo2g": 3.33,
-  "meanCo2g": 0.0113,
-  "totalEnergyWh": 6.73,
-  "meanEnergyWh": 0.0229
+  "meanBytes": 74561,
+  "medianRequests": 7,
+  "totalCo2g": 3.8,
+  "meanCo2g": 0.0111,
+  "totalEnergyWh": 7.68,
+  "meanEnergyWh": 0.0224
  },
  "deprecatedHtml": null,
  "resources": {
-  "total": 59,
+  "total": 62,
   "byType": {
-   "embedded-media": 1,
-   "image": 9,
+   "embedded-media": 2,
+   "image": 11,
    "document": 24,
    "spreadsheet": 16,
    "pdf": 9
@@ -1357,6 +1418,22 @@
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab"
+    ]
+   },
+   {
+    "url": "https://nih.gov/sites/default/files/2025-03/20211026-ad.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
+    ]
+   },
+   {
+    "url": "https://www.nih.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DoHZRaT25bMo&max_width=0&max_height=0&hash=6ijZ4gxPYITOUXRJr1_uGm4ttu7UJwfjO0sGLDmxrGk",
+    "type": "embedded-media",
+    "pages": 1,
+    "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
@@ -1800,6 +1877,14 @@
     ]
    },
    {
+    "url": "https://www.nih.gov/sites/default/files/2025-03/20210112-brain-tracking-contrast.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+    ]
+   },
+   {
     "url": "https://www.nih.gov/sites/default/files/2026-03/20260310-alz.jpg",
     "type": "image",
     "pages": 1,
@@ -1818,96 +1903,96 @@
   ]
  },
  "standards": {
-  "pagesChecked": 9,
+  "pagesChecked": 10,
   "checks": [
    {
     "id": "schema-gov",
     "label": "schema.org GovernmentOrganization markup",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0
    },
    {
     "id": "hreflang",
     "label": "hreflang alternates declared",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0
    },
    {
     "id": "open-social",
     "label": "Open social presence (Mastodon/Bluesky) linked",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0
    },
    {
     "id": "description",
     "label": "Meta description present",
-    "pass": 8,
-    "total": 9,
-    "rate": 89
+    "pass": 9,
+    "total": 10,
+    "rate": 90
    },
    {
     "id": "canonical",
     "label": "Canonical URL declared",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    },
    {
     "id": "title",
     "label": "Page has a <title>",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    },
    {
     "id": "charset",
     "label": "Character encoding declared",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    },
    {
     "id": "lang",
     "label": "Document language (lang) set",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    },
    {
     "id": "viewport",
     "label": "Responsive viewport (zoom not disabled)",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    },
    {
     "id": "open-graph",
     "label": "Open Graph tags (6/6)",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    },
    {
     "id": "twitter-card",
     "label": "Twitter card metadata",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100
    }
   ],
   "social": []
  },
  "resilience": {
-  "pagesChecked": 9,
+  "pagesChecked": 10,
   "checks": [
    {
     "id": "pwa-manifest",
     "label": "Web app manifest declared",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "A web app manifest is required for installability and controls how the app appears when launched.",
     "evidenceExamples": []
@@ -1916,7 +2001,7 @@
     "id": "pwa-service-worker",
     "label": "Service worker registered",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "A service worker is what makes offline access, caching, and background sync possible.",
     "evidenceExamples": []
@@ -1925,7 +2010,7 @@
     "id": "pwa-theme-color",
     "label": "Theme color declared",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "Theme color controls the browser chrome/status-bar color when the site is installed or bookmarked.",
     "evidenceExamples": []
@@ -1934,7 +2019,7 @@
     "id": "pwa-apple-touch-icon",
     "label": "Apple touch icon (iOS/bookmark icon)",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "iOS uses this icon for home-screen bookmarks and \"Add to Home Screen\" — without it the icon falls back to a screenshot.",
     "evidenceExamples": []
@@ -1943,7 +2028,7 @@
     "id": "manifest-parsed",
     "label": "Manifest fetched and parsed successfully",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "A manifest that fails to parse cannot drive installability or launch behavior even if the link is present.",
     "evidenceExamples": [
@@ -1953,11 +2038,11 @@
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
      }
     ]
    },
@@ -1965,7 +2050,7 @@
     "id": "manifest-maskable-icon",
     "label": "Manifest declares a maskable icon",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "A maskable icon lets the OS safely crop/mask the app icon on different device shapes without clipping content.",
     "evidenceExamples": [
@@ -1975,11 +2060,11 @@
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
      }
     ]
    },
@@ -1987,7 +2072,7 @@
     "id": "sw-active",
     "label": "Service worker is active (not just registered)",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "An active service worker (not just registered) is what actually intercepts requests and serves cached content.",
     "evidenceExamples": []
@@ -1996,7 +2081,7 @@
     "id": "sw-controlling",
     "label": "Service worker controls this page load",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "A controlling service worker means THIS page load is being served/intercepted, not just a future one.",
     "evidenceExamples": []
@@ -2005,7 +2090,7 @@
     "id": "installable",
     "label": "Meets basic installability criteria",
     "pass": 0,
-    "total": 9,
+    "total": 10,
     "rate": 0,
     "why": "Determines whether the browser can realistically offer \"Add to Home Screen\" / install, based on manifest + service worker + HTTPS together.",
     "evidenceExamples": [
@@ -2015,19 +2100,19 @@
      },
      {
       "evidence": "no readable web app manifest; no service worker registered",
-      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
      },
      {
       "evidence": "no readable web app manifest; no service worker registered",
-      "url": "https://www.nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimers-disease"
      }
     ]
    },
    {
     "id": "pwa-https",
     "label": "HTTPS (required for service workers)",
-    "pass": 9,
-    "total": 9,
+    "pass": 10,
+    "total": 10,
     "rate": 100,
     "why": "HTTPS is required for service workers and most install prompts.",
     "evidenceExamples": []
@@ -2091,30 +2176,31 @@
  },
  "publicInterest": null,
  "plainLanguage": {
-  "pagesChecked": 6,
-  "pagesScored": 6,
-  "medianWordsPerPage": 759,
+  "pagesChecked": 9,
+  "pagesScored": 8,
+  "medianWordsPerPage": 707,
   "medianReadingEase": 45,
   "medianGrade": 12,
   "topUnexplainedAcronyms": [
    {
     "acronym": "NIH",
-    "pages": 6,
+    "pages": 9,
     "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society",
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection"
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
     ]
    },
    {
     "acronym": "PMID",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
     ]
    },
@@ -2128,91 +2214,105 @@
     ]
    },
    {
-    "acronym": "NCI",
-    "pages": 1,
+    "acronym": "RG",
+    "pages": 2,
     "examplePages": [
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
     ]
    },
    {
-    "acronym": "PHS",
-    "pages": 1,
+    "acronym": "JM",
+    "pages": 2,
     "examplePages": [
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
     ]
    },
    {
     "acronym": "BRAIN",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
-    "acronym": "PDF",
-    "pages": 1,
+    "acronym": "CH",
+    "pages": 2,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
-    "acronym": "MB",
+    "acronym": "CK",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "WG",
+    "acronym": "ALN",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "ELSI",
+    "acronym": "MC",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "NHP",
+    "acronym": "MD",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "EEG",
+    "acronym": "AN",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "PAST",
+    "acronym": "SP",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "AND",
+    "acronym": "ATMA",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "acronym": "FUTURE",
+    "acronym": "JE",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    }
   ],
   "topMisspellings": [
+   {
+    "word": "doi",
+    "pages": 4,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
+     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
+    ]
+   },
    {
     "word": "Acad",
     "pages": 3,
@@ -2223,21 +2323,36 @@
     ]
    },
    {
-    "word": "doi",
-    "pages": 3,
-    "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
-    ]
-   },
-   {
     "word": "Shutterstock",
     "pages": 3,
     "examplePages": [
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
+    ]
+   },
+   {
+    "word": "Liu",
+    "pages": 2,
+    "examplePages": [
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
+    "word": "Neurotechnologies",
+    "pages": 2,
+    "examplePages": [
+     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+    ]
+   },
+   {
+    "word": "weren",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
@@ -2265,143 +2380,122 @@
     ]
    },
    {
-    "word": "Sessoms",
+    "word": "Storrs",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "NCI",
+    "word": "WashU",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "Neuroethics",
+    "word": "microenvironment",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "Neurotechnologies",
+    "word": "pre",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "InitiativeBRAIN",
+    "word": "colorectal",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "Roadmap",
+    "word": "microregions",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "neuroethical",
+    "word": "couldn",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "neurotechnologies",
+    "word": "Kimryn",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "neuroethics",
+    "word": "Rathmell",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "Bioethical",
+    "word": "Genomic",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "NHPs",
+    "word": "Tumour",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "neuroethicists",
+    "word": "Targino",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "neuroscientists",
+    "word": "Costa",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "Transformative",
+    "word": "Wendl",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "Neuroscientists",
+    "word": "Jayasinghe",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    },
    {
-    "word": "NeQNs",
+    "word": "Iglesia",
     "pages": 1,
     "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
-    ]
-   },
-   {
-    "word": "underserved",
-    "pages": 1,
-    "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
-    ]
-   },
-   {
-    "word": "investigational",
-    "pages": 1,
-    "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
-    ]
-   },
-   {
-    "word": "inferable",
-    "pages": 1,
-    "examplePages": [
-     "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society"
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    }
   ]
  },
  "lighthouse": {
-  "pagesSampled": 4,
-  "medianPerformance": 38,
+  "pagesSampled": 5,
+  "medianPerformance": 37,
   "medianAccessibility": 95,
   "medianBestPractices": 77,
   "medianSeo": 100,
@@ -2411,25 +2505,25 @@
    "performance": {
     "min": 34,
     "max": 52,
-    "p10": 34.9,
-    "p25": 36.3,
-    "p50": 37.5,
-    "p75": 41.5,
-    "p90": 47.8,
+    "p10": 34.8,
+    "p25": 36,
+    "p50": 37,
+    "p75": 38,
+    "p90": 46.4,
     "range": 18,
-    "spreadP10toP90": 12.9,
-    "iqr": 5.2
+    "spreadP10toP90": 11.6,
+    "iqr": 2
    },
    "accessibility": {
     "min": 95,
-    "max": 95,
+    "max": 96,
     "p10": 95,
     "p25": 95,
     "p50": 95,
     "p75": 95,
-    "p90": 95,
-    "range": 0,
-    "spreadP10toP90": 0,
+    "p90": 95.6,
+    "range": 1,
+    "spreadP10toP90": 0.6,
     "iqr": 0
    },
    "bestPractices": {
@@ -2447,33 +2541,33 @@
    "seo": {
     "min": 92,
     "max": 100,
-    "p10": 94.4,
-    "p25": 98,
+    "p10": 95.2,
+    "p25": 100,
     "p50": 100,
     "p75": 100,
     "p90": 100,
     "range": 8,
-    "spreadP10toP90": 5.6,
-    "iqr": 2
+    "spreadP10toP90": 4.8,
+    "iqr": 0
    },
    "agentic": {
     "min": 60,
     "max": 100,
-    "p10": 72,
-    "p25": 90,
+    "p10": 76,
+    "p25": 100,
     "p50": 100,
     "p75": 100,
     "p90": 100,
     "range": 40,
-    "spreadP10toP90": 28,
-    "iqr": 10
+    "spreadP10toP90": 24,
+    "iqr": 0
    }
   },
   "metrics": {
-   "firstContentfulPaintMs": 3071,
-   "largestContentfulPaintMs": 7902,
-   "speedIndexMs": 4974,
-   "totalBlockingTimeMs": 1506,
+   "firstContentfulPaintMs": 3139,
+   "largestContentfulPaintMs": 10279,
+   "speedIndexMs": 5731,
+   "totalBlockingTimeMs": 1658,
    "cumulativeLayoutShift": 0
   },
   "pwaSignals": [],
@@ -2482,120 +2576,129 @@
     "id": "mainthread-work-breakdown",
     "category": "performance",
     "title": "Minimize main-thread work",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
     "savingsBytes": 0,
-    "savingsMs": 7100
+    "savingsMs": 8950
    },
    {
     "id": "bootup-time",
     "category": "performance",
     "title": "Reduce JavaScript execution time",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
     "savingsBytes": 0,
-    "savingsMs": 6850
+    "savingsMs": 8550
    },
    {
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
-    "savingsBytes": 1442173,
-    "savingsMs": 2700
+    "savingsBytes": 1801326,
+    "savingsMs": 4200
    },
    {
     "id": "unused-css-rules",
     "category": "performance",
     "title": "Reduce unused CSS",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
-    "savingsBytes": 454635,
-    "savingsMs": 3250
+    "savingsBytes": 568909,
+    "savingsMs": 4150
    },
    {
     "id": "render-blocking-insight",
     "category": "performance",
     "title": "Render-blocking requests",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
     "savingsBytes": 0,
-    "savingsMs": 2200
+    "savingsMs": 3050
    },
    {
     "id": "image-delivery-insight",
     "category": "performance",
     "title": "Improve image delivery",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
     "savingsBytes": 0,
-    "savingsMs": 600
+    "savingsMs": 900
    },
    {
     "id": "unminified-javascript",
     "category": "performance",
     "title": "Minify JavaScript",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
-    "savingsBytes": 76656,
-    "savingsMs": 300
+    "savingsBytes": 95820,
+    "savingsMs": 450
    },
    {
     "id": "font-display-insight",
     "category": "performance",
     "title": "Font display",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
     "savingsBytes": 0,
-    "savingsMs": 200
+    "savingsMs": 250
    },
    {
     "id": "first-contentful-paint",
     "category": "performance",
     "title": "First Contentful Paint",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2608,8 +2711,9 @@
     "id": "largest-contentful-paint",
     "category": "performance",
     "title": "Largest Contentful Paint",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2622,8 +2726,9 @@
     "id": "speed-index",
     "category": "performance",
     "title": "Speed Index",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2636,8 +2741,9 @@
     "id": "total-blocking-time",
     "category": "performance",
     "title": "Total Blocking Time",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2650,8 +2756,9 @@
     "id": "max-potential-fid",
     "category": "performance",
     "title": "Max Potential First Input Delay",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2664,8 +2771,9 @@
     "id": "errors-in-console",
     "category": "best-practices",
     "title": "Browser errors were logged to the console",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2678,8 +2786,9 @@
     "id": "interactive",
     "category": "performance",
     "title": "Time to Interactive",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2692,8 +2801,9 @@
     "id": "deprecations",
     "category": "best-practices",
     "title": "Uses deprecated APIs",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2706,8 +2816,9 @@
     "id": "webmcp-registered-tools",
     "category": "agentic-browsing",
     "title": "WebMCP tools registered",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2720,8 +2831,9 @@
     "id": "webmcp-form-coverage",
     "category": "agentic-browsing",
     "title": "WebMCP form coverage",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2734,8 +2846,9 @@
     "id": "webmcp-schema-validity",
     "category": "agentic-browsing",
     "title": "WebMCP schemas are valid",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2748,8 +2861,9 @@
     "id": "llms-txt",
     "category": "agentic-browsing",
     "title": "llms.txt follows recommendations",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2762,8 +2876,9 @@
     "id": "network-dependency-tree-insight",
     "category": "performance",
     "title": "Network dependency tree",
-    "pages": 4,
+    "pages": 5,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
@@ -2776,38 +2891,54 @@
     "id": "cache-insight",
     "category": "performance",
     "title": "Use efficient cache lifetimes",
-    "pages": 3,
+    "pages": 4,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ],
     "savingsBytes": 0,
-    "savingsMs": 800
+    "savingsMs": 1100
    },
    {
     "id": "redirects",
     "category": "performance",
     "title": "Avoid multiple page redirects",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection"
     ],
     "savingsBytes": 0,
-    "savingsMs": 2600
+    "savingsMs": 3400
    },
    {
     "id": "document-latency-insight",
     "category": "performance",
     "title": "Document request latency",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection"
     ],
     "savingsBytes": 0,
-    "savingsMs": 600
+    "savingsMs": 700
+   },
+   {
+    "id": "ard-schema",
+    "category": "agentic-browsing",
+    "title": "`ai-catalog.json` schema is valid",
+    "pages": 3,
+    "examplePages": [
+     "https://nih.gov/research-training/training-opportunities",
+     "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
+     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
    },
    {
     "id": "server-response-time",
@@ -2834,18 +2965,6 @@
     "savingsMs": 0
    },
    {
-    "id": "ard-schema",
-    "category": "agentic-browsing",
-    "title": "`ai-catalog.json` schema is valid",
-    "pages": 2,
-    "examplePages": [
-     "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
-     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
     "id": "legacy-javascript-insight",
     "category": "performance",
     "title": "Legacy JavaScript",
@@ -2855,6 +2974,17 @@
     ],
     "savingsBytes": 0,
     "savingsMs": 200
+   },
+   {
+    "id": "unminified-css",
+    "category": "performance",
+    "title": "Minify CSS",
+    "pages": 1,
+    "examplePages": [
+     "https://nih.gov/research-training/training-opportunities"
+    ],
+    "savingsBytes": 2071,
+    "savingsMs": 0
    },
    {
     "id": "meta-description",
@@ -2903,7 +3033,7 @@
   ]
  },
  "linkCheck": {
-  "brokenCount": 14,
+  "brokenCount": 15,
   "broken": [
    {
     "url": "http://clinicalcenter.nih.gov/nursing/about.html",
@@ -3016,6 +3146,14 @@
     "foundOn": [
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection"
     ]
+   },
+   {
+    "url": "https://www.alzheimers.gov/",
+    "status": 405,
+    "reason": "HTTP 405",
+    "foundOn": [
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
+    ]
    }
   ]
  },
@@ -3041,6 +3179,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/about-nih/voices-nih-community/they-cant-be-talking-about-me",
+   "status": 403
+  },
+  {
    "url": "https://nih.gov/health-information/nih-clinical-research-trials-you/information-recruitment-retention-women-minorities-older-adults-clinical-research",
    "status": 403
   },
@@ -3049,7 +3191,15 @@
    "status": 403
   },
   {
+   "url": "https://nih.gov/news-events/nih-research-matters/potent-antibodies-found-people-recovered-covid-19",
+   "status": 403
+  },
+  {
    "url": "https://nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials/learn-how-you-too-can-participate-tomorrows-medical-progress-poster",
+   "status": 403
+  },
+  {
+   "url": "https://nih.gov/news-events/nih-research-matters/sleep-exercise-may-reduce-mutation-driven-inflammation",
    "status": 403
   },
   {
@@ -3069,6 +3219,10 @@
    "status": 403
   },
   {
+   "url": "https://nih.gov/news-events/nih-research-matters/machine-learning-identifies-federally-protected-waters",
+   "status": 403
+  },
+  {
    "url": "http://mailto:RADxInfo@nih.gov/news-events/news-releases/nih-funded-clinical-trial-links-frequent-anger-increased-risk-heart-disease",
    "status": 403
   },
@@ -3085,6 +3239,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/about-nih/nih-almanac/michael-lauer-md",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/news-events/news-releases/brain-scan-guided-emergency-stroke-treatment-can-save-more-lives",
    "status": 403
   },
@@ -3093,162 +3251,474 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/about-nih/impact-nih-research/improving-health/infant-maternal-health",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/health-information/nih-clinical-research-trials-you/guidelines-communicating-informed-consent-individuals-who-are-deaf-or-hard-hearing-scientists",
-   "status": 403
-  },
-  {
-   "url": "https://nih.gov/news-events/nih-research-matters/new-approach-fighting-staph-infections",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/news-events/nih-research-matters/improving-control-bionic-prosthetic-hands",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/brain-initiative/about/multi-council-working-group/brain-multi-council-working-group-mcwg-meeting-august-2026",
-   "status": 403
-  },
-  {
-   "url": "https://nih.gov/about-nih/nih-turning-discovery-into-health/our-biggest-health-challenges/heart-disease-stroke",
-   "status": 403
-  },
-  {
-   "url": "https://nih.gov/nih-style-guide/nih",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/news-events/nih-research-matters/gut-microbe-drives-autoimmunity",
    "status": 403
   }
  ],
- "tech": null,
+ "tech": [
+  {
+   "name": "Cloudflare Browser Insights",
+   "category": "Analytics",
+   "categories": [
+    "Analytics",
+    "RUM"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://www.cloudflare.com",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Crazy Egg",
+   "category": "Analytics",
+   "categories": [
+    "Analytics"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://crazyegg.com",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Google Analytics",
+   "category": "Analytics",
+   "categories": [
+    "Analytics"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://google.com/analytics",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Varnish",
+   "category": "Caching",
+   "categories": [
+    "Caching"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://www.varnish-cache.org",
+   "cpe": "cpe:2.3:a:varnish-software:varnish_cache:*:*:*:*:*:*:*:*",
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Cloudflare",
+   "category": "CDN",
+   "categories": [
+    "CDN"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://www.cloudflare.com",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Drupal",
+   "category": "CMS",
+   "categories": [
+    "CMS"
+   ],
+   "confidence": 100,
+   "version": "10",
+   "website": "https://www.drupal.org/",
+   "cpe": "cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*",
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "jQuery",
+   "category": "JavaScript libraries",
+   "categories": [
+    "JavaScript libraries"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://jquery.com",
+   "cpe": "cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*",
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "HTTP/3",
+   "category": "Miscellaneous",
+   "categories": [
+    "Miscellaneous"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://httpwg.org/",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Acquia Cloud Platform",
+   "category": "PaaS",
+   "categories": [
+    "PaaS"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://www.acquia.com/products/drupal-cloud/cloud-platform",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Amazon Web Services",
+   "category": "PaaS",
+   "categories": [
+    "PaaS"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://aws.amazon.com/",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "PHP",
+   "category": "Programming languages",
+   "categories": [
+    "Programming languages"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://php.net",
+   "cpe": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "HSTS",
+   "category": "Security",
+   "categories": [
+    "Security"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "Google Tag Manager",
+   "category": "Tag managers",
+   "categories": [
+    "Tag managers"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://www.google.com/tagmanager",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  },
+  {
+   "name": "USWDS",
+   "category": "UI frameworks",
+   "categories": [
+    "UI frameworks"
+   ],
+   "confidence": 100,
+   "version": null,
+   "website": "https://designsystem.digital.gov",
+   "cpe": null,
+   "pagesConfirmed": 1,
+   "examplePages": [
+    "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
+   ]
+  }
+ ],
  "images": {
-  "pagesScanned": 16,
-  "totalImages": 225,
-  "uniqueImages": 23,
+  "pagesScanned": 20,
+  "totalImages": 283,
+  "uniqueImages": 26,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 225,
+  "withAlt": 283,
   "altVerdicts": {
-   "GOOD": 19,
+   "GOOD": 22,
    "SUSPICIOUS": 2,
    "TOO_SHORT": 2
   }
  },
- "techFindings": null,
+ "techFindings": {
+  "model": {
+   "pages": 1,
+   "tech": {
+    "Cloudflare Browser Insights": 1,
+    "Crazy Egg": 1,
+    "Google Analytics": 1,
+    "Varnish": 1,
+    "Cloudflare": 1,
+    "Drupal": 1,
+    "jQuery": 1,
+    "HTTP/3": 1,
+    "Acquia Cloud Platform": 1,
+    "Amazon Web Services": 1,
+    "PHP": 1,
+    "HSTS": 1,
+    "Google Tag Manager": 1,
+    "USWDS": 1
+   },
+   "finding": {
+    "axe:heading-order": 1,
+    "axe:landmark-unique": 1,
+    "axe:link-in-text-block": 1,
+    "axe:region": 1
+   },
+   "pair": {
+    "Cloudflare Browser Insights": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Crazy Egg": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Google Analytics": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Varnish": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Cloudflare": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Drupal": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "jQuery": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "HTTP/3": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Acquia Cloud Platform": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Amazon Web Services": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "PHP": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "HSTS": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "Google Tag Manager": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    },
+    "USWDS": {
+     "axe:heading-order": 1,
+     "axe:landmark-unique": 1,
+     "axe:link-in-text-block": 1,
+     "axe:region": 1
+    }
+   }
+  },
+  "associations": []
+ },
  "thirdParty": {
-  "pagesScanned": 4,
+  "pagesScanned": 5,
   "vendors": [
    {
     "origin": "googletagmanager.com",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
-    "medianBytes": 646616,
-    "medianDurationMs": 661,
+    "medianBytes": 646599,
+    "medianDurationMs": 529,
     "medianRequests": 4,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
     "origin": "crazyegg.com",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
-    "medianBytes": 71014,
-    "medianDurationMs": 330,
+    "medianBytes": 71013,
+    "medianDurationMs": 329,
     "medianRequests": 4,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
     "origin": "cloudflareinsights.com",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
     "medianBytes": 31679,
-    "medianDurationMs": 56,
+    "medianDurationMs": 53,
     "medianRequests": 1,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
     "origin": "digitalgov.gov",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
     "medianBytes": 30230,
-    "medianDurationMs": 103,
+    "medianDurationMs": 117,
     "medianRequests": 1,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
     "origin": "google-analytics.com",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
     "medianBytes": 20805,
-    "medianDurationMs": 116,
+    "medianDurationMs": 83,
     "medianRequests": 4,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
     "origin": "pinterest.com",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
     "medianBytes": 18901,
-    "medianDurationMs": 252,
+    "medianDurationMs": 251,
     "medianRequests": 3,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    },
    {
     "origin": "verint-cdn.com",
-    "pages": 4,
-    "pagesWithScripts": 4,
+    "pages": 5,
+    "pagesWithScripts": 5,
     "isScriptVendor": true,
     "medianBytes": 107,
-    "medianDurationMs": 129,
+    "medianDurationMs": 147,
     "medianRequests": 1,
-    "pagesWithFindings": 4,
+    "pagesWithFindings": 5,
     "examplePages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md"
+     "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location"
     ]
    }
   ]
@@ -3258,16 +3728,16 @@
   "design_system_label": "none",
   "design_system_theme": null,
   "template_page_threshold": 10,
-  "total_clusters": 57,
+  "total_clusters": 58,
   "clusters": [
    {
     "id": "cc-340e0be35f96",
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -3277,15 +3747,18 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 28.8,
+    "action_score": 38.4,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 16,
+     "pages": 16,
+     "statement": "Fix one place, resolve ~16 finding(s) on 16 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society",
@@ -3294,6 +3767,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -3303,9 +3777,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 20,
+    "pages_affected": 20,
+    "instances": 20,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -3315,17 +3789,20 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 24,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
-     "statement": "Fix one place, resolve ~16 finding(s) on 16 page(s)."
+     "findings": 20,
+     "pages": 20,
+     "statement": "Fix one place, resolve ~20 finding(s) on 20 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
@@ -3336,6 +3813,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -3345,9 +3823,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 20,
+    "pages_affected": 20,
+    "instances": 20,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -3357,17 +3835,20 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 24,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
-     "statement": "Fix one place, resolve ~16 finding(s) on 16 page(s)."
+     "findings": 20,
+     "pages": 20,
+     "statement": "Fix one place, resolve ~20 finding(s) on 20 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
@@ -3378,6 +3859,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -3863,6 +4345,42 @@
     ]
    },
    {
+    "id": "cc-3c4299c743bc",
+    "engine_key": "axe-core",
+    "rule_id": "heading-order",
+    "severity": "Moderate",
+    "rule_pages_affected": 15,
+    "pages_affected": 10,
+    "instances": 10,
+    "selector_path": ".callout__text > h3",
+    "snippet_shape": "h3:",
+    "representative_selector": ".callout__text > h3",
+    "representative_snippet": "<h3>At a Glance</h3>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "template",
+    "distinct_components_for_rule": 5,
+    "action_score": 4.8,
+    "estimated_fix_impact": {
+     "findings": 10,
+     "pages": 10,
+     "statement": "Fix one place, resolve ~10 finding(s) on 10 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
+     "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
+     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
+    ]
+   },
+   {
     "id": "cc-3305fcaaecb5",
     "engine_key": "axe-core",
     "rule_id": "aria-allowed-attr",
@@ -3994,39 +4512,6 @@
     ]
    },
    {
-    "id": "cc-3c4299c743bc",
-    "engine_key": "axe-core",
-    "rule_id": "heading-order",
-    "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 7,
-    "instances": 7,
-    "selector_path": ".callout__text > h3",
-    "snippet_shape": "h3:",
-    "representative_selector": ".callout__text > h3",
-    "representative_snippet": "<h3>At a Glance</h3>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 5,
-    "action_score": 3.36,
-    "estimated_fix_impact": {
-     "findings": 7,
-     "pages": 7,
-     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
-    },
-    "affected_pages": [
-     "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
-     "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
-     "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
-    ]
-   },
-   {
     "id": "cc-8cbcff6b68da",
     "engine_key": "alfa",
     "rule_id": "sia-r62",
@@ -4093,9 +4578,9 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 6,
-    "instances": 9,
+    "rule_pages_affected": 20,
+    "pages_affected": 9,
+    "instances": 13,
     "selector_path": "p:nth-child(*) > a:nth-child(*)",
     "snippet_shape": "a:href",
     "representative_selector": "p:nth-child(4) > a:nth-child(2)",
@@ -4104,18 +4589,21 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 18,
-    "action_score": 1.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 1.71,
     "estimated_fix_impact": {
-     "findings": 9,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~9 finding(s) on 6 page(s)."
+     "findings": 13,
+     "pages": 9,
+     "statement": "Fix one place, resolve ~13 finding(s) on 9 page(s)."
     },
     "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -4125,9 +4613,9 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 6,
-    "instances": 6,
+    "rule_pages_affected": 20,
+    "pages_affected": 7,
+    "instances": 7,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
     "snippet_shape": "a:href",
     "representative_selector": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -4136,15 +4624,16 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 18,
-    "action_score": 1.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 1.33,
     "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
     },
     "affected_pages": [
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
@@ -4157,9 +4646,9 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 20,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
     "snippet_shape": "a:href",
     "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4168,17 +4657,18 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 18,
-    "action_score": 1,
+    "distinct_components_for_rule": 19,
+    "action_score": 1.14,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "statement": "Fix one place, resolve ~5 finding(s) on 5 page(s)."
+     "findings": 6,
+     "pages": 6,
+     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
     },
     "affected_pages": [
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -4242,7 +4732,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "h3:nth-child(*)",
@@ -4317,6 +4807,35 @@
     },
     "affected_pages": [
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies"
+    ]
+   },
+   {
+    "id": "cc-0975fb981253",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 20,
+    "pages_affected": 3,
+    "instances": 3,
+    "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "article[data-history-node-id=\"17806\"] > div > ul > li:nth-child(7) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Canc",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 19,
+    "action_score": 0.57,
+    "estimated_fix_impact": {
+     "findings": 3,
+     "pages": 3,
+     "statement": "Fix one place, resolve ~3 finding(s) on 3 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
+     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
    {
@@ -4407,7 +4926,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > h3",
@@ -4434,7 +4953,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "article[data-history-node-id=\"#\"] > div > h3",
@@ -4461,7 +4980,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".paragraph--type--uswds-accordion-item.paragraph.paragraph--view-mode--default:nth-child(*) > h4",
@@ -4484,11 +5003,67 @@
     ]
    },
    {
+    "id": "cc-a6e854cc83d5",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 20,
+    "pages_affected": 2,
+    "instances": 3,
+    "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "li:nth-child(8) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://medlineplus.gov/druginfo/meds/a684051.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Bumetanide</a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 19,
+    "action_score": 0.38,
+    "estimated_fix_impact": {
+     "findings": 3,
+     "pages": 2,
+     "statement": "Fix one place, resolve ~3 finding(s) on 2 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
+    ]
+   },
+   {
+    "id": "cc-a8a38bf8d708",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 20,
+    "pages_affected": 2,
+    "instances": 2,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(17) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(1)",
+    "representative_snippet": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/39478210/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Tumour evolution and microenvironment",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 19,
+    "action_score": 0.38,
+    "estimated_fix_impact": {
+     "findings": 2,
+     "pages": 2,
+     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
+     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
+    ]
+   },
+   {
     "id": "cc-9932671d33b6",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a",
@@ -4499,8 +5074,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.4,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.38,
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 2,
@@ -4509,34 +5084,6 @@
     "affected_pages": [
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12"
-    ]
-   },
-   {
-    "id": "cc-0975fb981253",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": "article[data-history-node-id=\"21806\"] > div > ul > li:nth-child(6) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://newsinhealth.nih.gov/2018/10/managing-pain\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Managing pain</a>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.4,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/immune-cells-may-underlie-sex-differences-chronic-pain",
-     "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
    },
    {
@@ -4648,38 +5195,11 @@
     ]
    },
    {
-    "id": "cc-a6e854cc83d5",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 1,
-    "instances": 2,
-    "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": "li:nth-child(3) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://www.nimh.nih.gov/health/topics/anxiety-disorders/index.shtml\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Anxiety Di",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~2 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/social-acceptance-helps-mental-health-after-war-trauma"
-    ]
-   },
-   {
     "id": "cc-90ddb377c608",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".field__item:nth-child(*) > .background--gray.paragraph--type--callout.callout > .callout__body > .callout__text.clearfix > p:nth-child(*) > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -4690,8 +5210,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4706,7 +5226,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"storycorps.org/\"]",
@@ -4717,8 +5237,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4733,7 +5253,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"mailto:storycorps@nih.gov\"]",
@@ -4744,8 +5264,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4760,7 +5280,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"][data-extlink=\"\"]",
@@ -4771,8 +5291,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4787,7 +5307,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"radx\"]",
@@ -4798,8 +5318,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4814,7 +5334,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"nibib.nih.gov/\"]",
@@ -4825,8 +5345,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4837,11 +5357,38 @@
     ]
    },
    {
+    "id": "cc-458ce7f93313",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 20,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "a[href$=\"alzheimers.gov/\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "a[href$=\"alzheimers.gov/\"]",
+    "representative_snippet": "<a href=\"https://www.alzheimers.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Alzheimers.gov</a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
+    ]
+   },
+   {
     "id": "cc-854e10ba1263",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href=\"mailto:kpekoc@niaid.nih.gov\"]",
@@ -4852,8 +5399,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4868,7 +5415,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"www.niaid.nih.gov\"]",
@@ -4879,8 +5426,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4895,7 +5442,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -4906,8 +5453,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4922,7 +5469,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4933,8 +5480,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -4945,38 +5492,11 @@
     ]
    },
    {
-    "id": "cc-a8a38bf8d708",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(22) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(1)",
-    "representative_snippet": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/35139340/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">SARS-CoV-2 vaccination induces immuno",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron"
-    ]
-   },
-   {
     "id": "cc-0b473cc478cf",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 20,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
@@ -4987,8 +5507,8 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 18,
-    "action_score": 0.2,
+    "distinct_components_for_rule": 19,
+    "action_score": 0.19,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
@@ -5005,9 +5525,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -5017,15 +5537,18 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 28.8,
+    "action_score": 38.4,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 16,
+     "pages": 16,
+     "statement": "Fix one place, resolve ~16 finding(s) on 16 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/about-nih/nih-almanac/stuart-m-sessoms-md",
      "https://nih.gov/brain/about/vision/brain-20-neuroethics-enabling-enhancing-neuroscience-advances-society",
@@ -5034,6 +5557,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -5043,9 +5567,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 20,
+    "pages_affected": 20,
+    "instances": 20,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -5055,17 +5579,20 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 24,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
-     "statement": "Fix one place, resolve ~16 finding(s) on 16 page(s)."
+     "findings": 20,
+     "pages": 20,
+     "statement": "Fix one place, resolve ~20 finding(s) on 20 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
@@ -5076,6 +5603,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -5085,9 +5613,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 20,
+    "pages_affected": 20,
+    "instances": 20,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -5097,17 +5625,20 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 24,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
-     "statement": "Fix one place, resolve ~16 finding(s) on 16 page(s)."
+     "findings": 20,
+     "pages": 20,
+     "statement": "Fix one place, resolve ~20 finding(s) on 20 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/voices-nih-community/our-patients-are-heroes",
      "https://www.nih.gov/news-events/news-releases/nih-funded-pediatric-covid-19-testing-study-finds-school-aged-children-can-self-swab",
+     "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease",
+     "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread",
      "https://nih.gov/news-events/nih-research-matters/study-defines-major-genetic-form-alzheimer-s-disease",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=15",
+     "https://nih.gov/research-training/training-opportunities",
      "https://nih.gov/news-events/news-releases/nih-scientists-adapt-new-brain-disease-test-parkinsons-dementia-lewy-bodies",
      "https://nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=12",
      "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/community-liaison-council-meeting-minutes-may-16-2013",
@@ -5118,6 +5649,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/covid-19-vaccines-induce-immune-response-omicron",
      "https://nih.gov/news-events/nih-research-matters/blood-test-early-alzheimer-s-detection",
      "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+     "https://www.nih.gov/news-events/nih-research-matters/how-human-brain-tracks-location",
      "https://www.nih.gov/news-events/nih-research-matters/engineered-immune-cells-target-alzheimers-disease-protein",
      "https://www.nih.gov/news-events/nih-research-matters/prescribing-healthy-foods-could-bring-cost-effective-benefits"
     ]
@@ -5364,6 +5896,6 @@
   "drift_pages": [],
   "drift_clusters": []
  },
- "pagesAttempted": 2850,
- "pagesSucceeded": 16
+ "pagesAttempted": 3340,
+ "pagesSucceeded": 20
 }

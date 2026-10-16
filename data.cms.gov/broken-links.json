@@ -1,6 +1,6 @@
 {
  "domain": "data.cms.gov",
- "updatedAt": "2026-10-15T17:22:11.069Z",
+ "updatedAt": "2026-10-16T16:57:35.390Z",
  "links": {
   "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/IRF-Quality-Reporting/index.html": {
    "status": 404,
@@ -269,7 +269,7 @@
    "status": 0,
    "reason": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W41",
+   "lastSeen": "2026-W42",
    "_weeks": [
     "2026-W25",
     "2026-W27",
@@ -280,9 +280,10 @@
     "2026-W38",
     "2026-W39",
     "2026-W40",
-    "2026-W41"
+    "2026-W41",
+    "2026-W42"
    ],
-   "weeksBroken": 10,
+   "weeksBroken": 11,
    "foundOn": [
     "https://data.cms.gov/resources/geographic-variation-methodology-2018"
    ]
@@ -291,7 +292,7 @@
    "status": 0,
    "reason": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W41",
+   "lastSeen": "2026-W42",
    "_weeks": [
     "2026-W25",
     "2026-W27",
@@ -302,9 +303,10 @@
     "2026-W38",
     "2026-W39",
     "2026-W40",
-    "2026-W41"
+    "2026-W41",
+    "2026-W42"
    ],
-   "weeksBroken": 10,
+   "weeksBroken": 11,
    "foundOn": [
     "https://data.cms.gov/resources/geographic-variation-methodology-2018"
    ]
@@ -1383,6 +1385,19 @@
    "weeksBroken": 2,
    "foundOn": [
     "https://data.cms.gov/provider-data/topics/dialysis-facilities/state-survey-agency-contacts"
+   ]
+  },
+  "https://data.cms.gov/provider-data/datasets?keyword[]=Comprehensive%20Care%20for%20Joint%20Replacement%20Model": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W42",
+   "lastSeen": "2026-W42",
+   "_weeks": [
+    "2026-W42"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/tqkv-mgxq?page=2"
    ]
   }
  }
