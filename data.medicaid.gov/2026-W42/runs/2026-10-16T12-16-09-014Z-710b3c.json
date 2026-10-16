@@ -1,0 +1,129 @@
+{
+ "runId": "2026-10-16T12-16-09-014Z-710b3c",
+ "week": "2026-W42",
+ "domain": "data.medicaid.gov",
+ "startedAt": "2026-10-16T12:16:09.598Z",
+ "scanned": [
+  "5403e8af50aec226",
+  "15e4ee244ac50068",
+  "cfbd368722d46189",
+  "65fc140605453abe",
+  "3f7457ac223c9a60",
+  "2b7fc77a3c8c93e8",
+  "d5c79aee8ddb7fd7",
+  "1f51feeca2684df4",
+  "8e83c5f31719f3b4",
+  "985eccd340346367",
+  "e32bb33d780d39ee",
+  "b0266f040077df14",
+  "e1ce594f30ee24e9",
+  "ba3c64b5c04e0263",
+  "231111cb1162451c",
+  "3008dcd7ebd88dac",
+  "7e5f98b33d5ec048",
+  "e7ec10c5e90fb2ec",
+  "bdce8b386cf47658"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "linkCheck": {
+  "total": 202,
+  "checked": 202,
+  "brokenCount": 5,
+  "broken": [
+   {
+    "url": "https://data.medicaid.gov/whats-new",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/dataset/4cc85461-9e3a-5914-979d-189492472e18?page=5",
+     "https://data.medicaid.gov/dataset/44cf9d94-81fa-5190-8541-de8f16fc43d5?page=3",
+     "https://data.medicaid.gov/dataset/72135da5-f8b4-475b-b602-91621f4205d9?page=2",
+     "https://data.medicaid.gov/datasets?keyword%5B%5D=eligibility",
+     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
+     "https://data.medicaid.gov/dataset/289182e5-44c8-4fcc-96c4-4af69be9863f",
+     "https://data.medicaid.gov/datasets?keyword%5B0%5D=drug+rebate+program&page=2",
+     "https://data.medicaid.gov/dataset/9001e41d-13c2-589d-b62f-1712298c8c35",
+     "https://data.medicaid.gov/dataset/49d67dfc-9432-4f63-bb99-a3eacf8bf93e?page=5",
+     "https://data.medicaid.gov/dataset/b15e4145-8f0a-4790-810f-ef221ff87230",
+     "https://data.medicaid.gov/datasets?keyword%5B%5D=COVID-19",
+     "https://data.medicaid.gov/dataset/d9fb4ebc-7ff5-5376-ae96-f7d08c294929?page=2",
+     "https://data.medicaid.gov/dataset/ebcfc16f-8291-4c61-82a4-055846d72f3a",
+     "https://data.medicaid.gov/dataset/84922793-8c53-4e1a-8e4d-edf6d5e8bb3b?page=3"
+    ]
+   },
+   {
+    "url": "https://data.medicaid.gov/page=2",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
+    ]
+   },
+   {
+    "url": "https://data.medicaid.gov/page=3",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
+    ]
+   },
+   {
+    "url": "https://data.medicaid.gov/api/1/metastore/schemas/data-dictionary/items/811fa489-078d-42b7-9448-e6058f330bcb/csv",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/dataset/289182e5-44c8-4fcc-96c4-4af69be9863f"
+    ]
+   },
+   {
+    "url": "https://download.medicaid.gov/data/scorecard/0.drew.2-test/20231116/SELECTIONS.csv",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/dataset/d9fb4ebc-7ff5-5376-ae96-f7d08c294929?page=2"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 14,
+  "alfa": 6,
+  "resources": 14,
+  "images": 14,
+  "standards": 7,
+  "security": 4,
+  "link-check": 14,
+  "third-party": 4,
+  "plain-language": 5,
+  "lighthouse": 3,
+  "sustainability": 2,
+  "deprecated-html": 2
+ },
+ "tally": {
+  "ok": 14,
+  "blocked": 0,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 5,
+  "error": 0
+ },
+ "finishedAt": "2026-10-16T12:18:43.289Z"
+}
