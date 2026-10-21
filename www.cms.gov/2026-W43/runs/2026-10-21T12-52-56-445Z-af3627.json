@@ -1,0 +1,850 @@
+{
+ "runId": "2026-10-21T12-52-56-445Z-af3627",
+ "week": "2026-W43",
+ "domain": "www.cms.gov",
+ "startedAt": "2026-10-21T12:52:57.985Z",
+ "scanned": [
+  "834f2861f762c152",
+  "ba7e987876c81be6",
+  "fd1f1ab99d1478f9",
+  "bd25ee1b08fa76ba",
+  "b3249f28d1f53253",
+  "94a483a66342b708",
+  "022fe5af928afe2b",
+  "6ecb8314457524eb",
+  "2c8a6fb58aa5975f",
+  "08ca06264a1bfe96",
+  "bceff2775debe8b6",
+  "dd8330a924b132e2",
+  "d10b8458287f249e",
+  "33e0555f9ae28094",
+  "de845239c3bc6b83",
+  "dd09651e054ae87e",
+  "2a6effc50a612f28",
+  "ab1ff51c7159b95f",
+  "fa046995306198bd",
+  "0408ed76ec8de7cd",
+  "8f391f6870bcc752",
+  "860849454e97db8f",
+  "02a1e8302b3a595a",
+  "41cafaf546d0bcfd",
+  "8ff1d2ad745ed228",
+  "642dfd0abf375425",
+  "d711bcf752782d25",
+  "c57aae453b8a4152",
+  "26456701c4caa954",
+  "eb03f6ac04a4721c",
+  "9ce79f1dcaf4a0ee",
+  "b33bd4244e3f6eea",
+  "366722d8f0d9cc8c",
+  "6ae7cc42b8915dbd",
+  "a711b5eb777c9565",
+  "ef743f1e00b7fc6c",
+  "99f8f8987e1a6a40",
+  "13ebb811e9bf4276",
+  "2cfce7530cd584ad",
+  "b16c69e36070d3ce",
+  "787162fb3c79c5bd",
+  "a1630ff1ba80bc08",
+  "91d64704e3e74721",
+  "9390812f4c9ff97f",
+  "72685b17b137fcf0",
+  "b5e8df7c5681516e",
+  "98df16632f9ec43c",
+  "d1959ef1552a028a",
+  "7f53353b207ae7f6",
+  "c01949aaf38168cf",
+  "2dccf57ebfd7e70f",
+  "f7add7e2bc87d977",
+  "002267513c951489",
+  "d2c8e6be8a9cbe17",
+  "ab2a8a8c1f47b104",
+  "f7e78f58f1fc7c78",
+  "c751d964efaf7aab",
+  "808771f563ce02ce",
+  "bb98d04d21c3ac09",
+  "d8478e69d42d2245",
+  "c9926d2354e94ae4",
+  "1ca62836cf84c365",
+  "3419a40d5b0bd24b",
+  "291a66312cf00235",
+  "afe583c7996ad3b6",
+  "ca886e0d0ce82a52",
+  "5b182455f15b4e48",
+  "f9a0bd4910584e52",
+  "534f8c40c15074ad",
+  "b536842bebd36dc3",
+  "baf8210a0eb26ca0",
+  "4a7f88c878da800d",
+  "de03168396539c97",
+  "22dd990233b34b3a",
+  "9fd196a3918bf7ed",
+  "64f9f3bd3fa39db2",
+  "1e4d20a48b5cd582",
+  "82d4c500b2f590fe",
+  "dab5d159e4eeb0fe",
+  "b278ee8715fc12cc",
+  "e28d4300deadf84e",
+  "70affe1d6b2a4111",
+  "33a0ba198b4ee54d",
+  "528b68578acf82ac",
+  "40def26424f3915a",
+  "d520ec2598d6b365",
+  "0c9da6e3dec97bcb",
+  "1e688b13ef386d6b",
+  "866e6004e7224825",
+  "b351ce3fcd4a910a"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 15,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 75,
+  "images": 75,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "linkCheck": {
+  "total": 6352,
+  "checked": 500,
+  "brokenCount": 45,
+  "broken": [
+   {
+    "url": "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/reports.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/downloads/downloads.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-whats-new-report.aspx?docType=all&timeframe=30",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-annual-report.aspx?docType=all&year=2026",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-ncacal-status-report.aspx?ncacaldoctype=all&status=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-ncacal-status-report.aspx?ncacaldoctype=all&status=Open%20for%20Public%20Comment",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-ncd-report.aspx?chapter=190&labOnly=labonlyncd&sortBy=chapter",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-medicare-coverage-documents-report.aspx?docTypeId=-1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-ncd-report.aspx?chapter=all&labOnly=allncd&sortBy=title",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-medicare-coverage-documents-report.aspx?docTypeId=-1&status=Open%20for%20Public%20Comment",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-technology-assessments-report.aspx?year=0",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/national-coverage-medcac-meetings-report.aspx?year=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-whats-new-report.aspx?contractorName=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-proposed-lcds-state-report.aspx?stateRegion=all&contractorNumber=all&proposedStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-alphabetical-report.aspx?lcdStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-proposed-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&proposedStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?stateRegion=all&contractorNumber=all&lcdStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-articles-alphabetical-report.aspx?articleStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-articles-contractor-report.aspx?contractorName=all&contractorNumber=all&articleStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-articles-state-report.aspx?stateRegion=all&contractorNumber=all&articleStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-proposed-lcds-alphabetical-report.aspx?proposedStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-mac-contacts-report.aspx?contractType=all&stateRegion=all&contractorName=all&contractorNumber=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-sad-exclusion-list-report.aspx?contractorName=all&dateOption=current",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/help/help-and-resources.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/basket/basket.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57983&ver=6",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-alphabetical-report.aspx?lcdid=38178&lcdStatus=all&sortBy=title",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57979&ver=2",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11"
+    ]
+   },
+   {
+    "url": "http://cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38178&ver=9&bc=6&lcdStatus=all&sortBy=title",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/help/help-and-resources.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38824&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57024&ver=16",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=37379&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/nca.aspx?ncaid=87",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=16",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/ncacal-public-comments.aspx?fromTracking=Y&ncaId=305",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=60306&ver=3",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=7&contractorName=all&contractorNumber=all&lcdid=38974&lcdStatus=all&sortBy=title&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34821&lcdStatus=all&sortBy=title&stateRegion=all",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59816&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=6",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35986&lcdStatus=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=39121&ver=9",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=57916&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=4",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58318&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=60",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59743&articleStatus=all&bc=3&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59118&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=2",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57441&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58903&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35751&lcdStatus=all&sortBy=title&stateRegion=all&ver=50",
+     "https://cms.gov/medicare-coverage-database/view/national-submit-public-comment.aspx?bc=17&commentDocType=nca&DocID=321&fromPage=doc&ncacaldoctype=NCA&sortBy=status&status=Open+for+Public+Comment",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57615&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=59319&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58993&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=11",
+     "http://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=33826&lcdStatus=all&sortBy=title"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/Outreach-and-Education/Outreach/CMSFeeds/index",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38824&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57024&ver=16",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=37379&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/nca.aspx?ncaid=87",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=16",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/ncacal-public-comments.aspx?fromTracking=Y&ncaId=305",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=60306&ver=3",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=7&contractorName=all&contractorNumber=all&lcdid=38974&lcdStatus=all&sortBy=title&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34821&lcdStatus=all&sortBy=title&stateRegion=all",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59816&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=6",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35986&lcdStatus=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=39121&ver=9",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=57916&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=4",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58318&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=60",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59743&articleStatus=all&bc=3&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59118&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=2",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57441&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58903&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35751&lcdStatus=all&sortBy=title&stateRegion=all&ver=50",
+     "https://cms.gov/medicare-coverage-database/view/national-submit-public-comment.aspx?bc=17&commentDocType=nca&DocID=321&fromPage=doc&ncacaldoctype=NCA&sortBy=status&status=Open+for+Public+Comment",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57615&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=59319&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58993&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=11",
+     "http://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=33826&lcdStatus=all&sortBy=title"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/search.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2017-transmittals-items/r1846otn",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r10651cp",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2015-transmittals?items_per_page=25&order=field_dyna_pe_number&page=3&sort=desc",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38824&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57024&ver=16",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=37379&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/nca.aspx?ncaid=87",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=16",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2023-transmittals/r12299cp",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/ncacal-public-comments.aspx?fromTracking=Y&ncaId=305",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=60306&ver=3",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r11757fm",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=7&contractorName=all&contractorNumber=all&lcdid=38974&lcdStatus=all&sortBy=title&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34821&lcdStatus=all&sortBy=title&stateRegion=all",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals/r13618otn",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59816&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=6",
+     "https://cms.gov/medicare/coordination-of-benefits-and-recovery/mandatory-insurer-reporting-for-group-health-plans/archive/mandatory-insurer-reporting-archive-items/alertcobswv2",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_release_date&page=18&sort=desc",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35986&lcdStatus=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=39121&ver=9",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=57916&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=4",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58318&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=60",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59743&articleStatus=all&bc=3&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59118&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=2",
+     "https://cms.gov/medicare/payment/physician-bonuses-health-professional-shortage-areas-hpsas",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57441&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2021-transmittals?items_per_page=25&order=field_dyna_issue_date&page=11&sort=asc",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58903&ver=6",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r2804cp",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35751&lcdStatus=all&sortBy=title&stateRegion=all&ver=50",
+     "https://www.cms.gov/research-statistics-data-and-systems/computer-data-and-systems/hpms/hpms-memos-index-files-items/syshpms-memos-index-file-2009",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_transmittal_number&page=14&sort=desc",
+     "https://cms.gov/medicare-coverage-database/view/national-submit-public-comment.aspx?bc=17&commentDocType=nca&DocID=321&fromPage=doc&ncacaldoctype=NCA&sortBy=status&status=Open+for+Public+Comment",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57615&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=59319&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://cms.gov/medicare/health-safety-standards/clinical-laboratory-improvement-amendments-clia/clia-regulations-compliance/proficiency-testing-program-requirements-general-cytology",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58993&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=11",
+     "http://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=33826&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals?items_per_page=25&order=field_dyna_revision_date&page=10&sort=desc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r94soma"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/new-search/search.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38824&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57024&ver=16",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=37379&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/nca.aspx?ncaid=87",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=16",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/ncacal-public-comments.aspx?fromTracking=Y&ncaId=305",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=60306&ver=3",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=7&contractorName=all&contractorNumber=all&lcdid=38974&lcdStatus=all&sortBy=title&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34821&lcdStatus=all&sortBy=title&stateRegion=all",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59816&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=6",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35986&lcdStatus=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=39121&ver=9",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=57916&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=4",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58318&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=60",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59743&articleStatus=all&bc=3&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59118&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=2",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57441&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58903&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35751&lcdStatus=all&sortBy=title&stateRegion=all&ver=50",
+     "https://cms.gov/medicare-coverage-database/view/national-submit-public-comment.aspx?bc=17&commentDocType=nca&DocID=321&fromPage=doc&ncacaldoctype=NCA&sortBy=status&status=Open+for+Public+Comment",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57615&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=59319&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58993&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=11",
+     "http://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=33826&lcdStatus=all&sortBy=title"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-mac-contacts-report.aspx?contractType=all&stateRegion=all&contractorName=all&contractorNumber=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "http://cms.gov/medicare-coverage-database/view/lcd.aspx?bc=6&lcdid=38178&lcdStatus=all&sortBy=title&ver=11",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38824&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57024&ver=16",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=37379&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/nca.aspx?ncaid=87",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=16",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=38341&lcdStatus=all&sortBy=title",
+     "https://www.cms.gov/medicare-coverage-database/view/ncacal-public-comments.aspx?fromTracking=Y&ncaId=305",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=60306&ver=3",
+     "http://cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?calid=146&proposed=N",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59154&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=12",
+     "http://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=7&contractorName=all&contractorNumber=all&lcdid=38974&lcdStatus=all&sortBy=title&ver=9",
+     "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34821&lcdStatus=all&sortBy=title&stateRegion=all",
+     "http://cms.gov/medicare-coverage-database/view/article.aspx?articleid=55381&articleStatus=all&bc=3&sortBy=title&ver=2",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59816&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=6",
+     "http://cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?contractorNumber=all&lcdid=34539&lcdStatus=all&sortBy=title&stateRegion=all",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35986&lcdStatus=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=39121&ver=9",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=57916&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=4",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58318&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=60",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59743&articleStatus=all&bc=3&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=59118&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=2",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57441&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58903&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?bc=8&contractorNumber=all&lcdid=35751&lcdStatus=all&sortBy=title&stateRegion=all&ver=50",
+     "https://cms.gov/medicare-coverage-database/view/national-submit-public-comment.aspx?bc=17&commentDocType=nca&DocID=321&fromPage=doc&ncacaldoctype=NCA&sortBy=status&status=Open+for+Public+Comment",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57615&ver=6",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=59319&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=5",
+     "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=58993&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=11",
+     "http://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdid=33826&lcdStatus=all&sortBy=title"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncacal-decision-memo.aspx?proposed=N&ncaid=310&fromTracking=Y&",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://cms.gov/newsroom/fact-sheets/cms-world-aids-hiv-day-fact-sheet"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/files/document/mln9201074-health-equity-services-2024-physician-fee-schedule-final-rule.pdf-0",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://cms.gov/newsroom/fact-sheets/cms-world-aids-hiv-day-fact-sheet"
+    ]
+   },
+   {
+    "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/home-community-based-services-1915c/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://cms.gov/newsroom/fact-sheets/cms-world-aids-hiv-day-fact-sheet"
+    ]
+   },
+   {
+    "url": "https://www.medicaid.gov/medicaid/section-1115-demonstrations/health-related-social-needs/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://cms.gov/newsroom/fact-sheets/cms-world-aids-hiv-day-fact-sheet"
+    ]
+   },
+   {
+    "url": "https://www.medicaid.gov/medicaid/section-1115-demonstrations/reentry-section-1115-demonstration-opportunity/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://cms.gov/newsroom/fact-sheets/cms-world-aids-hiv-day-fact-sheet"
+    ]
+   },
+   {
+    "url": "https://www.medicaid.gov/about-us/beneficiary-resources/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2017-transmittals-items/r1846otn",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r10651cp",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2015-transmittals?items_per_page=25&order=field_dyna_pe_number&page=3&sort=desc",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2023-transmittals/r12299cp",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r11757fm",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals/r13618otn",
+     "https://cms.gov/medicare/coordination-of-benefits-and-recovery/mandatory-insurer-reporting-for-group-health-plans/archive/mandatory-insurer-reporting-archive-items/alertcobswv2",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_release_date&page=18&sort=desc",
+     "https://cms.gov/medicare/payment/physician-bonuses-health-professional-shortage-areas-hpsas",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2021-transmittals?items_per_page=25&order=field_dyna_issue_date&page=11&sort=asc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r2804cp",
+     "https://www.cms.gov/research-statistics-data-and-systems/computer-data-and-systems/hpms/hpms-memos-index-files-items/syshpms-memos-index-file-2009",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_transmittal_number&page=14&sort=desc",
+     "https://cms.gov/medicare/health-safety-standards/clinical-laboratory-improvement-amendments-clia/clia-regulations-compliance/proficiency-testing-program-requirements-general-cytology",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals?items_per_page=25&order=field_dyna_revision_date&page=10&sort=desc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r94soma"
+    ]
+   },
+   {
+    "url": "http://www.medicaid.gov/chip/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2017-transmittals-items/r1846otn",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r10651cp",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2015-transmittals?items_per_page=25&order=field_dyna_pe_number&page=3&sort=desc",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2023-transmittals/r12299cp",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r11757fm",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals/r13618otn",
+     "https://cms.gov/medicare/coordination-of-benefits-and-recovery/mandatory-insurer-reporting-for-group-health-plans/archive/mandatory-insurer-reporting-archive-items/alertcobswv2",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_release_date&page=18&sort=desc",
+     "https://cms.gov/medicare/payment/physician-bonuses-health-professional-shortage-areas-hpsas",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2021-transmittals?items_per_page=25&order=field_dyna_issue_date&page=11&sort=asc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r2804cp",
+     "https://www.cms.gov/research-statistics-data-and-systems/computer-data-and-systems/hpms/hpms-memos-index-files-items/syshpms-memos-index-file-2009",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_transmittal_number&page=14&sort=desc",
+     "https://cms.gov/medicare/health-safety-standards/clinical-laboratory-improvement-amendments-clia/clia-regulations-compliance/proficiency-testing-program-requirements-general-cytology",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals?items_per_page=25&order=field_dyna_revision_date&page=10&sort=desc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r94soma"
+    ]
+   },
+   {
+    "url": "https://www.agentbrokerfaq.cms.gov/s/",
+    "status": 0,
+    "reason": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "foundOn": [
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2017-transmittals-items/r1846otn",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r10651cp",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2015-transmittals?items_per_page=25&order=field_dyna_pe_number&page=3&sort=desc",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2023-transmittals/r12299cp",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/transmittals/r11757fm",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals/r13618otn",
+     "https://cms.gov/medicare/coordination-of-benefits-and-recovery/mandatory-insurer-reporting-for-group-health-plans/archive/mandatory-insurer-reporting-archive-items/alertcobswv2",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_release_date&page=18&sort=desc",
+     "https://cms.gov/medicare/payment/physician-bonuses-health-professional-shortage-areas-hpsas",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2021-transmittals?items_per_page=25&order=field_dyna_issue_date&page=11&sort=asc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r2804cp",
+     "https://www.cms.gov/research-statistics-data-and-systems/computer-data-and-systems/hpms/hpms-memos-index-files-items/syshpms-memos-index-file-2009",
+     "https://cms.gov/medicare/regulations-guidance/transmittals/2017-transmittals?items_per_page=25&order=field_dyna_transmittal_number&page=14&sort=desc",
+     "https://cms.gov/medicare/health-safety-standards/clinical-laboratory-improvement-amendments-clia/clia-regulations-compliance/proficiency-testing-program-requirements-general-cytology",
+     "https://www.cms.gov/medicare/regulations-guidance/transmittals/2026-transmittals?items_per_page=25&order=field_dyna_revision_date&page=10&sort=desc",
+     "https://www.cms.gov/regulations-and-guidance/guidance/transmittals/2013-transmittals-items/r94soma"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 62,
+  "resources": 43,
+  "standards": 39,
+  "security": 6,
+  "third-party": 21,
+  "lighthouse": 9,
+  "link-check": 62,
+  "plain-language": 32,
+  "images": 42,
+  "public-interest": 7,
+  "tech": 6,
+  "deprecated-html": 6,
+  "alfa": 11,
+  "sustainability": 7
+ },
+ "tally": {
+  "ok": 62,
+  "blocked": 25,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 3,
+  "error": 0
+ },
+ "finishedAt": "2026-10-21T13:03:39.006Z"
+}
