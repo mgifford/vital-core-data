@@ -1,6 +1,6 @@
 {
  "domain": "data.cms.gov",
- "updatedAt": "2026-10-20T17:32:41.097Z",
+ "updatedAt": "2026-10-21T17:40:37.680Z",
  "links": {
   "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/IRF-Quality-Reporting/index.html": {
    "status": 404,
@@ -1172,7 +1172,7 @@
    "status": 0,
    "reason": "ECONNREFUSED",
    "firstSeen": "2026-W34",
-   "lastSeen": "2026-W42",
+   "lastSeen": "2026-W43",
    "_weeks": [
     "2026-W34",
     "2026-W35",
@@ -1180,9 +1180,10 @@
     "2026-W37",
     "2026-W38",
     "2026-W39",
-    "2026-W42"
+    "2026-W42",
+    "2026-W43"
    ],
-   "weeksBroken": 7,
+   "weeksBroken": 8,
    "foundOn": [
     "https://data.cms.gov/provider-data/topics/hospitals/veterans-administration-hospitals"
    ]
@@ -1206,15 +1207,16 @@
   },
   "https://www.qualitynet.org/inpatient/public-reporting/overall-ratings/resources": {
    "status": 0,
-   "reason": "ECONNREFUSED",
+   "reason": "UND_ERR_CONNECT_TIMEOUT",
    "firstSeen": "2026-W35",
-   "lastSeen": "2026-W42",
+   "lastSeen": "2026-W43",
    "_weeks": [
     "2026-W35",
     "2026-W36",
-    "2026-W42"
+    "2026-W42",
+    "2026-W43"
    ],
-   "weeksBroken": 3,
+   "weeksBroken": 4,
    "foundOn": [
     "https://data.cms.gov/provider-data/topics/hospitals/overall-hospital-quality-star-rating"
    ]
@@ -1235,7 +1237,8 @@
    ],
    "weeksBroken": 7,
    "foundOn": [
-    "https://data.cms.gov/tools/medicaid-drug-spending-dashboard"
+    "https://data.cms.gov/tools/medicaid-drug-spending-dashboard",
+    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicaid-opioid-prescribing-rates-by-geography"
    ]
   },
   "https://www.medicaid.gov/medicaid/prescription-drugs/medicaid-drug-rebate-program/index.html": {
@@ -1449,7 +1452,8 @@
    ],
    "weeksBroken": 1,
    "foundOn": [
-    "https://data.cms.gov/provider-data/dataset/azum-44iv?page=13"
+    "https://data.cms.gov/provider-data/dataset/azum-44iv?page=13",
+    "https://data.cms.gov/provider-data/dataset/azum-44iv?page=2"
    ]
   },
   "https://data.cms.gov/provider-data/dataset/23ew-n7w9?page=2": {
@@ -1543,7 +1547,8 @@
    ],
    "weeksBroken": 1,
    "foundOn": [
-    "https://data.cms.gov/provider-data/dataset/ct36-nrcq?page=2292"
+    "https://data.cms.gov/provider-data/dataset/ct36-nrcq?page=2292",
+    "https://data.cms.gov/provider-data/dataset/ct36-nrcq?page=2276"
    ]
   },
   "https://data.cms.gov/provider-data/dataset/ct36-nrcq?page=4": {
@@ -1731,6 +1736,170 @@
    "weeksBroken": 1,
    "foundOn": [
     "https://data.cms.gov/provider-data/dataset/djen-97ju"
+   ]
+  },
+  "https://data.cms.gov/provider-data/dataset/jfnd-nl7s": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/topics/hospitals"
+   ]
+  },
+  "https://data.cms.gov/provider-data/dataset/bs2r-24vh": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/topics/hospitals"
+   ]
+  },
+  "https://data.cms.gov/provider-data/dataset/5zdx-ny2x": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/5zdx-ny2x"
+   ]
+  },
+  "https://data.cms.gov/provider-data/dataset/nhsn_bsi?page=2": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/nhsn_bsi?page=3"
+   ]
+  },
+  "https://data.cms.gov/provider-data/dataset/77hc-ibv8?page=6898": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/77hc-ibv8?page=3",
+    "https://data.cms.gov/provider-data/dataset/77hc-ibv8"
+   ]
+  },
+  "https://data.cms.gov/provider-data/topics/hospitals/complications-deaths": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/topics/hospitals/overall-hospital-quality-star-rating"
+   ]
+  },
+  "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=4": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=4",
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=499"
+   ]
+  },
+  "https://data.cms.gov/provider-data/topics/hospice-care": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=4",
+    "https://data.cms.gov/provider-data/dataset/yv7e-xc69?page=4",
+    "https://data.cms.gov/provider-data/dataset/0938-3dfa?page=1719",
+    "https://data.cms.gov/provider-data/dataset/djen-97ju?page=9996",
+    "https://data.cms.gov/provider-data/dataset/075a-d487?page=3",
+    "https://data.cms.gov/provider-data/dataset/4e01-b899",
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=499",
+    "https://data.cms.gov/provider-data/dataset/ka5z-ibe3?page=5",
+    "https://data.cms.gov/provider-data/dataset/zez1-ka2w?page=2",
+    "https://data.cms.gov/provider-data/dataset/n0yb-util?page=25393"
+   ]
+  },
+  "https://data.cms.gov/provider-data/topics/hospitals": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=4",
+    "https://data.cms.gov/provider-data/dataset/yv7e-xc69?page=4",
+    "https://data.cms.gov/provider-data/dataset/0938-3dfa?page=1719",
+    "https://data.cms.gov/provider-data/dataset/djen-97ju?page=9996",
+    "https://data.cms.gov/provider-data/dataset/075a-d487?page=3",
+    "https://data.cms.gov/provider-data/dataset/4e01-b899",
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=499",
+    "https://data.cms.gov/provider-data/dataset/ka5z-ibe3?page=5",
+    "https://data.cms.gov/provider-data/dataset/zez1-ka2w?page=2",
+    "https://data.cms.gov/provider-data/dataset/n0yb-util?page=25393"
+   ]
+  },
+  "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/6jpm-sxkc/docs?": {
+   "status": 0,
+   "reason": "timeout",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=4",
+    "https://data.cms.gov/provider-data/dataset/6jpm-sxkc?page=499"
+   ]
+  },
+  "https://data.cms.gov/provider-data/datasets?keyword[]=Supplier": {
+   "status": 503,
+   "reason": "HTTP 503",
+   "firstSeen": "2026-W43",
+   "lastSeen": "2026-W43",
+   "_weeks": [
+    "2026-W43"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.cms.gov/provider-data/dataset/ct36-nrcq?page=2276"
    ]
   }
  }
