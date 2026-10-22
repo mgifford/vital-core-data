@@ -1,0 +1,353 @@
+{
+ "runId": "2026-10-22T14-00-23-845Z-f9ef85",
+ "week": "2026-W43",
+ "domain": "data.cms.gov",
+ "startedAt": "2026-10-22T14:00:24.723Z",
+ "scanned": [
+  "d30f7e41277ce2ab",
+  "da7612cc2ba1a0f7",
+  "8a3d5c7c7b818fae",
+  "03666a90cbc712ae",
+  "942be236b4e009d7",
+  "122cf36c266c3041",
+  "93ff10ec9e58da51",
+  "a76acc19d3f19a2e",
+  "24d24d34688ecc03",
+  "89747e5caa99c350",
+  "600afc2312822522",
+  "b3d117047dac18f3",
+  "25c2cbf520dd62b5",
+  "f913d41d3ecce646",
+  "431fc3af102c74e1",
+  "74b7e93129944893",
+  "7161014d9a9edb08",
+  "6c0ed7c80fc7b90d",
+  "c4b8c81ac84a982b",
+  "241f2f71a3504535",
+  "3fe676ff25ce5909",
+  "0216cbb0e831bc2e",
+  "307948105946802f",
+  "7768de8f63bf825e",
+  "0a9265728c83ccf2",
+  "cea36b5ae76a7615",
+  "20b1ef372e116132",
+  "9d3f82d8bc86b034",
+  "016eb01dbe8d99c5",
+  "e1c731aa520c3c8c",
+  "bcb9b86168c0630a",
+  "d98dcbd4487e768a",
+  "c7be5b0d3caaa303",
+  "99aa874beb036bdd",
+  "0a68eddd1ef3a99b",
+  "92dd528b61f2c83d",
+  "18a761a75246808e",
+  "79dfb5c421dfec2c",
+  "9ee9408661c0684b",
+  "9f62b0a3603acc61",
+  "168603f7e27eea22",
+  "09e1410f4fe297d2",
+  "da30f85bfd01accb",
+  "750ee792580a2980",
+  "46df3d797fc1c12f",
+  "efc31b0f06edc643",
+  "46fe03367dc1a22a",
+  "036be7a7e6ec35ef",
+  "855c2da77c94504a",
+  "725fc003f9103162",
+  "adc3f38a0115ab55",
+  "634964dcd854b931",
+  "a596611ca66fa98b",
+  "9a707e778fad7551",
+  "0291a501c9788870",
+  "bba4aab524fdde64",
+  "8cb72707249b9dc9",
+  "2c9c12f4fe4bd21f",
+  "97ee331d68085196",
+  "7b91c1cdfe8c2dcc",
+  "5c032e383fb87f9e",
+  "2ba085011eb084db",
+  "ea061a5a4c26105d",
+  "836981ecae5f03e1",
+  "8d51827c751c950c",
+  "66b430b51baeb06c",
+  "d6a25d5a21bd52cb",
+  "878f1188cad5faab",
+  "2ff3bddb3532e650",
+  "31456a3715b8bf89",
+  "af596981ff65358c",
+  "e46ac60a8ae66618",
+  "5329aa0014cb24df",
+  "e66093e65774fd60",
+  "e55c1e7c587378a0",
+  "5295ae4d13564f17",
+  "3125039c1116b5eb",
+  "8052617d5e51c66d",
+  "722335e0644828ea",
+  "eca54f63507210c5",
+  "77819c0cb3917d76",
+  "1d87b0faac372932",
+  "c45a03138ed209cd",
+  "be3518c93966f969",
+  "1e95d8dfe33a0724",
+  "7f34dbac70ce22cc",
+  "efcb8d374b27d029",
+  "e1b6a404dd1d3ab7",
+  "a79e49ce0ffce065",
+  "a5c2e1d7fab51660",
+  "01f49478c7386a49",
+  "452975d1d790a3a3",
+  "7c8cb5d99fc8b32f",
+  "a13fe723920b7543",
+  "90445b54fe2e1317",
+  "daa400d6ef192ec8",
+  "0f8a214f7ee12eff",
+  "8d72e0f08d479cd2",
+  "0b5b67788fd04db6",
+  "9ecbcb4fe2f3c3df",
+  "65a9137df517b2a8",
+  "3e31a2de480e0a0c",
+  "6dff41107f81c71c",
+  "253bd116e3990ddf",
+  "61d3847696bdce87",
+  "a3d0611ec350abbe",
+  "35989f6a87cdec1b",
+  "63e14fa561a2868a",
+  "855fdd6f4963a894",
+  "3f06b9c500bb328a",
+  "3d7a044a2b0fa51a",
+  "ed66fc984a23466b",
+  "eb93127b14e475b0",
+  "b126c610446e6ecf",
+  "c7c6999c42109d94",
+  "1b3eac7d05085bc5",
+  "de06f08c64f909c0",
+  "a2323c80a4494a42",
+  "1315720e11c35d84",
+  "6fa9eadb24352999",
+  "c3ecff9a32a924ea",
+  "90f6fba7ad99f544",
+  "8e81fa493aac59a7",
+  "4f728906d252feab",
+  "270ed743df2f2105",
+  "05516397a35a1cc5"
+ ],
+ "errors": [
+  {
+   "pageId": "4b951b6aed87799b",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/nhsn_bsi/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/nhsn_bsi/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "9fa8b9ab2f03e235",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/hanv-ru8h/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/hanv-ru8h/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "59bc5adc32a260bf",
+   "url": "https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0?conditions%255B0%255D%255Boperator%255D=%3D&conditions%255B0%255D%255Bproperty%255D=overall_rating&conditions%255B0%255D%255Bvalue%255D=5",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0?conditions%255B0%255D%255Boperator%255D=%3D&conditions%255B0%255D%255Bproperty%255D=overall_rating&conditions%255B0%255D%255Bvalue%255D=5\", waiting unt"
+  },
+  {
+   "pageId": "83fdf553fa02666c",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/m5jg-jg7i/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/m5jg-jg7i/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "9f7b60467951a888",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/muwa-iene/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/muwa-iene/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "8a7dd743f8180cbd",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/n0yb-util/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/n0yb-util/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "b3e2cbca124d3145",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/3xeb-u9wp/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/3xeb-u9wp/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "a36f0b75df97fd0d",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/5gv4-jwyv/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/5gv4-jwyv/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "b12315b33da53ec1",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/jfnd-nl7s/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/jfnd-nl7s/docs\", waiting until \"load\"\n"
+  }
+ ],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "linkCheck": {
+  "total": 528,
+  "checked": 500,
+  "brokenCount": 9,
+  "broken": [
+   {
+    "url": "https://www.cms.gov/about-cms/web-policies-important-links/rss-feeds",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/data/october-6-2026",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/home-infusion-therapy-providers/data/october-6-2026",
+     "https://data.cms.gov/quality-of-care/nursing-home-chain-performance-measures/data/august-2026",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/data/august-2026",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/data/october-13-2026",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-all-owners/data/q3-2026",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments",
+     "https://data.cms.gov/resources/number-of-accountable-care-organization-assigned-beneficiaries-by-county-methodology",
+     "https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries/data/2025",
+     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/reach-acos/api-docs",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-all-owners/api-docs",
+     "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-data-dictionary-2016-2020",
+     "https://data.cms.gov/quality-of-care/long-term-care-facility-characteristics",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-utilization-long-term-care-hospital-by-geography-and-provider/data",
+     "https://data.cms.gov/cms-innovation-center-programs/disease-episode-based-payment-models/end-stage-renal-disease-facility-aggregation-group-performance",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/api-docs",
+     "https://data.cms.gov/datasets?page=5&theme%5B0%5D=Hospitals",
+     "https://data.cms.gov/datasets?keyword%5B0%5D=Quality&page=2",
+     "https://data.cms.gov/medicare-shared-savings-program/prepaid-shared-savings-spend-plan",
+     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-geographic-comparisons/medicare-advantage-geographic-variation-national-state/api-docs",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/data/march-2026",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service/data/2023",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/fiscal-intermediary-shared-system-attending-and-rendering/data/october-2-2026",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug/api-docs",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026",
+     "https://data.cms.gov/quality-of-care/nursing-home-chain-performance-measures/data/march-2026",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/august-14-2026",
+     "https://data.cms.gov/provider-summary-by-type-of-service/provider-service-classifications",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/home-infusion-therapy-providers/data/july-14-2026",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2026",
+     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-advantage-other-health-plan-enrollment",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service/data/2022",
+     "https://data.cms.gov/resources/medicare-pac-utilization-hha-by-geography-and-provider-data-dictionary",
+     "https://data.cms.gov/resources/medicare-inpatient-hospitals-by-provider-and-service-data-dictionary",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-utilization-skilled-nursing-facility-by-geography-provider-and-service/data/2019",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/data/september-29-2026",
+     "https://data.cms.gov/resources/medicare-outpatient-hospitals-methodology",
+     "https://data.cms.gov/datasets?page=2&theme%5B0%5D=Dialysis+facilities",
+     "https://data.cms.gov/provider-compliance/public-reporting-of-missing-digital-contact-information/data/q2-2026",
+     "https://data.cms.gov/resources/aco-reach-financial-and-quality-results-data-dictionary-2021",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-all-owners/data/q1-2025",
+     "https://data.cms.gov/datasets?page=24",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/fiscal-intermediary-shared-system-attending-and-rendering/data/october-6-2026",
+     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-awardees/api-docs",
+     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service/data/2022",
+     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/reach-acos/data/2022",
+     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/home-infusion-therapy-providers/data/september-8-2026",
+     "https://data.cms.gov/resources/medicare-demonstrations-data-dictionary"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/datasets?keyword[]=Supplies",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/dataset/ct36-nrcq?page=2289"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/dataset/0ddf-4325",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/dataset/0ddf-4325"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/dataset/0ddf-4325?page=4",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/dataset/0ddf-4325"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/dataset/djen-97ju",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/dataset/djen-97ju?page=9993"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/dataset/g6vv-u9sr?page=4",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/dataset/g6vv-u9sr?page=647",
+     "https://data.cms.gov/provider-data/dataset/g6vv-u9sr?page=617"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/djen-97ju/docs?",
+    "status": 0,
+    "reason": "timeout",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/dataset/djen-97ju?page=9993"
+    ]
+   },
+   {
+    "url": "https://data.cms.gov/provider-data/dataset/iy27-wz37",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/topics/hospitals/pps-exempt-cancer-hospitals"
+    ]
+   },
+   {
+    "url": "https://www.qualitynet.org/pch/pchqr/measures",
+    "status": 0,
+    "reason": "ECONNREFUSED",
+    "foundOn": [
+     "https://data.cms.gov/provider-data/topics/hospitals/pps-exempt-cancer-hospitals"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 102,
+  "alfa": 52,
+  "resources": 102,
+  "images": 102,
+  "standards": 56,
+  "tech": 12,
+  "link-check": 102,
+  "plain-language": 53,
+  "deprecated-html": 12,
+  "third-party": 17,
+  "lighthouse": 6,
+  "sustainability": 9,
+  "security": 8,
+  "public-interest": 6
+ },
+ "tally": {
+  "ok": 105,
+  "blocked": 11,
+  "timeout": 9,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 10,
+  "error": 0
+ },
+ "finishedAt": "2026-10-22T14:30:51.715Z"
+}
