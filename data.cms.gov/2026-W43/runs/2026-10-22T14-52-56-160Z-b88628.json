@@ -1,0 +1,107 @@
+{
+ "runId": "2026-10-22T14-52-56-160Z-b88628",
+ "week": "2026-W43",
+ "domain": "data.cms.gov",
+ "startedAt": "2026-10-22T14:52:56.435Z",
+ "scanned": [
+  "94600621fcb06d64",
+  "b21c0a41ece8108a",
+  "a508eb2d42669a93",
+  "6f3b21a838cedff8",
+  "5a25c8df1602d0b4"
+ ],
+ "errors": [
+  {
+   "pageId": "9fa8b9ab2f03e235",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/hanv-ru8h/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/hanv-ru8h/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "59bc5adc32a260bf",
+   "url": "https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0?conditions%255B0%255D%255Boperator%255D=%3D&conditions%255B0%255D%255Bproperty%255D=overall_rating&conditions%255B0%255D%255Bvalue%255D=5",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/datastore/query/4pq5-n9py/0?conditions%255B0%255D%255Boperator%255D=%3D&conditions%255B0%255D%255Bproperty%255D=overall_rating&conditions%255B0%255D%255Bvalue%255D=5\", waiting unt"
+  },
+  {
+   "pageId": "83fdf553fa02666c",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/m5jg-jg7i/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/m5jg-jg7i/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "9f7b60467951a888",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/muwa-iene/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/muwa-iene/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "8a7dd743f8180cbd",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/n0yb-util/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/n0yb-util/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "b3e2cbca124d3145",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/3xeb-u9wp/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/3xeb-u9wp/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "a36f0b75df97fd0d",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/5gv4-jwyv/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/5gv4-jwyv/docs\", waiting until \"load\"\n"
+  },
+  {
+   "pageId": "b12315b33da53ec1",
+   "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/jfnd-nl7s/docs",
+   "error": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/jfnd-nl7s/docs\", waiting until \"load\"\n"
+  }
+ ],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "linkCheck": {
+  "total": 32,
+  "checked": 32,
+  "brokenCount": 1,
+  "broken": [
+   {
+    "url": "https://www.cms.gov/about-cms/web-policies-important-links/rss-feeds",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/august-2026",
+     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/data/q2-2026"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 2,
+  "alfa": 2,
+  "plain-language": 2,
+  "resources": 2,
+  "images": 2,
+  "link-check": 2,
+  "standards": 1
+ },
+ "tally": {
+  "ok": 2,
+  "blocked": 0,
+  "timeout": 8,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 3,
+  "error": 0
+ },
+ "finishedAt": "2026-10-22T14:59:32.041Z"
+}
