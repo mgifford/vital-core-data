@@ -1,0 +1,42 @@
+{
+ "runId": "2026-10-29T16-27-00-086Z-475223",
+ "week": "2026-W44",
+ "domain": "nih.gov",
+ "startedAt": "2026-10-29T16:27:00.512Z",
+ "scanned": [],
+ "errors": [
+  {
+   "pageId": "e2b43aaef6c1b719",
+   "url": "http://mailto:RADxInfo@nih.gov/about-nih/contact-us/ask-nih",
+   "error": "Error: page.goto: net::ERR_EMPTY_RESPONSE at http://mailto:RADxInfo@nih.gov/about-nih/contact-us/ask-nih\nCall log:\n  - navigating to \"http://mailto:RADxInfo@nih.gov/about-nih/contact-us/ask-nih\", waiting until \"load\"\n"
+  }
+ ],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "enginesRun": {},
+ "tally": {
+  "ok": 0,
+  "blocked": 0,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 0,
+  "error": 1
+ },
+ "finishedAt": "2026-10-29T16:27:03.658Z"
+}
