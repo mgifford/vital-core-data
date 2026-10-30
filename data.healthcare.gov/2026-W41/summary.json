@@ -1,14 +1,14 @@
 {
  "domain": "data.healthcare.gov",
  "week": "2026-W41",
- "generatedAt": "2026-10-07T19:07:12.321Z",
+ "generatedAt": "2026-10-30T10:37:04.338Z",
  "pagesScanned": 2234,
  "pagesAudited": 1374,
  "coverage": {
   "axe": 1374,
   "resources": 1374,
   "standards": 704,
-  "sustainability": 169,
+  "sustainability": 150,
   "alfa": 694,
   "plain-language": 701,
   "security": 132,
@@ -8816,14 +8816,14 @@
   }
  },
  "sustainability": {
-  "pages": 169,
-  "medianBytes": 2891608,
-  "meanBytes": 2544187,
+  "pages": 150,
+  "medianBytes": 2891857,
+  "meanBytes": 2866398,
   "medianRequests": 33,
   "totalCo2g": 63.72,
-  "meanCo2g": 0.3771,
+  "meanCo2g": 0.4248,
   "totalEnergyWh": 128.99,
-  "meanEnergyWh": 0.7633
+  "meanEnergyWh": 0.8599
  },
  "deprecatedHtml": null,
  "resources": {
@@ -12985,9 +12985,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -13007,26 +13007,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-05T17:21:26.285Z",
+  "checkedAt": "2026-10-07T15:45:02.583Z",
   "a11yStatement": {
    "result": "fail",
    "url": null,
    "confidence": null,
-   "checkedAt": "2026-10-05T17:21:25.492Z"
+   "checkedAt": "2026-10-07T15:45:01.792Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-05T17:21:25.493Z"
+   "checkedAt": "2026-10-07T15:45:01.794Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/data.healthcare.gov",
-   "checkedAt": "2026-10-05T17:21:25.494Z"
+   "checkedAt": "2026-10-07T15:45:01.795Z"
   },
   "sitemaps": {
    "xml": {
@@ -13037,7 +13037,7 @@
     "found": false,
     "url": null
    },
-   "checkedAt": "2026-10-05T17:21:25.495Z"
+   "checkedAt": "2026-10-07T15:45:01.796Z"
   }
  },
  "plainLanguage": {
@@ -13212,6 +13212,9 @@
      "https://data.healthcare.gov/dataset/32q5-vymq?page=3"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -17100,250 +17103,41 @@
      "alfa:sia-r78": 1,
      "alfa:sia-r68": 1
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 136,
+     "tech": {
+      "Google Analytics": 136,
+      "Quantum Metric": 133,
+      "Akamai": 136,
+      "Drupal": 136,
+      "jQuery": 136,
+      "Acquia Cloud Platform": 136,
+      "Amazon Web Services": 136,
+      "PHP": 136,
+      "HSTS": 136,
+      "Tealium": 136
+     }
+    },
+    "alfa": {
+     "pages": 73,
+     "tech": {
+      "Google Analytics": 73,
+      "Quantum Metric": 72,
+      "Akamai": 73,
+      "Drupal": 73,
+      "jQuery": 73,
+      "Acquia Cloud Platform": 73,
+      "Amazon Web Services": 73,
+      "PHP": 73,
+      "HSTS": 73,
+      "Tealium": 73
+     }
+    }
    }
   },
-  "associations": [
-   {
-    "tech": "Quantum Metric",
-    "finding": "alfa:sia-r17",
-    "lift": 1.02,
-    "pairPages": 63,
-    "techPages": 133,
-    "findingPages": 63
-   },
-   {
-    "tech": "Quantum Metric",
-    "finding": "alfa:sia-r73",
-    "lift": 1.01,
-    "pairPages": 72,
-    "techPages": 133,
-    "findingPages": 73
-   },
-   {
-    "tech": "Quantum Metric",
-    "finding": "alfa:sia-r111",
-    "lift": 1.01,
-    "pairPages": 72,
-    "techPages": 133,
-    "findingPages": 73
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Akamai",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Akamai",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 136,
-    "findingPages": 73
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "Akamai",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 63,
-    "techPages": 136,
-    "findingPages": 63
-   }
-  ]
+  "associations": []
  },
  "thirdParty": {
   "pagesScanned": 321,
@@ -30113,5 +29907,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 1595,
- "pagesSucceeded": 1475
+ "pagesSucceeded": 1475,
+ "access": {
+  "level": "ok",
+  "audited": 1374,
+  "attempted": 2234,
+  "firewall": {
+   "pages": 106,
+   "challenges": 0,
+   "refusals": 106,
+   "statuses": {
+    "403": 106
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 14
+  }
+ }
 }

@@ -1,6 +1,6 @@
 {
  "domain": "www.healthcare.gov",
- "updatedAt": "2026-10-20T17:32:49.805Z",
+ "updatedAt": "2026-10-30T10:37:25.495Z",
  "links": {
   "https://portal.cms.gov/wps/portal/unauthportal/home/": {
    "status": 503,
@@ -29,7 +29,7 @@
    "status": 503,
    "reason": "HTTP 503",
    "firstSeen": "2026-W24",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W24",
     "2026-W25",
@@ -49,13 +49,13 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksBroken": 19,
+   "weeksBroken": 20,
    "foundOn": [
-    "https://www.healthcare.gov/agent-broker-quick-start",
-    "https://www.healthcare.gov/small-businesses/agents-and-brokers/sell-health-insurance-through-shop",
-    "https://healthcare.gov/small-businesses/agents-and-brokers/register-for-the-shop-marketplace"
+    "https://www.healthcare.gov/small-businesses/agents-and-brokers/register-for-the-shop-marketplace",
+    "https://healthcare.gov/small-businesses/agents-and-brokers/sell-health-insurance-through-shop"
    ]
   },
   "https://www.agentbrokerfaq.cms.gov/s/topic/0TOt0000000TUeNGAW/small-business-health-options-program/": {
@@ -441,7 +441,7 @@
    "status": 0,
    "reason": "ERR_HTTP2_STREAM_ERROR",
    "firstSeen": "2026-W30",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W30",
     "2026-W31",
@@ -453,10 +453,12 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksBroken": 11,
+   "weeksBroken": 12,
    "foundOn": [
+    "https://healthcare.gov/third-party-privacy-policies",
     "https://www.healthcare.gov/third-party-privacy-policies"
    ]
   },
@@ -503,15 +505,16 @@
    "status": 404,
    "reason": "HTTP 404",
    "firstSeen": "2026-W36",
-   "lastSeen": "2026-W41",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W36",
     "2026-W38",
-    "2026-W41"
+    "2026-W41",
+    "2026-W44"
    ],
-   "weeksBroken": 3,
+   "weeksBroken": 4,
    "foundOn": [
-    "https://healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant"
+    "https://www.healthcare.gov/what-if-im-pregnant-or-plan-to-get-pregnant"
    ]
   },
   "https://www.fema.gov/locations": {
@@ -553,35 +556,42 @@
    "status": 404,
    "reason": "HTTP 404",
    "firstSeen": "2026-W40",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksBroken": 4,
+   "weeksBroken": 5,
    "foundOn": [
-    "https://www.healthcare.gov/high-deductible-health-plan/hdhp-hsa-work-together"
+    "https://www.healthcare.gov/high-deductible-health-plan",
+    "https://www.healthcare.gov/high-deductible-health-plan/setting-up-hsa",
+    "https://www.healthcare.gov/choose-a-plan/plans-categories",
+    "https://www.healthcare.gov/high-deductible-health-plan/hdhp-hsa-information",
+    "https://www.healthcare.gov/hsa-options"
    ]
   },
   "https://healthcare.gov/node/40221": {
    "status": 404,
    "reason": "HTTP 404",
    "firstSeen": "2026-W40",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksBroken": 4,
+   "weeksBroken": 5,
    "foundOn": [
-    "https://healthcare.gov/high-deductible-health-plan",
     "https://healthcare.gov/high-deductible-health-plan/hdhp-hsa-work-together",
     "https://healthcare.gov/hsa-options",
-    "https://healthcare.gov/choose-a-plan/plans-categories"
+    "https://healthcare.gov/choose-a-plan/catastrophic-health-plans",
+    "https://healthcare.gov/choose-a-plan/plans-categories",
+    "https://healthcare.gov/high-deductible-health-plan/hdhp-hsa-information"
    ]
   },
   "http://www.tricare.mil/TYA/": {

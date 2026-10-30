@@ -1,7 +1,7 @@
 {
  "domain": "data.cms.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-16T16:57:33.308Z",
+ "generatedAt": "2026-10-30T10:37:17.609Z",
  "pagesScanned": 3151,
  "pagesAudited": 2579,
  "coverage": {
@@ -52596,9 +52596,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -52618,26 +52618,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-16T08:11:09.534Z",
+  "checkedAt": "2026-10-16T09:12:30.893Z",
   "a11yStatement": {
    "result": "pass",
    "url": "https://data.cms.gov/accessibility",
    "confidence": "high",
-   "checkedAt": "2026-10-16T08:11:06.915Z"
+   "checkedAt": "2026-10-16T09:12:30.041Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-16T08:11:06.917Z"
+   "checkedAt": "2026-10-16T09:12:30.043Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/data.cms.gov",
-   "checkedAt": "2026-10-16T08:11:06.917Z"
+   "checkedAt": "2026-10-16T09:12:30.044Z"
   },
   "sitemaps": {
    "xml": {
@@ -52648,7 +52648,7 @@
     "found": true,
     "url": "https://data.cms.gov/sitemap"
    },
-   "checkedAt": "2026-10-16T08:11:06.918Z"
+   "checkedAt": "2026-10-16T09:12:30.045Z"
   }
  },
  "plainLanguage": {
@@ -52823,6 +52823,9 @@
      "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -54875,408 +54878,106 @@
      "alfa:sia-r87": 1,
      "alfa:sia-r111": 1
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 254,
+     "tech": {
+      "Google Analytics": 251,
+      "jQuery CDN": 100,
+      "Drupal": 100,
+      "jQuery": 100,
+      "Acquia Cloud Platform": 100,
+      "Amazon Web Services": 100,
+      "PHP": 100,
+      "HSTS": 254,
+      "Tealium": 254,
+      "Cart Functionality": 4
+     }
+    },
+    "alfa": {
+     "pages": 109,
+     "tech": {
+      "Google Analytics": 107,
+      "jQuery CDN": 34,
+      "Drupal": 34,
+      "jQuery": 34,
+      "Acquia Cloud Platform": 34,
+      "Amazon Web Services": 34,
+      "PHP": 34,
+      "HSTS": 109,
+      "Tealium": 109,
+      "Cart Functionality": 1
+     }
+    }
    }
   },
   "associations": [
    {
     "tech": "jQuery CDN",
     "finding": "alfa:sia-r17",
-    "lift": 2.54,
+    "ratio": null,
+    "lift": 3.21,
     "pairPages": 25,
-    "techPages": 100,
-    "findingPages": 25
+    "techPages": 34,
+    "findingPages": 25,
+    "withoutPages": 75,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Drupal",
     "finding": "alfa:sia-r17",
-    "lift": 2.54,
+    "ratio": null,
+    "lift": 3.21,
     "pairPages": 25,
-    "techPages": 100,
-    "findingPages": 25
+    "techPages": 34,
+    "findingPages": 25,
+    "withoutPages": 75,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r17",
-    "lift": 2.54,
+    "ratio": null,
+    "lift": 3.21,
     "pairPages": 25,
-    "techPages": 100,
-    "findingPages": 25
+    "techPages": 34,
+    "findingPages": 25,
+    "withoutPages": 75,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r17",
-    "lift": 2.54,
+    "ratio": null,
+    "lift": 3.21,
     "pairPages": 25,
-    "techPages": 100,
-    "findingPages": 25
+    "techPages": 34,
+    "findingPages": 25,
+    "withoutPages": 75,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r17",
-    "lift": 2.54,
+    "ratio": null,
+    "lift": 3.21,
     "pairPages": 25,
-    "techPages": 100,
-    "findingPages": 25
+    "techPages": 34,
+    "findingPages": 25,
+    "withoutPages": 75,
+    "withoutFindingPages": 0
    },
    {
     "tech": "PHP",
     "finding": "alfa:sia-r17",
-    "lift": 2.54,
+    "ratio": null,
+    "lift": 3.21,
     "pairPages": 25,
-    "techPages": 100,
-    "findingPages": 25
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:landmark-banner-is-top-level",
-    "lift": 1.01,
-    "pairPages": 154,
-    "techPages": 251,
-    "findingPages": 154
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r66",
-    "lift": 1.01,
-    "pairPages": 75,
-    "techPages": 251,
-    "findingPages": 75
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r69",
-    "lift": 1.01,
-    "pairPages": 75,
-    "techPages": 251,
-    "findingPages": 75
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r87",
-    "lift": 1.01,
-    "pairPages": 75,
-    "techPages": 251,
-    "findingPages": 75
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:scrollable-region-focusable",
-    "lift": 1.01,
-    "pairPages": 73,
-    "techPages": 251,
-    "findingPages": 73
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:heading-order",
-    "lift": 1.01,
-    "pairPages": 36,
-    "techPages": 251,
-    "findingPages": 36
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 1.01,
-    "pairPages": 32,
-    "techPages": 251,
-    "findingPages": 32
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:nested-interactive",
-    "lift": 1.01,
-    "pairPages": 26,
-    "techPages": 251,
-    "findingPages": 26
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r14",
-    "lift": 1.01,
-    "pairPages": 20,
-    "techPages": 251,
-    "findingPages": 20
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:landmark-unique",
-    "lift": 1.01,
-    "pairPages": 19,
-    "techPages": 251,
-    "findingPages": 19
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:aria-allowed-role",
-    "lift": 1.01,
-    "pairPages": 17,
-    "techPages": 251,
-    "findingPages": 17
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:presentation-role-conflict",
-    "lift": 1.01,
-    "pairPages": 17,
-    "techPages": 251,
-    "findingPages": 17
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:select-name",
-    "lift": 1.01,
-    "pairPages": 16,
-    "techPages": 251,
-    "findingPages": 16
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r53",
-    "lift": 1.01,
-    "pairPages": 14,
-    "techPages": 251,
-    "findingPages": 14
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r90",
-    "lift": 1.01,
-    "pairPages": 12,
-    "techPages": 251,
-    "findingPages": 12
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r18",
-    "lift": 1.01,
-    "pairPages": 9,
-    "techPages": 251,
-    "findingPages": 9
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r86",
-    "lift": 1.01,
-    "pairPages": 8,
-    "techPages": 251,
-    "findingPages": 8
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r8",
-    "lift": 1.01,
-    "pairPages": 7,
-    "techPages": 251,
-    "findingPages": 7
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:landmark-banner-is-top-level",
-    "lift": 1,
-    "pairPages": 154,
-    "techPages": 254,
-    "findingPages": 154
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:landmark-banner-is-top-level",
-    "lift": 1,
-    "pairPages": 154,
-    "techPages": 254,
-    "findingPages": 154
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 109,
-    "techPages": 254,
-    "findingPages": 109
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 109,
-    "techPages": 254,
-    "findingPages": 109
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 109,
-    "techPages": 254,
-    "findingPages": 109
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 109,
-    "techPages": 254,
-    "findingPages": 109
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 75,
-    "techPages": 254,
-    "findingPages": 75
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 75,
-    "techPages": 254,
-    "findingPages": 75
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r87",
-    "lift": 1,
-    "pairPages": 75,
-    "techPages": 254,
-    "findingPages": 75
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 75,
-    "techPages": 254,
-    "findingPages": 75
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 75,
-    "techPages": 254,
-    "findingPages": 75
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r87",
-    "lift": 1,
-    "pairPages": 75,
-    "techPages": 254,
-    "findingPages": 75
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:scrollable-region-focusable",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 254,
-    "findingPages": 73
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:scrollable-region-focusable",
-    "lift": 1,
-    "pairPages": 73,
-    "techPages": 254,
-    "findingPages": 73
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:heading-order",
-    "lift": 1,
-    "pairPages": 36,
-    "techPages": 254,
-    "findingPages": 36
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:heading-order",
-    "lift": 1,
-    "pairPages": 36,
-    "techPages": 254,
-    "findingPages": 36
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 1,
-    "pairPages": 32,
-    "techPages": 254,
-    "findingPages": 32
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 1,
-    "pairPages": 32,
-    "techPages": 254,
-    "findingPages": 32
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:nested-interactive",
-    "lift": 1,
-    "pairPages": 26,
-    "techPages": 254,
-    "findingPages": 26
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:nested-interactive",
-    "lift": 1,
-    "pairPages": 26,
-    "techPages": 254,
-    "findingPages": 26
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 25,
-    "techPages": 254,
-    "findingPages": 25
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 25,
-    "techPages": 254,
-    "findingPages": 25
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r14",
-    "lift": 1,
-    "pairPages": 20,
-    "techPages": 254,
-    "findingPages": 20
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r14",
-    "lift": 1,
-    "pairPages": 20,
-    "techPages": 254,
-    "findingPages": 20
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:landmark-unique",
-    "lift": 1,
-    "pairPages": 19,
-    "techPages": 254,
-    "findingPages": 19
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:landmark-unique",
-    "lift": 1,
-    "pairPages": 19,
-    "techPages": 254,
-    "findingPages": 19
+    "techPages": 34,
+    "findingPages": 25,
+    "withoutPages": 75,
+    "withoutFindingPages": 0
    }
   ]
  },
@@ -93389,5 +93090,25 @@
   "drift_clusters": []
  },
  "pagesAttempted": 2764,
- "pagesSucceeded": 2580
+ "pagesSucceeded": 2580,
+ "access": {
+  "level": "ok",
+  "audited": 2579,
+  "attempted": 3151,
+  "firewall": {
+   "pages": 0,
+   "challenges": 0,
+   "refusals": 0,
+   "statuses": {},
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 184
+  }
+ }
 }

@@ -1,7 +1,7 @@
 {
  "domain": "hhs.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-12T21:27:15.647Z",
+ "generatedAt": "2026-10-30T10:37:28.403Z",
  "pagesScanned": 1,
  "pagesAudited": 0,
  "coverage": {},
@@ -66,5 +66,25 @@
   "drift_clusters": []
  },
  "pagesAttempted": 1,
- "pagesSucceeded": 0
+ "pagesSucceeded": 0,
+ "access": {
+  "level": "blocked",
+  "audited": 0,
+  "attempted": 1,
+  "firewall": {
+   "pages": 1,
+   "challenges": 0,
+   "refusals": 1,
+   "statuses": {
+    "403": 1
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {}
+ }
 }

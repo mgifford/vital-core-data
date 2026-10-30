@@ -1,15 +1,15 @@
 {
  "domain": "nih.gov",
- "updatedAt": "2026-10-22T17:38:34.597Z",
+ "updatedAt": "2026-10-30T10:37:28.226Z",
  "findings": {
   "VS-3c632d31": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r64",
-   "summary": "Element has required owned roles (WCAG 1.3.1)",
+   "summary": "Heading has an accessible name (WCAG 1.3.1)",
    "wcag": "1.3.1",
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W29",
@@ -24,12 +24,13 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 14,
+   "weeksSeen": 15,
    "lastPagesAffected": 1,
    "lastAffectedPages": [
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants"
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development"
    ]
   },
   "VS-8ade3360": {
@@ -39,7 +40,7 @@
    "wcag": "1.4.1",
    "severity": "Serious",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -59,32 +60,34 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 19,
-   "lastPagesAffected": 21,
+   "weeksSeen": 20,
+   "lastPagesAffected": 22,
    "lastAffectedPages": [
-    "https://www.nih.gov/news-events/nih-research-matters/drug-may-slow-development-type-1-diabetes",
-    "https://nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-shirley-systemic-lupus-erythematosis-sle",
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://www.nih.gov/news-events/news-releases/elevated-blood-pressure-before-pregnancy-may-increase-chance-pregnancy-loss",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://nih.gov/about-nih/voices-nih-community/you-aspire-you-seek-you-achieve-you-pay-it-forward",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/news-events/nih-research-matters/microneedle-coronavirus-vaccine-triggers-immune-response-mice",
-    "https://www.nih.gov/news-events/nih-research-matters/gut-bacteria-may-reduce-cholesterol-lower-heart-disease-risk",
-    "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language-nih/plain-language-getting-started-or-brushing-up/formatting-visual-clarity",
-    "https://www.nih.gov/news-events/nih-research-matters/genetic-testing-may-benefit-more-patients-melanoma",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/reduced-calorie-diet-lowers-signs-inflammatory-bowel-disease",
-    "https://www.nih.gov/news-events/nih-research-matters/gaps-allow-substances-move-out-brain",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/brain/about/resources",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://www.nih.gov/news-events/news-releases/15-years-later-pepfar-continues-save-lives",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
+    "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
+    "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
+    "https://nih.gov/echo/program-components/echo-coordinating-center",
+    "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+    "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://nih.gov/news-events/nih-research-matters/2025-nih-research-highlights-basic-research-insights",
+    "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+    "https://www.nih.gov/news-events/nih-research-matters/gut-microbes-affect-harmful-compound-red-meat",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://mailto:RADxInfo@www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-efd91fdd": {
@@ -94,7 +97,7 @@
    "wcag": "1.4.1",
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -112,20 +115,22 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-646b1e0b": {
@@ -135,7 +140,7 @@
    "wcag": "1.4.6",
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -153,30 +158,32 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-2208081b": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r73",
-   "summary": "Text has minimum contrast ratio of 4.5:1 (WCAG 1.4.8)",
+   "summary": "Paragraph line height is at least 1.5 (WCAG 1.4.8)",
    "wcag": "1.4.8",
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -194,20 +201,22 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-cb53cc4d": {
@@ -217,7 +226,7 @@
    "wcag": "2.5.5",
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -235,30 +244,32 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-f18df681": {
    "engine": "axe-core",
    "ruleId": "region",
-   "summary": "All page content should be contained by landmarks (WCAG criterion undetermined)",
+   "summary": "All page content should be contained by landmarks (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -278,42 +289,44 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 19,
-   "lastPagesAffected": 21,
+   "weeksSeen": 20,
+   "lastPagesAffected": 22,
    "lastAffectedPages": [
-    "https://www.nih.gov/news-events/nih-research-matters/drug-may-slow-development-type-1-diabetes",
-    "https://nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-shirley-systemic-lupus-erythematosis-sle",
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://www.nih.gov/news-events/news-releases/elevated-blood-pressure-before-pregnancy-may-increase-chance-pregnancy-loss",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://nih.gov/about-nih/voices-nih-community/you-aspire-you-seek-you-achieve-you-pay-it-forward",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/news-events/nih-research-matters/microneedle-coronavirus-vaccine-triggers-immune-response-mice",
-    "https://www.nih.gov/news-events/nih-research-matters/gut-bacteria-may-reduce-cholesterol-lower-heart-disease-risk",
-    "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language-nih/plain-language-getting-started-or-brushing-up/formatting-visual-clarity",
-    "https://www.nih.gov/news-events/nih-research-matters/genetic-testing-may-benefit-more-patients-melanoma",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/reduced-calorie-diet-lowers-signs-inflammatory-bowel-disease",
-    "https://www.nih.gov/news-events/nih-research-matters/gaps-allow-substances-move-out-brain",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/brain/about/resources",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://www.nih.gov/news-events/news-releases/15-years-later-pepfar-continues-save-lives",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
+    "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
+    "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
+    "https://nih.gov/echo/program-components/echo-coordinating-center",
+    "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+    "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://nih.gov/news-events/nih-research-matters/2025-nih-research-highlights-basic-research-insights",
+    "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+    "https://www.nih.gov/news-events/nih-research-matters/gut-microbes-affect-harmful-compound-red-meat",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://mailto:RADxInfo@www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-d25f622d": {
    "engine": "axe-core",
    "ruleId": "heading-order",
-   "summary": "Heading levels should only increase by one (WCAG criterion undetermined)",
+   "summary": "Heading levels should only increase by one (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W27",
@@ -331,33 +344,36 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 16,
+   "weeksSeen": 18,
+   "lastPagesAffected": 18,
    "lastAffectedPages": [
-    "https://www.nih.gov/news-events/nih-research-matters/drug-may-slow-development-type-1-diabetes",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://www.nih.gov/news-events/news-releases/elevated-blood-pressure-before-pregnancy-may-increase-chance-pregnancy-loss",
-    "https://nih.gov/about-nih/voices-nih-community/you-aspire-you-seek-you-achieve-you-pay-it-forward",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/news-events/nih-research-matters/microneedle-coronavirus-vaccine-triggers-immune-response-mice",
-    "https://www.nih.gov/news-events/nih-research-matters/gut-bacteria-may-reduce-cholesterol-lower-heart-disease-risk",
-    "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language-nih/plain-language-getting-started-or-brushing-up/formatting-visual-clarity",
-    "https://www.nih.gov/news-events/nih-research-matters/genetic-testing-may-benefit-more-patients-melanoma",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://www.nih.gov/news-events/nih-research-matters/reduced-calorie-diet-lowers-signs-inflammatory-bowel-disease",
-    "https://www.nih.gov/news-events/nih-research-matters/gaps-allow-substances-move-out-brain",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/brain/about/resources",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://www.nih.gov/news-events/news-releases/15-years-later-pepfar-continues-save-lives"
+    "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
+    "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
+    "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+    "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://nih.gov/news-events/nih-research-matters/2025-nih-research-highlights-basic-research-insights",
+    "https://www.nih.gov/news-events/nih-research-matters/gut-microbes-affect-harmful-compound-red-meat",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://mailto:RADxInfo@www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-fa44f293": {
    "engine": "axe-core",
    "ruleId": "page-has-heading-one",
-   "summary": "Page should contain a level-one heading (WCAG criterion undetermined)",
+   "summary": "Page should contain a level-one heading (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
@@ -377,47 +393,14 @@
    ],
    "_coverageLost": true
   },
-  "VS-0066c67d": {
-   "engine": "axe-core",
-   "ruleId": "empty-heading",
-   "summary": "Headings should not be empty (WCAG criterion undetermined)",
-   "wcag": null,
-   "severity": "Minor",
-   "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
-   "_weeks": [
-    "2026-W25",
-    "2026-W29",
-    "2026-W30",
-    "2026-W31",
-    "2026-W32",
-    "2026-W33",
-    "2026-W34",
-    "2026-W35",
-    "2026-W36",
-    "2026-W38",
-    "2026-W39",
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43"
-   ],
-   "weeksSeen": 15,
-   "lastPagesAffected": 3,
-   "lastAffectedPages": [
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://www.nih.gov/news-events/news-releases/elevated-blood-pressure-before-pregnancy-may-increase-chance-pregnancy-loss",
-    "https://www.nih.gov/news-events/news-releases/15-years-later-pepfar-continues-save-lives"
-   ]
-  },
   "VS-e05344b9": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r18",
-   "summary": "aria attribute is permitted for element role (WCAG criterion undetermined)",
+   "summary": "aria attribute is permitted for element role (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -435,30 +418,32 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-7118fead": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r61",
-   "summary": "Form field label is visible (WCAG criterion undetermined)",
+   "summary": "Page starts with a level 1 heading (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -476,30 +461,32 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-c18be945": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r57",
-   "summary": "Scrolling content can be accessed by keyboard (WCAG criterion undetermined)",
+   "summary": "Text is included in a landmark (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -517,30 +504,32 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
    ],
-   "weeksSeen": 17,
-   "lastPagesAffected": 9,
+   "weeksSeen": 18,
+   "lastPagesAffected": 10,
    "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
    ]
   },
   "VS-f054f4a4": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r53",
-   "summary": "Headings are structured hierarchically (WCAG criterion undetermined)",
+   "summary": "Headings are structured hierarchically (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W25",
     "2026-W29",
@@ -557,16 +546,54 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
+   ],
+   "weeksSeen": 17,
+   "lastPagesAffected": 9,
+   "lastAffectedPages": [
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
+   ]
+  },
+  "VS-0066c67d": {
+   "engine": "axe-core",
+   "ruleId": "empty-heading",
+   "summary": "Headings should not be empty (best practice, not a WCAG requirement)",
+   "wcag": null,
+   "severity": "Minor",
+   "firstSeen": "2026-W25",
+   "lastSeen": "2026-W44",
+   "_weeks": [
+    "2026-W25",
+    "2026-W29",
+    "2026-W30",
+    "2026-W31",
+    "2026-W32",
+    "2026-W33",
+    "2026-W34",
+    "2026-W35",
+    "2026-W36",
+    "2026-W38",
+    "2026-W39",
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44"
    ],
    "weeksSeen": 16,
-   "lastPagesAffected": 5,
+   "lastPagesAffected": 2,
    "lastAffectedPages": [
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain"
+    "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development"
    ]
   },
   "VS-9074b4dd": {
@@ -650,7 +677,7 @@
   "VS-d6097011": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r68",
-   "summary": "Presentational children of an element are not focusable (WCAG 1.3.1)",
+   "summary": "Element has its required owned elements (WCAG 1.3.1)",
    "wcag": "1.3.1",
    "severity": "Moderate",
    "firstSeen": "2026-W29",
@@ -844,7 +871,7 @@
   "VS-f7e99f4b": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r69",
-   "summary": "Text has sufficient color contrast (Enhanced) (WCAG 1.4.3)",
+   "summary": "Text has minimum contrast (WCAG 1.4.3)",
    "wcag": "1.4.3",
    "severity": "Moderate",
    "firstSeen": "2026-W29",
@@ -915,7 +942,7 @@
   "VS-400f3a18": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r7",
-   "summary": "Element with lang attribute has correct language (WCAG 3.1.2)",
+   "summary": "Element with lang attribute has valid language tag (WCAG 3.1.2)",
    "wcag": "3.1.2",
    "severity": "Moderate",
    "firstSeen": "2026-W29",
@@ -948,11 +975,11 @@
   "VS-8806389c": {
    "engine": "axe-core",
    "ruleId": "landmark-unique",
-   "summary": "Landmarks should have a unique role or role/label/title (i.e. accessible name) c (WCAG criterion undetermined)",
+   "summary": "Landmarks should have a unique role or role/label/title (i.e. accessible name) c (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Moderate",
    "firstSeen": "2026-W29",
-   "lastSeen": "2026-W43",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W29",
     "2026-W30",
@@ -968,38 +995,143 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W43"
+    "2026-W43",
+    "2026-W44"
+   ],
+   "weeksSeen": 16,
+   "lastPagesAffected": 22,
+   "lastAffectedPages": [
+    "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
+    "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
+    "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
+    "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
+    "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development",
+    "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
+    "https://nih.gov/echo/program-components/echo-coordinating-center",
+    "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+    "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention",
+    "https://nih.gov/about-nih/impact-nih-research/serving-society",
+    "https://nih.gov/about-nih/history/always-there-remarkable-life-ruth-lillian-kirschstein-md",
+    "https://nih.gov/news-events/nih-research-matters/2025-nih-research-highlights-basic-research-insights",
+    "https://www.nih.gov/about-nih/nih-almanac/lewis-ryers-thompson-md",
+    "https://www.nih.gov/news-events/nih-research-matters/gut-microbes-affect-harmful-compound-red-meat",
+    "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel",
+    "https://mailto:RADxInfo@www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge",
+    "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
+   ]
+  },
+  "VS-4c341c77": {
+   "engine": "Siteimprove Alfa",
+   "ruleId": "sia-r85",
+   "summary": "Paragraph text is not all italic (best practice, not a WCAG requirement)",
+   "wcag": null,
+   "severity": "Moderate",
+   "firstSeen": "2026-W29",
+   "lastSeen": "2026-W44",
+   "_weeks": [
+    "2026-W29",
+    "2026-W30",
+    "2026-W31",
+    "2026-W32",
+    "2026-W33",
+    "2026-W34",
+    "2026-W35",
+    "2026-W36",
+    "2026-W38",
+    "2026-W39",
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44"
    ],
    "weeksSeen": 15,
-   "lastPagesAffected": 21,
+   "lastPagesAffected": 3,
    "lastAffectedPages": [
-    "https://www.nih.gov/news-events/nih-research-matters/drug-may-slow-development-type-1-diabetes",
-    "https://nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-shirley-systemic-lupus-erythematosis-sle",
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants",
-    "https://www.nih.gov/news-events/news-releases/elevated-blood-pressure-before-pregnancy-may-increase-chance-pregnancy-loss",
-    "https://nih.gov/research-training/safety-regulation-guidance/next-steps-biosafety-biosecurity-national-institutes-health-nih",
-    "https://nih.gov/about-nih/voices-nih-community/you-aspire-you-seek-you-achieve-you-pay-it-forward",
-    "https://www.nih.gov/news-events/nih-research-matters/mandatory-masking-schools-reduced-covid-19-cases",
-    "https://nih.gov/news-events/nih-research-matters/microneedle-coronavirus-vaccine-triggers-immune-response-mice",
-    "https://www.nih.gov/news-events/nih-research-matters/gut-bacteria-may-reduce-cholesterol-lower-heart-disease-risk",
-    "https://nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language-nih/plain-language-getting-started-or-brushing-up/formatting-visual-clarity",
-    "https://www.nih.gov/news-events/nih-research-matters/genetic-testing-may-benefit-more-patients-melanoma",
-    "https://nih.gov/include-project/funding/include-project-funding-priorities-institute-center",
-    "https://nih.gov/about-nih/nih-almanac/about-nih",
-    "https://www.nih.gov/news-events/nih-research-matters/reduced-calorie-diet-lowers-signs-inflammatory-bowel-disease",
-    "https://www.nih.gov/news-events/nih-research-matters/gaps-allow-substances-move-out-brain",
-    "https://www.nih.gov/about-nih/voices-nih-community/i-never-knew-how-it-was-feel-free",
-    "https://www.nih.gov/brain/about/resources",
-    "https://www.nih.gov/news-events/nih-research-matters/brain-activity-predicts-chronic-pain",
-    "https://www.nih.gov/news-events/news-releases/15-years-later-pepfar-continues-save-lives",
-    "https://nih.gov/about-nih/nih-director"
+    "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
+    "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development"
    ]
+  },
+  "VS-2cd767ca": {
+   "engine": "Siteimprove Alfa",
+   "ruleId": "sia-r78",
+   "summary": "There is content between headings (best practice, not a WCAG requirement)",
+   "wcag": null,
+   "severity": "Moderate",
+   "firstSeen": "2026-W29",
+   "lastSeen": "2026-W44",
+   "_weeks": [
+    "2026-W29",
+    "2026-W30",
+    "2026-W31",
+    "2026-W32",
+    "2026-W34",
+    "2026-W36",
+    "2026-W38",
+    "2026-W39",
+    "2026-W40",
+    "2026-W41",
+    "2026-W43",
+    "2026-W44"
+   ],
+   "weeksSeen": 12,
+   "lastPagesAffected": 1,
+   "lastAffectedPages": [
+    "https://nih.gov/news-events/news-releases/nih-releases-first-dataset-unprecedented-study-adolescent-brain-development"
+   ]
+  },
+  "VS-7fbb8b20": {
+   "engine": "Siteimprove Alfa",
+   "ruleId": "sia-r59",
+   "summary": "Page has at least one heading (best practice, not a WCAG requirement)",
+   "wcag": null,
+   "severity": "Moderate",
+   "firstSeen": "2026-W29",
+   "lastSeen": "2026-W41",
+   "_weeks": [
+    "2026-W29",
+    "2026-W30",
+    "2026-W31",
+    "2026-W41"
+   ],
+   "weeksSeen": 4,
+   "lastPagesAffected": 1,
+   "lastAffectedPages": [
+    "https://www.nih.gov/virtual-tour"
+   ],
+   "_coverageLost": true
+  },
+  "VS-aa242c2d": {
+   "engine": "Siteimprove Alfa",
+   "ruleId": "sia-r87",
+   "summary": "First focusable element is link to main content (best practice, not a WCAG requirement)",
+   "wcag": null,
+   "severity": "Moderate",
+   "firstSeen": "2026-W29",
+   "lastSeen": "2026-W41",
+   "_weeks": [
+    "2026-W29",
+    "2026-W30",
+    "2026-W31",
+    "2026-W41"
+   ],
+   "weeksSeen": 4,
+   "lastPagesAffected": 1,
+   "lastAffectedPages": [
+    "https://www.nih.gov/virtual-tour"
+   ],
+   "_coverageLost": true
   },
   "VS-4fac2f41": {
    "engine": "axe-core",
    "ruleId": "aria-allowed-role",
-   "summary": "ARIA role should be appropriate for the element (WCAG criterion undetermined)",
+   "summary": "ARIA role should be appropriate for the element (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Minor",
    "firstSeen": "2026-W29",
@@ -1021,7 +1153,7 @@
   "VS-f528778d": {
    "engine": "axe-core",
    "ruleId": "image-redundant-alt",
-   "summary": "Alternative text of images should not be repeated as text (WCAG criterion undetermined)",
+   "summary": "Alternative text of images should not be repeated as text (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Minor",
    "firstSeen": "2026-W29",
@@ -1041,130 +1173,30 @@
    ],
    "_coverageLost": true
   },
-  "VS-4c341c77": {
-   "engine": "Siteimprove Alfa",
-   "ruleId": "sia-r85",
-   "summary": "Keyboard trap does not exist (WCAG criterion undetermined)",
-   "wcag": null,
-   "severity": "Moderate",
-   "firstSeen": "2026-W29",
-   "lastSeen": "2026-W43",
-   "_weeks": [
-    "2026-W29",
-    "2026-W30",
-    "2026-W31",
-    "2026-W32",
-    "2026-W33",
-    "2026-W34",
-    "2026-W35",
-    "2026-W36",
-    "2026-W38",
-    "2026-W39",
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43"
-   ],
-   "weeksSeen": 14,
-   "lastPagesAffected": 2,
-   "lastAffectedPages": [
-    "https://nih.gov/about-nih/nih-almanac/anthony-l-itteilag",
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants"
-   ]
-  },
-  "VS-2cd767ca": {
-   "engine": "Siteimprove Alfa",
-   "ruleId": "sia-r78",
-   "summary": "Table header has scope (WCAG criterion undetermined)",
-   "wcag": null,
-   "severity": "Moderate",
-   "firstSeen": "2026-W29",
-   "lastSeen": "2026-W43",
-   "_weeks": [
-    "2026-W29",
-    "2026-W30",
-    "2026-W31",
-    "2026-W32",
-    "2026-W34",
-    "2026-W36",
-    "2026-W38",
-    "2026-W39",
-    "2026-W40",
-    "2026-W41",
-    "2026-W43"
-   ],
-   "weeksSeen": 11,
-   "lastPagesAffected": 1,
-   "lastAffectedPages": [
-    "https://www.nih.gov/news-events/news-releases/nih-funded-project-offers-efficient-approach-when-tracking-sars-cov-2-variants"
-   ]
-  },
-  "VS-7fbb8b20": {
-   "engine": "Siteimprove Alfa",
-   "ruleId": "sia-r59",
-   "summary": "Element with orientation is not locked (WCAG criterion undetermined)",
-   "wcag": null,
-   "severity": "Moderate",
-   "firstSeen": "2026-W29",
-   "lastSeen": "2026-W41",
-   "_weeks": [
-    "2026-W29",
-    "2026-W30",
-    "2026-W31",
-    "2026-W41"
-   ],
-   "weeksSeen": 4,
-   "lastPagesAffected": 1,
-   "lastAffectedPages": [
-    "https://www.nih.gov/virtual-tour"
-   ],
-   "_coverageLost": true
-  },
-  "VS-aa242c2d": {
-   "engine": "Siteimprove Alfa",
-   "ruleId": "sia-r87",
-   "summary": "First focusable element is link to main content (WCAG criterion undetermined)",
-   "wcag": null,
-   "severity": "Moderate",
-   "firstSeen": "2026-W29",
-   "lastSeen": "2026-W41",
-   "_weeks": [
-    "2026-W29",
-    "2026-W30",
-    "2026-W31",
-    "2026-W41"
-   ],
-   "weeksSeen": 4,
-   "lastPagesAffected": 1,
-   "lastAffectedPages": [
-    "https://www.nih.gov/virtual-tour"
-   ],
-   "_coverageLost": true
-  },
   "VS-d69fc059": {
    "engine": "axe-core",
    "ruleId": "empty-table-header",
-   "summary": "Table header text should not be empty (WCAG criterion undetermined)",
+   "summary": "Table header text should not be empty (best practice, not a WCAG requirement)",
    "wcag": null,
    "severity": "Minor",
    "firstSeen": "2026-W30",
-   "lastSeen": "2026-W32",
+   "lastSeen": "2026-W44",
    "_weeks": [
     "2026-W30",
     "2026-W31",
-    "2026-W32"
+    "2026-W32",
+    "2026-W44"
    ],
-   "weeksSeen": 3,
+   "weeksSeen": 4,
    "lastPagesAffected": 1,
    "lastAffectedPages": [
     "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-   ],
-   "_coverageLost": true
+   ]
   },
   "VS-4408605e": {
    "engine": "Siteimprove Alfa",
    "ruleId": "sia-r46",
-   "summary": "Element has required aria-owns (WCAG 1.3.1)",
+   "summary": "Table header cell is assigned to data cells (WCAG 1.3.1)",
    "wcag": "1.3.1",
    "severity": "Moderate",
    "firstSeen": "2026-W31",

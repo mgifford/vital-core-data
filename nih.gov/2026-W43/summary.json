@@ -1,11 +1,10 @@
 {
  "domain": "nih.gov",
  "week": "2026-W43",
- "generatedAt": "2026-10-22T17:38:33.422Z",
+ "generatedAt": "2026-10-30T10:37:27.221Z",
  "pagesScanned": 3333,
  "pagesAudited": 21,
  "coverage": {
-  "sustainability": 304,
   "axe": 21,
   "plain-language": 13,
   "resources": 21,
@@ -14,6 +13,7 @@
   "alfa": 9,
   "deprecated-html": 2,
   "lighthouse": 2,
+  "sustainability": 2,
   "tech": 3
  },
  "blocked": null,
@@ -1377,14 +1377,14 @@
   }
  },
  "sustainability": {
-  "pages": 304,
-  "medianBytes": 64736,
-  "meanBytes": 73061,
-  "medianRequests": 7,
-  "totalCo2g": 3.29,
-  "meanCo2g": 0.0108,
-  "totalEnergyWh": 6.66,
-  "meanEnergyWh": 0.0219
+  "pages": 2,
+  "medianBytes": 1330275,
+  "meanBytes": 1330275,
+  "medianRequests": 99,
+  "totalCo2g": 0.39,
+  "meanCo2g": 0.1972,
+  "totalEnergyWh": 0.8,
+  "meanEnergyWh": 0.3991
  },
  "deprecatedHtml": null,
  "resources": {
@@ -1761,9 +1761,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -1916,6 +1916,9 @@
      "https://www.nih.gov/news-events/nih-research-matters/drug-may-slow-development-type-1-diabetes"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -3192,6 +3195,46 @@
      "alfa:sia-r111": 3,
      "axe:heading-order": 2,
      "alfa:sia-r53": 2
+    }
+   },
+   "engines": {
+    "axe": {
+     "pages": 3,
+     "tech": {
+      "Cloudflare Browser Insights": 3,
+      "Crazy Egg": 3,
+      "Google Analytics": 3,
+      "Varnish": 3,
+      "Cloudflare": 3,
+      "Drupal": 3,
+      "jQuery": 3,
+      "HTTP/3": 3,
+      "Acquia Cloud Platform": 3,
+      "Amazon Web Services": 3,
+      "PHP": 3,
+      "HSTS": 3,
+      "Google Tag Manager": 3,
+      "USWDS": 3
+     }
+    },
+    "alfa": {
+     "pages": 3,
+     "tech": {
+      "Cloudflare Browser Insights": 3,
+      "Crazy Egg": 3,
+      "Google Analytics": 3,
+      "Varnish": 3,
+      "Cloudflare": 3,
+      "Drupal": 3,
+      "jQuery": 3,
+      "HTTP/3": 3,
+      "Acquia Cloud Platform": 3,
+      "Amazon Web Services": 3,
+      "PHP": 3,
+      "HSTS": 3,
+      "Google Tag Manager": 3,
+      "USWDS": 3
+     }
     }
    }
   },
@@ -5715,5 +5758,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 3336,
- "pagesSucceeded": 21
+ "pagesSucceeded": 21,
+ "access": {
+  "level": "partial",
+  "audited": 21,
+  "attempted": 3333,
+  "firewall": {
+   "pages": 3310,
+   "challenges": 0,
+   "refusals": 3310,
+   "statuses": {
+    "403": 3310
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 2
+  }
+ }
 }

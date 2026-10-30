@@ -1,7 +1,7 @@
 {
  "domain": "openpaymentsdata.cms.gov",
  "week": "2026-W43",
- "generatedAt": "2026-10-19T18:52:18.148Z",
+ "generatedAt": "2026-10-30T10:37:05.818Z",
  "pagesScanned": 327,
  "pagesAudited": 225,
  "coverage": {
@@ -4320,9 +4320,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -4342,26 +4342,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-19T10:25:53.605Z",
+  "checkedAt": "2026-10-19T11:57:08.444Z",
   "a11yStatement": {
    "result": "fail",
    "url": null,
    "confidence": null,
-   "checkedAt": "2026-10-19T10:25:52.572Z"
+   "checkedAt": "2026-10-19T11:57:06.996Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-19T10:25:52.572Z"
+   "checkedAt": "2026-10-19T11:57:06.998Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/openpaymentsdata.cms.gov",
-   "checkedAt": "2026-10-19T10:25:52.572Z"
+   "checkedAt": "2026-10-19T11:57:06.998Z"
   },
   "sitemaps": {
    "xml": {
@@ -4372,7 +4372,7 @@
     "found": false,
     "url": null
    },
-   "checkedAt": "2026-10-19T10:25:52.573Z"
+   "checkedAt": "2026-10-19T11:57:07.000Z"
   }
  },
  "plainLanguage": {
@@ -4547,6 +4547,9 @@
      "https://openpaymentsdata.cms.gov/dataset/9c248e7e-7c7f-478b-ab84-ce0919d72c1c?page=5"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -5754,410 +5757,39 @@
      "axe:button-name": 8,
      "alfa:sia-r12": 4
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 29,
+     "tech": {
+      "Google Analytics": 28,
+      "Drupal": 29,
+      "jQuery": 29,
+      "Acquia Cloud Platform": 29,
+      "Amazon Web Services": 29,
+      "PHP": 29,
+      "HSTS": 29,
+      "Tealium": 29,
+      "Nginx": 29
+     }
+    },
+    "alfa": {
+     "pages": 16,
+     "tech": {
+      "Google Analytics": 16,
+      "Drupal": 16,
+      "jQuery": 16,
+      "Acquia Cloud Platform": 16,
+      "Amazon Web Services": 16,
+      "PHP": 16,
+      "HSTS": 16,
+      "Tealium": 16,
+      "Nginx": 16
+     }
+    }
    }
   },
-  "associations": [
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r66",
-    "lift": 1.04,
-    "pairPages": 16,
-    "techPages": 28,
-    "findingPages": 16
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r73",
-    "lift": 1.04,
-    "pairPages": 16,
-    "techPages": 28,
-    "findingPages": 16
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r61",
-    "lift": 1.04,
-    "pairPages": 16,
-    "techPages": 28,
-    "findingPages": 16
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r69",
-    "lift": 1.04,
-    "pairPages": 16,
-    "techPages": 28,
-    "findingPages": 16
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r111",
-    "lift": 1.04,
-    "pairPages": 16,
-    "techPages": 28,
-    "findingPages": 16
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r17",
-    "lift": 1.04,
-    "pairPages": 11,
-    "techPages": 28,
-    "findingPages": 11
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Nginx",
-    "finding": "alfa:sia-r66",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Nginx",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Nginx",
-    "finding": "alfa:sia-r61",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Nginx",
-    "finding": "alfa:sia-r69",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Nginx",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 16,
-    "techPages": 29,
-    "findingPages": 16
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 11,
-    "techPages": 29,
-    "findingPages": 11
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 11,
-    "techPages": 29,
-    "findingPages": 11
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 11,
-    "techPages": 29,
-    "findingPages": 11
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r17",
-    "lift": 1,
-    "pairPages": 11,
-    "techPages": 29,
-    "findingPages": 11
-   }
-  ]
+  "associations": []
  },
  "thirdParty": {
   "pagesScanned": 56,
@@ -11020,5 +10652,25 @@
   "drift_clusters": []
  },
  "pagesAttempted": 252,
- "pagesSucceeded": 225
+ "pagesSucceeded": 225,
+ "access": {
+  "level": "ok",
+  "audited": 225,
+  "attempted": 327,
+  "firewall": {
+   "pages": 0,
+   "challenges": 0,
+   "refusals": 0,
+   "statuses": {},
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 23
+  }
+ }
 }

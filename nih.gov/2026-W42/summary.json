@@ -1,16 +1,16 @@
 {
  "domain": "nih.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-16T16:57:45.871Z",
+ "generatedAt": "2026-10-30T10:37:27.174Z",
  "pagesScanned": 3333,
  "pagesAudited": 20,
  "coverage": {
-  "sustainability": 343,
   "axe": 20,
   "resources": 20,
   "alfa": 9,
   "standards": 10,
   "plain-language": 9,
+  "sustainability": 2,
   "lighthouse": 5,
   "deprecated-html": 1,
   "security": 1,
@@ -1384,14 +1384,14 @@
   }
  },
  "sustainability": {
-  "pages": 343,
-  "medianBytes": 64561,
-  "meanBytes": 74561,
-  "medianRequests": 7,
-  "totalCo2g": 3.8,
-  "meanCo2g": 0.0111,
-  "totalEnergyWh": 7.68,
-  "meanEnergyWh": 0.0224
+  "pages": 2,
+  "medianBytes": 1779623,
+  "meanBytes": 1779623,
+  "medianRequests": 104,
+  "totalCo2g": 0.53,
+  "meanCo2g": 0.2638,
+  "totalEnergyWh": 1.07,
+  "meanEnergyWh": 0.5339
  },
  "deprecatedHtml": null,
  "resources": {
@@ -2154,9 +2154,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -2301,6 +2301,9 @@
      "https://nih.gov/news-events/nih-research-matters/mapping-how-cancers-form-spread"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -3594,6 +3597,27 @@
      "axe:landmark-unique": 1,
      "axe:link-in-text-block": 1,
      "axe:region": 1
+    }
+   },
+   "engines": {
+    "axe": {
+     "pages": 1,
+     "tech": {
+      "Cloudflare Browser Insights": 1,
+      "Crazy Egg": 1,
+      "Google Analytics": 1,
+      "Varnish": 1,
+      "Cloudflare": 1,
+      "Drupal": 1,
+      "jQuery": 1,
+      "HTTP/3": 1,
+      "Acquia Cloud Platform": 1,
+      "Amazon Web Services": 1,
+      "PHP": 1,
+      "HSTS": 1,
+      "Google Tag Manager": 1,
+      "USWDS": 1
+     }
     }
    }
   },
@@ -5897,5 +5921,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 3340,
- "pagesSucceeded": 20
+ "pagesSucceeded": 20,
+ "access": {
+  "level": "partial",
+  "audited": 20,
+  "attempted": 3333,
+  "firewall": {
+   "pages": 3312,
+   "challenges": 0,
+   "refusals": 3312,
+   "statuses": {
+    "403": 3312
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 1
+  }
+ }
 }

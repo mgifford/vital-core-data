@@ -1,7 +1,7 @@
 {
  "domain": "www.cms.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-18T16:08:51.402Z",
+ "generatedAt": "2026-10-30T10:36:40.610Z",
  "pagesScanned": 3860,
  "pagesAudited": 2538,
  "coverage": {
@@ -10,7 +10,7 @@
   "standards": 1269,
   "plain-language": 1212,
   "deprecated-html": 248,
-  "sustainability": 371,
+  "sustainability": 269,
   "tech": 256,
   "alfa": 357,
   "lighthouse": 251,
@@ -26154,14 +26154,14 @@
   }
  },
  "sustainability": {
-  "pages": 371,
-  "medianBytes": 1837286,
-  "meanBytes": 1455862,
-  "medianRequests": 43,
-  "totalCo2g": 80.05,
-  "meanCo2g": 0.2158,
-  "totalEnergyWh": 162.04,
-  "meanEnergyWh": 0.4368
+  "pages": 269,
+  "medianBytes": 1900662,
+  "meanBytes": 2007750,
+  "medianRequests": 47,
+  "totalCo2g": 80.04,
+  "meanCo2g": 0.2975,
+  "totalEnergyWh": 162.03,
+  "meanEnergyWh": 0.6023
  },
  "deprecatedHtml": {
   "findingTotal": 1071,
@@ -65563,9 +65563,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -65585,26 +65585,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-13T10:29:20.201Z",
+  "checkedAt": "2026-10-18T14:48:30.231Z",
   "a11yStatement": {
    "result": "pass",
    "url": "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice#1557",
    "confidence": "medium",
-   "checkedAt": "2026-10-13T10:29:18.556Z"
+   "checkedAt": "2026-10-18T14:48:28.802Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-13T10:29:18.558Z"
+   "checkedAt": "2026-10-18T14:48:28.805Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/cms.gov",
-   "checkedAt": "2026-10-13T10:29:18.559Z"
+   "checkedAt": "2026-10-18T14:48:28.805Z"
   },
   "sitemaps": {
    "xml": {
@@ -65615,7 +65615,7 @@
     "found": false,
     "url": null
    },
-   "checkedAt": "2026-10-13T10:29:18.561Z"
+   "checkedAt": "2026-10-18T14:48:28.806Z"
   }
  },
  "plainLanguage": {
@@ -65790,6 +65790,9 @@
      "https://cms.gov/medicare-coverage-database/view/article.aspx?articleid=57451&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=38"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -75265,408 +75268,541 @@
      "axe:empty-heading": 1,
      "axe:heading-order": 1
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 256,
+     "tech": {
+      "Google Analytics": 256,
+      "jsDelivr": 107,
+      "jQuery": 217,
+      "HSTS": 255,
+      "reCAPTCHA": 85,
+      "Bootstrap": 107,
+      "Microsoft ASP.NET": 107,
+      "Drupal": 110,
+      "Acquia Cloud Platform": 110,
+      "Amazon Web Services": 110,
+      "PHP": 110,
+      "Qualtrics": 109,
+      "Tealium": 111,
+      "YouTube": 110,
+      "jQuery UI": 9,
+      "Next.js": 1,
+      "React": 1,
+      "Webpack": 1,
+      "Node.js": 1,
+      "Algolia": 1,
+      "USWDS": 1,
+      "Nginx": 1
+     }
+    },
+    "alfa": {
+     "pages": 28,
+     "tech": {
+      "Google Analytics": 28,
+      "jsDelivr": 9,
+      "jQuery": 25,
+      "HSTS": 28,
+      "reCAPTCHA": 8,
+      "Bootstrap": 9,
+      "Microsoft ASP.NET": 9,
+      "Drupal": 16,
+      "Acquia Cloud Platform": 16,
+      "Amazon Web Services": 16,
+      "PHP": 16,
+      "Qualtrics": 16,
+      "Tealium": 16,
+      "YouTube": 16,
+      "jQuery UI": 1
+     }
+    }
    }
   },
   "associations": [
    {
-    "tech": "jQuery UI",
-    "finding": "axe:heading-order",
-    "lift": 12.8,
+    "tech": "jsDelivr",
+    "finding": "axe:link-in-text-block",
+    "ratio": null,
+    "lift": 2.39,
+    "pairPages": 34,
+    "techPages": 107,
+    "findingPages": 34,
+    "withoutPages": 149,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jQuery",
+    "finding": "axe:link-in-text-block",
+    "ratio": null,
+    "lift": 1.18,
+    "pairPages": 34,
+    "techPages": 217,
+    "findingPages": 34,
+    "withoutPages": 39,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:link-in-text-block",
+    "ratio": null,
+    "lift": 2.39,
+    "pairPages": 34,
+    "techPages": 107,
+    "findingPages": 34,
+    "withoutPages": 149,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "axe:link-in-text-block",
+    "ratio": null,
+    "lift": 2.39,
+    "pairPages": 34,
+    "techPages": 107,
+    "findingPages": 34,
+    "withoutPages": 149,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "axe:list",
+    "ratio": null,
+    "lift": 2.39,
+    "pairPages": 17,
+    "techPages": 107,
+    "findingPages": 17,
+    "withoutPages": 149,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jQuery",
+    "finding": "axe:list",
+    "ratio": null,
+    "lift": 1.18,
+    "pairPages": 17,
+    "techPages": 217,
+    "findingPages": 17,
+    "withoutPages": 39,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:list",
+    "ratio": null,
+    "lift": 2.39,
+    "pairPages": 17,
+    "techPages": 107,
+    "findingPages": 17,
+    "withoutPages": 149,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "axe:list",
+    "ratio": null,
+    "lift": 2.39,
+    "pairPages": 17,
+    "techPages": 107,
+    "findingPages": 17,
+    "withoutPages": 149,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Drupal",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Acquia Cloud Platform",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Amazon Web Services",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "PHP",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Qualtrics",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Tealium",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "YouTube",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.75,
+    "pairPages": 10,
+    "techPages": 16,
+    "findingPages": 10,
+    "withoutPages": 12,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "alfa:sia-r66",
+    "ratio": null,
+    "lift": 3.11,
     "pairPages": 9,
     "techPages": 9,
-    "findingPages": 20
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "alfa:sia-r74",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r66",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r74",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "alfa:sia-r66",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "alfa:sia-r74",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 3.11,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": 132.29,
+    "lift": 2.37,
+    "pairPages": 95,
+    "techPages": 107,
+    "findingPages": 96,
+    "withoutPages": 149,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": 132.29,
+    "lift": 2.37,
+    "pairPages": 95,
+    "techPages": 107,
+    "findingPages": 96,
+    "withoutPages": 149,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": 132.29,
+    "lift": 2.37,
+    "pairPages": 95,
+    "techPages": 107,
+    "findingPages": 96,
+    "withoutPages": 149,
+    "withoutFindingPages": 1
    },
    {
     "tech": "reCAPTCHA",
     "finding": "axe:list",
+    "ratio": 32.19,
     "lift": 2.83,
     "pairPages": 16,
     "techPages": 85,
-    "findingPages": 17
+    "findingPages": 17,
+    "withoutPages": 171,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "jQuery UI",
+    "finding": "axe:heading-order",
+    "ratio": 22.45,
+    "lift": 12.8,
+    "pairPages": 9,
+    "techPages": 9,
+    "findingPages": 20,
+    "withoutPages": 247,
+    "withoutFindingPages": 11
    },
    {
     "tech": "reCAPTCHA",
     "finding": "alfa:sia-r66",
-    "lift": 2.68,
+    "ratio": 20,
+    "lift": 3.11,
     "pairPages": 8,
-    "techPages": 85,
-    "findingPages": 9
+    "techPages": 8,
+    "findingPages": 9,
+    "withoutPages": 20,
+    "withoutFindingPages": 1
    },
    {
     "tech": "reCAPTCHA",
     "finding": "alfa:sia-r74",
-    "lift": 2.68,
+    "ratio": 20,
+    "lift": 3.11,
     "pairPages": 8,
-    "techPages": 85,
-    "findingPages": 9
+    "techPages": 8,
+    "findingPages": 9,
+    "withoutPages": 20,
+    "withoutFindingPages": 1
    },
    {
     "tech": "reCAPTCHA",
     "finding": "alfa:sia-r14",
-    "lift": 2.68,
+    "ratio": 20,
+    "lift": 3.11,
     "pairPages": 8,
+    "techPages": 8,
+    "findingPages": 9,
+    "withoutPages": 20,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "jQuery",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": 17.07,
+    "lift": 1.17,
+    "pairPages": 95,
+    "techPages": 217,
+    "findingPages": 96,
+    "withoutPages": 39,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "alfa:sia-r53",
+    "ratio": 16.89,
+    "lift": 2.77,
+    "pairPages": 8,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r53",
+    "ratio": 16.89,
+    "lift": 2.77,
+    "pairPages": 8,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "Microsoft ASP.NET",
+    "finding": "alfa:sia-r53",
+    "ratio": 16.89,
+    "lift": 2.77,
+    "pairPages": 8,
+    "techPages": 9,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "reCAPTCHA",
+    "finding": "axe:link-in-text-block",
+    "ratio": 11.67,
+    "lift": 2.57,
+    "pairPages": 29,
     "techPages": 85,
-    "findingPages": 9
+    "findingPages": 34,
+    "withoutPages": 171,
+    "withoutFindingPages": 5
+   },
+   {
+    "tech": "reCAPTCHA",
+    "finding": "alfa:sia-r53",
+    "ratio": 8.75,
+    "lift": 2.72,
+    "pairPages": 7,
+    "techPages": 8,
+    "findingPages": 9,
+    "withoutPages": 20,
+    "withoutFindingPages": 2
+   },
+   {
+    "tech": "reCAPTCHA",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": 7.64,
+    "lift": 2.38,
+    "pairPages": 76,
+    "techPages": 85,
+    "findingPages": 96,
+    "withoutPages": 171,
+    "withoutFindingPages": 20
+   },
+   {
+    "tech": "jQuery",
+    "finding": "axe:heading-order",
+    "ratio": 3.41,
+    "lift": 1.12,
+    "pairPages": 19,
+    "techPages": 217,
+    "findingPages": 20,
+    "withoutPages": 39,
+    "withoutFindingPages": 1
    },
    {
     "tech": "jQuery UI",
     "finding": "axe:label-content-name-mismatch",
+    "ratio": 2.84,
     "lift": 2.67,
     "pairPages": 9,
     "techPages": 9,
-    "findingPages": 96
-   },
-   {
-    "tech": "reCAPTCHA",
-    "finding": "axe:link-in-text-block",
-    "lift": 2.57,
-    "pairPages": 29,
-    "techPages": 85,
-    "findingPages": 34
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "axe:link-in-text-block",
-    "lift": 2.39,
-    "pairPages": 34,
-    "techPages": 107,
-    "findingPages": 34
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:link-in-text-block",
-    "lift": 2.39,
-    "pairPages": 34,
-    "techPages": 107,
-    "findingPages": 34
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "axe:link-in-text-block",
-    "lift": 2.39,
-    "pairPages": 34,
-    "techPages": 107,
-    "findingPages": 34
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "axe:list",
-    "lift": 2.39,
-    "pairPages": 17,
-    "techPages": 107,
-    "findingPages": 17
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:list",
-    "lift": 2.39,
-    "pairPages": 17,
-    "techPages": 107,
-    "findingPages": 17
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "axe:list",
-    "lift": 2.39,
-    "pairPages": 17,
-    "techPages": 107,
-    "findingPages": 17
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "alfa:sia-r66",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "alfa:sia-r74",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "alfa:sia-r14",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r66",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r74",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r14",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "alfa:sia-r66",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "alfa:sia-r74",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "alfa:sia-r14",
-    "lift": 2.39,
-    "pairPages": 9,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "reCAPTCHA",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 2.38,
-    "pairPages": 76,
-    "techPages": 85,
-    "findingPages": 96
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 2.37,
-    "pairPages": 95,
-    "techPages": 107,
-    "findingPages": 96
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 2.37,
-    "pairPages": 95,
-    "techPages": 107,
-    "findingPages": 96
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 2.37,
-    "pairPages": 95,
-    "techPages": 107,
-    "findingPages": 96
-   },
-   {
-    "tech": "Qualtrics",
-    "finding": "alfa:sia-r57",
-    "lift": 2.35,
-    "pairPages": 10,
-    "techPages": 109,
-    "findingPages": 10
-   },
-   {
-    "tech": "reCAPTCHA",
-    "finding": "alfa:sia-r53",
-    "lift": 2.34,
-    "pairPages": 7,
-    "techPages": 85,
-    "findingPages": 9
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r57",
-    "lift": 2.33,
-    "pairPages": 10,
-    "techPages": 110,
-    "findingPages": 10
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r57",
-    "lift": 2.33,
-    "pairPages": 10,
-    "techPages": 110,
-    "findingPages": 10
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r57",
-    "lift": 2.33,
-    "pairPages": 10,
-    "techPages": 110,
-    "findingPages": 10
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r57",
-    "lift": 2.33,
-    "pairPages": 10,
-    "techPages": 110,
-    "findingPages": 10
-   },
-   {
-    "tech": "YouTube",
-    "finding": "alfa:sia-r57",
-    "lift": 2.33,
-    "pairPages": 10,
-    "techPages": 110,
-    "findingPages": 10
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r57",
-    "lift": 2.31,
-    "pairPages": 10,
-    "techPages": 111,
-    "findingPages": 10
-   },
-   {
-    "tech": "jsDelivr",
-    "finding": "alfa:sia-r53",
-    "lift": 2.13,
-    "pairPages": 8,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r53",
-    "lift": 2.13,
-    "pairPages": 8,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Microsoft ASP.NET",
-    "finding": "alfa:sia-r53",
-    "lift": 2.13,
-    "pairPages": 8,
-    "techPages": 107,
-    "findingPages": 9
-   },
-   {
-    "tech": "Qualtrics",
-    "finding": "alfa:sia-r61",
-    "lift": 1.5,
-    "pairPages": 16,
-    "techPages": 109,
-    "findingPages": 25
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r61",
-    "lift": 1.49,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 25
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r61",
-    "lift": 1.49,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 25
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r61",
-    "lift": 1.49,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 25
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r61",
-    "lift": 1.49,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 25
-   },
-   {
-    "tech": "YouTube",
-    "finding": "alfa:sia-r61",
-    "lift": 1.49,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 25
-   },
-   {
-    "tech": "Tealium",
-    "finding": "alfa:sia-r61",
-    "lift": 1.48,
-    "pairPages": 16,
-    "techPages": 111,
-    "findingPages": 25
-   },
-   {
-    "tech": "Qualtrics",
-    "finding": "alfa:sia-r73",
-    "lift": 1.45,
-    "pairPages": 16,
-    "techPages": 109,
-    "findingPages": 26
+    "findingPages": 96,
+    "withoutPages": 247,
+    "withoutFindingPages": 87
    },
    {
     "tech": "jsDelivr",
     "finding": "axe:heading-order",
+    "ratio": 2.09,
     "lift": 1.44,
     "pairPages": 12,
     "techPages": 107,
-    "findingPages": 20
+    "findingPages": 20,
+    "withoutPages": 149,
+    "withoutFindingPages": 8
    },
    {
     "tech": "Bootstrap",
     "finding": "axe:heading-order",
+    "ratio": 2.09,
     "lift": 1.44,
     "pairPages": 12,
     "techPages": 107,
-    "findingPages": 20
+    "findingPages": 20,
+    "withoutPages": 149,
+    "withoutFindingPages": 8
    },
    {
     "tech": "Microsoft ASP.NET",
     "finding": "axe:heading-order",
+    "ratio": 2.09,
     "lift": 1.44,
     "pairPages": 12,
     "techPages": 107,
-    "findingPages": 20
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r73",
-    "lift": 1.43,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 26
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r73",
-    "lift": 1.43,
-    "pairPages": 16,
-    "techPages": 110,
-    "findingPages": 26
+    "findingPages": 20,
+    "withoutPages": 149,
+    "withoutFindingPages": 8
    }
   ]
  },
@@ -111349,5 +111485,27 @@
   ]
  },
  "pagesAttempted": 3685,
- "pagesSucceeded": 2542
+ "pagesSucceeded": 2542,
+ "access": {
+  "level": "partial",
+  "audited": 2538,
+  "attempted": 3870,
+  "firewall": {
+   "pages": 1118,
+   "challenges": 0,
+   "refusals": 1118,
+   "statuses": {
+    "403": 1118
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 10
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 25
+  }
+ }
 }

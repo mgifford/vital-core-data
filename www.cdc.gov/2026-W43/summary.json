@@ -1,7 +1,7 @@
 {
  "domain": "www.cdc.gov",
  "week": "2026-W43",
- "generatedAt": "2026-10-25T16:49:46.866Z",
+ "generatedAt": "2026-10-30T10:37:09.865Z",
  "pagesScanned": 2579,
  "pagesAudited": 2280,
  "coverage": {
@@ -88319,9 +88319,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -88341,26 +88341,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-21T14:44:51.794Z",
+  "checkedAt": "2026-10-25T15:03:56.059Z",
   "a11yStatement": {
    "result": "pass",
    "url": "https://www.cdc.gov/other/accessibility.html",
    "confidence": "medium",
-   "checkedAt": "2026-10-21T14:44:50.596Z"
+   "checkedAt": "2026-10-25T15:03:54.699Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-21T14:44:50.597Z"
+   "checkedAt": "2026-10-25T15:03:54.700Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/cdc.gov",
-   "checkedAt": "2026-10-21T14:44:50.598Z"
+   "checkedAt": "2026-10-25T15:03:54.700Z"
   },
   "sitemaps": {
    "xml": {
@@ -88371,7 +88371,7 @@
     "found": false,
     "url": null
    },
-   "checkedAt": "2026-10-21T14:44:50.598Z"
+   "checkedAt": "2026-10-25T15:03:54.702Z"
   }
  },
  "plainLanguage": {
@@ -88546,6 +88546,9 @@
      "http://www.cdc.gov/mmwr/preview/mmwrhtml/rr5516a3.htm"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -94003,408 +94006,520 @@
      "axe:region": 1,
      "axe:scrollable-region-focusable": 1
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 237,
+     "tech": {
+      "Google Analytics": 237,
+      "Azure Front Door": 237,
+      "Azure": 237,
+      "HSTS": 237,
+      "DreamWeaver": 20,
+      "jQuery": 179,
+      "Moment.js": 16,
+      "Bootstrap": 159,
+      "D3": 13,
+      "Microsoft Word": 1,
+      "jQuery CDN": 1,
+      "jsDelivr": 1,
+      "Popper": 1,
+      "USWDS": 1,
+      "YouTube": 10,
+      "Facebook Pixel": 2,
+      "Google Tag Manager": 2,
+      "DataTables": 1
+     }
+    },
+    "alfa": {
+     "pages": 68,
+     "tech": {
+      "Google Analytics": 68,
+      "DreamWeaver": 8,
+      "jQuery": 49,
+      "Moment.js": 7,
+      "Azure Front Door": 68,
+      "Azure": 68,
+      "HSTS": 68,
+      "Bootstrap": 41,
+      "D3": 3
+     }
+    }
    }
   },
   "associations": [
    {
-    "tech": "Moment.js",
-    "finding": "axe:label",
-    "lift": 13.17,
-    "pairPages": 16,
-    "techPages": 16,
-    "findingPages": 18
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r8",
-    "lift": 12.96,
-    "pairPages": 7,
-    "techPages": 16,
-    "findingPages": 8
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r8",
-    "lift": 11.85,
-    "pairPages": 8,
-    "techPages": 20,
-    "findingPages": 8
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r61",
-    "lift": 11.52,
-    "pairPages": 7,
-    "techPages": 16,
-    "findingPages": 9
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "axe:label",
-    "lift": 11.19,
-    "pairPages": 17,
-    "techPages": 20,
-    "findingPages": 18
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r61",
-    "lift": 9.22,
-    "pairPages": 7,
-    "techPages": 20,
-    "findingPages": 9
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r73",
-    "lift": 3.84,
-    "pairPages": 7,
-    "techPages": 16,
-    "findingPages": 27
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r113",
-    "lift": 3.58,
-    "pairPages": 7,
-    "techPages": 16,
-    "findingPages": 29
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r73",
-    "lift": 3.51,
-    "pairPages": 8,
-    "techPages": 20,
-    "findingPages": 27
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r113",
-    "lift": 3.27,
-    "pairPages": 8,
-    "techPages": 20,
-    "findingPages": 29
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "axe:color-contrast",
-    "lift": 3.23,
-    "pairPages": 15,
-    "techPages": 20,
-    "findingPages": 55
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "axe:landmark-one-main",
-    "lift": 3,
-    "pairPages": 20,
-    "techPages": 20,
-    "findingPages": 79
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "axe:landmark-one-main",
-    "lift": 3,
-    "pairPages": 16,
-    "techPages": 16,
-    "findingPages": 79
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "axe:color-contrast",
-    "lift": 2.96,
-    "pairPages": 11,
-    "techPages": 16,
-    "findingPages": 55
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r74",
-    "lift": 2.85,
-    "pairPages": 5,
-    "techPages": 16,
-    "findingPages": 26
-   },
-   {
-    "tech": "D3",
-    "finding": "axe:heading-order",
-    "lift": 2.54,
-    "pairPages": 11,
-    "techPages": 13,
-    "findingPages": 79
-   },
-   {
-    "tech": "YouTube",
-    "finding": "axe:landmark-unique",
-    "lift": 2.54,
-    "pairPages": 6,
-    "techPages": 10,
-    "findingPages": 56
-   },
-   {
-    "tech": "D3",
+    "tech": "jQuery",
     "finding": "axe:label-content-name-mismatch",
-    "lift": 2.43,
-    "pairPages": 10,
-    "techPages": 13,
-    "findingPages": 75
+    "ratio": null,
+    "lift": 1.32,
+    "pairPages": 75,
+    "techPages": 179,
+    "findingPages": 75,
+    "withoutPages": 58,
+    "withoutFindingPages": 0
    },
    {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r74",
-    "lift": 2.28,
-    "pairPages": 5,
-    "techPages": 20,
-    "findingPages": 26
+    "tech": "Bootstrap",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": null,
+    "lift": 1.49,
+    "pairPages": 75,
+    "techPages": 159,
+    "findingPages": 75,
+    "withoutPages": 78,
+    "withoutFindingPages": 0
    },
    {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r66",
-    "lift": 1.82,
-    "pairPages": 7,
-    "techPages": 16,
-    "findingPages": 57
+    "tech": "jQuery",
+    "finding": "axe:landmark-unique",
+    "ratio": null,
+    "lift": 1.32,
+    "pairPages": 56,
+    "techPages": 179,
+    "findingPages": 56,
+    "withoutPages": 58,
+    "withoutFindingPages": 0
    },
    {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r66",
+    "tech": "Bootstrap",
+    "finding": "axe:landmark-unique",
+    "ratio": null,
+    "lift": 1.49,
+    "pairPages": 56,
+    "techPages": 159,
+    "findingPages": 56,
+    "withoutPages": 78,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jQuery",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
+    "lift": 1.39,
+    "pairPages": 41,
+    "techPages": 49,
+    "findingPages": 41,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r57",
+    "ratio": null,
     "lift": 1.66,
-    "pairPages": 8,
-    "techPages": 20,
-    "findingPages": 57
-   },
-   {
-    "tech": "Moment.js",
-    "finding": "alfa:sia-r111",
-    "lift": 1.57,
-    "pairPages": 7,
-    "techPages": 16,
-    "findingPages": 66
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 1.49,
-    "pairPages": 75,
-    "techPages": 159,
-    "findingPages": 75
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:landmark-unique",
-    "lift": 1.49,
-    "pairPages": 56,
-    "techPages": 159,
-    "findingPages": 56
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r57",
-    "lift": 1.49,
     "pairPages": 41,
-    "techPages": 159,
-    "findingPages": 41
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r18",
-    "lift": 1.49,
-    "pairPages": 30,
-    "techPages": 159,
-    "findingPages": 30
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:aria-allowed-role",
-    "lift": 1.49,
-    "pairPages": 15,
-    "techPages": 159,
-    "findingPages": 15
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r69",
-    "lift": 1.49,
-    "pairPages": 9,
-    "techPages": 159,
-    "findingPages": 9
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r14",
-    "lift": 1.49,
-    "pairPages": 9,
-    "techPages": 159,
-    "findingPages": 9
-   },
-   {
-    "tech": "DreamWeaver",
-    "finding": "alfa:sia-r111",
-    "lift": 1.44,
-    "pairPages": 8,
-    "techPages": 20,
-    "findingPages": 66
-   },
-   {
-    "tech": "jQuery",
-    "finding": "axe:label-content-name-mismatch",
-    "lift": 1.32,
-    "pairPages": 75,
-    "techPages": 179,
-    "findingPages": 75
-   },
-   {
-    "tech": "jQuery",
-    "finding": "axe:landmark-unique",
-    "lift": 1.32,
-    "pairPages": 56,
-    "techPages": 179,
-    "findingPages": 56
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r57",
-    "lift": 1.32,
-    "pairPages": 41,
-    "techPages": 179,
-    "findingPages": 41
+    "techPages": 41,
+    "findingPages": 41,
+    "withoutPages": 27,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r18",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 30,
-    "techPages": 179,
-    "findingPages": 30
+    "techPages": 49,
+    "findingPages": 30,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r18",
+    "ratio": null,
+    "lift": 1.66,
+    "pairPages": 30,
+    "techPages": 41,
+    "findingPages": 30,
+    "withoutPages": 27,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "axe:label",
+    "ratio": null,
     "lift": 1.32,
     "pairPages": 18,
     "techPages": 179,
-    "findingPages": 18
+    "findingPages": 18,
+    "withoutPages": 58,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "axe:aria-allowed-role",
+    "ratio": null,
     "lift": 1.32,
     "pairPages": 15,
     "techPages": 179,
-    "findingPages": 15
+    "findingPages": 15,
+    "withoutPages": 58,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.49,
+    "pairPages": 15,
+    "techPages": 159,
+    "findingPages": 15,
+    "withoutPages": 78,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r61",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 9,
-    "techPages": 179,
-    "findingPages": 9
+    "techPages": 49,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r69",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 9,
-    "techPages": 179,
-    "findingPages": 9
+    "techPages": 49,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r14",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 9,
-    "techPages": 179,
-    "findingPages": 9
+    "techPages": 49,
+    "findingPages": 9,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r69",
+    "ratio": null,
+    "lift": 1.66,
+    "pairPages": 9,
+    "techPages": 41,
+    "findingPages": 9,
+    "withoutPages": 27,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 1.66,
+    "pairPages": 9,
+    "techPages": 41,
+    "findingPages": 9,
+    "withoutPages": 27,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "alfa:sia-r8",
+    "ratio": null,
+    "lift": 8.5,
+    "pairPages": 8,
+    "techPages": 8,
+    "findingPages": 8,
+    "withoutPages": 60,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r8",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 8,
-    "techPages": 179,
-    "findingPages": 8
+    "techPages": 49,
+    "findingPages": 8,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "axe:link-in-text-block",
+    "ratio": null,
     "lift": 1.32,
     "pairPages": 8,
     "techPages": 179,
-    "findingPages": 8
+    "findingPages": 8,
+    "withoutPages": 58,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r78",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 7,
-    "techPages": 179,
-    "findingPages": 7
+    "techPages": 49,
+    "findingPages": 7,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r68",
-    "lift": 1.32,
+    "ratio": null,
+    "lift": 1.39,
     "pairPages": 6,
-    "techPages": 179,
-    "findingPages": 6
+    "techPages": 49,
+    "findingPages": 6,
+    "withoutPages": 19,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "axe:label",
+    "ratio": 184.45,
+    "lift": 11.19,
+    "pairPages": 17,
+    "techPages": 20,
+    "findingPages": 18,
+    "withoutPages": 217,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "axe:label",
+    "ratio": 110.5,
+    "lift": 13.17,
+    "pairPages": 16,
+    "techPages": 16,
+    "findingPages": 18,
+    "withoutPages": 221,
+    "withoutFindingPages": 2
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "alfa:sia-r8",
+    "ratio": 61,
+    "lift": 8.5,
+    "pairPages": 7,
+    "techPages": 7,
+    "findingPages": 8,
+    "withoutPages": 61,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "alfa:sia-r61",
+    "ratio": 30.5,
+    "lift": 7.56,
+    "pairPages": 7,
+    "techPages": 7,
+    "findingPages": 9,
+    "withoutPages": 61,
+    "withoutFindingPages": 2
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "alfa:sia-r61",
+    "ratio": 26.25,
+    "lift": 6.61,
+    "pairPages": 7,
+    "techPages": 8,
+    "findingPages": 9,
+    "withoutPages": 60,
+    "withoutFindingPages": 2
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "axe:color-contrast",
+    "ratio": 4.07,
+    "lift": 3.23,
+    "pairPages": 15,
+    "techPages": 20,
+    "findingPages": 55,
+    "withoutPages": 217,
+    "withoutFindingPages": 40
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "axe:landmark-one-main",
+    "ratio": 3.68,
+    "lift": 3,
+    "pairPages": 20,
+    "techPages": 20,
+    "findingPages": 79,
+    "withoutPages": 217,
+    "withoutFindingPages": 59
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "axe:landmark-one-main",
+    "ratio": 3.51,
+    "lift": 3,
+    "pairPages": 16,
+    "techPages": 16,
+    "findingPages": 79,
+    "withoutPages": 221,
+    "withoutFindingPages": 63
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "axe:color-contrast",
+    "ratio": 3.45,
+    "lift": 2.96,
+    "pairPages": 11,
+    "techPages": 16,
+    "findingPages": 55,
+    "withoutPages": 221,
+    "withoutFindingPages": 44
    },
    {
     "tech": "Bootstrap",
     "finding": "alfa:sia-r68",
-    "lift": 1.24,
+    "ratio": 3.29,
+    "lift": 1.38,
     "pairPages": 5,
-    "techPages": 159,
-    "findingPages": 6
+    "techPages": 41,
+    "findingPages": 6,
+    "withoutPages": 27,
+    "withoutFindingPages": 1
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "alfa:sia-r73",
+    "ratio": 3.16,
+    "lift": 2.52,
+    "pairPages": 8,
+    "techPages": 8,
+    "findingPages": 27,
+    "withoutPages": 60,
+    "withoutFindingPages": 19
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "alfa:sia-r73",
+    "ratio": 3.05,
+    "lift": 2.52,
+    "pairPages": 7,
+    "techPages": 7,
+    "findingPages": 27,
+    "withoutPages": 61,
+    "withoutFindingPages": 20
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "alfa:sia-r113",
+    "ratio": 2.86,
+    "lift": 2.34,
+    "pairPages": 8,
+    "techPages": 8,
+    "findingPages": 29,
+    "withoutPages": 60,
+    "withoutFindingPages": 21
+   },
+   {
+    "tech": "D3",
+    "finding": "axe:heading-order",
+    "ratio": 2.79,
+    "lift": 2.54,
+    "pairPages": 11,
+    "techPages": 13,
+    "findingPages": 79,
+    "withoutPages": 224,
+    "withoutFindingPages": 68
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "alfa:sia-r113",
+    "ratio": 2.77,
+    "lift": 2.34,
+    "pairPages": 7,
+    "techPages": 7,
+    "findingPages": 29,
+    "withoutPages": 61,
+    "withoutFindingPages": 22
+   },
+   {
+    "tech": "YouTube",
+    "finding": "axe:landmark-unique",
+    "ratio": 2.72,
+    "lift": 2.54,
+    "pairPages": 6,
+    "techPages": 10,
+    "findingPages": 56,
+    "withoutPages": 227,
+    "withoutFindingPages": 50
+   },
+   {
+    "tech": "D3",
+    "finding": "axe:label-content-name-mismatch",
+    "ratio": 2.65,
+    "lift": 2.43,
+    "pairPages": 10,
+    "techPages": 13,
+    "findingPages": 75,
+    "withoutPages": 224,
+    "withoutFindingPages": 65
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r66",
-    "lift": 1.14,
+    "ratio": 2.38,
+    "lift": 1.19,
     "pairPages": 49,
-    "techPages": 179,
-    "findingPages": 57
+    "techPages": 49,
+    "findingPages": 57,
+    "withoutPages": 19,
+    "withoutFindingPages": 8
+   },
+   {
+    "tech": "Moment.js",
+    "finding": "alfa:sia-r74",
+    "ratio": 2.07,
+    "lift": 1.87,
+    "pairPages": 5,
+    "techPages": 7,
+    "findingPages": 26,
+    "withoutPages": 61,
+    "withoutFindingPages": 21
+   },
+   {
+    "tech": "DreamWeaver",
+    "finding": "alfa:sia-r74",
+    "ratio": 1.79,
+    "lift": 1.63,
+    "pairPages": 5,
+    "techPages": 8,
+    "findingPages": 26,
+    "withoutPages": 60,
+    "withoutFindingPages": 21
    },
    {
     "tech": "Bootstrap",
     "finding": "alfa:sia-r66",
-    "lift": 1.07,
+    "ratio": 1.69,
+    "lift": 1.19,
     "pairPages": 41,
-    "techPages": 159,
-    "findingPages": 57
+    "techPages": 41,
+    "findingPages": 57,
+    "withoutPages": 27,
+    "withoutFindingPages": 16
    },
    {
     "tech": "Bootstrap",
     "finding": "alfa:sia-r78",
-    "lift": 1.06,
+    "ratio": 1.65,
+    "lift": 1.18,
     "pairPages": 5,
-    "techPages": 159,
-    "findingPages": 7
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 237,
-    "techPages": 237,
-    "findingPages": 237
-   },
-   {
-    "tech": "Azure Front Door",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 237,
-    "techPages": 237,
-    "findingPages": 237
-   },
-   {
-    "tech": "Azure",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 237,
-    "techPages": 237,
-    "findingPages": 237
+    "techPages": 41,
+    "findingPages": 7,
+    "withoutPages": 27,
+    "withoutFindingPages": 2
    }
   ]
  },
@@ -161569,5 +161684,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 2498,
- "pagesSucceeded": 2251
+ "pagesSucceeded": 2251,
+ "access": {
+  "level": "ok",
+  "audited": 2280,
+  "attempted": 2582,
+  "firewall": {
+   "pages": 33,
+   "challenges": 0,
+   "refusals": 33,
+   "statuses": {
+    "403": 33
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 3
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 217
+  }
+ }
 }

@@ -1,16 +1,16 @@
 {
  "domain": "nih.gov",
  "week": "2026-W41",
- "generatedAt": "2026-10-09T18:32:35.588Z",
+ "generatedAt": "2026-10-30T10:37:27.125Z",
  "pagesScanned": 3333,
  "pagesAudited": 19,
  "coverage": {
-  "sustainability": 351,
   "axe": 19,
   "alfa": 13,
   "resources": 19,
   "standards": 9,
   "deprecated-html": 2,
+  "sustainability": 4,
   "tech": 3,
   "plain-language": 8,
   "lighthouse": 1
@@ -1839,14 +1839,14 @@
   }
  },
  "sustainability": {
-  "pages": 351,
-  "medianBytes": 63178,
-  "meanBytes": 134254,
-  "medianRequests": 7,
-  "totalCo2g": 7,
-  "meanCo2g": 0.0199,
-  "totalEnergyWh": 14.15,
-  "meanEnergyWh": 0.0403
+  "pages": 4,
+  "medianBytes": 1451763,
+  "meanBytes": 1592899,
+  "medianRequests": 101,
+  "totalCo2g": 0.94,
+  "meanCo2g": 0.2361,
+  "totalEnergyWh": 1.91,
+  "meanEnergyWh": 0.4779
  },
  "deprecatedHtml": null,
  "resources": {
@@ -2288,6 +2288,9 @@
      "https://www.nih.gov/news-events/nih-research-matters/testing-blood-biomarker-neurodegeneration"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -3546,6 +3549,46 @@
      "alfa:sia-r57": 1,
      "alfa:sia-r111": 1,
      "axe:empty-heading": 1
+    }
+   },
+   "engines": {
+    "axe": {
+     "pages": 3,
+     "tech": {
+      "Cloudflare Browser Insights": 3,
+      "Crazy Egg": 3,
+      "Google Analytics": 3,
+      "Varnish": 3,
+      "Cloudflare": 3,
+      "Drupal": 3,
+      "jQuery": 3,
+      "HTTP/3": 3,
+      "Acquia Cloud Platform": 3,
+      "Amazon Web Services": 3,
+      "PHP": 3,
+      "HSTS": 3,
+      "Google Tag Manager": 3,
+      "USWDS": 3
+     }
+    },
+    "alfa": {
+     "pages": 1,
+     "tech": {
+      "Cloudflare Browser Insights": 1,
+      "Crazy Egg": 1,
+      "Google Analytics": 1,
+      "Varnish": 1,
+      "Cloudflare": 1,
+      "Drupal": 1,
+      "jQuery": 1,
+      "HTTP/3": 1,
+      "Acquia Cloud Platform": 1,
+      "Amazon Web Services": 1,
+      "PHP": 1,
+      "HSTS": 1,
+      "Google Tag Manager": 1,
+      "USWDS": 1
+     }
     }
    }
   },
@@ -6821,5 +6864,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 3639,
- "pagesSucceeded": 20
+ "pagesSucceeded": 20,
+ "access": {
+  "level": "partial",
+  "audited": 19,
+  "attempted": 3333,
+  "firewall": {
+   "pages": 3312,
+   "challenges": 0,
+   "refusals": 3312,
+   "statuses": {
+    "403": 3312
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 2
+  }
+ }
 }

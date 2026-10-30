@@ -1,7 +1,7 @@
 {
  "domain": "www.medicare.gov",
  "week": "2026-W43",
- "generatedAt": "2026-10-21T17:39:32.595Z",
+ "generatedAt": "2026-10-30T10:36:46.837Z",
  "pagesScanned": 2088,
  "pagesAudited": 2019,
  "coverage": {
@@ -38344,9 +38344,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -38366,26 +38366,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-19T17:38:57.887Z",
+  "checkedAt": "2026-10-21T14:44:44.611Z",
   "a11yStatement": {
    "result": "pass",
    "url": "https://www.medicare.gov/about-us/accessibility-nondiscrimination-notice#alert",
    "confidence": "medium",
-   "checkedAt": "2026-10-19T17:38:57.094Z"
+   "checkedAt": "2026-10-21T14:44:41.323Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-19T17:38:57.095Z"
+   "checkedAt": "2026-10-21T14:44:41.325Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/medicare.gov",
-   "checkedAt": "2026-10-19T17:38:57.095Z"
+   "checkedAt": "2026-10-21T14:44:41.325Z"
   },
   "sitemaps": {
    "xml": {
@@ -38396,7 +38396,7 @@
     "found": true,
     "url": "https://www.medicare.gov/sitemap"
    },
-   "checkedAt": "2026-10-19T17:38:57.096Z"
+   "checkedAt": "2026-10-21T14:44:41.326Z"
   }
  },
  "plainLanguage": {
@@ -38571,6 +38571,9 @@
      "http://medicare.gov/publication-ordering/10050"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -41092,408 +41095,274 @@
      "axe:frame-title": 2,
      "axe:region": 2
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 190,
+     "tech": {
+      "Microsoft Advertising": 190,
+      "Nextdoor Ads": 177,
+      "theTradeDesk": 190,
+      "Google Analytics": 190,
+      "Akamai": 190,
+      "Drupal": 161,
+      "Font Awesome": 161,
+      "jQuery": 161,
+      "Acquia Cloud Platform": 161,
+      "Amazon Web Services": 161,
+      "PHP": 161,
+      "Akamai Bot Manager": 190,
+      "HSTS": 187,
+      "Qualtrics": 190,
+      "Tealium": 190,
+      "Bootstrap": 190,
+      "YouTube": 190,
+      "Akamai Web Application Protector": 8,
+      "jsDelivr": 10,
+      "Module Federation": 10,
+      "Webpack": 10,
+      "Facebook Pixel": 9,
+      "Tealium AudienceStream": 2
+     }
+    },
+    "alfa": {
+     "pages": 41,
+     "tech": {
+      "Microsoft Advertising": 41,
+      "Nextdoor Ads": 38,
+      "theTradeDesk": 41,
+      "Google Analytics": 41,
+      "Akamai": 41,
+      "Drupal": 34,
+      "Font Awesome": 34,
+      "jQuery": 34,
+      "Acquia Cloud Platform": 34,
+      "Amazon Web Services": 34,
+      "PHP": 34,
+      "Akamai Bot Manager": 41,
+      "HSTS": 40,
+      "Qualtrics": 41,
+      "Tealium": 41,
+      "Bootstrap": 41,
+      "YouTube": 41,
+      "Akamai Web Application Protector": 4,
+      "Facebook Pixel": 2,
+      "jsDelivr": 2,
+      "Module Federation": 2,
+      "Webpack": 2
+     }
+    }
    }
   },
   "associations": [
    {
     "tech": "Drupal",
     "finding": "axe:region",
+    "ratio": null,
     "lift": 1.18,
     "pairPages": 161,
     "techPages": 161,
-    "findingPages": 161
+    "findingPages": 161,
+    "withoutPages": 29,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Font Awesome",
     "finding": "axe:region",
+    "ratio": null,
     "lift": 1.18,
     "pairPages": 161,
     "techPages": 161,
-    "findingPages": 161
+    "findingPages": 161,
+    "withoutPages": 29,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "axe:region",
+    "ratio": null,
     "lift": 1.18,
     "pairPages": 161,
     "techPages": 161,
-    "findingPages": 161
+    "findingPages": 161,
+    "withoutPages": 29,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Acquia Cloud Platform",
     "finding": "axe:region",
+    "ratio": null,
     "lift": 1.18,
     "pairPages": 161,
     "techPages": 161,
-    "findingPages": 161
+    "findingPages": 161,
+    "withoutPages": 29,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Amazon Web Services",
     "finding": "axe:region",
+    "ratio": null,
     "lift": 1.18,
     "pairPages": 161,
     "techPages": 161,
-    "findingPages": 161
+    "findingPages": 161,
+    "withoutPages": 29,
+    "withoutFindingPages": 0
    },
    {
     "tech": "PHP",
     "finding": "axe:region",
+    "ratio": null,
     "lift": 1.18,
     "pairPages": 161,
     "techPages": 161,
-    "findingPages": 161
+    "findingPages": 161,
+    "withoutPages": 29,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Drupal",
     "finding": "alfa:sia-r17",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 34,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Font Awesome",
     "finding": "alfa:sia-r17",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 34,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r17",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 34,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r17",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 34,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r17",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 34,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "PHP",
     "finding": "alfa:sia-r17",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 34,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Drupal",
     "finding": "alfa:sia-r78",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 9,
-    "techPages": 161,
-    "findingPages": 9
+    "techPages": 34,
+    "findingPages": 9,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Font Awesome",
     "finding": "alfa:sia-r78",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 9,
-    "techPages": 161,
-    "findingPages": 9
+    "techPages": 34,
+    "findingPages": 9,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jQuery",
     "finding": "alfa:sia-r78",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 9,
-    "techPages": 161,
-    "findingPages": 9
+    "techPages": 34,
+    "findingPages": 9,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r78",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 9,
-    "techPages": 161,
-    "findingPages": 9
+    "techPages": 34,
+    "findingPages": 9,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r78",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 9,
-    "techPages": 161,
-    "findingPages": 9
+    "techPages": 34,
+    "findingPages": 9,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "PHP",
     "finding": "alfa:sia-r78",
-    "lift": 1.18,
+    "ratio": null,
+    "lift": 1.21,
     "pairPages": 9,
-    "techPages": 161,
-    "findingPages": 9
-   },
-   {
-    "tech": "Facebook Pixel",
-    "finding": "axe:region",
-    "lift": 1.18,
-    "pairPages": 9,
-    "techPages": 9,
-    "findingPages": 161
-   },
-   {
-    "tech": "Nextdoor Ads",
-    "finding": "alfa:sia-r66",
-    "lift": 1.07,
-    "pairPages": 20,
-    "techPages": 177,
-    "findingPages": 20
-   },
-   {
-    "tech": "Nextdoor Ads",
-    "finding": "alfa:sia-r78",
-    "lift": 1.07,
-    "pairPages": 9,
-    "techPages": 177,
-    "findingPages": 9
-   },
-   {
-    "tech": "Nextdoor Ads",
-    "finding": "alfa:sia-r57",
-    "lift": 1.05,
-    "pairPages": 38,
-    "techPages": 177,
-    "findingPages": 39
-   },
-   {
-    "tech": "Nextdoor Ads",
-    "finding": "alfa:sia-r17",
-    "lift": 1.04,
-    "pairPages": 33,
-    "techPages": 177,
-    "findingPages": 34
+    "techPages": 34,
+    "findingPages": 9,
+    "withoutPages": 7,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Nextdoor Ads",
     "finding": "axe:region",
+    "ratio": 1.9,
     "lift": 1.03,
     "pairPages": 155,
     "techPages": 177,
-    "findingPages": 161
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r57",
-    "lift": 1.03,
-    "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 39
-   },
-   {
-    "tech": "Font Awesome",
-    "finding": "alfa:sia-r57",
-    "lift": 1.03,
-    "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 39
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r57",
-    "lift": 1.03,
-    "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 39
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r57",
-    "lift": 1.03,
-    "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 39
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r57",
-    "lift": 1.03,
-    "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 39
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r57",
-    "lift": 1.03,
-    "pairPages": 34,
-    "techPages": 161,
-    "findingPages": 39
-   },
-   {
-    "tech": "Akamai Web Application Protector",
-    "finding": "axe:region",
-    "lift": 1.03,
-    "pairPages": 7,
-    "techPages": 8,
-    "findingPages": 161
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r66",
-    "lift": 1.02,
-    "pairPages": 20,
-    "techPages": 187,
-    "findingPages": 20
-   },
-   {
-    "tech": "HSTS",
-    "finding": "alfa:sia-r78",
-    "lift": 1.02,
-    "pairPages": 9,
-    "techPages": 187,
-    "findingPages": 9
-   },
-   {
-    "tech": "Microsoft Advertising",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "theTradeDesk",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "Akamai",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "Akamai Bot Manager",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "Qualtrics",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "Tealium",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "YouTube",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 161,
-    "techPages": 190,
-    "findingPages": 161
-   },
-   {
-    "tech": "HSTS",
-    "finding": "axe:region",
-    "lift": 1,
-    "pairPages": 158,
-    "techPages": 187,
-    "findingPages": 161
-   },
-   {
-    "tech": "Microsoft Advertising",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
-   },
-   {
-    "tech": "Microsoft Advertising",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
-   },
-   {
-    "tech": "theTradeDesk",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
-   },
-   {
-    "tech": "theTradeDesk",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
-   },
-   {
-    "tech": "Google Analytics",
-    "finding": "alfa:sia-r111",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
-   },
-   {
-    "tech": "Akamai",
-    "finding": "alfa:sia-r73",
-    "lift": 1,
-    "pairPages": 41,
-    "techPages": 190,
-    "findingPages": 41
+    "findingPages": 161,
+    "withoutPages": 13,
+    "withoutFindingPages": 6
    }
   ]
  },
@@ -65009,5 +64878,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 1896,
- "pagesSucceeded": 1875
+ "pagesSucceeded": 1875,
+ "access": {
+  "level": "partial",
+  "audited": 2019,
+  "attempted": 2322,
+  "firewall": {
+   "pages": 1,
+   "challenges": 0,
+   "refusals": 1,
+   "statuses": {
+    "403": 1
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 234
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 23
+  }
+ }
 }

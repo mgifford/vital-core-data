@@ -1,7 +1,7 @@
 {
  "domain": "www.medicaid.gov",
  "week": "2026-W42",
- "generatedAt": "2026-10-18T16:09:11.220Z",
+ "generatedAt": "2026-10-30T10:36:56.105Z",
  "pagesScanned": 6444,
  "pagesAudited": 5997,
  "coverage": {
@@ -9,7 +9,7 @@
   "plain-language": 3048,
   "resources": 5997,
   "standards": 3054,
-  "sustainability": 625,
+  "sustainability": 583,
   "tech": 594,
   "alfa": 2987,
   "deprecated-html": 612,
@@ -84690,14 +84690,14 @@
   }
  },
  "sustainability": {
-  "pages": 625,
-  "medianBytes": 1755258,
-  "meanBytes": 1579776,
+  "pages": 583,
+  "medianBytes": 1755328,
+  "meanBytes": 1690502,
   "medianRequests": 154,
-  "totalCo2g": 146.33,
-  "meanCo2g": 0.2341,
-  "totalEnergyWh": 296.21,
-  "meanEnergyWh": 0.4739
+  "totalCo2g": 146.06,
+  "meanCo2g": 0.2505,
+  "totalEnergyWh": 295.67,
+  "meanEnergyWh": 0.5072
  },
  "deprecatedHtml": {
   "findingTotal": 65,
@@ -127837,9 +127837,9 @@
    },
    {
     "id": "gov-tld",
-    "label": "Sponsored government TLD (.gov/.mil/.edu)",
+    "label": "Government domain",
     "pass": true,
-    "detail": "gov"
+    "detail": "gov (United States)"
    },
    {
     "id": "security-txt",
@@ -127859,26 +127859,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-12T10:42:13.060Z",
+  "checkedAt": "2026-10-18T14:50:43.240Z",
   "a11yStatement": {
-   "result": "fail",
-   "url": null,
-   "confidence": null,
-   "checkedAt": "2026-10-12T10:42:11.760Z"
+   "result": "pass",
+   "url": "https://www.cms.gov/about-cms/web-policies-important-links/accessibility-nondiscrimination-disabilities-notice",
+   "confidence": "medium",
+   "checkedAt": "2026-10-18T14:50:42.310Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-12T10:42:11.760Z"
+   "checkedAt": "2026-10-18T14:50:42.311Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/medicaid.gov",
-   "checkedAt": "2026-10-12T10:42:11.760Z"
+   "checkedAt": "2026-10-18T14:50:42.311Z"
   },
   "sitemaps": {
    "xml": {
@@ -127889,7 +127889,7 @@
     "found": false,
     "url": null
    },
-   "checkedAt": "2026-10-12T10:42:11.761Z"
+   "checkedAt": "2026-10-18T14:50:42.312Z"
   }
  },
  "plainLanguage": {
@@ -128064,6 +128064,9 @@
      "https://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A856&f%5B1%5D=fpg_topics_facet%3A1011&f%5B2%5D=fpg_topics_facet%3A8601&f%5B3%5D=fpg_topics_facet%3A8616&page=109"
     ]
    }
+  ],
+  "spellingLocales": [
+   "en-US"
   ],
   "topMisspellings": [
    {
@@ -130339,408 +130342,614 @@
      "axe:label-content-name-mismatch": 1,
      "axe:label-title-only": 1
     }
+   },
+   "engines": {
+    "axe": {
+     "pages": 594,
+     "tech": {
+      "Google Analytics": 594,
+      "cdnjs": 523,
+      "Cloudflare": 523,
+      "jsDelivr": 523,
+      "Drupal": 523,
+      "jQuery": 594,
+      "jQuery UI": 510,
+      "Select2": 523,
+      "Acquia Cloud Platform": 523,
+      "Amazon Web Services": 523,
+      "PHP": 523,
+      "HSTS": 594,
+      "Qualtrics": 523,
+      "Tealium": 523,
+      "USWDS": 523,
+      "DataTables": 72,
+      "Popper": 71,
+      "Bootstrap": 71,
+      "Akamai": 33,
+      "Akamai Web Application Protector": 33,
+      "Chartbeat": 143,
+      "Paths.js": 1,
+      "Raphael": 1
+     }
+    },
+    "alfa": {
+     "pages": 291,
+     "tech": {
+      "Google Analytics": 291,
+      "cdnjs": 255,
+      "Cloudflare": 255,
+      "jsDelivr": 255,
+      "Drupal": 255,
+      "jQuery": 291,
+      "jQuery UI": 252,
+      "Select2": 255,
+      "Acquia Cloud Platform": 255,
+      "Amazon Web Services": 255,
+      "PHP": 255,
+      "HSTS": 291,
+      "Qualtrics": 255,
+      "Tealium": 255,
+      "USWDS": 255,
+      "DataTables": 36,
+      "Popper": 36,
+      "Bootstrap": 36,
+      "Akamai": 16,
+      "Akamai Web Application Protector": 16,
+      "Chartbeat": 69
+     }
+    }
    }
   },
   "associations": [
    {
-    "tech": "Popper",
-    "finding": "axe:landmark-one-main",
-    "lift": 8.37,
-    "pairPages": 71,
-    "techPages": 71,
-    "findingPages": 71
-   },
-   {
-    "tech": "Popper",
-    "finding": "axe:page-has-heading-one",
-    "lift": 8.37,
-    "pairPages": 71,
-    "techPages": 71,
-    "findingPages": 71
-   },
-   {
-    "tech": "Popper",
-    "finding": "axe:region",
-    "lift": 8.37,
-    "pairPages": 71,
-    "techPages": 71,
-    "findingPages": 71
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:landmark-one-main",
-    "lift": 8.37,
-    "pairPages": 71,
-    "techPages": 71,
-    "findingPages": 71
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:page-has-heading-one",
-    "lift": 8.37,
-    "pairPages": 71,
-    "techPages": 71,
-    "findingPages": 71
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:region",
-    "lift": 8.37,
-    "pairPages": 71,
-    "techPages": 71,
-    "findingPages": 71
-   },
-   {
-    "tech": "Popper",
-    "finding": "alfa:sia-r61",
-    "lift": 8.37,
-    "pairPages": 36,
-    "techPages": 71,
-    "findingPages": 36
-   },
-   {
-    "tech": "Popper",
-    "finding": "alfa:sia-r87",
-    "lift": 8.37,
-    "pairPages": 36,
-    "techPages": 71,
-    "findingPages": 36
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r61",
-    "lift": 8.37,
-    "pairPages": 36,
-    "techPages": 71,
-    "findingPages": 36
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r87",
-    "lift": 8.37,
-    "pairPages": 36,
-    "techPages": 71,
-    "findingPages": 36
-   },
-   {
-    "tech": "Popper",
-    "finding": "alfa:sia-r14",
-    "lift": 8.37,
-    "pairPages": 25,
-    "techPages": 71,
-    "findingPages": 25
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r14",
-    "lift": 8.37,
-    "pairPages": 25,
-    "techPages": 71,
-    "findingPages": 25
-   },
-   {
-    "tech": "Popper",
-    "finding": "axe:aria-allowed-attr",
-    "lift": 8.37,
-    "pairPages": 18,
-    "techPages": 71,
-    "findingPages": 18
-   },
-   {
-    "tech": "Popper",
-    "finding": "axe:aria-required-children",
-    "lift": 8.37,
-    "pairPages": 18,
-    "techPages": 71,
-    "findingPages": 18
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:aria-allowed-attr",
-    "lift": 8.37,
-    "pairPages": 18,
-    "techPages": 71,
-    "findingPages": 18
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "axe:aria-required-children",
-    "lift": 8.37,
-    "pairPages": 18,
-    "techPages": 71,
-    "findingPages": 18
-   },
-   {
-    "tech": "Popper",
-    "finding": "alfa:sia-r18",
-    "lift": 8.37,
-    "pairPages": 11,
-    "techPages": 71,
-    "findingPages": 11
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r18",
-    "lift": 8.37,
-    "pairPages": 11,
-    "techPages": 71,
-    "findingPages": 11
-   },
-   {
-    "tech": "DataTables",
-    "finding": "axe:landmark-one-main",
-    "lift": 8.25,
-    "pairPages": 71,
-    "techPages": 72,
-    "findingPages": 71
-   },
-   {
-    "tech": "DataTables",
-    "finding": "axe:page-has-heading-one",
-    "lift": 8.25,
-    "pairPages": 71,
-    "techPages": 72,
-    "findingPages": 71
-   },
-   {
-    "tech": "DataTables",
-    "finding": "axe:region",
-    "lift": 8.25,
-    "pairPages": 71,
-    "techPages": 72,
-    "findingPages": 71
-   },
-   {
-    "tech": "DataTables",
-    "finding": "alfa:sia-r61",
-    "lift": 8.25,
-    "pairPages": 36,
-    "techPages": 72,
-    "findingPages": 36
-   },
-   {
-    "tech": "DataTables",
-    "finding": "alfa:sia-r87",
-    "lift": 8.25,
-    "pairPages": 36,
-    "techPages": 72,
-    "findingPages": 36
-   },
-   {
-    "tech": "DataTables",
-    "finding": "alfa:sia-r14",
-    "lift": 8.25,
-    "pairPages": 25,
-    "techPages": 72,
-    "findingPages": 25
-   },
-   {
-    "tech": "DataTables",
-    "finding": "axe:aria-allowed-attr",
-    "lift": 8.25,
-    "pairPages": 18,
-    "techPages": 72,
-    "findingPages": 18
-   },
-   {
-    "tech": "DataTables",
-    "finding": "axe:aria-required-children",
-    "lift": 8.25,
-    "pairPages": 18,
-    "techPages": 72,
-    "findingPages": 18
-   },
-   {
-    "tech": "DataTables",
-    "finding": "alfa:sia-r18",
-    "lift": 8.25,
-    "pairPages": 11,
-    "techPages": 72,
-    "findingPages": 11
-   },
-   {
-    "tech": "Popper",
-    "finding": "alfa:sia-r68",
-    "lift": 5.75,
-    "pairPages": 11,
-    "techPages": 71,
-    "findingPages": 16
-   },
-   {
-    "tech": "Bootstrap",
-    "finding": "alfa:sia-r68",
-    "lift": 5.75,
-    "pairPages": 11,
-    "techPages": 71,
-    "findingPages": 16
-   },
-   {
-    "tech": "DataTables",
-    "finding": "alfa:sia-r68",
-    "lift": 5.67,
-    "pairPages": 11,
-    "techPages": 72,
-    "findingPages": 16
-   },
-   {
-    "tech": "Chartbeat",
-    "finding": "axe:aria-allowed-role",
-    "lift": 2.77,
-    "pairPages": 10,
-    "techPages": 143,
-    "findingPages": 15
-   },
-   {
-    "tech": "Chartbeat",
-    "finding": "axe:aria-input-field-name",
-    "lift": 2.77,
-    "pairPages": 10,
-    "techPages": 143,
-    "findingPages": 15
-   },
-   {
-    "tech": "Chartbeat",
-    "finding": "axe:heading-order",
-    "lift": 2.64,
-    "pairPages": 7,
-    "techPages": 143,
-    "findingPages": 11
-   },
-   {
-    "tech": "jQuery UI",
-    "finding": "axe:aria-allowed-role",
-    "lift": 1.16,
-    "pairPages": 15,
-    "techPages": 510,
-    "findingPages": 15
-   },
-   {
-    "tech": "jQuery UI",
-    "finding": "axe:aria-input-field-name",
-    "lift": 1.16,
-    "pairPages": 15,
-    "techPages": 510,
-    "findingPages": 15
-   },
-   {
-    "tech": "jQuery UI",
-    "finding": "alfa:sia-r8",
-    "lift": 1.16,
-    "pairPages": 6,
-    "techPages": 510,
-    "findingPages": 6
-   },
-   {
-    "tech": "jQuery UI",
-    "finding": "alfa:sia-r113",
-    "lift": 1.16,
-    "pairPages": 6,
-    "techPages": 510,
-    "findingPages": 6
-   },
-   {
-    "tech": "jQuery UI",
-    "finding": "alfa:sia-r73",
-    "lift": 1.15,
-    "pairPages": 252,
-    "techPages": 510,
-    "findingPages": 255
-   },
-   {
     "tech": "cdnjs",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Cloudflare",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "jsDelivr",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Drupal",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Select2",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "PHP",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Qualtrics",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "Tealium",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
    },
    {
     "tech": "USWDS",
     "finding": "alfa:sia-r73",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 255,
-    "techPages": 523,
-    "findingPages": 255
+    "techPages": 255,
+    "findingPages": 255,
+    "withoutPages": 36,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "axe:landmark-one-main",
+    "ratio": null,
+    "lift": 8.25,
+    "pairPages": 71,
+    "techPages": 72,
+    "findingPages": 71,
+    "withoutPages": 522,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "axe:page-has-heading-one",
+    "ratio": null,
+    "lift": 8.25,
+    "pairPages": 71,
+    "techPages": 72,
+    "findingPages": 71,
+    "withoutPages": 522,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "axe:region",
+    "ratio": null,
+    "lift": 8.25,
+    "pairPages": 71,
+    "techPages": 72,
+    "findingPages": 71,
+    "withoutPages": 522,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "axe:landmark-one-main",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 71,
+    "techPages": 71,
+    "findingPages": 71,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "axe:page-has-heading-one",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 71,
+    "techPages": 71,
+    "findingPages": 71,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "axe:region",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 71,
+    "techPages": 71,
+    "findingPages": 71,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:landmark-one-main",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 71,
+    "techPages": 71,
+    "findingPages": 71,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:page-has-heading-one",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 71,
+    "techPages": 71,
+    "findingPages": 71,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:region",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 71,
+    "techPages": 71,
+    "findingPages": 71,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "alfa:sia-r61",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 36,
+    "techPages": 36,
+    "findingPages": 36,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "alfa:sia-r87",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 36,
+    "techPages": 36,
+    "findingPages": 36,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "alfa:sia-r61",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 36,
+    "techPages": 36,
+    "findingPages": 36,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "alfa:sia-r87",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 36,
+    "techPages": 36,
+    "findingPages": 36,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r61",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 36,
+    "techPages": 36,
+    "findingPages": 36,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r87",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 36,
+    "techPages": 36,
+    "findingPages": 36,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 25,
+    "techPages": 36,
+    "findingPages": 25,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 25,
+    "techPages": 36,
+    "findingPages": 25,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "alfa:sia-r14",
+    "ratio": null,
+    "lift": 8.08,
+    "pairPages": 25,
+    "techPages": 36,
+    "findingPages": 25,
+    "withoutPages": 255,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "axe:aria-allowed-attr",
+    "ratio": null,
+    "lift": 8.25,
+    "pairPages": 18,
+    "techPages": 72,
+    "findingPages": 18,
+    "withoutPages": 522,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "DataTables",
+    "finding": "axe:aria-required-children",
+    "ratio": null,
+    "lift": 8.25,
+    "pairPages": 18,
+    "techPages": 72,
+    "findingPages": 18,
+    "withoutPages": 522,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "axe:aria-allowed-attr",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 18,
+    "techPages": 71,
+    "findingPages": 18,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Popper",
+    "finding": "axe:aria-required-children",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 18,
+    "techPages": 71,
+    "findingPages": 18,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:aria-allowed-attr",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 18,
+    "techPages": 71,
+    "findingPages": 18,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Bootstrap",
+    "finding": "axe:aria-required-children",
+    "ratio": null,
+    "lift": 8.37,
+    "pairPages": 18,
+    "techPages": 71,
+    "findingPages": 18,
+    "withoutPages": 523,
+    "withoutFindingPages": 0
    },
    {
     "tech": "cdnjs",
     "finding": "axe:aria-allowed-role",
+    "ratio": null,
     "lift": 1.14,
     "pairPages": 15,
     "techPages": 523,
-    "findingPages": 15
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "cdnjs",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Cloudflare",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Cloudflare",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jsDelivr",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Drupal",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Drupal",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jQuery UI",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.16,
+    "pairPages": 15,
+    "techPages": 510,
+    "findingPages": 15,
+    "withoutPages": 84,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "jQuery UI",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.16,
+    "pairPages": 15,
+    "techPages": 510,
+    "findingPages": 15,
+    "withoutPages": 84,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Select2",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Select2",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Acquia Cloud Platform",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Acquia Cloud Platform",
+    "finding": "axe:aria-input-field-name",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
+   },
+   {
+    "tech": "Amazon Web Services",
+    "finding": "axe:aria-allowed-role",
+    "ratio": null,
+    "lift": 1.14,
+    "pairPages": 15,
+    "techPages": 523,
+    "findingPages": 15,
+    "withoutPages": 71,
+    "withoutFindingPages": 0
    }
   ]
  },
@@ -201002,5 +201211,27 @@
   "drift_clusters": []
  },
  "pagesAttempted": 6425,
- "pagesSucceeded": 5997
+ "pagesSucceeded": 5997,
+ "access": {
+  "level": "ok",
+  "audited": 5997,
+  "attempted": 6450,
+  "firewall": {
+   "pages": 427,
+   "challenges": 0,
+   "refusals": 427,
+   "statuses": {
+    "403": 427
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 6
+  },
+  "connection": null,
+  "errorStatuses": {
+   "404": 1
+  }
+ }
 }
