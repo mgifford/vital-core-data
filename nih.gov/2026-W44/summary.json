@@ -1,15 +1,15 @@
 {
  "domain": "nih.gov",
  "week": "2026-W44",
- "generatedAt": "2026-10-30T10:37:27.265Z",
- "pagesScanned": 3482,
- "pagesAudited": 22,
+ "generatedAt": "2026-10-30T13:53:48.243Z",
+ "pagesScanned": 3655,
+ "pagesAudited": 23,
  "coverage": {
-  "axe": 22,
-  "plain-language": 14,
-  "resources": 22,
+  "axe": 23,
+  "plain-language": 15,
+  "resources": 23,
   "security": 2,
-  "standards": 10,
+  "standards": 11,
   "tech": 1,
   "alfa": 10,
   "deprecated-html": 2,
@@ -17,14 +17,14 @@
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 219,
-  "pagesWithViolations": 22,
-  "pagesScanned": 22,
+  "violationTotal": 227,
+  "pagesWithViolations": 23,
+  "pagesScanned": 23,
   "medianViolations": 8,
   "rules": {
    "landmark-unique": {
-    "count": 22,
-    "pages": 22,
+    "count": 23,
+    "pages": 23,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -55,6 +55,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
       "instances": 1
      },
      {
@@ -155,8 +159,8 @@
     ]
    },
    "link-in-text-block": {
-    "count": 132,
-    "pages": 22,
+    "count": 136,
+    "pages": 23,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI",
@@ -188,6 +192,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+      "instances": 4
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
       "instances": 4
      },
      {
@@ -288,8 +296,8 @@
     ]
    },
    "region": {
-    "count": 44,
-    "pages": 22,
+    "count": 46,
+    "pages": 23,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
@@ -320,6 +328,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
       "instances": 2
      },
      {
@@ -420,8 +432,8 @@
     ]
    },
    "heading-order": {
-    "count": 18,
-    "pages": 18,
+    "count": 19,
+    "pages": 19,
     "impact": "moderate",
     "help": "Heading levels should only increase by one",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
@@ -448,6 +460,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
       "instances": 1
      },
      {
@@ -529,7 +545,7 @@
       "html": "<h3>At a Glance</h3>"
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
       "target": ".callout__text > h3",
       "html": "<h3>At a Glance</h3>"
      }
@@ -1324,11 +1340,11 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 170,
+  "uniqueIssues": 174,
   "consensus": 1,
-  "axeOnly": 86,
+  "axeOnly": 90,
   "alfaOnly": 83,
-  "rawAxe": 87,
+  "rawAxe": 91,
   "rawAlfa": 84,
   "byKey": {
    "axe-core:landmark-unique": {
@@ -1337,7 +1353,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 22,
+    "pages": 23,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -1346,7 +1362,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 22,
+    "pages": 23,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -1355,7 +1371,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 22,
+    "pages": 23,
     "engines": "axe"
    },
    "axe-core:heading-order": {
@@ -1364,7 +1380,7 @@
      "heading-order"
     ],
     "alfaRules": [],
-    "pages": 18,
+    "pages": 19,
     "engines": "axe"
    },
    "act:ffd0e9": {
@@ -1491,9 +1507,9 @@
  },
  "deprecatedHtml": null,
  "resources": {
-  "total": 23,
+  "total": 24,
   "byType": {
-   "image": 11,
+   "image": 12,
    "document": 1,
    "pdf": 11
   },
@@ -1528,6 +1544,14 @@
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair"
+    ]
+   },
+   {
+    "url": "https://www.nih.gov/sites/default/files/2025-03/20210406-mouth.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells"
     ]
    },
    {
@@ -1685,96 +1709,96 @@
   ]
  },
  "standards": {
-  "pagesChecked": 10,
+  "pagesChecked": 11,
   "checks": [
    {
     "id": "schema-gov",
     "label": "schema.org GovernmentOrganization markup",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0
    },
    {
     "id": "hreflang",
     "label": "hreflang alternates declared",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0
    },
    {
     "id": "open-social",
     "label": "Open social presence (Mastodon/Bluesky) linked",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0
    },
    {
     "id": "canonical",
     "label": "Canonical URL declared",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "title",
     "label": "Page has a <title>",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "description",
     "label": "Meta description present",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "charset",
     "label": "Character encoding declared",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "lang",
     "label": "Document language (lang) set",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "viewport",
     "label": "Responsive viewport (zoom not disabled)",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "open-graph",
     "label": "Open Graph tags (6/6)",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    },
    {
     "id": "twitter-card",
     "label": "Twitter card metadata",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100
    }
   ],
   "social": []
  },
  "resilience": {
-  "pagesChecked": 10,
+  "pagesChecked": 11,
   "checks": [
    {
     "id": "pwa-manifest",
     "label": "Web app manifest declared",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "A web app manifest is required for installability and controls how the app appears when launched.",
     "evidenceExamples": []
@@ -1783,7 +1807,7 @@
     "id": "pwa-service-worker",
     "label": "Service worker registered",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "A service worker is what makes offline access, caching, and background sync possible.",
     "evidenceExamples": []
@@ -1792,7 +1816,7 @@
     "id": "pwa-theme-color",
     "label": "Theme color declared",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "Theme color controls the browser chrome/status-bar color when the site is installed or bookmarked.",
     "evidenceExamples": []
@@ -1801,7 +1825,7 @@
     "id": "pwa-apple-touch-icon",
     "label": "Apple touch icon (iOS/bookmark icon)",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "iOS uses this icon for home-screen bookmarks and \"Add to Home Screen\" — without it the icon falls back to a screenshot.",
     "evidenceExamples": []
@@ -1810,7 +1834,7 @@
     "id": "manifest-parsed",
     "label": "Manifest fetched and parsed successfully",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "A manifest that fails to parse cannot drive installability or launch behavior even if the link is present.",
     "evidenceExamples": [
@@ -1824,7 +1848,7 @@
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells"
      }
     ]
    },
@@ -1832,7 +1856,7 @@
     "id": "manifest-maskable-icon",
     "label": "Manifest declares a maskable icon",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "A maskable icon lets the OS safely crop/mask the app icon on different device shapes without clipping content.",
     "evidenceExamples": [
@@ -1846,7 +1870,7 @@
      },
      {
       "evidence": "No manifest declared",
-      "url": "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells"
      }
     ]
    },
@@ -1854,7 +1878,7 @@
     "id": "sw-active",
     "label": "Service worker is active (not just registered)",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "An active service worker (not just registered) is what actually intercepts requests and serves cached content.",
     "evidenceExamples": []
@@ -1863,7 +1887,7 @@
     "id": "sw-controlling",
     "label": "Service worker controls this page load",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "A controlling service worker means THIS page load is being served/intercepted, not just a future one.",
     "evidenceExamples": []
@@ -1872,7 +1896,7 @@
     "id": "installable",
     "label": "Meets basic installability criteria",
     "pass": 0,
-    "total": 10,
+    "total": 11,
     "rate": 0,
     "why": "Determines whether the browser can realistically offer \"Add to Home Screen\" / install, based on manifest + service worker + HTTPS together.",
     "evidenceExamples": [
@@ -1886,15 +1910,15 @@
      },
      {
       "evidence": "no readable web app manifest; no service worker registered",
-      "url": "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing"
+      "url": "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells"
      }
     ]
    },
    {
     "id": "pwa-https",
     "label": "HTTPS (required for service workers)",
-    "pass": 10,
-    "total": 10,
+    "pass": 11,
+    "total": 11,
     "rate": 100,
     "why": "HTTPS is required for service workers and most install prompts.",
     "evidenceExamples": []
@@ -1958,26 +1982,26 @@
  },
  "publicInterest": {
   "engine": "public-interest",
-  "checkedAt": "2026-10-27T15:36:55.022Z",
+  "checkedAt": "2026-10-30T10:59:03.823Z",
   "a11yStatement": {
    "result": "fail",
    "url": null,
    "confidence": null,
-   "checkedAt": "2026-10-27T15:36:49.775Z"
+   "checkedAt": "2026-10-30T10:58:59.269Z"
   },
   "carbonTxt": {
    "result": "fail",
    "url": null,
    "valid": false,
    "fields": {},
-   "checkedAt": "2026-10-27T15:36:49.776Z"
+   "checkedAt": "2026-10-30T10:58:59.271Z"
   },
   "greenWebFoundation": {
    "result": "fail",
    "green": false,
    "hostedBy": null,
    "url": "https://api.thegreenwebfoundation.org/greencheck/nih.gov",
-   "checkedAt": "2026-10-27T15:36:49.777Z"
+   "checkedAt": "2026-10-30T10:58:59.271Z"
   },
   "sitemaps": {
    "xml": {
@@ -1988,25 +2012,25 @@
     "found": false,
     "url": null
    },
-   "checkedAt": "2026-10-27T15:36:49.778Z"
+   "checkedAt": "2026-10-30T10:58:59.273Z"
   }
  },
  "plainLanguage": {
-  "pagesChecked": 14,
-  "pagesScored": 13,
-  "medianWordsPerPage": 565,
-  "medianReadingEase": 46.7,
-  "medianGrade": 12.5,
+  "pagesChecked": 15,
+  "pagesScored": 14,
+  "medianWordsPerPage": 717,
+  "medianReadingEase": 47,
+  "medianGrade": 12,
   "topUnexplainedAcronyms": [
    {
     "acronym": "NIH",
-    "pages": 11,
+    "pages": 12,
     "examplePages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
-     "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
-     "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal"
+     "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
     ]
    },
    {
@@ -2029,11 +2053,60 @@
     ]
    },
    {
+    "acronym": "COVID",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+     "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention"
+    ]
+   },
+   {
     "acronym": "BRAIN",
     "pages": 2,
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://nih.gov/news-events/nih-research-matters/2025-nih-research-highlights-basic-research-insights"
+    ]
+   },
+   {
+    "acronym": "DL",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells"
+    ]
+   },
+   {
+    "acronym": "SARS",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation"
+    ]
+   },
+   {
+    "acronym": "RNA",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
+    ]
+   },
+   {
+    "acronym": "CD",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal"
+    ]
+   },
+   {
+    "acronym": "SL",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal"
     ]
    },
    {
@@ -2061,14 +2134,6 @@
     ]
    },
    {
-    "acronym": "COVID",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
-     "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention"
-    ]
-   },
-   {
     "acronym": "JJ",
     "pages": 2,
     "examplePages": [
@@ -2082,41 +2147,6 @@
     "examplePages": [
      "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention",
      "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
-    ]
-   },
-   {
-    "acronym": "FDA",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics"
-    ]
-   },
-   {
-    "acronym": "AG",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others"
-    ]
-   },
-   {
-    "acronym": "MH",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others"
-    ]
-   },
-   {
-    "acronym": "RSS",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others"
-    ]
-   },
-   {
-    "acronym": "CH",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair"
     ]
    }
   ],
@@ -2140,6 +2170,15 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://nih.gov/about-nih/impact-nih-research/improving-health/education-prevention"
+    ]
+   },
+   {
+    "word": "Drs",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+     "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
     ]
    },
    {
@@ -2184,11 +2223,11 @@
     ]
    },
    {
-    "word": "Drs",
+    "word": "CoV",
     "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
-     "https://www.nih.gov/news-events/nih-research-matters/improving-lung-cancer-detection"
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation"
     ]
    },
    {
@@ -2298,13 +2337,6 @@
    },
    {
     "word": "Tasic",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others"
-    ]
-   },
-   {
-    "word": "Hongkui",
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others"
@@ -2740,6 +2772,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/about-nih/science-health-public-trust/checklist-communicating-science-health-research-public",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/heal/award-policy/data-sharing-policy/common-data-elements-cdes-repository?page=14",
    "status": 403
   },
@@ -2813,10 +2849,6 @@
   },
   {
    "url": "https://www.nih.gov/news-events/nih-research-matters/cell-atlases-give-detailed-views-human-organs",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/about-nih/impact-nih-research/improving-health/infant-maternal-health",
    "status": 403
   }
  ],
@@ -3034,14 +3066,14 @@
   }
  ],
  "images": {
-  "pagesScanned": 22,
-  "totalImages": 330,
-  "uniqueImages": 60,
+  "pagesScanned": 23,
+  "totalImages": 345,
+  "uniqueImages": 61,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 330,
+  "withAlt": 345,
   "altVerdicts": {
-   "GOOD": 50,
+   "GOOD": 51,
    "SUSPICIOUS": 6,
    "TOO_SHORT": 4
   }
@@ -3317,9 +3349,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 22,
-    "pages_affected": 22,
-    "instances": 22,
+    "rule_pages_affected": 23,
+    "pages_affected": 23,
+    "instances": 23,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -3329,11 +3361,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 52.8,
+    "action_score": 55.2,
     "estimated_fix_impact": {
-     "findings": 22,
-     "pages": 22,
-     "statement": "Fix one place, resolve ~22 finding(s) on 22 page(s)."
+     "findings": 23,
+     "pages": 23,
+     "statement": "Fix one place, resolve ~23 finding(s) on 23 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
@@ -3341,6 +3373,7 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
@@ -3365,9 +3398,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 22,
-    "pages_affected": 22,
-    "instances": 22,
+    "rule_pages_affected": 23,
+    "pages_affected": 23,
+    "instances": 23,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -3377,11 +3410,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 26.4,
+    "action_score": 27.6,
     "estimated_fix_impact": {
-     "findings": 22,
-     "pages": 22,
-     "statement": "Fix one place, resolve ~22 finding(s) on 22 page(s)."
+     "findings": 23,
+     "pages": 23,
+     "statement": "Fix one place, resolve ~23 finding(s) on 23 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
@@ -3389,6 +3422,7 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
@@ -3413,9 +3447,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 22,
-    "pages_affected": 22,
-    "instances": 22,
+    "rule_pages_affected": 23,
+    "pages_affected": 23,
+    "instances": 23,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -3425,11 +3459,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 26.4,
+    "action_score": 27.6,
     "estimated_fix_impact": {
-     "findings": 22,
-     "pages": 22,
-     "statement": "Fix one place, resolve ~22 finding(s) on 22 page(s)."
+     "findings": 23,
+     "pages": 23,
+     "statement": "Fix one place, resolve ~23 finding(s) on 23 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
@@ -3437,6 +3471,7 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
@@ -3965,9 +4000,9 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
-    "pages_affected": 10,
-    "instances": 10,
+    "rule_pages_affected": 19,
+    "pages_affected": 11,
+    "instances": 11,
     "selector_path": ".callout__text > h3",
     "snippet_shape": "h3:",
     "representative_selector": ".callout__text > h3",
@@ -3977,16 +4012,17 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 7,
-    "action_score": 3.43,
+    "action_score": 3.77,
     "estimated_fix_impact": {
-     "findings": 10,
-     "pages": 10,
-     "statement": "Fix one place, resolve ~10 finding(s) on 10 page(s)."
+     "findings": 11,
+     "pages": 11,
+     "statement": "Fix one place, resolve ~11 finding(s) on 11 page(s)."
     },
     "affected_pages": [
      "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
      "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
@@ -4204,9 +4240,9 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
-    "pages_affected": 8,
-    "instances": 15,
+    "rule_pages_affected": 23,
+    "pages_affected": 9,
+    "instances": 17,
     "selector_path": "p:nth-child(*) > a:nth-child(*)",
     "snippet_shape": "a:href",
     "representative_selector": "p:nth-child(4) > a:nth-child(2)",
@@ -4216,15 +4252,16 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 19,
-    "action_score": 1.52,
+    "action_score": 1.71,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 8,
-     "statement": "Fix one place, resolve ~15 finding(s) on 8 page(s)."
+     "findings": 17,
+     "pages": 9,
+     "statement": "Fix one place, resolve ~17 finding(s) on 9 page(s)."
     },
     "affected_pages": [
      "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
      "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
@@ -4272,7 +4309,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 7,
     "instances": 7,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -4301,6 +4338,39 @@
     ]
    },
    {
+    "id": "cc-c3982f3f2935",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 23,
+    "pages_affected": 7,
+    "instances": 7,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(20) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31235964\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Meta-omics analysis of elite athle",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 19,
+    "action_score": 1.33,
+    "estimated_fix_impact": {
+     "findings": 7,
+     "pages": 7,
+     "statement": "Fix one place, resolve ~7 finding(s) on 7 page(s)."
+    },
+    "affected_pages": [
+     "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
+     "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
+     "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
+     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
+     "https://www.nih.gov/news-events/nih-research-matters/gut-microbes-affect-harmful-compound-red-meat",
+     "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel"
+    ]
+   },
+   {
     "id": "cc-6861f8b91c20",
     "engine_key": "axe-core",
     "rule_id": "empty-table-header",
@@ -4325,38 +4395,6 @@
     },
     "affected_pages": [
      "https://nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
-   },
-   {
-    "id": "cc-c3982f3f2935",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 22,
-    "pages_affected": 6,
-    "instances": 6,
-    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(20) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31235964\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Meta-omics analysis of elite athle",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 19,
-    "action_score": 1.14,
-    "estimated_fix_impact": {
-     "findings": 6,
-     "pages": 6,
-     "statement": "Fix one place, resolve ~6 finding(s) on 6 page(s)."
-    },
-    "affected_pages": [
-     "https://nih.gov/news-events/nih-research-matters/bacteria-enriched-marathon-runners",
-     "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
-     "https://www.nih.gov/news-events/nih-research-matters/treating-newborns-opioid-withdrawal",
-     "https://www.nih.gov/news-events/nih-research-matters/long-covid-symptoms-linked-inflammation",
-     "https://www.nih.gov/news-events/nih-research-matters/gut-microbes-affect-harmful-compound-red-meat",
-     "https://www.nih.gov/news-events/nih-research-matters/advanced-imaging-reveals-structure-tooth-enamel"
     ]
    },
    {
@@ -4392,7 +4430,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
+    "rule_pages_affected": 19,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "article[data-history-node-id=\"#\"] > div > h3",
@@ -4420,7 +4458,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
+    "rule_pages_affected": 19,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "article > div > h3",
@@ -4448,7 +4486,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 3,
     "instances": 5,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4585,7 +4623,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4613,7 +4651,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
+    "rule_pages_affected": 19,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "h4:nth-child(*)",
@@ -4640,7 +4678,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
+    "rule_pages_affected": 19,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".usa-card.usa-card--header-first.usa-card--sans-serif-heading:nth-child(*) > .paragraph--type--flip-card.nih-flip-card.usa-card__container > .nih-flip-card__front > .usa-card__header > .usa-card__heading.font-family-sans",
@@ -4667,7 +4705,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
+    "rule_pages_affected": 19,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[title=\"direct economic contributions\"] > .teaser__header > .teaser__heading",
@@ -4694,7 +4732,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 18,
+    "rule_pages_affected": 19,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__heading",
@@ -4777,7 +4815,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "p:nth-child(*) > a[rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"][data-extlink=\"\"]:nth-child(*)",
@@ -4804,7 +4842,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "p:nth-child(*) > a[rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"][target=\"_blank\"]:nth-child(*)",
@@ -4831,7 +4869,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "ol:nth-child(*) > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4858,7 +4896,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -4885,7 +4923,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"][data-extlink=\"\"]:nth-child(*)",
@@ -4912,7 +4950,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -4939,7 +4977,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -4966,7 +5004,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a",
@@ -4993,7 +5031,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > ul > li > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][data-extlink=\"\"]",
@@ -5020,7 +5058,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"www.abcdstudy.org\"]",
@@ -5047,7 +5085,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"medlineplus.gov/\"][data-extlink=\"\"][target=\"_blank\"]",
@@ -5074,7 +5112,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "div[callout=\"\"] > .callout__body > .callout__text > p:nth-child(*) > a:nth-child(*)",
@@ -5101,7 +5139,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5128,7 +5166,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 22,
+    "rule_pages_affected": 23,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"ukbiobank.ac.uk/\"]",
@@ -5400,9 +5438,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 22,
-    "pages_affected": 22,
-    "instances": 22,
+    "rule_pages_affected": 23,
+    "pages_affected": 23,
+    "instances": 23,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -5412,11 +5450,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 52.8,
+    "action_score": 55.2,
     "estimated_fix_impact": {
-     "findings": 22,
-     "pages": 22,
-     "statement": "Fix one place, resolve ~22 finding(s) on 22 page(s)."
+     "findings": 23,
+     "pages": 23,
+     "statement": "Fix one place, resolve ~23 finding(s) on 23 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
@@ -5424,6 +5462,7 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
@@ -5448,9 +5487,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 22,
-    "pages_affected": 22,
-    "instances": 22,
+    "rule_pages_affected": 23,
+    "pages_affected": 23,
+    "instances": 23,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -5460,11 +5499,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 26.4,
+    "action_score": 27.6,
     "estimated_fix_impact": {
-     "findings": 22,
-     "pages": 22,
-     "statement": "Fix one place, resolve ~22 finding(s) on 22 page(s)."
+     "findings": 23,
+     "pages": 23,
+     "statement": "Fix one place, resolve ~23 finding(s) on 23 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
@@ -5472,6 +5511,7 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
@@ -5496,9 +5536,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 22,
-    "pages_affected": 22,
-    "instances": 22,
+    "rule_pages_affected": 23,
+    "pages_affected": 23,
+    "instances": 23,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -5508,11 +5548,11 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 26.4,
+    "action_score": 27.6,
     "estimated_fix_impact": {
-     "findings": 22,
-     "pages": 22,
-     "statement": "Fix one place, resolve ~22 finding(s) on 22 page(s)."
+     "findings": 23,
+     "pages": 23,
+     "statement": "Fix one place, resolve ~23 finding(s) on 23 page(s)."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-turning-discovery-into-health/promise-precision-medicine/pharmacogenomics",
@@ -5520,6 +5560,7 @@
      "https://www.nih.gov/news-events/news-releases/aging-may-change-some-brain-cells-more-others",
      "https://www.nih.gov/news-events/nih-research-matters/universal-mosquito-vaccine-tested",
      "https://www.nih.gov/news-events/nih-research-matters/aging-melanocyte-stem-cells-gray-hair",
+     "https://www.nih.gov/news-events/nih-research-matters/sars-cov-2-may-infect-mouth-cells",
      "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing",
      "https://www.nih.gov/news-events/news-releases/researchers-develop-innovative-model-risk-assessment-hypertrophic-cardiomyopathy",
      "https://www.nih.gov/about-nih/nih-almanac/james-shannon-md",
@@ -5798,18 +5839,18 @@
   "drift_pages": [],
   "drift_clusters": []
  },
- "pagesAttempted": 3491,
- "pagesSucceeded": 22,
+ "pagesAttempted": 3664,
+ "pagesSucceeded": 23,
  "access": {
   "level": "partial",
-  "audited": 22,
-  "attempted": 3482,
+  "audited": 23,
+  "attempted": 3655,
   "firewall": {
-   "pages": 3459,
+   "pages": 3631,
    "challenges": 0,
-   "refusals": 3459,
+   "refusals": 3631,
    "statuses": {
-    "403": 3459
+    "403": 3631
    },
    "by": [
     "Cloudflare"
