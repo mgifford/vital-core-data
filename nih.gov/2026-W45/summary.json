@@ -1,16 +1,16 @@
 {
  "domain": "nih.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-04T14:55:43.436Z",
- "pagesScanned": 2399,
- "pagesAudited": 15,
+ "generatedAt": "2026-11-04T15:40:57.030Z",
+ "pagesScanned": 2549,
+ "pagesAudited": 16,
  "coverage": {
-  "axe": 15,
-  "resources": 15,
+  "axe": 16,
+  "resources": 16,
   "standards": 6,
   "deprecated-html": 2,
   "tech": 3,
-  "plain-language": 7,
+  "plain-language": 8,
   "alfa": 4,
   "security": 2,
   "lighthouse": 2,
@@ -18,14 +18,14 @@
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 246,
-  "pagesWithViolations": 15,
-  "pagesScanned": 15,
+  "violationTotal": 250,
+  "pagesWithViolations": 16,
+  "pagesScanned": 16,
   "medianViolations": 9,
   "rules": {
    "landmark-unique": {
-    "count": 15,
-    "pages": 15,
+    "count": 16,
+    "pages": 16,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -87,6 +87,10 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
       "instances": 1
      },
@@ -128,8 +132,8 @@
     ]
    },
    "link-in-text-block": {
-    "count": 185,
-    "pages": 15,
+    "count": 186,
+    "pages": 16,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI",
@@ -192,6 +196,10 @@
       "instances": 63
      },
      {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
       "instances": 4
      },
@@ -233,8 +241,8 @@
     ]
    },
    "region": {
-    "count": 30,
-    "pages": 15,
+    "count": 32,
+    "pages": 16,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
@@ -293,6 +301,10 @@
      },
      {
       "url": "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
       "instances": 2
      },
      {
@@ -1009,11 +1021,11 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 93,
+  "uniqueIssues": 96,
   "consensus": 1,
-  "axeOnly": 60,
+  "axeOnly": 63,
   "alfaOnly": 32,
-  "rawAxe": 61,
+  "rawAxe": 64,
   "rawAlfa": 33,
   "byKey": {
    "axe-core:landmark-unique": {
@@ -1022,7 +1034,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 15,
+    "pages": 16,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -1031,7 +1043,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 15,
+    "pages": 16,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -1040,7 +1052,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 15,
+    "pages": 16,
     "engines": "axe"
    },
    "axe-core:heading-order": {
@@ -2261,21 +2273,30 @@
  },
  "publicInterest": null,
  "plainLanguage": {
-  "pagesChecked": 7,
-  "pagesScored": 5,
-  "medianWordsPerPage": 2908,
-  "medianReadingEase": 34.8,
-  "medianGrade": 13.5,
+  "pagesChecked": 8,
+  "pagesScored": 6,
+  "medianWordsPerPage": 2552,
+  "medianReadingEase": 40,
+  "medianGrade": 13,
   "topUnexplainedAcronyms": [
    {
     "acronym": "NIH",
-    "pages": 6,
+    "pages": 7,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+    ]
+   },
+   {
+    "acronym": "OD",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
     ]
    },
    {
@@ -2319,14 +2340,6 @@
     ]
    },
    {
-    "acronym": "OD",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ]
-   },
-   {
     "acronym": "RFA",
     "pages": 2,
     "examplePages": [
@@ -2340,6 +2353,22 @@
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+    ]
+   },
+   {
+    "acronym": "NHLBI",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
+    ]
+   },
+   {
+    "acronym": "NIDA",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
     ]
    },
    {
@@ -2359,28 +2388,15 @@
     ]
    },
    {
+    "acronym": "NINDS",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
+    ]
+   },
+   {
     "acronym": "NOFO",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
-   },
-   {
-    "acronym": "IV",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
-   },
-   {
-    "acronym": "RNA",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
-   },
-   {
-    "acronym": "FAIR",
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
@@ -3757,12 +3773,12 @@
   }
  ],
  "images": {
-  "pagesScanned": 15,
-  "totalImages": 222,
+  "pagesScanned": 16,
+  "totalImages": 235,
   "uniqueImages": 48,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 222,
+  "withAlt": 235,
   "altVerdicts": {
    "GOOD": 42,
    "SUSPICIOUS": 2,
@@ -4158,9 +4174,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 15,
-    "pages_affected": 15,
-    "instances": 15,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -4170,14 +4186,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 36,
+    "action_score": 38.4,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 15,
+     "findings": 16,
+     "pages": 16,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4192,6 +4208,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
@@ -4202,9 +4219,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 15,
-    "pages_affected": 15,
-    "instances": 15,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -4214,14 +4231,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 18,
+    "action_score": 19.2,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 15,
+     "findings": 16,
+     "pages": 16,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4236,6 +4253,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
@@ -4246,9 +4264,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 15,
-    "pages_affected": 15,
-    "instances": 15,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -4258,14 +4276,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 18,
+    "action_score": 19.2,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 15,
+     "findings": 16,
+     "pages": 16,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4280,6 +4298,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
@@ -5003,7 +5022,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 5,
     "instances": 7,
     "selector_path": "p:nth-child(*) > a:nth-child(*)",
@@ -5033,11 +5052,45 @@
     ]
    },
    {
+    "id": "cc-0cb84ddbdf67",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 16,
+    "pages_affected": 5,
+    "instances": 5,
+    "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
+    "representative_snippet": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Department of Health and Human Services</a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 25,
+    "action_score": 0.72,
+    "estimated_fix_impact": {
+     "findings": 5,
+     "pages": 5,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://mailto:RADxInfo@www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials",
+     "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
+     "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
+    ]
+   },
+   {
     "id": "cc-c3982f3f2935",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 4,
     "instances": 4,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5063,39 +5116,6 @@
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
-    ]
-   },
-   {
-    "id": "cc-0cb84ddbdf67",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 15,
-    "pages_affected": 4,
-    "instances": 4,
-    "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
-    "representative_snippet": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Department of Health and Human Services</a>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 25,
-    "action_score": 0.58,
-    "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 4,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://mailto:RADxInfo@www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials",
-     "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
     ]
    },
    {
@@ -5373,7 +5393,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5404,7 +5424,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
@@ -5615,7 +5635,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "table:nth-child(*) > tbody > tr:nth-child(*) > td > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5645,7 +5665,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > .mailto[data-extlink=\"\"]",
@@ -5675,7 +5695,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > .mailto[data-extlink=\"\"]:nth-child(*)",
@@ -5705,7 +5725,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]:nth-child(*)",
@@ -5735,7 +5755,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5765,7 +5785,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".usa-intro > a",
@@ -5795,7 +5815,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5825,7 +5845,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a",
@@ -5855,7 +5875,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > ul > li > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][data-extlink=\"\"]",
@@ -5885,7 +5905,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a",
@@ -5915,7 +5935,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "table:nth-child(*) > tbody > tr:nth-child(*) > td > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5945,7 +5965,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -5975,7 +5995,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "div[callout=\"\"] > .callout__body > .callout__text > p:nth-child(*) > a:nth-child(*)",
@@ -6005,7 +6025,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"cc.nih.gov/\"]",
@@ -6035,7 +6055,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6065,7 +6085,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"challenges\"]",
@@ -6095,7 +6115,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -6125,7 +6145,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]",
@@ -6155,7 +6175,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6185,7 +6205,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 15,
+    "rule_pages_affected": 16,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
@@ -6217,9 +6237,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 15,
-    "pages_affected": 15,
-    "instances": 15,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -6229,14 +6249,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 36,
+    "action_score": 38.4,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 15,
+     "findings": 16,
+     "pages": 16,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -6251,6 +6271,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
@@ -6261,9 +6282,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 15,
-    "pages_affected": 15,
-    "instances": 15,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -6273,14 +6294,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 18,
+    "action_score": 19.2,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 15,
+     "findings": 16,
+     "pages": 16,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -6295,6 +6316,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
@@ -6305,9 +6327,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 15,
-    "pages_affected": 15,
-    "instances": 15,
+    "rule_pages_affected": 16,
+    "pages_affected": 16,
+    "instances": 16,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -6317,14 +6339,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 18,
+    "action_score": 19.2,
     "estimated_fix_impact": {
-     "findings": 15,
-     "pages": 15,
+     "findings": 16,
+     "pages": 16,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -6339,6 +6361,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
@@ -6578,18 +6601,18 @@
  },
  "sharedComponents": null,
  "pageFamilies": null,
- "pagesAttempted": 2399,
- "pagesSucceeded": 15,
+ "pagesAttempted": 2549,
+ "pagesSucceeded": 16,
  "access": {
   "level": "partial",
-  "audited": 15,
-  "attempted": 2399,
+  "audited": 16,
+  "attempted": 2549,
   "firewall": {
-   "pages": 2384,
+   "pages": 2533,
    "challenges": 149,
-   "refusals": 2235,
+   "refusals": 2384,
    "statuses": {
-    "403": 2384
+    "403": 2533
    },
    "by": [
     "Cloudflare",
