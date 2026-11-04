@@ -1,0 +1,210 @@
+{
+ "runId": "2026-11-04T15-44-05-503Z-c6a7e1",
+ "week": "2026-W45",
+ "domain": "data.healthcare.gov",
+ "canonical": {
+  "origin": "https://data.healthcare.gov",
+  "configured": "https://data.healthcare.gov",
+  "httpsProblem": null,
+  "note": null
+ },
+ "robots": {
+  "rootAllowed": true
+ },
+ "startedAt": "2026-11-04T15:44:06.125Z",
+ "scanned": [
+  "d9057e6eb9133dac",
+  "8fcd3cce609ffd6f",
+  "26a1b190140852af",
+  "60d02242c55f6010",
+  "d29cf342c5ceebb8",
+  "852249693dc41bc1",
+  "1ec4e60adbeaa81a",
+  "ca47aa9be73807bd",
+  "f3e2ae7180cdddb0",
+  "eeb9fa44a32a5a01",
+  "c52ff2a7518441e8",
+  "6690a18dfca6e70b",
+  "c866df3d4ac9cb5f",
+  "860b5b3cd0cc662f",
+  "4c0d14535583ce17",
+  "2ecc447101e57243",
+  "b9746b8e11054a78",
+  "087d24af6fa293d4",
+  "65b632f46550fbaa",
+  "cfe9f698e0ddaae7",
+  "657527b9e1076893",
+  "d384a3ddc0108ffa",
+  "9d9dd3cd91a3a151",
+  "c643e2b3119d3948",
+  "01ba12369f0344aa",
+  "5d62aafbb15aea59",
+  "a14f86cbcd04c1a8",
+  "300de93ba7709d8b",
+  "a57e12852378ddc0",
+  "e319b461655e2c26",
+  "d2348936a920bd13",
+  "7bf0fdacfea4bbdd"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "browser": {
+  "userAgent": "vital-scans/0.1 (+https://github.com/mgifford/vital-core; accessibility and sustainability monitoring)",
+  "viewport": {
+   "width": 1280,
+   "height": 800
+  }
+ },
+ "linkCheck": {
+  "total": 165,
+  "checked": 165,
+  "brokenCount": 7,
+  "broken": [
+   {
+    "url": "https://data.healthcare.gov/whats-new",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/e8uy-7rnp?page=311",
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/672d5f6a-b8a7-4ebe-87f6-67db641e192d?page=5",
+     "https://data.healthcare.gov/dataset/wb6u-x2ny?page=41974",
+     "https://data.healthcare.gov/about/software-specs-and-limits",
+     "https://data.healthcare.gov/dataset/q9sg-4maa",
+     "https://data.healthcare.gov/dataset/brrf-yhzh",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/sy6b-59wj?page=104",
+     "https://data.healthcare.gov/dataset/4ej5-srs2?page=2",
+     "https://data.healthcare.gov/dataset/ia68-8jye?page=5",
+     "https://data.healthcare.gov/dataset/e164fcba-c5fb-4d81-97a9-882e98a69325?page=4",
+     "https://data.healthcare.gov/dataset/4d8a3f9d-ce6b-4e1c-a1a3-3903393d44ed",
+     "https://data.healthcare.gov/dataset/nuhs-jx5b",
+     "https://data.healthcare.gov/dataset/mt79-mi5w?page=5",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/Help.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/e8uy-7rnp?page=311",
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/672d5f6a-b8a7-4ebe-87f6-67db641e192d?page=5",
+     "https://data.healthcare.gov/dataset/wb6u-x2ny?page=41974",
+     "https://data.healthcare.gov/about/software-specs-and-limits",
+     "https://data.healthcare.gov/dataset/q9sg-4maa",
+     "https://data.healthcare.gov/dataset/brrf-yhzh",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/sy6b-59wj?page=104",
+     "https://data.healthcare.gov/dataset/4ej5-srs2?page=2",
+     "https://data.healthcare.gov/dataset/ia68-8jye?page=5",
+     "https://data.healthcare.gov/dataset/e164fcba-c5fb-4d81-97a9-882e98a69325?page=4",
+     "https://data.healthcare.gov/dataset/4d8a3f9d-ce6b-4e1c-a1a3-3903393d44ed",
+     "https://data.healthcare.gov/dataset/nuhs-jx5b",
+     "https://data.healthcare.gov/dataset/mt79-mi5w?page=5",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=5",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=2",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/brrf-yhzh",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/4ej5-srs2?page=2",
+     "https://data.healthcare.gov/dataset/ia68-8jye?page=5",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=3",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/brrf-yhzh",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/4ej5-srs2?page=2",
+     "https://data.healthcare.gov/dataset/ia68-8jye?page=5",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=4",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/4ej5-srs2?page=2",
+     "https://data.healthcare.gov/dataset/ia68-8jye?page=5",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   },
+   {
+    "url": "https://data.healthcare.gov/page=8",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.healthcare.gov/dataset/a2km-i629?page=4",
+     "https://data.healthcare.gov/dataset/bf8da239-095e-4481-bf60-1f3a9615ce0e?page=4",
+     "https://data.healthcare.gov/dataset/ad5c073e-8451-4378-b3d8-4ba189f29cfe?page=982"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 16,
+  "alfa": 8,
+  "resources": 16,
+  "images": 16,
+  "standards": 6,
+  "link-check": 16,
+  "deprecated-html": 1,
+  "plain-language": 4,
+  "tech": 1,
+  "third-party": 4,
+  "sustainability": 1,
+  "lighthouse": 1
+ },
+ "tally": {
+  "ok": 16,
+  "blocked": 0,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 16,
+  "redirect": 0,
+  "error": 0
+ },
+ "finishedAt": "2026-11-04T15:47:17.724Z"
+}
