@@ -1,31 +1,31 @@
 {
  "domain": "nih.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-03T19:48:52.586Z",
- "pagesScanned": 1800,
- "pagesAudited": 12,
+ "generatedAt": "2026-11-04T14:55:43.436Z",
+ "pagesScanned": 2399,
+ "pagesAudited": 15,
  "coverage": {
-  "axe": 12,
-  "resources": 12,
-  "standards": 5,
+  "axe": 15,
+  "resources": 15,
+  "standards": 6,
   "deprecated-html": 2,
   "tech": 3,
-  "plain-language": 5,
-  "alfa": 2,
+  "plain-language": 7,
+  "alfa": 4,
   "security": 2,
   "lighthouse": 2,
   "sustainability": 1
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 162,
-  "pagesWithViolations": 12,
-  "pagesScanned": 12,
-  "medianViolations": 8,
+  "violationTotal": 246,
+  "pagesWithViolations": 15,
+  "pagesScanned": 15,
+  "medianViolations": 9,
   "rules": {
    "landmark-unique": {
-    "count": 12,
-    "pages": 12,
+    "count": 15,
+    "pages": 15,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -71,6 +71,10 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
       "instances": 1
      },
@@ -79,11 +83,19 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
       "instances": 1
      },
      {
       "url": "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 1
      }
     ],
@@ -116,8 +128,8 @@
     ]
    },
    "link-in-text-block": {
-    "count": 112,
-    "pages": 12,
+    "count": 185,
+    "pages": 15,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI",
@@ -164,6 +176,10 @@
       "instances": 2
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 5
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
       "instances": 4
      },
@@ -172,12 +188,20 @@
       "instances": 6
      },
      {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+      "instances": 63
+     },
+     {
       "url": "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
       "instances": 4
      },
      {
       "url": "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
       "instances": 4
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
+      "instances": 5
      }
     ],
     "instances": [
@@ -209,8 +233,8 @@
     ]
    },
    "region": {
-    "count": 24,
-    "pages": 12,
+    "count": 30,
+    "pages": 15,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
@@ -256,6 +280,10 @@
       "instances": 2
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 2
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
       "instances": 2
      },
@@ -264,11 +292,19 @@
       "instances": 2
      },
      {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+      "instances": 2
+     },
+     {
       "url": "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
       "instances": 2
      },
      {
       "url": "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 2
      }
     ],
@@ -301,8 +337,8 @@
     ]
    },
    "heading-order": {
-    "count": 8,
-    "pages": 8,
+    "count": 10,
+    "pages": 10,
     "impact": "moderate",
     "help": "Heading levels should only increase by one",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
@@ -332,6 +368,10 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
       "instances": 1
      },
@@ -345,6 +385,10 @@
      },
      {
       "url": "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 1
      }
     ],
@@ -370,7 +414,7 @@
       "html": "<h3></h3>"
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": ".callout__text > h3",
       "html": "<h3>At a Glance</h3>"
      }
@@ -506,17 +550,18 @@
   }
  },
  "alfa": {
-  "failedTotal": 385,
-  "pagesWithFailures": 2,
-  "pagesScanned": 2,
-  "medianFailures": 193,
+  "failedTotal": 571,
+  "pagesWithFailures": 4,
+  "pagesScanned": 4,
+  "medianFailures": 93,
   "rules": {
    "sia-r66": {
-    "count": 163,
-    "pages": 2,
+    "count": 266,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r66",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -525,8 +570,16 @@
       "instances": 111
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 52
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
       "instances": 52
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
+      "instances": 51
      }
     ],
     "instances": [
@@ -546,23 +599,24 @@
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "text: \"Get the Latest Updates and FAQs\"",
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "text: \"Executive Order 14434\"",
       "html": null
      }
     ]
    },
    "sia-r53": {
-    "count": 2,
-    "pages": 2,
+    "count": 4,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r53",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -571,7 +625,15 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 1
      }
     ],
@@ -582,18 +644,29 @@
       "html": null
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "target": "<h3>",
+      "html": null
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "target": "<h3>",
+      "html": null
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "target": "<h3>",
       "html": null
      }
     ]
    },
    "sia-r73": {
-    "count": 114,
-    "pages": 2,
+    "count": 120,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r73",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -602,7 +675,15 @@
       "instances": 111
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 3
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "instances": 3
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 3
      }
     ],
@@ -623,23 +704,24 @@
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "<p class=\"usa-banner__header-text\">",
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "<p class=\"usa-identifier__identity-domain\">",
       "html": null
      }
     ]
    },
    "sia-r62": {
-    "count": 8,
-    "pages": 2,
+    "count": 12,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r62",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -648,8 +730,16 @@
       "instances": 4
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 2
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
       "instances": 4
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
+      "instances": 2
      }
     ],
     "instances": [
@@ -669,23 +759,24 @@
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
-      "target": "<a href=\"https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates\">",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "target": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/34040259/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
       "html": null
      }
     ]
    },
    "sia-r18": {
-    "count": 4,
-    "pages": 2,
+    "count": 8,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r18",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -694,7 +785,15 @@
       "instances": 2
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 2
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 2
      }
     ],
@@ -710,23 +809,29 @@
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "@aria-label=\"Descripción de la agencia\"",
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+      "html": null
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "target": "@aria-label=\"Descripción de la agencia\"",
       "html": null
      }
     ]
    },
    "sia-r61": {
-    "count": 2,
-    "pages": 2,
+    "count": 4,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r61",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -735,7 +840,15 @@
       "instances": 1
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 1
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 1
      }
     ],
@@ -746,18 +859,29 @@
       "html": null
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+      "html": null
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+      "html": null
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
       "html": null
      }
     ]
    },
    "sia-r57": {
-    "count": 12,
-    "pages": 2,
+    "count": 24,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r57",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -766,7 +890,15 @@
       "instances": 6
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 6
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "instances": 6
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
       "instances": 6
      }
     ],
@@ -787,12 +919,12 @@
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "text: \"NIH Websites Are Changing\"",
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "text: \"Get the Latest Updates and FAQs\"",
       "html": null
      }
@@ -820,11 +952,12 @@
     ]
    },
    "sia-r111": {
-    "count": 79,
-    "pages": 2,
+    "count": 132,
+    "pages": 4,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r111",
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ],
     "affectedPages": [
@@ -833,8 +966,16 @@
       "instances": 57
      },
      {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "instances": 27
+     },
+     {
       "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
       "instances": 22
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests",
+      "instances": 26
      }
     ],
     "instances": [
@@ -854,12 +995,12 @@
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "<a class=\"usa-button\" href=\"/web-modernization\">",
       "html": null
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
       "target": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
       "html": null
      }
@@ -868,12 +1009,12 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 66,
+  "uniqueIssues": 93,
   "consensus": 1,
-  "axeOnly": 49,
-  "alfaOnly": 16,
-  "rawAxe": 50,
-  "rawAlfa": 17,
+  "axeOnly": 60,
+  "alfaOnly": 32,
+  "rawAxe": 61,
+  "rawAlfa": 33,
   "byKey": {
    "axe-core:landmark-unique": {
     "actRuleId": null,
@@ -881,7 +1022,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 12,
+    "pages": 15,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -890,7 +1031,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 12,
+    "pages": 15,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -899,7 +1040,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 12,
+    "pages": 15,
     "engines": "axe"
    },
    "axe-core:heading-order": {
@@ -908,7 +1049,7 @@
      "heading-order"
     ],
     "alfaRules": [],
-    "pages": 8,
+    "pages": 10,
     "engines": "axe"
    },
    "axe-core:empty-table-header": {
@@ -955,7 +1096,7 @@
     "alfaRules": [
      "sia-r66"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r53": {
@@ -964,7 +1105,7 @@
     "alfaRules": [
      "sia-r53"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r73": {
@@ -973,7 +1114,7 @@
     "alfaRules": [
      "sia-r73"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r62": {
@@ -982,7 +1123,7 @@
     "alfaRules": [
      "sia-r62"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "act:5c01ea": {
@@ -991,7 +1132,7 @@
     "alfaRules": [
      "sia-r18"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r61": {
@@ -1000,7 +1141,7 @@
     "alfaRules": [
      "sia-r61"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r57": {
@@ -1009,7 +1150,7 @@
     "alfaRules": [
      "sia-r57"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    },
    "alfa:sia-r111": {
@@ -1018,7 +1159,7 @@
     "alfaRules": [
      "sia-r111"
     ],
-    "pages": 2,
+    "pages": 4,
     "engines": "alfa"
    }
   }
@@ -1035,9 +1176,9 @@
  },
  "deprecatedHtml": null,
  "resources": {
-  "total": 98,
+  "total": 100,
   "byType": {
-   "image": 2,
+   "image": 4,
    "pdf": 36,
    "presentation": 1,
    "document": 37,
@@ -1805,6 +1946,14 @@
     ]
    },
    {
+    "url": "https://www.nih.gov/sites/default/files/2025-03/20210608-brain.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories"
+    ]
+   },
+   {
     "url": "https://www.nih.gov/sites/default/files/2025-02/20180828-pregnant.jpg",
     "type": "image",
     "pages": 1,
@@ -1827,100 +1976,108 @@
     "examplePages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
     ]
+   },
+   {
+    "url": "https://www.nih.gov/sites/default/files/2025-03/20190514-diabetes.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
    }
   ]
  },
  "standards": {
-  "pagesChecked": 5,
+  "pagesChecked": 6,
   "checks": [
    {
     "id": "schema-gov",
     "label": "schema.org GovernmentOrganization markup",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0
    },
    {
     "id": "hreflang",
     "label": "hreflang alternates declared",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0
    },
    {
     "id": "open-social",
     "label": "Open social presence (Mastodon/Bluesky) linked",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0
    },
    {
     "id": "canonical",
     "label": "Canonical URL declared",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "title",
     "label": "Page has a <title>",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "description",
     "label": "Meta description present",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "charset",
     "label": "Character encoding declared",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "lang",
     "label": "Document language (lang) set",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "viewport",
     "label": "Responsive viewport (zoom not disabled)",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "open-graph",
-    "label": "Open Graph tags (5/6)",
-    "pass": 5,
-    "total": 5,
+    "label": "Open Graph tags (6/6)",
+    "pass": 6,
+    "total": 6,
     "rate": 100
    },
    {
     "id": "twitter-card",
     "label": "Twitter card metadata",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100
    }
   ],
   "social": []
  },
  "resilience": {
-  "pagesChecked": 5,
+  "pagesChecked": 6,
   "checks": [
    {
     "id": "pwa-manifest",
     "label": "Web app manifest declared",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "A web app manifest is required for installability and controls how the app appears when launched.",
     "evidenceExamples": []
@@ -1929,7 +2086,7 @@
     "id": "pwa-service-worker",
     "label": "Service worker registered",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "A service worker is what makes offline access, caching, and background sync possible.",
     "evidenceExamples": []
@@ -1938,7 +2095,7 @@
     "id": "pwa-theme-color",
     "label": "Theme color declared",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "Theme color controls the browser chrome/status-bar color when the site is installed or bookmarked.",
     "evidenceExamples": []
@@ -1947,7 +2104,7 @@
     "id": "pwa-apple-touch-icon",
     "label": "Apple touch icon (iOS/bookmark icon)",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "iOS uses this icon for home-screen bookmarks and \"Add to Home Screen\" — without it the icon falls back to a screenshot.",
     "evidenceExamples": []
@@ -1956,7 +2113,7 @@
     "id": "manifest-parsed",
     "label": "Manifest fetched and parsed successfully",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "A manifest that fails to parse cannot drive installability or launch behavior even if the link is present.",
     "evidenceExamples": [
@@ -1978,7 +2135,7 @@
     "id": "manifest-maskable-icon",
     "label": "Manifest declares a maskable icon",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "A maskable icon lets the OS safely crop/mask the app icon on different device shapes without clipping content.",
     "evidenceExamples": [
@@ -2000,7 +2157,7 @@
     "id": "sw-active",
     "label": "Service worker is active (not just registered)",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "An active service worker (not just registered) is what actually intercepts requests and serves cached content.",
     "evidenceExamples": []
@@ -2009,7 +2166,7 @@
     "id": "sw-controlling",
     "label": "Service worker controls this page load",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "A controlling service worker means THIS page load is being served/intercepted, not just a future one.",
     "evidenceExamples": []
@@ -2018,7 +2175,7 @@
     "id": "installable",
     "label": "Meets basic installability criteria",
     "pass": 0,
-    "total": 5,
+    "total": 6,
     "rate": 0,
     "why": "Determines whether the browser can realistically offer \"Add to Home Screen\" / install, based on manifest + service worker + HTTPS together.",
     "evidenceExamples": [
@@ -2039,8 +2196,8 @@
    {
     "id": "pwa-https",
     "label": "HTTPS (required for service workers)",
-    "pass": 5,
-    "total": 5,
+    "pass": 6,
+    "total": 6,
     "rate": 100,
     "why": "HTTPS is required for service workers and most install prompts.",
     "evidenceExamples": []
@@ -2104,19 +2261,20 @@
  },
  "publicInterest": null,
  "plainLanguage": {
-  "pagesChecked": 5,
-  "pagesScored": 3,
+  "pagesChecked": 7,
+  "pagesScored": 5,
   "medianWordsPerPage": 2908,
-  "medianReadingEase": 32.9,
-  "medianGrade": 14.4,
+  "medianReadingEase": 34.8,
+  "medianGrade": 13.5,
   "topUnexplainedAcronyms": [
    {
     "acronym": "NIH",
-    "pages": 4,
+    "pages": 6,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ]
    },
@@ -2129,11 +2287,27 @@
     ]
    },
    {
+    "acronym": "DNA",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc"
+    ]
+   },
+   {
     "acronym": "SF",
     "pages": 2,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0"
+    ]
+   },
+   {
+    "acronym": "IRB",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc"
     ]
    },
    {
@@ -2177,10 +2351,11 @@
     ]
    },
    {
-    "acronym": "DNA",
-    "pages": 1,
+    "acronym": "COVID",
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc"
     ]
    },
    {
@@ -2192,13 +2367,6 @@
    },
    {
     "acronym": "IV",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
-   },
-   {
-    "acronym": "IRB",
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
@@ -2217,19 +2385,21 @@
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
     ]
-   },
-   {
-    "acronym": "BAM",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
    }
   ],
   "spellingLocales": [
    "en-US"
   ],
   "topMisspellings": [
+   {
+    "word": "nih",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
+    ]
+   },
    {
     "word": "Omics",
     "pages": 2,
@@ -2248,14 +2418,6 @@
    },
    {
     "word": "https",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
-     "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
-    ]
-   },
-   {
-    "word": "nih",
     "pages": 2,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
@@ -2847,7 +3009,7 @@
   ]
  },
  "linkCheck": {
-  "brokenCount": 72,
+  "brokenCount": 92,
   "broken": [
    {
     "url": "http://chrome-extension//efaidnbmnnnibpcajpcglclefindmkaj/https://www.nih.gov/sites/default/files/research-training/initiatives/include/2024-optional-tables-include.pdf",
@@ -3261,6 +3423,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/news-events/nih-research-matters/mrna-vaccine-treat-pancreatic-cancer",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/about-nih/science-health-public-trust/checklist-communicating-science-health-research-public",
    "status": 403
   },
@@ -3269,7 +3435,19 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/challenges/supplements-facts-first-digital-adventure-every-age-challenge",
+   "status": 403
+  },
+  {
+   "url": "https://www.nih.gov/about-nih/voices-nih-community/they-cant-be-talking-about-me",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/research-training/medical-research-initiatives/advancing-mecfs-research/events/nih-mecfs-advocacy-call-march-17-2020",
+   "status": 403
+  },
+  {
+   "url": "https://www.nih.gov/news-events/news-releases/investigational-covid-19-therapeutics-be-evaluated-large-clinical-trials",
    "status": 403
   },
   {
@@ -3309,6 +3487,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/news-events/news-releases/brain-scan-guided-emergency-stroke-treatment-can-save-more-lives",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/about-nih/impact-nih-research/improving-health/infant-maternal-health",
    "status": 403
   },
@@ -3330,26 +3512,6 @@
   },
   {
    "url": "https://www.nih.gov/news-events/nih-research-matters/obesity-metabolic-health",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/news-events/nih-research-matters/approach-prevent-fall-injuries-no-better-usual-care",
-   "status": 403
-  },
-  {
-   "url": "https://mailto:RADxInfo@www.nih.gov/about-nih/nih-almanac/about-nih-almanac",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/nih-style-guide/person-first-destigmatizing-language",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/news-events/nih-research-matters/diabetes-boosts-antibiotic-resistance-mice",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/research-training/medical-research-initiatives/environmental-influences-child-health-outcomes-echo-program/funding/idea-states-pediatric-clinical-trials-network-data-coordinating-operations-center-foa",
    "status": 403
   }
  ],
@@ -3595,14 +3757,14 @@
   }
  ],
  "images": {
-  "pagesScanned": 12,
-  "totalImages": 179,
-  "uniqueImages": 46,
+  "pagesScanned": 15,
+  "totalImages": 222,
+  "uniqueImages": 48,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 179,
+  "withAlt": 222,
   "altVerdicts": {
-   "GOOD": 40,
+   "GOOD": 42,
    "SUSPICIOUS": 2,
    "TOO_SHORT": 4
   }
@@ -3989,16 +4151,16 @@
   "design_system_label": "none",
   "design_system_theme": null,
   "template_page_threshold": 10,
-  "total_clusters": 60,
+  "total_clusters": 65,
   "clusters": [
    {
     "id": "cc-340e0be35f96",
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 15,
+    "pages_affected": 15,
+    "instances": 15,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -4008,11 +4170,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 28.8,
+    "action_score": 36,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 15,
+     "pages": 15,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4023,10 +4188,13 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4034,9 +4202,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 15,
+    "pages_affected": 15,
+    "instances": 15,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -4046,11 +4214,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 14.4,
+    "action_score": 18,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 15,
+     "pages": 15,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4061,10 +4232,13 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4072,9 +4246,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 15,
+    "pages_affected": 15,
+    "instances": 15,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -4084,11 +4258,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 14.4,
+    "action_score": 18,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 15,
+     "pages": 15,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4099,10 +4276,13 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4110,9 +4290,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r53",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
     "selector_path": "<h3>",
     "snippet_shape": "",
     "representative_selector": "<h3>",
@@ -4120,17 +4300,22 @@
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
+    "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 4,
+    "action_score": 8,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4138,9 +4323,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r61",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
     "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
     "snippet_shape": "",
     "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
@@ -4148,17 +4333,88 @@
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
+    "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 4,
+    "action_score": 8,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-cd5f617ba5c1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-424dd2ea2877",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4182,7 +4438,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0"
@@ -4209,66 +4468,377 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
     ]
    },
    {
-    "id": "cc-cd5f617ba5c1",
+    "id": "cc-8e242a862e3a",
     "engine_key": "alfa",
-    "rule_id": "sia-r18",
+    "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 2,
-    "action_score": 2,
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
-    "id": "cc-424dd2ea2877",
+    "id": "cc-779065448143",
     "engine_key": "alfa",
-    "rule_id": "sia-r18",
+    "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"executive order #\"",
     "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_selector": "text: \"Executive Order 14434\"",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 2,
-    "action_score": 2,
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-992ed06f0f6c",
+    "engine_key": "alfa",
+    "rule_id": "sia-r66",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"health information\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Health Information\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-b3dd9d9563fe",
+    "engine_key": "alfa",
+    "rule_id": "sia-r57",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"nih websites are changing\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"NIH Websites Are Changing\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-aba72eba36dd",
+    "engine_key": "alfa",
+    "rule_id": "sia-r57",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"get the latest updates and faqs\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-ebbc1cb4ee84",
+    "engine_key": "alfa",
+    "rule_id": "sia-r57",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"per \"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Per \"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-7c67d227d1f8",
+    "engine_key": "alfa",
+    "rule_id": "sia-r111",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "<a class=\"usa-button\" href=\"/web-modernization\">",
+    "snippet_shape": "",
+    "representative_selector": "<a class=\"usa-button\" href=\"/web-modernization\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-3c8788d59ab6",
+    "engine_key": "alfa",
+    "rule_id": "sia-r111",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "<button type=\"button\" aria-label=\"ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
+    "snippet_shape": "",
+    "representative_selector": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-b39e5ed2e696",
+    "engine_key": "alfa",
+    "rule_id": "sia-r111",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "<a href=\"/virtual-tour\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"/virtual-tour\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-3c4299c743bc",
+    "engine_key": "axe-core",
+    "rule_id": "heading-order",
+    "severity": "Moderate",
+    "rule_pages_affected": 10,
+    "pages_affected": 5,
+    "instances": 5,
+    "selector_path": ".callout__text > h3",
+    "snippet_shape": "h3:",
+    "representative_selector": ".callout__text > h3",
+    "representative_snippet": "<h3>At a Glance</h3>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 6,
+    "action_score": 2,
+    "estimated_fix_impact": {
+     "findings": 5,
+     "pages": 5,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-19c608daabd2",
+    "engine_key": "alfa",
+    "rule_id": "sia-r73",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "<p class=\"usa-banner__header-text\">",
+    "snippet_shape": "",
+    "representative_selector": "<p class=\"usa-banner__header-text\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 4,
+    "action_score": 2,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4292,291 +4862,77 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
     ]
    },
    {
-    "id": "cc-8e242a862e3a",
+    "id": "cc-56d16a8447b2",
     "engine_key": "alfa",
-    "rule_id": "sia-r66",
+    "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "text: \"get the latest updates and faqs\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-779065448143",
-    "engine_key": "alfa",
-    "rule_id": "sia-r66",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "text: \"executive order #\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Executive Order 14434\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-992ed06f0f6c",
-    "engine_key": "alfa",
-    "rule_id": "sia-r66",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "text: \"health information\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Health Information\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-b3dd9d9563fe",
-    "engine_key": "alfa",
-    "rule_id": "sia-r57",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "text: \"nih websites are changing\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"NIH Websites Are Changing\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-aba72eba36dd",
-    "engine_key": "alfa",
-    "rule_id": "sia-r57",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "text: \"get the latest updates and faqs\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-ebbc1cb4ee84",
-    "engine_key": "alfa",
-    "rule_id": "sia-r57",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "text: \"per \"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Per \"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-7c67d227d1f8",
-    "engine_key": "alfa",
-    "rule_id": "sia-r111",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "<a class=\"usa-button\" href=\"/web-modernization\">",
-    "snippet_shape": "",
-    "representative_selector": "<a class=\"usa-button\" href=\"/web-modernization\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-3c8788d59ab6",
-    "engine_key": "alfa",
-    "rule_id": "sia-r111",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "<button type=\"button\" aria-label=\"ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
-    "snippet_shape": "",
-    "representative_selector": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-b39e5ed2e696",
-    "engine_key": "alfa",
-    "rule_id": "sia-r111",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "<a href=\"/virtual-tour\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"/virtual-tour\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 3,
-    "action_score": 1.33,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-3c4299c743bc",
-    "engine_key": "axe-core",
-    "rule_id": "heading-order",
-    "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 4,
     "pages_affected": 3,
     "instances": 3,
-    "selector_path": ".callout__text > h3",
-    "snippet_shape": "h3:",
-    "representative_selector": ".callout__text > h3",
-    "representative_snippet": "<h3>At a Glance</h3>",
+    "selector_path": "<p class=\"usa-identifier__identity-domain\">",
+    "snippet_shape": "",
+    "representative_selector": "<p class=\"usa-identifier__identity-domain\">",
+    "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 6,
-    "action_score": 1.2,
+    "distinct_components_for_rule": 4,
+    "action_score": 1.5,
     "estimated_fix_impact": {
      "findings": 3,
      "pages": 3,
-     "statement": "Fix one place, resolve ~3 finding(s) on 3 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 3 engine finding instance(s) on 3 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
-     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-e5e84016a2ec",
+    "engine_key": "alfa",
+    "rule_id": "sia-r73",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 3,
+    "instances": 3,
+    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
+    "snippet_shape": "",
+    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 4,
+    "action_score": 1.5,
+    "estimated_fix_impact": {
+     "findings": 3,
+     "pages": 3,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 3 engine finding instance(s) on 3 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4600,38 +4956,13 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
-   },
-   {
-    "id": "cc-19c608daabd2",
-    "engine_key": "alfa",
-    "rule_id": "sia-r73",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "<p class=\"usa-banner__header-text\">",
-    "snippet_shape": "",
-    "representative_selector": "<p class=\"usa-banner__header-text\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 4,
-    "action_score": 1,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ]
    },
    {
@@ -4639,9 +4970,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r62",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
     "selector_path": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
     "snippet_shape": "",
     "representative_selector": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
@@ -4649,17 +4980,89 @@
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 5,
-    "action_score": 0.8,
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 7,
+    "action_score": 1.14,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-7593579d1f63",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 15,
+    "pages_affected": 5,
+    "instances": 7,
+    "selector_path": "p:nth-child(*) > a:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(4) > a:nth-child(2)",
+    "representative_snippet": "<a href=\"https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison\">Office of Communications and Public Liaison</a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 25,
+    "action_score": 0.72,
+    "estimated_fix_impact": {
+     "findings": 7,
+     "pages": 5,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 7 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-c3982f3f2935",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 15,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://doi.org/10.1038/s41586-020-2277-x\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Complement genes contribute sex-biase",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 25,
+    "action_score": 0.58,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -4667,7 +5070,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 4,
     "instances": 4,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -4678,12 +5081,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.65,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.58,
     "estimated_fix_impact": {
      "findings": 4,
      "pages": 4,
-     "statement": "Fix one place, resolve ~4 finding(s) on 4 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://mailto:RADxInfo@www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials",
@@ -4697,7 +5103,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
+    "rule_pages_affected": 4,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "<p>",
@@ -4713,93 +5119,13 @@
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 1,
-     "statement": "Fix one place, resolve ~2 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 2 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ]
-   },
-   {
-    "id": "cc-56d16a8447b2",
-    "engine_key": "alfa",
-    "rule_id": "sia-r73",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<p class=\"usa-identifier__identity-domain\">",
-    "snippet_shape": "",
-    "representative_selector": "<p class=\"usa-identifier__identity-domain\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 4,
-    "action_score": 0.5,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-e5e84016a2ec",
-    "engine_key": "alfa",
-    "rule_id": "sia-r73",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
-    "snippet_shape": "",
-    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 4,
-    "action_score": 0.5,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-7593579d1f63",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 12,
-    "pages_affected": 3,
-    "instances": 5,
-    "selector_path": "p:nth-child(*) > a:nth-child(*)",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(4) > a:nth-child(2)",
-    "representative_snippet": "<a href=\"https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison\">Office of Communications and Public Liaison</a>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.49,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 3,
-     "statement": "Fix one place, resolve ~5 finding(s) on 3 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
-     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ]
    },
    {
@@ -4807,7 +5133,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 10,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "h4:nth-child(*)",
@@ -4823,7 +5149,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
@@ -4850,7 +5179,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
@@ -4861,7 +5193,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 10,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "h3",
@@ -4877,61 +5209,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ]
-   },
-   {
-    "id": "cc-15ac1e30ec22",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://grants.nih.gov/grants/guide/pa-files/par-#-#.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://grants.nih.gov/grants/guide/pa-files/PAR-19-369.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 5,
-    "action_score": 0.4,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ]
-   },
-   {
-    "id": "cc-17c2b0f71f27",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://www.nih.gov/include-project/faq-include-data-coordinating-center-pre-application-webinar\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://www.nih.gov/include-project/faq-include-data-coordinating-center-pre-application-webinar\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 5,
-    "action_score": 0.4,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
@@ -4958,7 +5239,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
@@ -4969,7 +5253,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 10,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "article > div > h3",
@@ -4985,64 +5269,13 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ]
-   },
-   {
-    "id": "cc-77c12a5daf76",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 5,
-    "action_score": 0.4,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-6cd8e47468fc",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://www.nih.gov/news-events/nih-research-matters/#-nih-research-highlights-promising-medical-findings\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-promising-medical-findings\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 5,
-    "action_score": 0.4,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
     ]
    },
    {
@@ -5066,7 +5299,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
@@ -5077,7 +5313,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 10,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".promo-block__heading",
@@ -5093,7 +5329,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
@@ -5104,7 +5343,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 8,
+    "rule_pages_affected": 10,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".field__item:nth-child(*) > .background--green.paragraph--type--callout.callout > .callout__body > .callout__heading",
@@ -5120,38 +5359,255 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
     ]
    },
    {
-    "id": "cc-c3982f3f2935",
+    "id": "cc-0975fb981253",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 2,
     "instances": 2,
-    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
     "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://doi.org/10.1038/s41586-020-2277-x\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Complement genes contribute sex-biase",
+    "representative_selector": "article[data-history-node-id=\"11626\"] > div > ul > li:nth-child(6) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://www.nimh.nih.gov/health/topics/anxiety-disorders/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Anxiety Disorders</a>",
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.33,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.29,
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 2 engine finding instance(s) on 2 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
-     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-0b473cc478cf",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 15,
+    "pages_affected": 2,
+    "instances": 2,
+    "selector_path": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
+    "snippet_shape": "a:href",
+    "representative_selector": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(3)",
+    "representative_snippet": "<a href=\"https://www.cc.nih.gov/ccaward.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">2011 Lasker~Bloomberg Public Service Award ",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 25,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 2,
+     "pages": 2,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 2 engine finding instance(s) on 2 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+    ]
+   },
+   {
+    "id": "cc-15ac1e30ec22",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://grants.nih.gov/grants/guide/pa-files/par-#-#.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://grants.nih.gov/grants/guide/pa-files/PAR-19-369.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+    ]
+   },
+   {
+    "id": "cc-17c2b0f71f27",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.nih.gov/include-project/faq-include-data-coordinating-center-pre-application-webinar\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.nih.gov/include-project/faq-include-data-coordinating-center-pre-application-webinar\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+    ]
+   },
+   {
+    "id": "cc-ad7c1fbc82f1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/#/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/34040259/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories"
+    ]
+   },
+   {
+    "id": "cc-77c12a5daf76",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+    ]
+   },
+   {
+    "id": "cc-6cd8e47468fc",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.nih.gov/news-events/nih-research-matters/#-nih-research-highlights-promising-medical-findings\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-promising-medical-findings\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+    ]
+   },
+   {
+    "id": "cc-10240c1aa126",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31053621\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 7,
+    "action_score": 0.29,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5159,7 +5615,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "table:nth-child(*) > tbody > tr:nth-child(*) > td > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5170,12 +5626,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 2,
      "pages": 1,
-     "statement": "Fix one place, resolve ~2 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 2 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
@@ -5186,7 +5645,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > .mailto[data-extlink=\"\"]",
@@ -5197,12 +5656,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director"
@@ -5213,7 +5675,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > .mailto[data-extlink=\"\"]:nth-child(*)",
@@ -5224,12 +5686,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director"
@@ -5240,7 +5705,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]:nth-child(*)",
@@ -5251,12 +5716,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director"
@@ -5267,7 +5735,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5278,12 +5746,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia"
@@ -5294,7 +5765,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".usa-intro > a",
@@ -5305,12 +5776,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://mailto:RADxInfo@www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials"
@@ -5321,7 +5795,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5332,12 +5806,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
@@ -5348,7 +5825,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a",
@@ -5359,12 +5836,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
@@ -5375,7 +5855,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > ul > li > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][data-extlink=\"\"]",
@@ -5386,12 +5866,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
@@ -5402,7 +5885,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a",
@@ -5413,12 +5896,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0"
@@ -5429,7 +5915,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "table:nth-child(*) > tbody > tr:nth-child(*) > td > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5440,12 +5926,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
@@ -5456,7 +5945,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -5467,12 +5956,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
@@ -5483,7 +5975,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "div[callout=\"\"] > .callout__body > .callout__text > p:nth-child(*) > a:nth-child(*)",
@@ -5494,15 +5986,78 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+    ]
+   },
+   {
+    "id": "cc-dae47f071480",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 15,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "p:nth-child(*) > a[href$=\"cc.nih.gov/\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(2) > a[href$=\"cc.nih.gov/\"]",
+    "representative_snippet": "<a href=\"https://www.cc.nih.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">NIH Clinical Center </a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc"
+    ]
+   },
+   {
+    "id": "cc-f537ecce03cd",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 15,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(3) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://www.cc.nih.gov/participate/faqaboutcs.html\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">studies</a>",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc"
     ]
    },
    {
@@ -5510,7 +6065,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"challenges\"]",
@@ -5521,12 +6076,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
@@ -5537,7 +6095,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -5548,12 +6106,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
@@ -5564,7 +6125,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]",
@@ -5575,12 +6136,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
@@ -5591,7 +6155,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5602,12 +6166,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
@@ -5618,7 +6185,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 12,
+    "rule_pages_affected": 15,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
@@ -5629,39 +6196,15 @@
     "drift": false,
     "drift_tokens": [],
     "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
+    "distinct_components_for_rule": 25,
+    "action_score": 0.14,
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
-    ]
-   },
-   {
-    "id": "cc-0b473cc478cf",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 12,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
-    "snippet_shape": "a:href",
-    "representative_selector": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(3)",
-    "representative_snippet": "<a href=\"https://data-archive.nimh.nih.gov/ccf\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">NIMH Data Archive</a>",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 22,
-    "action_score": 0.16,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
@@ -5674,9 +6217,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 15,
+    "pages_affected": 15,
+    "instances": 15,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -5686,11 +6229,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 28.8,
+    "action_score": 36,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 15,
+     "pages": 15,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -5701,10 +6247,13 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5712,9 +6261,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 15,
+    "pages_affected": 15,
+    "instances": 15,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -5724,11 +6273,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 14.4,
+    "action_score": 18,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 15,
+     "pages": 15,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -5739,10 +6291,13 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5750,9 +6305,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 12,
-    "pages_affected": 12,
-    "instances": 12,
+    "rule_pages_affected": 15,
+    "pages_affected": 15,
+    "instances": 15,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -5762,11 +6317,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 14.4,
+    "action_score": 18,
     "estimated_fix_impact": {
-     "findings": 12,
-     "pages": 12,
-     "statement": "Fix one place, resolve ~12 finding(s) on 12 page(s)."
+     "findings": 15,
+     "pages": 15,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 15 engine finding instance(s) on 15 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -5777,10 +6335,13 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc",
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge",
-     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives"
+     "https://www.nih.gov/nih-blueprint-neuroscience-research/blueprint-past-initiatives",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5788,9 +6349,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r53",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
     "selector_path": "<h3>",
     "snippet_shape": "",
     "representative_selector": "<h3>",
@@ -5798,17 +6359,22 @@
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
+    "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 4,
+    "action_score": 8,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5816,9 +6382,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r61",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
     "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
     "snippet_shape": "",
     "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
@@ -5826,17 +6392,88 @@
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
+    "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 4,
+    "action_score": 8,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-cd5f617ba5c1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-424dd2ea2877",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5860,7 +6497,10 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0"
@@ -5887,93 +6527,46 @@
     "estimated_fix_impact": {
      "findings": 1,
      "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/challenges/integration-nutrition-training-into-health-care-education-challenge"
     ]
    },
    {
-    "id": "cc-cd5f617ba5c1",
+    "id": "cc-8e242a862e3a",
     "engine_key": "alfa",
-    "rule_id": "sia-r18",
+    "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "rule_pages_affected": 4,
+    "pages_affected": 4,
+    "instances": 4,
+    "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 2,
-    "action_score": 2,
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 2.67,
     "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
+     "findings": 4,
+     "pages": 4,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-424dd2ea2877",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 2,
-    "action_score": 2,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "statement": "Fix one place, resolve ~2 finding(s) on 2 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
-    ]
-   },
-   {
-    "id": "cc-8b5b40b39985",
-    "engine_key": "alfa",
-    "rule_id": "sia-r64",
-    "severity": "Moderate",
-    "rule_pages_affected": 1,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<h3>",
-    "snippet_shape": "",
-    "representative_selector": "<h3>",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 1,
-    "action_score": 2,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "statement": "Fix one place, resolve ~1 finding(s) on 1 page(s)."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    }
   ],
@@ -5983,18 +6576,20 @@
   "drift_pages": [],
   "drift_clusters": []
  },
- "pagesAttempted": 1800,
- "pagesSucceeded": 12,
+ "sharedComponents": null,
+ "pageFamilies": null,
+ "pagesAttempted": 2399,
+ "pagesSucceeded": 15,
  "access": {
   "level": "partial",
-  "audited": 12,
-  "attempted": 1800,
+  "audited": 15,
+  "attempted": 2399,
   "firewall": {
-   "pages": 1788,
+   "pages": 2384,
    "challenges": 149,
-   "refusals": 1639,
+   "refusals": 2235,
    "statuses": {
-    "403": 1788
+    "403": 2384
    },
    "by": [
     "Cloudflare",
