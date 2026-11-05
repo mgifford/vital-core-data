@@ -1,6 +1,6 @@
 {
  "domain": "data.cms.gov",
- "updatedAt": "2026-11-03T19:48:43.914Z",
+ "updatedAt": "2026-11-05T18:27:46.764Z",
  "links": {
   "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/IRF-Quality-Reporting/index.html": {
    "status": 404,
@@ -247,7 +247,7 @@
    "status": 405,
    "reason": "HTTP 405",
    "firstSeen": "2026-W25",
-   "lastSeen": "2026-W44",
+   "lastSeen": "2026-W45",
    "_weeks": [
     "2026-W25",
     "2026-W26",
@@ -265,10 +265,12 @@
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W44"
+    "2026-W44",
+    "2026-W45"
    ],
-   "weeksBroken": 17,
+   "weeksBroken": 18,
    "foundOn": [
+    "https://data.cms.gov/provider-data/topics/nursing-homes/quality-measures",
     "https://data.cms.gov/provider-data/topics/nursing-homes/technical-details"
    ]
   },
@@ -1210,18 +1212,19 @@
   },
   "https://www.qualitynet.org/pch/pchqr/measures": {
    "status": 0,
-   "reason": "UND_ERR_CONNECT_TIMEOUT",
+   "reason": "ECONNREFUSED",
    "firstSeen": "2026-W35",
-   "lastSeen": "2026-W44",
+   "lastSeen": "2026-W45",
    "_weeks": [
     "2026-W35",
     "2026-W38",
     "2026-W40",
     "2026-W41",
     "2026-W42",
-    "2026-W44"
+    "2026-W44",
+    "2026-W45"
    ],
-   "weeksBroken": 6,
+   "weeksBroken": 7,
    "foundOn": [
     "https://data.cms.gov/provider-data/topics/hospitals/pps-exempt-cancer-hospitals"
    ]
@@ -1968,7 +1971,8 @@
    ],
    "weeksBroken": 1,
    "foundOn": [
-    "https://data.cms.gov/provider-data/about/faq"
+    "https://data.cms.gov/provider-data/about/faq",
+    "https://data.cms.gov/provider-data/about"
    ]
   }
  }

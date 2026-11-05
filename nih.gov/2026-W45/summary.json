@@ -1,31 +1,31 @@
 {
  "domain": "nih.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-04T15:40:57.030Z",
- "pagesScanned": 2549,
- "pagesAudited": 16,
+ "generatedAt": "2026-11-05T18:27:54.542Z",
+ "pagesScanned": 2595,
+ "pagesAudited": 17,
  "coverage": {
-  "axe": 16,
-  "resources": 16,
+  "axe": 17,
+  "resources": 17,
   "standards": 6,
-  "deprecated-html": 2,
+  "deprecated-html": 3,
   "tech": 3,
-  "plain-language": 8,
+  "plain-language": 9,
   "alfa": 4,
   "security": 2,
-  "lighthouse": 2,
+  "lighthouse": 3,
   "sustainability": 1
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 250,
-  "pagesWithViolations": 16,
-  "pagesScanned": 16,
-  "medianViolations": 9,
+  "violationTotal": 258,
+  "pagesWithViolations": 17,
+  "pagesScanned": 17,
+  "medianViolations": 8,
   "rules": {
    "landmark-unique": {
-    "count": 16,
-    "pages": 16,
+    "count": 17,
+    "pages": 17,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -68,6 +68,10 @@
      },
      {
       "url": "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
       "instances": 1
      },
      {
@@ -132,8 +136,8 @@
     ]
    },
    "link-in-text-block": {
-    "count": 186,
-    "pages": 16,
+    "count": 190,
+    "pages": 17,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI",
@@ -178,6 +182,10 @@
      {
       "url": "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
       "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+      "instances": 4
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
@@ -241,8 +249,8 @@
     ]
    },
    "region": {
-    "count": 32,
-    "pages": 16,
+    "count": 34,
+    "pages": 17,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
@@ -285,6 +293,10 @@
      },
      {
       "url": "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
       "instances": 2
      },
      {
@@ -349,8 +361,8 @@
     ]
    },
    "heading-order": {
-    "count": 10,
-    "pages": 10,
+    "count": 11,
+    "pages": 11,
     "impact": "moderate",
     "help": "Heading levels should only increase by one",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
@@ -377,6 +389,10 @@
      },
      {
       "url": "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
       "instances": 1
      },
      {
@@ -426,7 +442,7 @@
       "html": "<h3></h3>"
      },
      {
-      "url": "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
       "target": ".callout__text > h3",
       "html": "<h3>At a Glance</h3>"
      }
@@ -1021,11 +1037,11 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 96,
+  "uniqueIssues": 100,
   "consensus": 1,
-  "axeOnly": 63,
+  "axeOnly": 67,
   "alfaOnly": 32,
-  "rawAxe": 64,
+  "rawAxe": 68,
   "rawAlfa": 33,
   "byKey": {
    "axe-core:landmark-unique": {
@@ -1034,7 +1050,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 16,
+    "pages": 17,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -1043,7 +1059,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 16,
+    "pages": 17,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -1052,7 +1068,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 16,
+    "pages": 17,
     "engines": "axe"
    },
    "axe-core:heading-order": {
@@ -1061,7 +1077,7 @@
      "heading-order"
     ],
     "alfaRules": [],
-    "pages": 10,
+    "pages": 11,
     "engines": "axe"
    },
    "axe-core:empty-table-header": {
@@ -1188,9 +1204,9 @@
  },
  "deprecatedHtml": null,
  "resources": {
-  "total": 100,
+  "total": 101,
   "byType": {
-   "image": 4,
+   "image": 5,
    "pdf": 36,
    "presentation": 1,
    "document": 37,
@@ -1958,6 +1974,14 @@
     ]
    },
    {
+    "url": "https://www.nih.gov/sites/default/files/2026-05/20260511-glp-1.jpg",
+    "type": "image",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ]
+   },
+   {
     "url": "https://www.nih.gov/sites/default/files/2025-03/20210608-brain.jpg",
     "type": "image",
     "pages": 1,
@@ -2273,21 +2297,21 @@
  },
  "publicInterest": null,
  "plainLanguage": {
-  "pagesChecked": 8,
-  "pagesScored": 6,
-  "medianWordsPerPage": 2552,
-  "medianReadingEase": 40,
-  "medianGrade": 13,
+  "pagesChecked": 9,
+  "pagesScored": 7,
+  "medianWordsPerPage": 2196,
+  "medianReadingEase": 42.6,
+  "medianGrade": 12.6,
   "topUnexplainedAcronyms": [
    {
     "acronym": "NIH",
-    "pages": 7,
+    "pages": 8,
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights"
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories"
     ]
    },
    {
@@ -2388,18 +2412,19 @@
     ]
    },
    {
-    "acronym": "NINDS",
+    "acronym": "CT",
     "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
-     "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+     "https://www.nih.gov/about-nih/nih-almanac/clinical-center-cc"
     ]
    },
    {
-    "acronym": "NOFO",
-    "pages": 1,
+    "acronym": "PMID",
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories"
     ]
    }
   ],
@@ -2446,6 +2471,14 @@
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project",
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+    ]
+   },
+   {
+    "word": "doi",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories"
     ]
    },
    {
@@ -2580,33 +2613,26 @@
     "examplePages": [
      "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
     ]
-   },
-   {
-    "word": "timeframe",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/medical-research-initiatives/include-project/faqs/faqs-omics-phenotypes-related-down-syndrome-include-project"
-    ]
    }
   ]
  },
  "lighthouse": {
-  "pagesSampled": 2,
-  "medianPerformance": 38,
+  "pagesSampled": 3,
+  "medianPerformance": 37,
   "medianAccessibility": 95,
   "medianBestPractices": 54,
   "medianSeo": 100,
   "medianPwa": null,
-  "medianAgentic": 80,
+  "medianAgentic": 59,
   "distributions": {
    "performance": {
     "min": 35,
     "max": 41,
-    "p10": 35.6,
-    "p25": 36.5,
-    "p50": 38,
-    "p75": 39.5,
-    "p90": 40.4,
+    "p10": 35.4,
+    "p25": 36,
+    "p50": 37,
+    "p75": 39,
+    "p90": 40.2,
     "range": 6,
     "spreadP10toP90": 4.8,
     "iqr": 3
@@ -2648,24 +2674,24 @@
     "iqr": 0
    },
    "agentic": {
-    "min": 59,
+    "min": 56,
     "max": 100,
-    "p10": 63.1,
-    "p25": 69.3,
-    "p50": 79.5,
-    "p75": 89.8,
-    "p90": 95.9,
-    "range": 41,
-    "spreadP10toP90": 32.8,
-    "iqr": 20.5
+    "p10": 56.6,
+    "p25": 57.5,
+    "p50": 59,
+    "p75": 79.5,
+    "p90": 91.8,
+    "range": 44,
+    "spreadP10toP90": 35.2,
+    "iqr": 22
    }
   },
   "metrics": {
-   "firstContentfulPaintMs": 2454,
-   "largestContentfulPaintMs": 7058,
-   "speedIndexMs": 4057,
-   "totalBlockingTimeMs": 1591,
-   "cumulativeLayoutShift": 0
+   "firstContentfulPaintMs": 2143,
+   "largestContentfulPaintMs": 4328,
+   "speedIndexMs": 3359,
+   "totalBlockingTimeMs": 1476,
+   "cumulativeLayoutShift": 0.486
   },
   "pwaSignals": [],
   "recommendations": [
@@ -2673,61 +2699,287 @@
     "id": "mainthread-work-breakdown",
     "category": "performance",
     "title": "Minimize main-thread work",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 3200
+    "savingsMs": 4600
    },
    {
     "id": "bootup-time",
     "category": "performance",
     "title": "Reduce JavaScript execution time",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 3050
+    "savingsMs": 4600
    },
    {
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
-    "savingsBytes": 732901,
+    "savingsBytes": 1099652,
     "savingsMs": 1650
    },
    {
     "id": "unused-css-rules",
     "category": "performance",
     "title": "Reduce unused CSS",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
-    "savingsBytes": 227721,
-    "savingsMs": 1400
+    "savingsBytes": 341231,
+    "savingsMs": 1850
    },
    {
     "id": "image-delivery-insight",
     "category": "performance",
     "title": "Improve image delivery",
-    "pages": 2,
+    "pages": 3,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 300
+    "savingsMs": 750
+   },
+   {
+    "id": "unminified-javascript",
+    "category": "performance",
+    "title": "Minify JavaScript",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 57492,
+    "savingsMs": 150
+   },
+   {
+    "id": "font-display-insight",
+    "category": "performance",
+    "title": "Font display",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 150
+   },
+   {
+    "id": "first-contentful-paint",
+    "category": "performance",
+    "title": "First Contentful Paint",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "largest-contentful-paint",
+    "category": "performance",
+    "title": "Largest Contentful Paint",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "total-blocking-time",
+    "category": "performance",
+    "title": "Total Blocking Time",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "max-potential-fid",
+    "category": "performance",
+    "title": "Max Potential First Input Delay",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "errors-in-console",
+    "category": "best-practices",
+    "title": "Browser errors were logged to the console",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "interactive",
+    "category": "performance",
+    "title": "Time to Interactive",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "deprecations",
+    "category": "best-practices",
+    "title": "Uses deprecated APIs",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "third-party-cookies",
+    "category": "best-practices",
+    "title": "Uses third-party cookies",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "inspector-issues",
+    "category": "best-practices",
+    "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "webmcp-registered-tools",
+    "category": "agentic-browsing",
+    "title": "WebMCP tools registered",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "webmcp-form-coverage",
+    "category": "agentic-browsing",
+    "title": "WebMCP form coverage",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "webmcp-schema-validity",
+    "category": "agentic-browsing",
+    "title": "WebMCP schemas are valid",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "llms-txt",
+    "category": "agentic-browsing",
+    "title": "llms.txt follows recommendations",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "ard-schema",
+    "category": "agentic-browsing",
+    "title": "`ai-catalog.json` schema is valid",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "network-dependency-tree-insight",
+    "category": "performance",
+    "title": "Network dependency tree",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
    },
    {
     "id": "cache-insight",
@@ -2742,205 +2994,49 @@
     "savingsMs": 250
    },
    {
-    "id": "unminified-javascript",
+    "id": "unminified-css",
     "category": "performance",
-    "title": "Minify JavaScript",
+    "title": "Minify CSS",
     "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
-    "savingsBytes": 38328,
-    "savingsMs": 150
-   },
-   {
-    "id": "font-display-insight",
-    "category": "performance",
-    "title": "Font display",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 100
-   },
-   {
-    "id": "first-contentful-paint",
-    "category": "performance",
-    "title": "First Contentful Paint",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
+    "savingsBytes": 4157,
     "savingsMs": 0
    },
    {
-    "id": "largest-contentful-paint",
-    "category": "performance",
-    "title": "Largest Contentful Paint",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "total-blocking-time",
-    "category": "performance",
-    "title": "Total Blocking Time",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "max-potential-fid",
-    "category": "performance",
-    "title": "Max Potential First Input Delay",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "errors-in-console",
-    "category": "best-practices",
-    "title": "Browser errors were logged to the console",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "interactive",
-    "category": "performance",
-    "title": "Time to Interactive",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "deprecations",
-    "category": "best-practices",
-    "title": "Uses deprecated APIs",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "third-party-cookies",
-    "category": "best-practices",
-    "title": "Uses third-party cookies",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "inspector-issues",
-    "category": "best-practices",
-    "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "webmcp-registered-tools",
+    "id": "cumulative-layout-shift",
     "category": "agentic-browsing",
-    "title": "WebMCP tools registered",
+    "title": "Cumulative Layout Shift",
     "pages": 2,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
     "savingsMs": 0
    },
    {
-    "id": "webmcp-form-coverage",
-    "category": "agentic-browsing",
-    "title": "WebMCP form coverage",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "webmcp-schema-validity",
-    "category": "agentic-browsing",
-    "title": "WebMCP schemas are valid",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "llms-txt",
-    "category": "agentic-browsing",
-    "title": "llms.txt follows recommendations",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "ard-schema",
-    "category": "agentic-browsing",
-    "title": "`ai-catalog.json` schema is valid",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "network-dependency-tree-insight",
+    "id": "cls-culprits-insight",
     "category": "performance",
-    "title": "Network dependency tree",
+    "title": "Layout shift culprits",
     "pages": 2,
     "examplePages": [
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0
+   },
+   {
+    "id": "forced-reflow-insight",
+    "category": "performance",
+    "title": "Forced reflow",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
     "savingsMs": 0
@@ -2966,50 +3062,6 @@
     ],
     "savingsBytes": 0,
     "savingsMs": 100
-   },
-   {
-    "id": "unminified-css",
-    "category": "performance",
-    "title": "Minify CSS",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 2077,
-    "savingsMs": 0
-   },
-   {
-    "id": "cumulative-layout-shift",
-    "category": "agentic-browsing",
-    "title": "Cumulative Layout Shift",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "cls-culprits-insight",
-    "category": "performance",
-    "title": "Layout shift culprits",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "forced-reflow-insight",
-    "category": "performance",
-    "title": "Forced reflow",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 0
    },
    {
     "id": "speed-index",
@@ -3773,14 +3825,14 @@
   }
  ],
  "images": {
-  "pagesScanned": 16,
-  "totalImages": 235,
-  "uniqueImages": 48,
+  "pagesScanned": 17,
+  "totalImages": 250,
+  "uniqueImages": 49,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 235,
+  "withAlt": 250,
   "altVerdicts": {
-   "GOOD": 42,
+   "GOOD": 43,
    "SUSPICIOUS": 2,
    "TOO_SHORT": 4
   }
@@ -4060,104 +4112,111 @@
   "associations": []
  },
  "thirdParty": {
-  "pagesScanned": 2,
+  "pagesScanned": 3,
   "vendors": [
    {
     "origin": "googletagmanager.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
-    "medianBytes": 651823,
-    "medianDurationMs": 796,
+    "medianBytes": 651743,
+    "medianDurationMs": 751,
     "medianRequests": 4,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    },
    {
     "origin": "crazyegg.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
-    "medianBytes": 70933,
-    "medianDurationMs": 299,
+    "medianBytes": 70932,
+    "medianDurationMs": 335,
     "medianRequests": 4,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    },
    {
     "origin": "cloudflareinsights.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 31853,
-    "medianDurationMs": 108,
+    "medianDurationMs": 78,
     "medianRequests": 1,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    },
    {
     "origin": "digitalgov.gov",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 30230,
-    "medianDurationMs": 57,
+    "medianDurationMs": 61,
     "medianRequests": 1,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    },
    {
     "origin": "google-analytics.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 20805,
-    "medianDurationMs": 121,
-    "medianRequests": 5,
-    "pagesWithFindings": 2,
+    "medianDurationMs": 173,
+    "medianRequests": 4,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    },
    {
     "origin": "pinterest.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 18901,
-    "medianDurationMs": 282,
+    "medianDurationMs": 304,
     "medianRequests": 3,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    },
    {
     "origin": "verint-cdn.com",
-    "pages": 2,
-    "pagesWithScripts": 2,
+    "pages": 3,
+    "pagesWithScripts": 3,
     "isScriptVendor": true,
     "medianBytes": 107,
-    "medianDurationMs": 192,
+    "medianDurationMs": 172,
     "medianRequests": 1,
-    "pagesWithFindings": 2,
+    "pagesWithFindings": 3,
     "examplePages": [
      "https://www.nih.gov/heal/heal-initiative-requirements/data-sharing-policy/common-data-elements-cdes-program/cdes-repository?page=0",
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities"
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ]
    }
   ]
@@ -4174,9 +4233,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 17,
+    "pages_affected": 17,
+    "instances": 17,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -4186,14 +4245,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 38.4,
+    "action_score": 40.8,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
+     "findings": 17,
+     "pages": 17,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 17 engine finding instance(s) on 17 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4204,6 +4263,7 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -4219,9 +4279,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 17,
+    "pages_affected": 17,
+    "instances": 17,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -4231,14 +4291,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 20.4,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
+     "findings": 17,
+     "pages": 17,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 17 engine finding instance(s) on 17 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4249,6 +4309,7 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -4264,9 +4325,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 17,
+    "pages_affected": 17,
+    "instances": 17,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -4276,14 +4337,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 20.4,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
+     "findings": 17,
+     "pages": 17,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 17 engine finding instance(s) on 17 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -4294,6 +4355,7 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -4798,9 +4860,9 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 11,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": ".callout__text > h3",
     "snippet_shape": "h3:",
     "representative_selector": ".callout__text > h3",
@@ -4810,17 +4872,18 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 6,
-    "action_score": 2,
+    "action_score": 2.4,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -5022,9 +5085,9 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 5,
-    "instances": 7,
+    "rule_pages_affected": 17,
+    "pages_affected": 6,
+    "instances": 9,
     "selector_path": "p:nth-child(*) > a:nth-child(*)",
     "snippet_shape": "a:href",
     "representative_selector": "p:nth-child(4) > a:nth-child(2)",
@@ -5034,20 +5097,55 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 25,
+    "action_score": 0.86,
+    "estimated_fix_impact": {
+     "findings": 9,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 9 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
+     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
+     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
+     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
+    ]
+   },
+   {
+    "id": "cc-c3982f3f2935",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 17,
+    "pages_affected": 5,
+    "instances": 5,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://doi.org/10.1038/s41586-020-2277-x\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Complement genes contribute sex-biase",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 25,
     "action_score": 0.72,
     "estimated_fix_impact": {
-     "findings": 7,
+     "findings": 5,
      "pages": 5,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 7 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
-     "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
      "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
@@ -5056,7 +5154,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 5,
     "instances": 5,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -5083,39 +5181,6 @@
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
      "https://www.nih.gov/about-nih/nih-almanac/nobel-laureates"
-    ]
-   },
-   {
-    "id": "cc-c3982f3f2935",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 16,
-    "pages_affected": 4,
-    "instances": 4,
-    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://doi.org/10.1038/s41586-020-2277-x\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Complement genes contribute sex-biase",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 25,
-    "action_score": 0.58,
-    "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 4,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/sex-differences-autoimmune-disorders-schizophrenia",
-     "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
-     "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
-     "https://www.nih.gov/news-events/nih-research-matters/biomarker-identifies-children-who-eat-before-blood-tests"
     ]
    },
    {
@@ -5153,7 +5218,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "h4:nth-child(*)",
@@ -5213,7 +5278,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "h3",
@@ -5273,7 +5338,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "article > div > h3",
@@ -5333,7 +5398,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".promo-block__heading",
@@ -5363,7 +5428,7 @@
     "engine_key": "axe-core",
     "rule_id": "heading-order",
     "severity": "Moderate",
-    "rule_pages_affected": 10,
+    "rule_pages_affected": 11,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".field__item:nth-child(*) > .background--green.paragraph--type--callout.callout > .callout__body > .callout__heading",
@@ -5393,7 +5458,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "article[data-history-node-id=\"#\"] > div > ul > li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5424,7 +5489,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 2,
     "instances": 2,
     "selector_path": "a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
@@ -5635,7 +5700,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 2,
     "selector_path": "table:nth-child(*) > tbody > tr:nth-child(*) > td > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5665,7 +5730,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > .mailto[data-extlink=\"\"]",
@@ -5695,7 +5760,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > .mailto[data-extlink=\"\"]:nth-child(*)",
@@ -5725,7 +5790,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]:nth-child(*)",
@@ -5755,7 +5820,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5785,7 +5850,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".usa-intro > a",
@@ -5815,7 +5880,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5845,7 +5910,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a",
@@ -5875,7 +5940,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > ul > li > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][data-extlink=\"\"]",
@@ -5905,7 +5970,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a",
@@ -5935,7 +6000,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "table:nth-child(*) > tbody > tr:nth-child(*) > td > p > a[title=\"(opens in a new window)\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -5965,7 +6030,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -5995,7 +6060,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "div[callout=\"\"] > .callout__body > .callout__text > p:nth-child(*) > a:nth-child(*)",
@@ -6025,7 +6090,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"cc.nih.gov/\"]",
@@ -6055,7 +6120,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".text-formatted.field--name-field-uswds-body.field--type-text-long > p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6085,7 +6150,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"challenges\"]",
@@ -6115,7 +6180,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[target=\"_blank\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -6145,7 +6210,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]",
@@ -6175,7 +6240,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".callout__text.clearfix > p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6205,7 +6270,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 16,
+    "rule_pages_affected": 17,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]:nth-child(*)",
@@ -6237,9 +6302,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 17,
+    "pages_affected": 17,
+    "instances": 17,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -6249,14 +6314,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 38.4,
+    "action_score": 40.8,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
+     "findings": 17,
+     "pages": 17,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 17 engine finding instance(s) on 17 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -6267,6 +6332,7 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -6282,9 +6348,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 17,
+    "pages_affected": 17,
+    "instances": 17,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -6294,14 +6360,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 20.4,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
+     "findings": 17,
+     "pages": 17,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 17 engine finding instance(s) on 17 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -6312,6 +6378,7 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -6327,9 +6394,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 16,
-    "pages_affected": 16,
-    "instances": 16,
+    "rule_pages_affected": 17,
+    "pages_affected": 17,
+    "instances": 17,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -6339,14 +6406,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 19.2,
+    "action_score": 20.4,
     "estimated_fix_impact": {
-     "findings": 16,
-     "pages": 16,
+     "findings": 17,
+     "pages": 17,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 16 engine finding instance(s) on 16 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 17 engine finding instance(s) on 17 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/institutes-nih/nih-office-director/executive-secretariat-execsec/invite-nih-director",
@@ -6357,6 +6424,7 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
      "https://www.nih.gov/research-training/lasker-clinical-research-scholars/calling-all-dedicated-clinician-scientists",
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
      "https://www.nih.gov/news-events/nih-research-matters/study-reveals-brain-cells-sustain-or-suppress-fearful-memories",
      "https://www.nih.gov/news-events/nih-research-matters/exploring-induced-labor-full-term-pregnancy",
      "https://www.nih.gov/news-events/nih-research-matters/2023-nih-research-highlights-basic-research-insights",
@@ -6601,18 +6669,18 @@
  },
  "sharedComponents": null,
  "pageFamilies": null,
- "pagesAttempted": 2549,
- "pagesSucceeded": 16,
+ "pagesAttempted": 2595,
+ "pagesSucceeded": 17,
  "access": {
   "level": "partial",
-  "audited": 16,
-  "attempted": 2549,
+  "audited": 17,
+  "attempted": 2595,
   "firewall": {
-   "pages": 2533,
+   "pages": 2578,
    "challenges": 149,
-   "refusals": 2384,
+   "refusals": 2429,
    "statuses": {
-    "403": 2533
+    "403": 2578
    },
    "by": [
     "Cloudflare",
