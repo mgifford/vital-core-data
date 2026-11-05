@@ -1,0 +1,87 @@
+{
+ "runId": "2026-11-05T16-40-57-823Z-f74759",
+ "week": "2026-W45",
+ "domain": "data.medicaid.gov",
+ "canonical": {
+  "origin": "https://data.medicaid.gov",
+  "configured": "https://data.medicaid.gov",
+  "httpsProblem": null,
+  "note": null
+ },
+ "robots": {
+  "rootAllowed": true
+ },
+ "startedAt": "2026-11-05T16:40:59.789Z",
+ "scanned": [
+  "54ff29d628a6fd84"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25
+ },
+ "browser": {
+  "userAgent": "vital-scans/0.1 (+https://github.com/mgifford/vital-core; accessibility and sustainability monitoring)",
+  "viewport": {
+   "width": 1280,
+   "height": 800
+  }
+ },
+ "linkCheck": {
+  "total": 43,
+  "checked": 43,
+  "brokenCount": 2,
+  "broken": [
+   {
+    "url": "https://data.medicaid.gov/whats-new",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/datasets?keyword%5B0%5D=Preterm+Birth"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/about-cms/web-policies-important-links/help",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://data.medicaid.gov/datasets?keyword%5B0%5D=Preterm+Birth"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "axe": 1,
+  "alfa": 1,
+  "resources": 1,
+  "images": 1,
+  "standards": 1,
+  "security": 1,
+  "third-party": 1,
+  "link-check": 1
+ },
+ "tally": {
+  "ok": 1,
+  "blocked": 0,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 0,
+  "redirect": 0,
+  "error": 0
+ },
+ "finishedAt": "2026-11-05T16:41:17.255Z"
+}
