@@ -1,7 +1,7 @@
 {
  "domain": "www.medicare.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-04T14:54:48.833Z",
+ "generatedAt": "2026-11-06T22:52:14.784Z",
  "pagesScanned": 2127,
  "pagesAudited": 1909,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 1655,
   "pagesScanned": 1909,
   "medianViolations": 2,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "region": {
     "count": 3338,
@@ -7270,6 +7272,7 @@
   "pagesWithFailures": 460,
   "pagesScanned": 460,
   "medianFailures": 53,
+  "element_evidence": null,
   "rules": {
    "sia-r73": {
     "count": 4840,
@@ -16815,6 +16818,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 23,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 23,
+  "regions": [],
+  "csv": "www.medicare.gov_26OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 194,
   "medianBytes": 7662757,

@@ -1,7 +1,7 @@
 {
  "domain": "nih.gov",
  "week": "2026-W43",
- "generatedAt": "2026-11-04T14:55:43.323Z",
+ "generatedAt": "2026-11-06T22:53:12.956Z",
  "pagesScanned": 3333,
  "pagesAudited": 21,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 21,
   "pagesScanned": 21,
   "medianViolations": 8,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "heading-order": {
     "count": 16,
@@ -569,6 +571,7 @@
   "pagesWithFailures": 9,
   "pagesScanned": 9,
   "medianFailures": 92,
+  "element_evidence": null,
   "rules": {
    "sia-r66": {
     "count": 433,
@@ -1376,6 +1379,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 16,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 16,
+  "regions": [],
+  "csv": "nih.gov_19OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 2,
   "medianBytes": 1330275,

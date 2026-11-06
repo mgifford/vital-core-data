@@ -1,7 +1,7 @@
 {
  "domain": "www.healthcare.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-04T14:55:39.583Z",
+ "generatedAt": "2026-11-06T22:53:09.473Z",
  "pagesScanned": 1141,
  "pagesAudited": 1139,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 1101,
   "pagesScanned": 1139,
   "medianViolations": 1,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "aria-valid-attr-value": {
     "count": 1100,
@@ -5212,6 +5214,7 @@
   "pagesWithFailures": 572,
   "pagesScanned": 572,
   "medianFailures": 49,
+  "element_evidence": null,
   "rules": {
    "sia-r73": {
     "count": 3450,
@@ -15602,6 +15605,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 27,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 27,
+  "regions": [],
+  "csv": "www.healthcare.gov_26OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 126,
   "medianBytes": 3810281,

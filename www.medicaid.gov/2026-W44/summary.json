@@ -1,7 +1,7 @@
 {
  "domain": "www.medicaid.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-04T14:55:01.160Z",
+ "generatedAt": "2026-11-06T22:52:27.367Z",
  "pagesScanned": 7196,
  "pagesAudited": 6469,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 6468,
   "pagesScanned": 6469,
   "medianViolations": 1,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "label-content-name-mismatch": {
     "count": 6322,
@@ -31312,6 +31314,7 @@
   "pagesWithFailures": 3242,
   "pagesScanned": 3242,
   "medianFailures": 83,
+  "element_evidence": null,
   "rules": {
    "sia-r66": {
     "count": 143599,
@@ -87587,6 +87590,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 32,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 32,
+  "regions": [],
+  "csv": "www.medicaid.gov_26OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 660,
   "medianBytes": 1743640,

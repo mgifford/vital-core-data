@@ -1,7 +1,7 @@
 {
  "domain": "openpaymentsdata.cms.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-04T14:55:13.882Z",
+ "generatedAt": "2026-11-06T22:52:41.412Z",
  "pagesScanned": 379,
  "pagesAudited": 225,
  "coverage": {
@@ -21,6 +21,8 @@
   "pagesWithViolations": 53,
   "pagesScanned": 225,
   "medianViolations": 0,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "button-name": {
     "count": 51,
@@ -383,6 +385,7 @@
   "pagesWithFailures": 106,
   "pagesScanned": 106,
   "medianFailures": 73,
+  "element_evidence": null,
   "rules": {
    "sia-r66": {
     "count": 1590,
@@ -3304,6 +3307,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 13,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 13,
+  "regions": [],
+  "csv": "openpaymentsdata.cms.gov_02NOV2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 15,
   "medianBytes": 2982453,

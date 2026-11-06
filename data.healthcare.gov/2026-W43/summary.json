@@ -1,7 +1,7 @@
 {
  "domain": "data.healthcare.gov",
  "week": "2026-W43",
- "generatedAt": "2026-11-04T14:55:11.687Z",
+ "generatedAt": "2026-11-06T22:52:39.116Z",
  "pagesScanned": 2306,
  "pagesAudited": 1513,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 30,
   "pagesScanned": 1513,
   "medianViolations": 0,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "list": {
     "count": 16,
@@ -527,6 +529,7 @@
   "pagesWithFailures": 732,
   "pagesScanned": 732,
   "medianFailures": 37,
+  "element_evidence": null,
   "rules": {
    "sia-r73": {
     "count": 5129,
@@ -9363,6 +9366,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 20,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 20,
+  "regions": [],
+  "csv": "data.healthcare.gov_19OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 156,
   "medianBytes": 2897557,

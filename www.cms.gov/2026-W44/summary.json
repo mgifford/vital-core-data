@@ -1,7 +1,7 @@
 {
  "domain": "www.cms.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-04T14:54:40.763Z",
+ "generatedAt": "2026-11-06T22:52:06.079Z",
  "pagesScanned": 4391,
  "pagesAudited": 2675,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 1858,
   "pagesScanned": 2675,
   "medianViolations": 2,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "link-name": {
     "count": 9,
@@ -24014,6 +24016,7 @@
   "pagesWithFailures": 374,
   "pagesScanned": 374,
   "medianFailures": 47,
+  "element_evidence": null,
   "rules": {
    "sia-r73": {
     "count": 3242,
@@ -35138,6 +35141,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 53,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 53,
+  "regions": [],
+  "csv": "www.cms.gov_26OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 300,
   "medianBytes": 1876289,

@@ -1,7 +1,7 @@
 {
  "domain": "www.cdc.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-04T14:55:19.501Z",
+ "generatedAt": "2026-11-06T22:52:47.142Z",
  "pagesScanned": 3332,
  "pagesAudited": 2907,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 2906,
   "pagesScanned": 2907,
   "medianViolations": 6,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "landmark-unique": {
     "count": 926,
@@ -38518,6 +38520,7 @@
   "pagesWithFailures": 731,
   "pagesScanned": 731,
   "medianFailures": 88,
+  "element_evidence": null,
   "rules": {
    "sia-r66": {
     "count": 20608,
@@ -58115,6 +58118,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 76,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 76,
+  "regions": [],
+  "csv": "www.cdc.gov_26OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 319,
   "medianBytes": 5406770,

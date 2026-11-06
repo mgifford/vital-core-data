@@ -1,7 +1,7 @@
 {
  "domain": "data.medicaid.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-04T14:55:36.443Z",
+ "generatedAt": "2026-11-06T22:53:05.570Z",
  "pagesScanned": 3357,
  "pagesAudited": 2654,
  "coverage": {
@@ -22,6 +22,8 @@
   "pagesWithViolations": 97,
   "pagesScanned": 2654,
   "medianViolations": 0,
+  "context": null,
+  "element_evidence": null,
   "rules": {
    "list": {
     "count": 62,
@@ -713,6 +715,7 @@
   "pagesWithFailures": 1321,
   "pagesScanned": 1321,
   "medianFailures": 37,
+  "element_evidence": null,
   "rules": {
    "sia-r73": {
     "count": 10429,
@@ -16645,6 +16648,16 @@
    }
   }
  },
+ "regions": {
+  "basis": "stored_examples",
+  "findings_total": 16,
+  "findings_with_region": 0,
+  "findings_unclassified": 0,
+  "findings_without_evidence": 16,
+  "regions": [],
+  "csv": "data.medicaid.gov_26OCT2026_regions.csv"
+ },
+ "componentGroups": null,
  "sustainability": {
   "pages": 269,
   "medianBytes": 2112838,
