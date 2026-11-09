@@ -1,7 +1,7 @@
 {
  "domain": "data.medicaid.gov",
  "week": "2026-W43",
- "generatedAt": "2026-11-07T03:54:32.096Z",
+ "generatedAt": "2026-11-09T22:42:45.449Z",
  "pagesScanned": 3329,
  "pagesAudited": 2641,
  "coverage": {
@@ -23629,26 +23629,6 @@
   "pwaSignals": [],
   "recommendations": [
    {
-    "id": "cache-insight",
-    "category": "performance",
-    "title": "Use efficient cache lifetimes",
-    "pages": 263,
-    "examplePages": [
-     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360?page=437",
-     "https://data.medicaid.gov/dataset/9ec430cb-fefd-5985-a232-841f9ea55deb?page=2",
-     "https://data.medicaid.gov/dataset/beac1325-5e24-4864-80c2-7b2503005890?page=2",
-     "https://data.medicaid.gov/dataset/7459d190-e592-42e0-9b66-6f4e7e05eb9b?page=2",
-     "https://data.medicaid.gov/dataset/49948457-e2d0-55a4-be39-82f0de8d72e1?page=5",
-     "https://data.medicaid.gov/dataset/c3d4ec55-f9ea-5b76-9eba-93cc3664c1f1?page=4800",
-     "https://data.medicaid.gov/dataset/cc318bfb-a9b2-55f3-a924-d47376b32ea3",
-     "https://data.medicaid.gov/dataset/171902bb-0e4a-568c-8514-f8ce5ff299cd?page=2",
-     "https://data.medicaid.gov/dataset/17c4bf03-ba38-5c0a-9f08-96e9ed812bdf",
-     "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 1798250
-   },
-   {
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
@@ -23666,27 +23646,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 171472123,
-    "savingsMs": 770600
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 263,
-    "examplePages": [
-     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360?page=437",
-     "https://data.medicaid.gov/dataset/9ec430cb-fefd-5985-a232-841f9ea55deb?page=2",
-     "https://data.medicaid.gov/dataset/beac1325-5e24-4864-80c2-7b2503005890?page=2",
-     "https://data.medicaid.gov/dataset/7459d190-e592-42e0-9b66-6f4e7e05eb9b?page=2",
-     "https://data.medicaid.gov/dataset/49948457-e2d0-55a4-be39-82f0de8d72e1?page=5",
-     "https://data.medicaid.gov/dataset/c3d4ec55-f9ea-5b76-9eba-93cc3664c1f1?page=4800",
-     "https://data.medicaid.gov/dataset/cc318bfb-a9b2-55f3-a924-d47376b32ea3",
-     "https://data.medicaid.gov/dataset/171902bb-0e4a-568c-8514-f8ce5ff299cd?page=2",
-     "https://data.medicaid.gov/dataset/17c4bf03-ba38-5c0a-9f08-96e9ed812bdf",
-     "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 577050
+    "savingsMs": 770600,
+    "savingsBytesMedian": 645545,
+    "savingsBytesP75": 647658,
+    "savingsMsMedian": 2850,
+    "savingsMsP75": 3100
    },
    {
     "id": "unused-css-rules",
@@ -23706,7 +23670,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 26074660,
-    "savingsMs": 157400
+    "savingsMs": 157400,
+    "savingsBytesMedian": 99114,
+    "savingsBytesP75": 99114,
+    "savingsMsMedian": 600,
+    "savingsMsP75": 600
    },
    {
     "id": "first-contentful-paint",
@@ -23726,7 +23694,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -23746,7 +23718,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "speed-index",
@@ -23766,7 +23742,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -23786,7 +23766,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "valid-source-maps",
@@ -23806,7 +23790,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -23826,7 +23814,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -23846,7 +23838,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -23866,7 +23862,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -23886,7 +23886,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -23906,7 +23910,35 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "cache-insight",
+    "category": "performance",
+    "title": "Use efficient cache lifetimes",
+    "pages": 263,
+    "examplePages": [
+     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360?page=437",
+     "https://data.medicaid.gov/dataset/9ec430cb-fefd-5985-a232-841f9ea55deb?page=2",
+     "https://data.medicaid.gov/dataset/beac1325-5e24-4864-80c2-7b2503005890?page=2",
+     "https://data.medicaid.gov/dataset/7459d190-e592-42e0-9b66-6f4e7e05eb9b?page=2",
+     "https://data.medicaid.gov/dataset/49948457-e2d0-55a4-be39-82f0de8d72e1?page=5",
+     "https://data.medicaid.gov/dataset/c3d4ec55-f9ea-5b76-9eba-93cc3664c1f1?page=4800",
+     "https://data.medicaid.gov/dataset/cc318bfb-a9b2-55f3-a924-d47376b32ea3",
+     "https://data.medicaid.gov/dataset/171902bb-0e4a-568c-8514-f8ce5ff299cd?page=2",
+     "https://data.medicaid.gov/dataset/17c4bf03-ba38-5c0a-9f08-96e9ed812bdf",
+     "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 1798250,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 7350,
+    "savingsMsP75": 7850
    },
    {
     "id": "network-dependency-tree-insight",
@@ -23926,7 +23958,35 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 263,
+    "examplePages": [
+     "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360?page=437",
+     "https://data.medicaid.gov/dataset/9ec430cb-fefd-5985-a232-841f9ea55deb?page=2",
+     "https://data.medicaid.gov/dataset/beac1325-5e24-4864-80c2-7b2503005890?page=2",
+     "https://data.medicaid.gov/dataset/7459d190-e592-42e0-9b66-6f4e7e05eb9b?page=2",
+     "https://data.medicaid.gov/dataset/49948457-e2d0-55a4-be39-82f0de8d72e1?page=5",
+     "https://data.medicaid.gov/dataset/c3d4ec55-f9ea-5b76-9eba-93cc3664c1f1?page=4800",
+     "https://data.medicaid.gov/dataset/cc318bfb-a9b2-55f3-a924-d47376b32ea3",
+     "https://data.medicaid.gov/dataset/171902bb-0e4a-568c-8514-f8ce5ff299cd?page=2",
+     "https://data.medicaid.gov/dataset/17c4bf03-ba38-5c0a-9f08-96e9ed812bdf",
+     "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 577050,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1200,
+    "savingsMsP75": 3300
    },
    {
     "id": "font-display-insight",
@@ -23946,7 +24006,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=performance+rates"
     ],
     "savingsBytes": 0,
-    "savingsMs": 14650
+    "savingsMs": 14650,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    },
    {
     "id": "bootup-time",
@@ -23966,7 +24030,11 @@
      "https://data.medicaid.gov/dataset/7df7c585-cbc3-5e87-aadc-b690718fbe41?page=2"
     ],
     "savingsBytes": 0,
-    "savingsMs": 153200
+    "savingsMs": 153200,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 550,
+    "savingsMsP75": 850
    },
    {
     "id": "mainthread-work-breakdown",
@@ -23986,7 +24054,11 @@
      "https://data.medicaid.gov/dataset/7df7c585-cbc3-5e87-aadc-b690718fbe41?page=2"
     ],
     "savingsBytes": 0,
-    "savingsMs": 161750
+    "savingsMs": 161750,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 575,
+    "savingsMsP75": 900
    },
    {
     "id": "max-potential-fid",
@@ -24006,7 +24078,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B%5D=covid-19"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -24026,7 +24102,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B%5D=covid-19"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cumulative-layout-shift",
@@ -24046,7 +24126,11 @@
      "https://data.medicaid.gov/dataset/4928c3c9-0a03-459f-b1ce-ca692b22e2bd?page=3"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -24066,7 +24150,11 @@
      "https://data.medicaid.gov/dataset/4928c3c9-0a03-459f-b1ce-ca692b22e2bd?page=3"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "legacy-javascript-insight",
@@ -24086,7 +24174,11 @@
      "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360?page=429"
     ],
     "savingsBytes": 0,
-    "savingsMs": 21150
+    "savingsMs": 21150,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "agent-accessibility-tree",
@@ -24106,7 +24198,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=drug+rebate+program&page=15"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "forced-reflow-insight",
@@ -24126,7 +24222,11 @@
      "https://data.medicaid.gov/dataset/d2469e00-b3f0-568b-8f66-658ee6e67c86"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "link-text",
@@ -24146,7 +24246,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B0%5D=Drug+Products&page=2"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "third-party-cookies",
@@ -24166,7 +24270,11 @@
      "https://data.medicaid.gov/dataset/27028a6f-c5a7-4c0b-a391-175faf333d03?page=3"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -24186,7 +24294,11 @@
      "https://data.medicaid.gov/dataset/27028a6f-c5a7-4c0b-a391-175faf333d03?page=3"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "crawlable-anchors",
@@ -24206,7 +24318,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B%5D=Eligibility+Determinations"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "server-response-time",
@@ -24226,7 +24342,11 @@
      "https://data.medicaid.gov/datasets?keyword%5B%5D=Home+And+Community-Based+Services+%28HCBS%29"
     ],
     "savingsBytes": 0,
-    "savingsMs": 1100
+    "savingsMs": 1100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 75,
+    "savingsMsP75": 100
    },
    {
     "id": "errors-in-console",
@@ -24242,7 +24362,11 @@
      "https://data.medicaid.gov/dataset/0a84adcc-7bc8-4293-a6f9-11937596ad37"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "document-title",
@@ -24254,7 +24378,11 @@
      "https://data.medicaid.gov/dataset/0a84adcc-7bc8-4293-a6f9-11937596ad37"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "redirects",
@@ -24265,7 +24393,11 @@
      "https://data.medicaid.gov/api"
     ],
     "savingsBytes": 0,
-    "savingsMs": 800
+    "savingsMs": 800,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 800,
+    "savingsMsP75": 800
    },
    {
     "id": "document-latency-insight",
@@ -24276,7 +24408,11 @@
      "https://data.medicaid.gov/api"
     ],
     "savingsBytes": 0,
-    "savingsMs": 50
+    "savingsMs": 50,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    },
    {
     "id": "lcp-breakdown-insight",
@@ -24287,7 +24423,11 @@
      "https://data.medicaid.gov/dataset/ebcfc16f-8291-4c61-82a4-055846d72f3a?page=4"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    }
   ]
  },
@@ -49443,5 +49583,66 @@
   "errorStatuses": {
    "404": 3
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 17,
+  "occurrences_stored": 69,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 8,
+   "not_applicable": 9,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 17
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 17
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 17
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 17
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 17
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 17
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 17,
+  "by_engine": {
+   "axe-core": {
+    "findings": 8,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 9,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

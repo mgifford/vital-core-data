@@ -1,0 +1,159 @@
+{
+ "domain": "hhs.gov",
+ "week": "2026-W46",
+ "generatedAt": "2026-11-09T22:42:53.523Z",
+ "pagesScanned": 1,
+ "pagesAudited": 0,
+ "coverage": {},
+ "blocked": {
+  "status": 403
+ },
+ "axe": {
+  "violationTotal": 0,
+  "pagesWithViolations": 0,
+  "pagesScanned": 0,
+  "medianViolations": null,
+  "context": null,
+  "element_evidence": null,
+  "rules": {}
+ },
+ "alfa": {
+  "failedTotal": 0,
+  "pagesWithFailures": 0,
+  "pagesScanned": 0,
+  "medianFailures": null,
+  "element_evidence": null,
+  "rules": {}
+ },
+ "consensus": {
+  "uniqueIssues": 0,
+  "consensus": 0,
+  "axeOnly": 0,
+  "alfaOnly": 0,
+  "rawAxe": 0,
+  "rawAlfa": 0,
+  "byKey": {}
+ },
+ "regions": null,
+ "widgetGroups": null,
+ "sustainability": null,
+ "deprecatedHtml": null,
+ "resources": null,
+ "standards": null,
+ "resilience": null,
+ "security": null,
+ "publicInterest": null,
+ "plainLanguage": null,
+ "lighthouse": null,
+ "linkCheck": null,
+ "errorPages": [
+  {
+   "url": "https://www.hhs.gov/",
+   "status": 403
+  }
+ ],
+ "tech": null,
+ "images": null,
+ "techFindings": null,
+ "thirdParty": null,
+ "componentClusters": {
+  "design_system": "none",
+  "design_system_label": "none",
+  "design_system_theme": null,
+  "template_page_threshold": 10,
+  "total_clusters": 0,
+  "clusters": [],
+  "top_actions": [],
+  "design_component_usage": [],
+  "page_component_usage": [],
+  "drift_page_count": 0,
+  "drift_pages": [],
+  "drift_clusters": []
+ },
+ "sharedComponents": null,
+ "componentGroups": null,
+ "pageFamilies": null,
+ "pagesAttempted": 1,
+ "pagesSucceeded": 0,
+ "access": {
+  "level": "blocked",
+  "audited": 0,
+  "attempted": 1,
+  "firewall": {
+   "pages": 1,
+   "challenges": 0,
+   "refusals": 1,
+   "statuses": {
+    "403": 1
+   },
+   "by": []
+  },
+  "robots": {
+   "rootBlocked": false,
+   "skipped": 0
+  },
+  "connection": null,
+  "errorStatuses": {}
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 0,
+  "occurrences_stored": 0,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 0,
+   "not_applicable": 0,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 0
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 0
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 0
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 0
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 0
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 0
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 0,
+  "by_engine": {
+   "axe-core": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
+ }
+}

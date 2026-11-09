@@ -1,7 +1,7 @@
 {
  "domain": "www.medicare.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-07T03:53:43.419Z",
+ "generatedAt": "2026-11-09T22:42:03.458Z",
  "pagesScanned": 2127,
  "pagesAudited": 1909,
  "coverage": {
@@ -37817,26 +37817,6 @@
   "pwaSignals": [],
   "recommendations": [
    {
-    "id": "cache-insight",
-    "category": "performance",
-    "title": "Use efficient cache lifetimes",
-    "pages": 166,
-    "examplePages": [
-     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/publication-ordering/12207",
-     "https://www.medicare.gov/basics/report-a-death",
-     "http://medicare.gov/go-digital",
-     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
-     "https://www.medicare.gov/coverage/home-health-services",
-     "http://medicare.gov/basics/end-stage-renal-disease",
-     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
-     "https://medicare.gov/publication-ordering/11435",
-     "https://medicare.gov/health-apps"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 616750
-   },
-   {
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
@@ -37854,47 +37834,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 104147678,
-    "savingsMs": 363500
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "Reduce JavaScript execution time",
-    "pages": 166,
-    "examplePages": [
-     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/publication-ordering/12207",
-     "https://www.medicare.gov/basics/report-a-death",
-     "http://medicare.gov/go-digital",
-     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
-     "https://www.medicare.gov/coverage/home-health-services",
-     "http://medicare.gov/basics/end-stage-renal-disease",
-     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
-     "https://medicare.gov/publication-ordering/11435",
-     "https://medicare.gov/health-apps"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 210000
-   },
-   {
-    "id": "mainthread-work-breakdown",
-    "category": "performance",
-    "title": "Minimize main-thread work",
-    "pages": 166,
-    "examplePages": [
-     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/publication-ordering/12207",
-     "https://www.medicare.gov/basics/report-a-death",
-     "http://medicare.gov/go-digital",
-     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
-     "https://www.medicare.gov/coverage/home-health-services",
-     "http://medicare.gov/basics/end-stage-renal-disease",
-     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
-     "https://medicare.gov/publication-ordering/11435",
-     "https://medicare.gov/health-apps"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 208650
+    "savingsMs": 363500,
+    "savingsBytesMedian": 555731,
+    "savingsBytesP75": 573980,
+    "savingsMsMedian": 2250,
+    "savingsMsP75": 2900
    },
    {
     "id": "first-contentful-paint",
@@ -37914,7 +37858,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -37934,7 +37882,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -37954,7 +37906,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "max-potential-fid",
@@ -37974,7 +37930,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -37994,7 +37954,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "image-size-responsive",
@@ -38014,7 +37978,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "third-party-cookies",
@@ -38034,7 +38002,59 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "mainthread-work-breakdown",
+    "category": "performance",
+    "title": "Minimize main-thread work",
+    "pages": 166,
+    "examplePages": [
+     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/publication-ordering/12207",
+     "https://www.medicare.gov/basics/report-a-death",
+     "http://medicare.gov/go-digital",
+     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
+     "https://www.medicare.gov/coverage/home-health-services",
+     "http://medicare.gov/basics/end-stage-renal-disease",
+     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
+     "https://medicare.gov/publication-ordering/11435",
+     "https://medicare.gov/health-apps"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 208650,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 950,
+    "savingsMsP75": 1650
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "Reduce JavaScript execution time",
+    "pages": 166,
+    "examplePages": [
+     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/publication-ordering/12207",
+     "https://www.medicare.gov/basics/report-a-death",
+     "http://medicare.gov/go-digital",
+     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
+     "https://www.medicare.gov/coverage/home-health-services",
+     "http://medicare.gov/basics/end-stage-renal-disease",
+     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
+     "https://medicare.gov/publication-ordering/11435",
+     "https://medicare.gov/health-apps"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 210000,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 950,
+    "savingsMsP75": 1650
    },
    {
     "id": "valid-source-maps",
@@ -38054,7 +38074,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -38074,7 +38098,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -38094,7 +38122,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -38114,7 +38146,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -38134,7 +38170,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -38154,7 +38194,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -38174,7 +38218,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "bf-cache",
@@ -38194,7 +38242,35 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "cache-insight",
+    "category": "performance",
+    "title": "Use efficient cache lifetimes",
+    "pages": 166,
+    "examplePages": [
+     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/publication-ordering/12207",
+     "https://www.medicare.gov/basics/report-a-death",
+     "http://medicare.gov/go-digital",
+     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
+     "https://www.medicare.gov/coverage/home-health-services",
+     "http://medicare.gov/basics/end-stage-renal-disease",
+     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
+     "https://medicare.gov/publication-ordering/11435",
+     "https://medicare.gov/health-apps"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 616750,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 4175,
+    "savingsMsP75": 4600
    },
    {
     "id": "unminified-javascript",
@@ -38214,7 +38290,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 12829114,
-    "savingsMs": 61300
+    "savingsMs": 61300,
+    "savingsBytesMedian": 77775,
+    "savingsBytesP75": 77908,
+    "savingsMsMedian": 450,
+    "savingsMsP75": 600
    },
    {
     "id": "speed-index",
@@ -38234,27 +38314,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 164,
-    "examplePages": [
-     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/publication-ordering/12207",
-     "https://www.medicare.gov/basics/report-a-death",
-     "http://medicare.gov/go-digital",
-     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
-     "https://www.medicare.gov/coverage/home-health-services",
-     "http://medicare.gov/basics/end-stage-renal-disease",
-     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
-     "https://medicare.gov/publication-ordering/11435",
-     "https://medicare.gov/health-apps"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 394700
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "network-dependency-tree-insight",
@@ -38274,7 +38338,35 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 164,
+    "examplePages": [
+     "https://www.medicare.gov/sso/authorize?client_id=mct&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/publication-ordering/12207",
+     "https://www.medicare.gov/basics/report-a-death",
+     "http://medicare.gov/go-digital",
+     "https://medicare.gov/health-drug-plans/part-d/what-plans-cover/plan-rules/safety-management-programs",
+     "https://www.medicare.gov/coverage/home-health-services",
+     "http://medicare.gov/basics/end-stage-renal-disease",
+     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
+     "https://medicare.gov/publication-ordering/11435",
+     "https://medicare.gov/health-apps"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 394700,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 2400,
+    "savingsMsP75": 2950
    },
    {
     "id": "unused-css-rules",
@@ -38294,7 +38386,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 12908469,
-    "savingsMs": 73500
+    "savingsMs": 73500,
+    "savingsBytesMedian": 81004,
+    "savingsBytesP75": 81711,
+    "savingsMsMedian": 450,
+    "savingsMsP75": 550
    },
    {
     "id": "deprecations",
@@ -38314,7 +38410,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "font-display-insight",
@@ -38334,7 +38434,11 @@
      "https://medicare.gov/about-us/plain-writing"
     ],
     "savingsBytes": 0,
-    "savingsMs": 10800
+    "savingsMs": 10800,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    },
    {
     "id": "redirects",
@@ -38354,7 +38458,11 @@
      "https://medicare.gov/about-us/plain-writing"
     ],
     "savingsBytes": 0,
-    "savingsMs": 197100
+    "savingsMs": 197100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 850,
+    "savingsMsP75": 1450
    },
    {
     "id": "document-latency-insight",
@@ -38374,7 +38482,11 @@
      "https://medicare.gov/about-us/plain-writing"
     ],
     "savingsBytes": 0,
-    "savingsMs": 9100
+    "savingsMs": 9100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 100,
+    "savingsMsP75": 100
    },
    {
     "id": "legacy-javascript-insight",
@@ -38394,7 +38506,11 @@
      "http://medicare.gov/coverage/surgery"
     ],
     "savingsBytes": 0,
-    "savingsMs": 25300
+    "savingsMs": 25300,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 200,
+    "savingsMsP75": 350
    },
    {
     "id": "crawlable-anchors",
@@ -38414,7 +38530,11 @@
      "http://medicare.gov/health-drug-plans/part-d/what-drug-plans-cover/how-drug-plans-work"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "forced-reflow-insight",
@@ -38434,27 +38554,11 @@
      "https://medicare.gov/coverage/durable-medical-equipment-dme-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "server-response-time",
-    "category": "performance",
-    "title": "Initial server response time was short",
-    "pages": 61,
-    "examplePages": [
-     "https://www.medicare.gov/basics/report-a-death",
-     "http://medicare.gov/go-digital",
-     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
-     "https://medicare.gov/publication-ordering/11435",
-     "https://medicare.gov/health-apps",
-     "https://www.medicare.gov/coverage/ambulatory-surgical-centers",
-     "http://medicare.gov/health-drug-plans/part-d/what-drug-plans-cover/how-drug-plans-work",
-     "https://medicare.gov/coverage/blood-sugar-test-strips",
-     "http://medicare.gov/coverage/diabetes-self-management-training",
-     "http://medicare.gov/publication-ordering/11358-S"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 7300
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "meta-description",
@@ -38474,7 +38578,35 @@
      "https://www.medicare.gov/publication-ordering/11420"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "server-response-time",
+    "category": "performance",
+    "title": "Initial server response time was short",
+    "pages": 61,
+    "examplePages": [
+     "https://www.medicare.gov/basics/report-a-death",
+     "http://medicare.gov/go-digital",
+     "http://medicare.gov/coverage/hepatitis-b-virus-hbv-infection-screenings",
+     "https://medicare.gov/publication-ordering/11435",
+     "https://medicare.gov/health-apps",
+     "https://www.medicare.gov/coverage/ambulatory-surgical-centers",
+     "http://medicare.gov/health-drug-plans/part-d/what-drug-plans-cover/how-drug-plans-work",
+     "https://medicare.gov/coverage/blood-sugar-test-strips",
+     "http://medicare.gov/coverage/diabetes-self-management-training",
+     "http://medicare.gov/publication-ordering/11358-S"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 7300,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 100,
+    "savingsMsP75": 150
    },
    {
     "id": "errors-in-console",
@@ -38494,7 +38626,11 @@
      "https://www.medicare.gov/account/login?client_id=carecompare&Lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ij9ndWlkZWRTZWFyY2g9Q29tbXVuaXR5SGVhbHRoQ2VudGVyIn19"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cumulative-layout-shift",
@@ -38514,7 +38650,11 @@
      "http://medicare.gov/coverage/therapeutic-shoes-inserts"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -38534,7 +38674,11 @@
      "http://medicare.gov/coverage/therapeutic-shoes-inserts"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "image-delivery-insight",
@@ -38552,7 +38696,11 @@
      "https://www.medicare.gov/account/login?client_id=carecompare&Lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ij9ndWlkZWRTZWFyY2g9SG9tZUhlYWx0aCJ9fQ%3D%3D"
     ],
     "savingsBytes": 0,
-    "savingsMs": 1350
+    "savingsMs": 1350,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "lcp-breakdown-insight",
@@ -38568,7 +38716,11 @@
      "https://medicare.gov/basics/get-started-with-medicare/medicare-basics/what-does-medicare-cost"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "geolocation-on-start",
@@ -38581,7 +38733,11 @@
      "https://www.medicare.gov/care-compare?reset=true"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "link-text",
@@ -38593,7 +38749,11 @@
      "https://www.medicare.gov/providers-services/original-medicare/nursing-homes"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "duplicated-javascript-insight",
@@ -38604,7 +38764,11 @@
      "https://medicare.gov/health-apps"
     ],
     "savingsBytes": 0,
-    "savingsMs": 600
+    "savingsMs": 600,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 600,
+    "savingsMsP75": 600
    },
    {
     "id": "lcp-discovery-insight",
@@ -38615,7 +38779,11 @@
      "https://www.medicare.gov/basics/get-started-with-medicare/using-medicare/your-medicare-card"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    }
   ]
  },
@@ -40296,6 +40464,9 @@
     "tech": "Drupal",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 41,
     "techPages": 41,
@@ -40307,6 +40478,9 @@
     "tech": "Font Awesome",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 41,
     "techPages": 41,
@@ -40318,6 +40492,9 @@
     "tech": "jQuery",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 41,
     "techPages": 41,
@@ -40329,6 +40506,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 41,
     "techPages": 41,
@@ -40340,6 +40520,9 @@
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 41,
     "techPages": 41,
@@ -40351,6 +40534,9 @@
     "tech": "PHP",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 41,
     "techPages": 41,
@@ -40362,6 +40548,9 @@
     "tech": "HSTS",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.12,
     "pairPages": 9,
     "techPages": 42,
@@ -40373,6 +40562,9 @@
     "tech": "Nextdoor Ads",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.18,
     "pairPages": 9,
     "techPages": 40,
@@ -40384,6 +40576,9 @@
     "tech": "Drupal",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 9,
     "techPages": 41,
@@ -40395,6 +40590,9 @@
     "tech": "Font Awesome",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 9,
     "techPages": 41,
@@ -40406,6 +40604,9 @@
     "tech": "jQuery",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 9,
     "techPages": 41,
@@ -40417,6 +40618,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 9,
     "techPages": 41,
@@ -40428,6 +40632,9 @@
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 9,
     "techPages": 41,
@@ -40439,6 +40646,9 @@
     "tech": "PHP",
     "finding": "alfa:sia-r78",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.15,
     "pairPages": 9,
     "techPages": 41,
@@ -40450,6 +40660,9 @@
     "tech": "Drupal",
     "finding": "axe:region",
     "ratio": 7.5,
+    "ci_low": 3.01,
+    "ci_high": 18.68,
+    "certainty": "ci_above_one",
     "lift": 1.16,
     "pairPages": 163,
     "techPages": 163,
@@ -40461,6 +40674,9 @@
     "tech": "Font Awesome",
     "finding": "axe:region",
     "ratio": 7.5,
+    "ci_low": 3.01,
+    "ci_high": 18.68,
+    "certainty": "ci_above_one",
     "lift": 1.16,
     "pairPages": 163,
     "techPages": 163,
@@ -40472,6 +40688,9 @@
     "tech": "jQuery",
     "finding": "axe:region",
     "ratio": 7.5,
+    "ci_low": 3.01,
+    "ci_high": 18.68,
+    "certainty": "ci_above_one",
     "lift": 1.16,
     "pairPages": 163,
     "techPages": 163,
@@ -40483,6 +40702,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "axe:region",
     "ratio": 7.5,
+    "ci_low": 3.01,
+    "ci_high": 18.68,
+    "certainty": "ci_above_one",
     "lift": 1.16,
     "pairPages": 163,
     "techPages": 163,
@@ -40494,6 +40716,9 @@
     "tech": "Amazon Web Services",
     "finding": "axe:region",
     "ratio": 7.5,
+    "ci_low": 3.01,
+    "ci_high": 18.68,
+    "certainty": "ci_above_one",
     "lift": 1.16,
     "pairPages": 163,
     "techPages": 163,
@@ -40505,6 +40730,9 @@
     "tech": "PHP",
     "finding": "axe:region",
     "ratio": 7.5,
+    "ci_low": 3.01,
+    "ci_high": 18.68,
+    "certainty": "ci_above_one",
     "lift": 1.16,
     "pairPages": 163,
     "techPages": 163,
@@ -40516,89 +40744,15 @@
     "tech": "Nextdoor Ads",
     "finding": "axe:region",
     "ratio": 2.5,
+    "ci_low": 1.38,
+    "ci_high": 4.5,
+    "certainty": "ci_above_one",
     "lift": 1.06,
     "pairPages": 160,
     "techPages": 174,
     "findingPages": 167,
     "withoutPages": 19,
     "withoutFindingPages": 7
-   },
-   {
-    "tech": "Nextdoor Ads",
-    "finding": "alfa:sia-r17",
-    "ratio": 2.22,
-    "lift": 1.09,
-    "pairPages": 38,
-    "techPages": 40,
-    "findingPages": 41,
-    "withoutPages": 7,
-    "withoutFindingPages": 3
-   },
-   {
-    "tech": "Drupal",
-    "finding": "alfa:sia-r57",
-    "ratio": 1.5,
-    "lift": 1.04,
-    "pairPages": 41,
-    "techPages": 41,
-    "findingPages": 45,
-    "withoutPages": 6,
-    "withoutFindingPages": 4
-   },
-   {
-    "tech": "Font Awesome",
-    "finding": "alfa:sia-r57",
-    "ratio": 1.5,
-    "lift": 1.04,
-    "pairPages": 41,
-    "techPages": 41,
-    "findingPages": 45,
-    "withoutPages": 6,
-    "withoutFindingPages": 4
-   },
-   {
-    "tech": "jQuery",
-    "finding": "alfa:sia-r57",
-    "ratio": 1.5,
-    "lift": 1.04,
-    "pairPages": 41,
-    "techPages": 41,
-    "findingPages": 45,
-    "withoutPages": 6,
-    "withoutFindingPages": 4
-   },
-   {
-    "tech": "Acquia Cloud Platform",
-    "finding": "alfa:sia-r57",
-    "ratio": 1.5,
-    "lift": 1.04,
-    "pairPages": 41,
-    "techPages": 41,
-    "findingPages": 45,
-    "withoutPages": 6,
-    "withoutFindingPages": 4
-   },
-   {
-    "tech": "Amazon Web Services",
-    "finding": "alfa:sia-r57",
-    "ratio": 1.5,
-    "lift": 1.04,
-    "pairPages": 41,
-    "techPages": 41,
-    "findingPages": 45,
-    "withoutPages": 6,
-    "withoutFindingPages": 4
-   },
-   {
-    "tech": "PHP",
-    "finding": "alfa:sia-r57",
-    "ratio": 1.5,
-    "lift": 1.04,
-    "pairPages": 41,
-    "techPages": 41,
-    "findingPages": 45,
-    "withoutPages": 6,
-    "withoutFindingPages": 4
    }
   ]
  },
@@ -64226,5 +64380,66 @@
   "errorStatuses": {
    "404": 25
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 23,
+  "occurrences_stored": 104,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 8,
+   "not_applicable": 15,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 23
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 23
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 23
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 23
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 23
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 23
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 23,
+  "by_engine": {
+   "axe-core": {
+    "findings": 8,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 15,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

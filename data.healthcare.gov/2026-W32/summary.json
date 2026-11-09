@@ -33019,5 +33019,66 @@
   "drift_clusters": []
  },
  "pagesAttempted": 1537,
- "pagesSucceeded": 1526
+ "pagesSucceeded": 1526,
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 15,
+  "occurrences_stored": 52,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 7,
+   "not_applicable": 8,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 15
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 15
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 15
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 15
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 15
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 15
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 15,
+  "by_engine": {
+   "axe-core": {
+    "findings": 7,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 8,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
+ }
 }

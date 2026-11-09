@@ -1,7 +1,7 @@
 {
  "domain": "www.medicaid.gov",
  "week": "2026-W43",
- "generatedAt": "2026-11-07T03:53:53.930Z",
+ "generatedAt": "2026-11-09T22:42:13.375Z",
  "pagesScanned": 7186,
  "pagesAudited": 6719,
  "coverage": {
@@ -145134,9 +145134,9 @@
   "pwaSignals": [],
   "recommendations": [
    {
-    "id": "render-blocking-insight",
+    "id": "unused-javascript",
     "category": "performance",
-    "title": "Render-blocking requests",
+    "title": "Reduce unused JavaScript",
     "pages": 653,
     "examplePages": [
      "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
@@ -145150,48 +145150,12 @@
      "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
-    "savingsBytes": 0,
-    "savingsMs": 808150
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "JavaScript execution time",
-    "pages": 653,
-    "examplePages": [
-     "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/all-1-004-2",
-     "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A796&f%5B1%5D=state%3A926&f%5B2%5D=state%3A991&f%5B3%5D=topics%3A3356&page=0",
-     "https://medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&page=3",
-     "https://medicaid.gov/tmsis/dataguide/v4/data-elements/mcr010119",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/el-1-026-33",
-     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A731&f%5B1%5D=state%3A746&f%5B2%5D=state%3A836&f%5B3%5D=topics%3A741&f%5B4%5D=topics%3A8511&page=1675",
-     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A711&f%5B1%5D=topics%3A751&page=1666",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
-     "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 373600
-   },
-   {
-    "id": "mainthread-work-breakdown",
-    "category": "performance",
-    "title": "Minimizes main-thread work",
-    "pages": 653,
-    "examplePages": [
-     "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/all-1-004-2",
-     "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A796&f%5B1%5D=state%3A926&f%5B2%5D=state%3A991&f%5B3%5D=topics%3A3356&page=0",
-     "https://medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&page=3",
-     "https://medicaid.gov/tmsis/dataguide/v4/data-elements/mcr010119",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/el-1-026-33",
-     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A731&f%5B1%5D=state%3A746&f%5B2%5D=state%3A836&f%5B3%5D=topics%3A741&f%5B4%5D=topics%3A8511&page=1675",
-     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A711&f%5B1%5D=topics%3A751&page=1666",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
-     "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 353850
+    "savingsBytes": 142043804,
+    "savingsMs": 169200,
+    "savingsBytesMedian": 197302,
+    "savingsBytesP75": 198042,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 450
    },
    {
     "id": "unused-css-rules",
@@ -145211,27 +145175,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 53519664,
-    "savingsMs": 263950
-   },
-   {
-    "id": "unused-javascript",
-    "category": "performance",
-    "title": "Reduce unused JavaScript",
-    "pages": 653,
-    "examplePages": [
-     "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/all-1-004-2",
-     "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A796&f%5B1%5D=state%3A926&f%5B2%5D=state%3A991&f%5B3%5D=topics%3A3356&page=0",
-     "https://medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&page=3",
-     "https://medicaid.gov/tmsis/dataguide/v4/data-elements/mcr010119",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/el-1-026-33",
-     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A731&f%5B1%5D=state%3A746&f%5B2%5D=state%3A836&f%5B3%5D=topics%3A741&f%5B4%5D=topics%3A8511&page=1675",
-     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A711&f%5B1%5D=topics%3A751&page=1666",
-     "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
-     "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
-    ],
-    "savingsBytes": 142043804,
-    "savingsMs": 169200
+    "savingsMs": 263950,
+    "savingsBytesMedian": 90338,
+    "savingsBytesP75": 90416,
+    "savingsMsMedian": 450,
+    "savingsMsP75": 450
    },
    {
     "id": "unminified-css",
@@ -145251,7 +145199,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 1552172,
-    "savingsMs": 4950
+    "savingsMs": 4950,
+    "savingsBytesMedian": 2118,
+    "savingsBytesP75": 2119,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -145271,7 +145223,59 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "mainthread-work-breakdown",
+    "category": "performance",
+    "title": "Minimizes main-thread work",
+    "pages": 653,
+    "examplePages": [
+     "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/all-1-004-2",
+     "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A796&f%5B1%5D=state%3A926&f%5B2%5D=state%3A991&f%5B3%5D=topics%3A3356&page=0",
+     "https://medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&page=3",
+     "https://medicaid.gov/tmsis/dataguide/v4/data-elements/mcr010119",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/el-1-026-33",
+     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A731&f%5B1%5D=state%3A746&f%5B2%5D=state%3A836&f%5B3%5D=topics%3A741&f%5B4%5D=topics%3A8511&page=1675",
+     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A711&f%5B1%5D=topics%3A751&page=1666",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
+     "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 353850,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 550,
+    "savingsMsP75": 650
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "JavaScript execution time",
+    "pages": 653,
+    "examplePages": [
+     "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/all-1-004-2",
+     "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A796&f%5B1%5D=state%3A926&f%5B2%5D=state%3A991&f%5B3%5D=topics%3A3356&page=0",
+     "https://medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&page=3",
+     "https://medicaid.gov/tmsis/dataguide/v4/data-elements/mcr010119",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/el-1-026-33",
+     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A731&f%5B1%5D=state%3A746&f%5B2%5D=state%3A836&f%5B3%5D=topics%3A741&f%5B4%5D=topics%3A8511&page=1675",
+     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A711&f%5B1%5D=topics%3A751&page=1666",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
+     "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 373600,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 600,
+    "savingsMsP75": 650
    },
    {
     "id": "webmcp-registered-tools",
@@ -145291,7 +145295,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -145311,7 +145319,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -145331,7 +145343,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -145351,7 +145367,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -145371,7 +145391,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "network-dependency-tree-insight",
@@ -145391,7 +145415,35 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 653,
+    "examplePages": [
+     "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/mcr-2-020-22",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/all-1-004-2",
+     "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A796&f%5B1%5D=state%3A926&f%5B2%5D=state%3A991&f%5B3%5D=topics%3A3356&page=0",
+     "https://medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&page=3",
+     "https://medicaid.gov/tmsis/dataguide/v4/data-elements/mcr010119",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-quality-measures/el-1-026-33",
+     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A731&f%5B1%5D=state%3A746&f%5B2%5D=state%3A836&f%5B3%5D=topics%3A741&f%5B4%5D=topics%3A8511&page=1675",
+     "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A711&f%5B1%5D=topics%3A751&page=1666",
+     "https://www.medicaid.gov/tmsis/dataguide/v4/data-elements/cot003178",
+     "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 808150,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1200,
+    "savingsMsP75": 1450
    },
    {
     "id": "max-potential-fid",
@@ -145411,7 +145463,11 @@
      "http://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A741&f%5B1%5D=fpg_topics_facet%3A751&f%5B2%5D=fpg_topics_facet%3A1021&f%5B3%5D=fpg_topics_facet%3A8716&page=111"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cache-insight",
@@ -145431,7 +145487,11 @@
      "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=topics%3A721&f%5B1%5D=topics%3A7301&f%5B2%5D=topics%3A7416&page=4"
     ],
     "savingsBytes": 0,
-    "savingsMs": 519950
+    "savingsMs": 519950,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 750,
+    "savingsMsP75": 1050
    },
    {
     "id": "unminified-javascript",
@@ -145451,7 +145511,11 @@
      "https://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A936&f%5B1%5D=fpg_topics_facet%3A1516&f%5B2%5D=fpg_topics_facet%3A6171&f%5B3%5D=fpg_topics_facet%3A8616&page=2"
     ],
     "savingsBytes": 86059256,
-    "savingsMs": 138250
+    "savingsMs": 138250,
+    "savingsBytesMedian": 149544,
+    "savingsBytesP75": 149584,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 600
    },
    {
     "id": "first-contentful-paint",
@@ -145471,7 +145535,11 @@
      "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=topics%3A721&f%5B1%5D=topics%3A7301&f%5B2%5D=topics%3A7416&page=4"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -145491,7 +145559,11 @@
      "https://www.medicaid.gov/medicaid/managed-care/guidance/state-directed-payments/approved-state-directed-payment-preprints?page=116"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -145511,7 +145583,11 @@
      "https://medicaid.gov/federal-policy-guidance?f%5B0%5D=fpg_topics_facet%3A936&f%5B1%5D=fpg_topics_facet%3A1516&f%5B2%5D=fpg_topics_facet%3A6171&f%5B3%5D=fpg_topics_facet%3A8616&page=2"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "font-display-insight",
@@ -145531,7 +145607,11 @@
      "https://www.medicaid.gov/medicaid/managed-care/guidance/state-directed-payments/approved-state-directed-payment-preprints?page=116"
     ],
     "savingsBytes": 0,
-    "savingsMs": 28100
+    "savingsMs": 28100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    },
    {
     "id": "redirects",
@@ -145551,7 +145631,11 @@
      "https://medicaid.gov/tmsis/dataguide/v4/data-elements/tpl006075"
     ],
     "savingsBytes": 0,
-    "savingsMs": 317800
+    "savingsMs": 317800,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 800,
+    "savingsMsP75": 1400
    },
    {
     "id": "speed-index",
@@ -145571,7 +145655,11 @@
      "http://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=state%3A736&f%5B1%5D=state%3A866&f%5B2%5D=state%3A7971&f%5B3%5D=topics%3A701&page=3"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "document-latency-insight",
@@ -145591,7 +145679,11 @@
      "https://medicaid.gov/tmsis/dataguide/v4/data-quality-measures/exp-23-001-2"
     ],
     "savingsBytes": 0,
-    "savingsMs": 20200
+    "savingsMs": 20200,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 100
    },
    {
     "id": "meta-description",
@@ -145611,7 +145703,11 @@
      "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/prv-5-006-6"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "valid-source-maps",
@@ -145631,7 +145727,11 @@
      "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/prv-5-006-6"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "image-size-responsive",
@@ -145651,7 +145751,11 @@
      "https://www.medicaid.gov/tmsis/dataguide/v3/data-quality-measures/prv-5-006-6"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "forced-reflow-insight",
@@ -145671,7 +145775,11 @@
      "https://www.medicaid.gov/tmsis/dataguide/v3/validation-rules/rule-7894"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "legacy-javascript-insight",
@@ -145691,7 +145799,11 @@
      "http://medicaid.gov/medicaid/medicaid-state-plan-amendments?f%5B0%5D=topics%3A751&f%5B1%5D=topics%3A1511&page=1659"
     ],
     "savingsBytes": 0,
-    "savingsMs": 9850
+    "savingsMs": 9850,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "lcp-discovery-insight",
@@ -145711,7 +145823,11 @@
      "https://www.medicaid.gov/tmsis/dataguide/v3/validation-rules/rule-7894"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "third-party-cookies",
@@ -145731,7 +145847,11 @@
      "http://medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1926&f%5B1%5D=sub_topic_faq_library_facet%3A2006&f%5B2%5D=sub_topic_faq_library_facet%3A2386&f%5B3%5D=sub_topic_faq_library_facet%3A2421&page=81"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -145751,7 +145871,11 @@
      "http://medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1926&f%5B1%5D=sub_topic_faq_library_facet%3A2006&f%5B2%5D=sub_topic_faq_library_facet%3A2386&f%5B3%5D=sub_topic_faq_library_facet%3A2421&page=81"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "errors-in-console",
@@ -145771,7 +145895,11 @@
      "https://medicaid.gov/tmsis/dataguide/v4/validation-rules/rule-7631"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "agent-accessibility-tree",
@@ -145791,7 +145919,11 @@
      "https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments?filter%5Bfield_state%5D%5Bin%5D%5B0%5D=766&page=7&q="
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cumulative-layout-shift",
@@ -145811,7 +145943,11 @@
      "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&f%5B1%5D=waiver_state_facet%3A926&page=0"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -145831,7 +145967,11 @@
      "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list?f%5B0%5D=waiver_state_facet%3A851&f%5B1%5D=waiver_state_facet%3A926&page=0"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "deprecations",
@@ -145851,7 +145991,11 @@
      "https://medicaid.gov/medicaid/medicaid-state-plan-amendments?filter%5Bfield_state%5D%5Bin%5D%5B0%5D=851&page=5&q="
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "server-response-time",
@@ -145871,19 +146015,11 @@
      "https://www.medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1901&f%5B1%5D=sub_topic_faq_library_facet%3A1946&f%5B2%5D=sub_topic_faq_library_facet%3A2011&page=8"
     ],
     "savingsBytes": 0,
-    "savingsMs": 2700
-   },
-   {
-    "id": "duplicated-javascript-insight",
-    "category": "performance",
-    "title": "Duplicated JavaScript",
-    "pages": 2,
-    "examplePages": [
-     "https://medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1876&f%5B1%5D=sub_topic_faq_library_facet%3A2341&f%5B2%5D=sub_topic_faq_library_facet%3A2406&f%5B3%5D=sub_topic_faq_library_facet%3A2416&f%5B4%5D=sub_topic_faq_library_facet%3A2491&f%5B5%5D=sub_topic_faq_library_facet%3A2506&f%5B6%5D=sub_topic_faq_library_facet%3A2521&f%5B7%5D=sub_topic_faq_library_facet%3A2526&page=4",
-     "https://www.medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1956&f%5B1%5D=sub_topic_faq_library_facet%3A2076&page=81"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 250
+    "savingsMs": 2700,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 125,
+    "savingsMsP75": 250
    },
    {
     "id": "lcp-breakdown-insight",
@@ -145895,7 +146031,11 @@
      "https://www.medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1901&f%5B1%5D=sub_topic_faq_library_facet%3A1946&f%5B2%5D=sub_topic_faq_library_facet%3A2011&page=8"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "link-text",
@@ -145907,7 +146047,27 @@
      "http://medicaid.gov/state-overviews/stateprofile.html?state=Oklahoma"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "duplicated-javascript-insight",
+    "category": "performance",
+    "title": "Duplicated JavaScript",
+    "pages": 2,
+    "examplePages": [
+     "https://medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1876&f%5B1%5D=sub_topic_faq_library_facet%3A2341&f%5B2%5D=sub_topic_faq_library_facet%3A2406&f%5B3%5D=sub_topic_faq_library_facet%3A2416&f%5B4%5D=sub_topic_faq_library_facet%3A2491&f%5B5%5D=sub_topic_faq_library_facet%3A2506&f%5B6%5D=sub_topic_faq_library_facet%3A2521&f%5B7%5D=sub_topic_faq_library_facet%3A2526&page=4",
+     "https://www.medicaid.gov/faq?f%5B0%5D=sub_topic_faq_library_facet%3A1956&f%5B1%5D=sub_topic_faq_library_facet%3A2076&page=81"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 250,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 125,
+    "savingsMsP75": 150
    }
   ]
  },
@@ -148771,6 +148931,9 @@
     "tech": "cdnjs",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148782,6 +148945,9 @@
     "tech": "Cloudflare",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148793,6 +148959,9 @@
     "tech": "jsDelivr",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148804,6 +148973,9 @@
     "tech": "Drupal",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148815,6 +148987,9 @@
     "tech": "Select2",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148826,6 +149001,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148837,6 +149015,9 @@
     "tech": "Amazon Web Services",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148848,6 +149029,9 @@
     "tech": "PHP",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148859,6 +149043,9 @@
     "tech": "Qualtrics",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148870,6 +149057,9 @@
     "tech": "Tealium",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148881,6 +149071,9 @@
     "tech": "USWDS",
     "finding": "alfa:sia-r73",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.11,
     "pairPages": 311,
     "techPages": 311,
@@ -148892,6 +149085,9 @@
     "tech": "DataTables",
     "finding": "axe:landmark-one-main",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148903,6 +149099,9 @@
     "tech": "DataTables",
     "finding": "axe:page-has-heading-one",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148914,6 +149113,9 @@
     "tech": "DataTables",
     "finding": "axe:region",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148925,6 +149127,9 @@
     "tech": "Popper",
     "finding": "axe:landmark-one-main",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148936,6 +149141,9 @@
     "tech": "Popper",
     "finding": "axe:page-has-heading-one",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148947,6 +149155,9 @@
     "tech": "Popper",
     "finding": "axe:region",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148958,6 +149169,9 @@
     "tech": "Bootstrap",
     "finding": "axe:landmark-one-main",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148969,6 +149183,9 @@
     "tech": "Bootstrap",
     "finding": "axe:page-has-heading-one",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148980,6 +149197,9 @@
     "tech": "Bootstrap",
     "finding": "axe:region",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 78,
     "techPages": 78,
@@ -148991,6 +149211,9 @@
     "tech": "DataTables",
     "finding": "alfa:sia-r61",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 35,
     "techPages": 35,
@@ -149002,6 +149225,9 @@
     "tech": "DataTables",
     "finding": "alfa:sia-r87",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 35,
     "techPages": 35,
@@ -149013,6 +149239,9 @@
     "tech": "Popper",
     "finding": "alfa:sia-r61",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 35,
     "techPages": 35,
@@ -149024,6 +149253,9 @@
     "tech": "Popper",
     "finding": "alfa:sia-r87",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 35,
     "techPages": 35,
@@ -149035,6 +149267,9 @@
     "tech": "Bootstrap",
     "finding": "alfa:sia-r61",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 35,
     "techPages": 35,
@@ -149046,6 +149281,9 @@
     "tech": "Bootstrap",
     "finding": "alfa:sia-r87",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 35,
     "techPages": 35,
@@ -149057,6 +149295,9 @@
     "tech": "DataTables",
     "finding": "axe:aria-allowed-attr",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 21,
     "techPages": 78,
@@ -149068,6 +149309,9 @@
     "tech": "DataTables",
     "finding": "axe:aria-required-children",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 21,
     "techPages": 78,
@@ -149079,6 +149323,9 @@
     "tech": "Popper",
     "finding": "axe:aria-allowed-attr",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 21,
     "techPages": 78,
@@ -149090,6 +149337,9 @@
     "tech": "Popper",
     "finding": "axe:aria-required-children",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 21,
     "techPages": 78,
@@ -149101,6 +149351,9 @@
     "tech": "Bootstrap",
     "finding": "axe:aria-allowed-attr",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 21,
     "techPages": 78,
@@ -149112,6 +149365,9 @@
     "tech": "Bootstrap",
     "finding": "axe:aria-required-children",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 8.72,
     "pairPages": 21,
     "techPages": 78,
@@ -149123,6 +149379,9 @@
     "tech": "DataTables",
     "finding": "alfa:sia-r14",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 20,
     "techPages": 35,
@@ -149134,6 +149393,9 @@
     "tech": "Popper",
     "finding": "alfa:sia-r14",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 20,
     "techPages": 35,
@@ -149145,6 +149407,9 @@
     "tech": "Bootstrap",
     "finding": "alfa:sia-r14",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 9.89,
     "pairPages": 20,
     "techPages": 35,
@@ -149156,6 +149421,9 @@
     "tech": "cdnjs",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149167,6 +149435,9 @@
     "tech": "cdnjs",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149178,6 +149449,9 @@
     "tech": "Cloudflare",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149189,6 +149463,9 @@
     "tech": "Cloudflare",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149200,6 +149477,9 @@
     "tech": "jsDelivr",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149211,6 +149491,9 @@
     "tech": "jsDelivr",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149222,6 +149505,9 @@
     "tech": "Drupal",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149233,6 +149519,9 @@
     "tech": "Drupal",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149244,6 +149533,9 @@
     "tech": "jQuery UI",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.14,
     "pairPages": 17,
     "techPages": 594,
@@ -149255,6 +149547,9 @@
     "tech": "jQuery UI",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.14,
     "pairPages": 17,
     "techPages": 594,
@@ -149266,6 +149561,9 @@
     "tech": "Select2",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149277,6 +149575,9 @@
     "tech": "Select2",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149288,6 +149589,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149299,6 +149603,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "axe:aria-input-field-name",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -149310,6 +149617,9 @@
     "tech": "Amazon Web Services",
     "finding": "axe:aria-allowed-role",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.13,
     "pairPages": 17,
     "techPages": 601,
@@ -233488,5 +233798,66 @@
   "errorStatuses": {
    "404": 3
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 29,
+  "occurrences_stored": 131,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 15,
+   "not_applicable": 14,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 29
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 29
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 29
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 29
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 29
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 29
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 29,
+  "by_engine": {
+   "axe-core": {
+    "findings": 14,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 14,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 1,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

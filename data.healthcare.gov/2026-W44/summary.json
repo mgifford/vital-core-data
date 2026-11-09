@@ -1,7 +1,7 @@
 {
  "domain": "data.healthcare.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-07T03:54:07.183Z",
+ "generatedAt": "2026-11-09T22:42:24.420Z",
  "pagesScanned": 2440,
  "pagesAudited": 1527,
  "coverage": {
@@ -14568,27 +14568,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 181619021,
-    "savingsMs": 859050
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 147,
-    "examplePages": [
-     "https://data.healthcare.gov/dataset/n2pf-y4nw",
-     "https://data.healthcare.gov/ab-suspension-and-termination-list?page=310",
-     "https://data.healthcare.gov/dataset/5p3f-bhu4?page=2",
-     "https://data.healthcare.gov/dataset/gmjp-zpzt?page=2",
-     "https://data.healthcare.gov/dataset/e8uy-7rnp?page=332",
-     "https://data.healthcare.gov/dataset/dvpf-jb7v?page=104",
-     "https://data.healthcare.gov/dataset/kb8w-qg77?page=266",
-     "https://data.healthcare.gov/dataset/3ddf85bc-f71b-4417-b271-410cbf9e0905?page=3400",
-     "https://data.healthcare.gov/dataset/jnky-88cv?page=3",
-     "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 378400
+    "savingsMs": 859050,
+    "savingsBytesMedian": 1219595,
+    "savingsBytesP75": 1258919,
+    "savingsMsMedian": 5750,
+    "savingsMsP75": 6000
    },
    {
     "id": "unused-css-rules",
@@ -14608,27 +14592,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 16422029,
-    "savingsMs": 107950
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "Reduce JavaScript execution time",
-    "pages": 147,
-    "examplePages": [
-     "https://data.healthcare.gov/dataset/n2pf-y4nw",
-     "https://data.healthcare.gov/ab-suspension-and-termination-list?page=310",
-     "https://data.healthcare.gov/dataset/5p3f-bhu4?page=2",
-     "https://data.healthcare.gov/dataset/gmjp-zpzt?page=2",
-     "https://data.healthcare.gov/dataset/e8uy-7rnp?page=332",
-     "https://data.healthcare.gov/dataset/dvpf-jb7v?page=104",
-     "https://data.healthcare.gov/dataset/kb8w-qg77?page=266",
-     "https://data.healthcare.gov/dataset/3ddf85bc-f71b-4417-b271-410cbf9e0905?page=3400",
-     "https://data.healthcare.gov/dataset/jnky-88cv?page=3",
-     "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 112000
+    "savingsMs": 107950,
+    "savingsBytesMedian": 111529,
+    "savingsBytesP75": 111603,
+    "savingsMsMedian": 750,
+    "savingsMsP75": 900
    },
    {
     "id": "first-contentful-paint",
@@ -14648,7 +14616,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -14668,7 +14640,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "speed-index",
@@ -14688,7 +14664,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -14708,7 +14688,35 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "Reduce JavaScript execution time",
+    "pages": 147,
+    "examplePages": [
+     "https://data.healthcare.gov/dataset/n2pf-y4nw",
+     "https://data.healthcare.gov/ab-suspension-and-termination-list?page=310",
+     "https://data.healthcare.gov/dataset/5p3f-bhu4?page=2",
+     "https://data.healthcare.gov/dataset/gmjp-zpzt?page=2",
+     "https://data.healthcare.gov/dataset/e8uy-7rnp?page=332",
+     "https://data.healthcare.gov/dataset/dvpf-jb7v?page=104",
+     "https://data.healthcare.gov/dataset/kb8w-qg77?page=266",
+     "https://data.healthcare.gov/dataset/3ddf85bc-f71b-4417-b271-410cbf9e0905?page=3400",
+     "https://data.healthcare.gov/dataset/jnky-88cv?page=3",
+     "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 112000,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 750,
+    "savingsMsP75": 1050
    },
    {
     "id": "valid-source-maps",
@@ -14728,7 +14736,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -14748,7 +14760,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -14768,7 +14784,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -14788,7 +14808,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -14808,7 +14832,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -14828,7 +14856,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "bf-cache",
@@ -14848,7 +14880,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "network-dependency-tree-insight",
@@ -14868,7 +14904,35 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 147,
+    "examplePages": [
+     "https://data.healthcare.gov/dataset/n2pf-y4nw",
+     "https://data.healthcare.gov/ab-suspension-and-termination-list?page=310",
+     "https://data.healthcare.gov/dataset/5p3f-bhu4?page=2",
+     "https://data.healthcare.gov/dataset/gmjp-zpzt?page=2",
+     "https://data.healthcare.gov/dataset/e8uy-7rnp?page=332",
+     "https://data.healthcare.gov/dataset/dvpf-jb7v?page=104",
+     "https://data.healthcare.gov/dataset/kb8w-qg77?page=266",
+     "https://data.healthcare.gov/dataset/3ddf85bc-f71b-4417-b271-410cbf9e0905?page=3400",
+     "https://data.healthcare.gov/dataset/jnky-88cv?page=3",
+     "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 378400,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1500,
+    "savingsMsP75": 3600
    },
    {
     "id": "mainthread-work-breakdown",
@@ -14888,7 +14952,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 111250
+    "savingsMs": 111250,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 750,
+    "savingsMsP75": 1050
    },
    {
     "id": "font-display-insight",
@@ -14908,7 +14976,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 9300
+    "savingsMs": 9300,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    },
    {
     "id": "max-potential-fid",
@@ -14928,7 +15000,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -14948,7 +15024,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=1251"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cumulative-layout-shift",
@@ -14968,7 +15048,11 @@
      "https://data.healthcare.gov/dataset/drds-fxfy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -14988,7 +15072,11 @@
      "https://data.healthcare.gov/dataset/drds-fxfy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cache-insight",
@@ -15008,7 +15096,11 @@
      "https://data.healthcare.gov/dataset/3nee-n9ij?page=2"
     ],
     "savingsBytes": 0,
-    "savingsMs": 19000
+    "savingsMs": 19000,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "image-delivery-insight",
@@ -15028,7 +15120,11 @@
      "https://data.healthcare.gov/dataset/e4rr-zk4i?page=5318"
     ],
     "savingsBytes": 0,
-    "savingsMs": 14350
+    "savingsMs": 14350,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "legacy-javascript-insight",
@@ -15048,7 +15144,11 @@
      "https://data.healthcare.gov/dataset/kb8w-qg77?page=5"
     ],
     "savingsBytes": 0,
-    "savingsMs": 10800
+    "savingsMs": 10800,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 300
    },
    {
     "id": "forced-reflow-insight",
@@ -15068,7 +15168,11 @@
      "https://data.healthcare.gov/dataset/ium9-pv2r?page=3"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "errors-in-console",
@@ -15088,7 +15192,11 @@
      "https://data.healthcare.gov/dataset/a1e624b6-764b-449f-ae88-05aacd5162cd"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "third-party-cookies",
@@ -15108,7 +15216,11 @@
      "https://data.healthcare.gov/dataset/AB-Registration-Completion-List/wb6u-x2ny/data?page=42279"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -15128,7 +15240,11 @@
      "https://data.healthcare.gov/dataset/AB-Registration-Completion-List/wb6u-x2ny/data?page=42279"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "agent-accessibility-tree",
@@ -15148,7 +15264,11 @@
      "https://data.healthcare.gov/datasets?keyword%5B0%5D=healthcare&page=5"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "crawlable-anchors",
@@ -15168,7 +15288,11 @@
      "https://data.healthcare.gov/datasets?keyword%5B0%5D=Marketplace+PUF"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "link-text",
@@ -15188,7 +15312,11 @@
      "https://data.healthcare.gov/datasets?keyword%5B0%5D=QHP"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "server-response-time",
@@ -15206,7 +15334,11 @@
      "https://data.healthcare.gov/datasets?keyword%5B0%5D=PY2026"
     ],
     "savingsBytes": 0,
-    "savingsMs": 1350
+    "savingsMs": 1350,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 100,
+    "savingsMsP75": 150
    },
    {
     "id": "canonical",
@@ -15222,7 +15354,11 @@
      "https://data.healthcare.gov/dataset/AB-Registration-Completion-List/wb6u-x2ny/data?page=4"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "document-latency-insight",
@@ -15233,7 +15369,11 @@
      "https://data.healthcare.gov/dataset/a1e624b6-764b-449f-ae88-05aacd5162cd"
     ],
     "savingsBytes": 0,
-    "savingsMs": 700
+    "savingsMs": 700,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 700,
+    "savingsMsP75": 700
    }
   ]
  },
@@ -19109,6 +19249,9 @@
     "tech": "Quantum Metric",
     "finding": "alfa:sia-r17",
     "ratio": null,
+    "ci_low": null,
+    "ci_high": null,
+    "certainty": "no_comparison",
     "lift": 1.07,
     "pairPages": 57,
     "techPages": 69,
@@ -32761,5 +32904,66 @@
   "errorStatuses": {
    "404": 14
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 21,
+  "occurrences_stored": 72,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 10,
+   "not_applicable": 11,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 21
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 21
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 21
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 21
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 21
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 21
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 21,
+  "by_engine": {
+   "axe-core": {
+    "findings": 10,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 11,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

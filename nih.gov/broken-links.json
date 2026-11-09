@@ -1,6 +1,6 @@
 {
  "domain": "nih.gov",
- "updatedAt": "2026-11-03T19:48:53.927Z",
+ "updatedAt": "2026-11-09T22:42:53.405Z",
  "links": {
   "https://projectreporter.nih.gov/reporter.cfm": {
    "status": 0,
@@ -2567,14 +2567,15 @@
    "status": 405,
    "reason": "HTTP 405",
    "firstSeen": "2026-W35",
-   "lastSeen": "2026-W42",
+   "lastSeen": "2026-W46",
    "_weeks": [
     "2026-W35",
-    "2026-W42"
+    "2026-W42",
+    "2026-W46"
    ],
-   "weeksBroken": 2,
+   "weeksBroken": 3,
    "foundOn": [
-    "https://nih.gov/news-events/nih-research-matters/common-drug-may-have-potential-treating-alzheimers-disease"
+    "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease"
    ]
   },
   "https://card.nih.gov/news-events/card-news/roy-blunt-center-alzheimers-disease-and-related-dementias-research": {
@@ -2776,7 +2777,7 @@
    "status": 405,
    "reason": "HTTP 405",
    "firstSeen": "2026-W35",
-   "lastSeen": "2026-W44",
+   "lastSeen": "2026-W46",
    "_weeks": [
     "2026-W35",
     "2026-W36",
@@ -2784,24 +2785,26 @@
     "2026-W38",
     "2026-W42",
     "2026-W43",
-    "2026-W44"
+    "2026-W44",
+    "2026-W46"
    ],
-   "weeksBroken": 7,
+   "weeksBroken": 8,
    "foundOn": [
-    "https://www.nih.gov/news-events/nih-research-matters/estimating-cognitive-impairment-risk-timing"
+    "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease"
    ]
   },
   "https://www.nia.nih.gov/health/clinical-trials-and-studies/find-alzheimers-disease-research-center": {
    "status": 405,
    "reason": "HTTP 405",
    "firstSeen": "2026-W35",
-   "lastSeen": "2026-W35",
+   "lastSeen": "2026-W46",
    "_weeks": [
-    "2026-W35"
+    "2026-W35",
+    "2026-W46"
    ],
-   "weeksBroken": 1,
+   "weeksBroken": 2,
    "foundOn": [
-    "https://nih.gov/news-events/nih-research-matters/blood-tests-show-promise-early-alzheimers-diagnosis"
+    "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease"
    ]
   },
   "http://www.mouseconnectome.org/": {
@@ -4995,6 +4998,24 @@
    "weeksBroken": 1,
    "foundOn": [
     "https://mailto:RADxInfo@www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials"
+   ]
+  },
+  "https://oig.hhs.gov/": {
+   "status": 0,
+   "reason": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+   "firstSeen": "2026-W46",
+   "lastSeen": "2026-W46",
+   "_weeks": [
+    "2026-W46"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism",
+    "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+    "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
+    "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+    "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+    "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines"
    ]
   }
  }

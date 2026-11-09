@@ -85762,5 +85762,66 @@
    "404": 174,
    "503": 4
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 42,
+  "occurrences_stored": 177,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 20,
+   "not_applicable": 22,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 42
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 42
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 42
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 42
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 42
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 42
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 42,
+  "by_engine": {
+   "axe-core": {
+    "findings": 19,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 22,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 1,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

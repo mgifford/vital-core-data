@@ -1,7 +1,7 @@
 {
  "domain": "www.healthcare.gov",
  "week": "2026-W43",
- "generatedAt": "2026-11-07T03:54:36.113Z",
+ "generatedAt": "2026-11-09T22:42:48.487Z",
  "pagesScanned": 1140,
  "pagesAudited": 990,
  "coverage": {
@@ -17882,107 +17882,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 44343480,
-    "savingsMs": 170550
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 101,
-    "examplePages": [
-     "https://healthcare.gov/glossary/tax-filing-requirement",
-     "https://www.healthcare.gov/glossary/essential-health-benefits",
-     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
-     "https://healthcare.gov/glossary/medical-underwriting",
-     "https://healthcare.gov/glossary/annual-deductible-combined",
-     "https://healthcare.gov/glossary/individual-health-insurance-policy",
-     "https://healthcare.gov/glossary/domestic-partnership",
-     "https://www.healthcare.gov/glossary/broker",
-     "https://healthcare.gov/dental-plan-information",
-     "https://www.healthcare.gov/glossary/reconcile"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 183000
-   },
-   {
-    "id": "redirects",
-    "category": "performance",
-    "title": "Avoid multiple page redirects",
-    "pages": 101,
-    "examplePages": [
-     "https://healthcare.gov/glossary/tax-filing-requirement",
-     "https://www.healthcare.gov/glossary/essential-health-benefits",
-     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
-     "https://healthcare.gov/glossary/medical-underwriting",
-     "https://healthcare.gov/glossary/annual-deductible-combined",
-     "https://healthcare.gov/glossary/individual-health-insurance-policy",
-     "https://healthcare.gov/glossary/domestic-partnership",
-     "https://www.healthcare.gov/glossary/broker",
-     "https://healthcare.gov/dental-plan-information",
-     "https://www.healthcare.gov/glossary/reconcile"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 117050
-   },
-   {
-    "id": "cache-insight",
-    "category": "performance",
-    "title": "Use efficient cache lifetimes",
-    "pages": 101,
-    "examplePages": [
-     "https://healthcare.gov/glossary/tax-filing-requirement",
-     "https://www.healthcare.gov/glossary/essential-health-benefits",
-     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
-     "https://healthcare.gov/glossary/medical-underwriting",
-     "https://healthcare.gov/glossary/annual-deductible-combined",
-     "https://healthcare.gov/glossary/individual-health-insurance-policy",
-     "https://healthcare.gov/glossary/domestic-partnership",
-     "https://www.healthcare.gov/glossary/broker",
-     "https://healthcare.gov/dental-plan-information",
-     "https://www.healthcare.gov/glossary/reconcile"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 110200
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "Reduce JavaScript execution time",
-    "pages": 101,
-    "examplePages": [
-     "https://healthcare.gov/glossary/tax-filing-requirement",
-     "https://www.healthcare.gov/glossary/essential-health-benefits",
-     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
-     "https://healthcare.gov/glossary/medical-underwriting",
-     "https://healthcare.gov/glossary/annual-deductible-combined",
-     "https://healthcare.gov/glossary/individual-health-insurance-policy",
-     "https://healthcare.gov/glossary/domestic-partnership",
-     "https://www.healthcare.gov/glossary/broker",
-     "https://healthcare.gov/dental-plan-information",
-     "https://www.healthcare.gov/glossary/reconcile"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 104600
-   },
-   {
-    "id": "mainthread-work-breakdown",
-    "category": "performance",
-    "title": "Minimize main-thread work",
-    "pages": 101,
-    "examplePages": [
-     "https://healthcare.gov/glossary/tax-filing-requirement",
-     "https://www.healthcare.gov/glossary/essential-health-benefits",
-     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
-     "https://healthcare.gov/glossary/medical-underwriting",
-     "https://healthcare.gov/glossary/annual-deductible-combined",
-     "https://healthcare.gov/glossary/individual-health-insurance-policy",
-     "https://healthcare.gov/glossary/domestic-partnership",
-     "https://www.healthcare.gov/glossary/broker",
-     "https://healthcare.gov/dental-plan-information",
-     "https://www.healthcare.gov/glossary/reconcile"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 101400
+    "savingsMs": 170550,
+    "savingsBytesMedian": 444363,
+    "savingsBytesP75": 447489,
+    "savingsMsMedian": 1850,
+    "savingsMsP75": 2200
    },
    {
     "id": "unminified-javascript",
@@ -18002,7 +17906,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 16196586,
-    "savingsMs": 72600
+    "savingsMs": 72600,
+    "savingsBytesMedian": 161595,
+    "savingsBytesP75": 161633,
+    "savingsMsMedian": 800,
+    "savingsMsP75": 900
    },
    {
     "id": "unused-css-rules",
@@ -18022,7 +17930,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 4786121,
-    "savingsMs": 150
+    "savingsMs": 150,
+    "savingsBytesMedian": 47350,
+    "savingsBytesP75": 47441,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "first-contentful-paint",
@@ -18042,7 +17954,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -18062,7 +17978,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "speed-index",
@@ -18082,7 +18002,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -18102,7 +18026,35 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "redirects",
+    "category": "performance",
+    "title": "Avoid multiple page redirects",
+    "pages": 101,
+    "examplePages": [
+     "https://healthcare.gov/glossary/tax-filing-requirement",
+     "https://www.healthcare.gov/glossary/essential-health-benefits",
+     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+     "https://healthcare.gov/glossary/medical-underwriting",
+     "https://healthcare.gov/glossary/annual-deductible-combined",
+     "https://healthcare.gov/glossary/individual-health-insurance-policy",
+     "https://healthcare.gov/glossary/domestic-partnership",
+     "https://www.healthcare.gov/glossary/broker",
+     "https://healthcare.gov/dental-plan-information",
+     "https://www.healthcare.gov/glossary/reconcile"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 117050,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 850,
+    "savingsMsP75": 1550
    },
    {
     "id": "third-party-cookies",
@@ -18122,7 +18074,59 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "mainthread-work-breakdown",
+    "category": "performance",
+    "title": "Minimize main-thread work",
+    "pages": 101,
+    "examplePages": [
+     "https://healthcare.gov/glossary/tax-filing-requirement",
+     "https://www.healthcare.gov/glossary/essential-health-benefits",
+     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+     "https://healthcare.gov/glossary/medical-underwriting",
+     "https://healthcare.gov/glossary/annual-deductible-combined",
+     "https://healthcare.gov/glossary/individual-health-insurance-policy",
+     "https://healthcare.gov/glossary/domestic-partnership",
+     "https://www.healthcare.gov/glossary/broker",
+     "https://healthcare.gov/dental-plan-information",
+     "https://www.healthcare.gov/glossary/reconcile"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 101400,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 950,
+    "savingsMsP75": 1200
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "Reduce JavaScript execution time",
+    "pages": 101,
+    "examplePages": [
+     "https://healthcare.gov/glossary/tax-filing-requirement",
+     "https://www.healthcare.gov/glossary/essential-health-benefits",
+     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+     "https://healthcare.gov/glossary/medical-underwriting",
+     "https://healthcare.gov/glossary/annual-deductible-combined",
+     "https://healthcare.gov/glossary/individual-health-insurance-policy",
+     "https://healthcare.gov/glossary/domestic-partnership",
+     "https://www.healthcare.gov/glossary/broker",
+     "https://healthcare.gov/dental-plan-information",
+     "https://www.healthcare.gov/glossary/reconcile"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 104600,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1000,
+    "savingsMsP75": 1300
    },
    {
     "id": "valid-source-maps",
@@ -18142,7 +18146,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -18162,7 +18170,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "robots-txt",
@@ -18182,7 +18194,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -18202,7 +18218,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -18222,7 +18242,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -18242,7 +18266,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -18262,7 +18290,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -18282,7 +18314,35 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "cache-insight",
+    "category": "performance",
+    "title": "Use efficient cache lifetimes",
+    "pages": 101,
+    "examplePages": [
+     "https://healthcare.gov/glossary/tax-filing-requirement",
+     "https://www.healthcare.gov/glossary/essential-health-benefits",
+     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+     "https://healthcare.gov/glossary/medical-underwriting",
+     "https://healthcare.gov/glossary/annual-deductible-combined",
+     "https://healthcare.gov/glossary/individual-health-insurance-policy",
+     "https://healthcare.gov/glossary/domestic-partnership",
+     "https://www.healthcare.gov/glossary/broker",
+     "https://healthcare.gov/dental-plan-information",
+     "https://www.healthcare.gov/glossary/reconcile"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 110200,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1100,
+    "savingsMsP75": 1250
    },
    {
     "id": "network-dependency-tree-insight",
@@ -18302,7 +18362,35 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 101,
+    "examplePages": [
+     "https://healthcare.gov/glossary/tax-filing-requirement",
+     "https://www.healthcare.gov/glossary/essential-health-benefits",
+     "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+     "https://healthcare.gov/glossary/medical-underwriting",
+     "https://healthcare.gov/glossary/annual-deductible-combined",
+     "https://healthcare.gov/glossary/individual-health-insurance-policy",
+     "https://healthcare.gov/glossary/domestic-partnership",
+     "https://www.healthcare.gov/glossary/broker",
+     "https://healthcare.gov/dental-plan-information",
+     "https://www.healthcare.gov/glossary/reconcile"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 183000,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1800,
+    "savingsMsP75": 1950
    },
    {
     "id": "errors-in-console",
@@ -18322,7 +18410,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -18342,7 +18434,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "document-latency-insight",
@@ -18362,7 +18458,11 @@
      "https://www.healthcare.gov/glossary/reconcile"
     ],
     "savingsBytes": 0,
-    "savingsMs": 8600
+    "savingsMs": 8600,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 100
    },
    {
     "id": "max-potential-fid",
@@ -18382,7 +18482,11 @@
      "https://www.healthcare.gov/have-job-based-coverage/if-you-lose-job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cumulative-layout-shift",
@@ -18402,7 +18506,11 @@
      "https://www.healthcare.gov/glossary/allowed-amount"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -18422,7 +18530,11 @@
      "https://www.healthcare.gov/glossary/allowed-amount"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "legacy-javascript-insight",
@@ -18442,7 +18554,11 @@
      "https://healthcare.gov/glossary/exclusive-provider-organization-epo-plan"
     ],
     "savingsBytes": 0,
-    "savingsMs": 4750
+    "savingsMs": 4750,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "forced-reflow-insight",
@@ -18462,7 +18578,11 @@
      "https://healthcare.gov/taxes-2019/marketplace-plan-without-savings"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "server-response-time",
@@ -18481,7 +18601,11 @@
      "https://www.healthcare.gov/glossary/external-review"
     ],
     "savingsBytes": 0,
-    "savingsMs": 2200
+    "savingsMs": 2200,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 300
    },
    {
     "id": "font-display-insight",
@@ -18496,7 +18620,11 @@
      "https://www.healthcare.gov/apply-and-enroll/get-help-applying"
     ],
     "savingsBytes": 0,
-    "savingsMs": 300
+    "savingsMs": 300,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    },
    {
     "id": "deprecations",
@@ -18510,7 +18638,11 @@
      "https://www.healthcare.gov/glossary/external-review"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "link-text",
@@ -18522,7 +18654,11 @@
      "https://healthcare.gov/have-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "meta-description",
@@ -18534,7 +18670,11 @@
      "https://healthcare.gov/forgot-password"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "lcp-breakdown-insight",
@@ -18545,7 +18685,11 @@
      "https://www.healthcare.gov/glossary/co-payment"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "image-size-responsive",
@@ -18556,7 +18700,11 @@
      "https://healthcare.gov/small-businesses/topics"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "lcp-discovery-insight",
@@ -18567,7 +18715,11 @@
      "https://healthcare.gov/small-businesses/topics"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    }
   ]
  },
@@ -41705,5 +41857,66 @@
   "errorStatuses": {
    "404": 2
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 24,
+  "occurrences_stored": 111,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 10,
+   "not_applicable": 14,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 24
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 24
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 24
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 24
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 24
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 24
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 24,
+  "by_engine": {
+   "axe-core": {
+    "findings": 10,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 14,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

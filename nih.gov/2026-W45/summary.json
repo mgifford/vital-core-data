@@ -1,7 +1,7 @@
 {
  "domain": "nih.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-07T03:54:39.786Z",
+ "generatedAt": "2026-11-09T22:42:52.006Z",
  "pagesScanned": 2595,
  "pagesAudited": 17,
  "coverage": {
@@ -2969,32 +2969,6 @@
   "pwaSignals": [],
   "recommendations": [
    {
-    "id": "mainthread-work-breakdown",
-    "category": "performance",
-    "title": "Minimize main-thread work",
-    "pages": 3,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
-     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 4600
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "Reduce JavaScript execution time",
-    "pages": 3,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
-     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 4600
-   },
-   {
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
@@ -3005,7 +2979,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 1099652,
-    "savingsMs": 1650
+    "savingsMs": 1650,
+    "savingsBytesMedian": 366504,
+    "savingsBytesP75": 366751,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 1650
    },
    {
     "id": "unused-css-rules",
@@ -3018,20 +2996,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 341231,
-    "savingsMs": 1850
-   },
-   {
-    "id": "image-delivery-insight",
-    "category": "performance",
-    "title": "Improve image delivery",
-    "pages": 3,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
-     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 750
+    "savingsMs": 1850,
+    "savingsBytesMedian": 113806,
+    "savingsBytesP75": 113915,
+    "savingsMsMedian": 700,
+    "savingsMsP75": 700
    },
    {
     "id": "unminified-javascript",
@@ -3044,20 +3013,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 57492,
-    "savingsMs": 150
-   },
-   {
-    "id": "font-display-insight",
-    "category": "performance",
-    "title": "Font display",
-    "pages": 3,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
-     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 150
+    "savingsMs": 150,
+    "savingsBytesMedian": 19164,
+    "savingsBytesP75": 19164,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 150
    },
    {
     "id": "first-contentful-paint",
@@ -3070,7 +3030,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -3083,7 +3047,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -3096,7 +3064,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "max-potential-fid",
@@ -3109,7 +3081,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "errors-in-console",
@@ -3122,7 +3098,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -3135,7 +3115,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "deprecations",
@@ -3148,7 +3132,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "third-party-cookies",
@@ -3161,7 +3149,45 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "mainthread-work-breakdown",
+    "category": "performance",
+    "title": "Minimize main-thread work",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 4600,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1500,
+    "savingsMsP75": 1700
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "Reduce JavaScript execution time",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 4600,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1550,
+    "savingsMsP75": 1650
    },
    {
     "id": "inspector-issues",
@@ -3174,7 +3200,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -3187,7 +3217,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -3200,7 +3234,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -3213,7 +3251,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -3226,7 +3268,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -3239,7 +3285,45 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "font-display-insight",
+    "category": "performance",
+    "title": "Font display",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 150,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
+   },
+   {
+    "id": "image-delivery-insight",
+    "category": "performance",
+    "title": "Improve image delivery",
+    "pages": 3,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 750,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 450
    },
    {
     "id": "network-dependency-tree-insight",
@@ -3252,19 +3336,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "cache-insight",
-    "category": "performance",
-    "title": "Use efficient cache lifetimes",
-    "pages": 2,
-    "examplePages": [
-     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 250
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "unminified-css",
@@ -3276,7 +3352,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 4157,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 2079,
+    "savingsBytesP75": 2080,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cumulative-layout-shift",
@@ -3288,7 +3368,27 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "cache-insight",
+    "category": "performance",
+    "title": "Use efficient cache lifetimes",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 250,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 125,
+    "savingsMsP75": 150
    },
    {
     "id": "cls-culprits-insight",
@@ -3300,7 +3400,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "forced-reflow-insight",
@@ -3312,18 +3416,11 @@
      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 550
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "legacy-javascript-insight",
@@ -3334,7 +3431,11 @@
      "https://www.nih.gov/include-project/funding/past-funding-opportunities"
     ],
     "savingsBytes": 0,
-    "savingsMs": 100
+    "savingsMs": 100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 100,
+    "savingsMsP75": 100
    },
    {
     "id": "speed-index",
@@ -3345,7 +3446,26 @@
      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 1,
+    "examplePages": [
+     "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 550,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 550,
+    "savingsMsP75": 550
    }
   ]
  },
@@ -6967,5 +7087,66 @@
   },
   "connection": null,
   "errorStatuses": {}
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 17,
+  "occurrences_stored": 65,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 8,
+   "not_applicable": 9,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 17
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 17
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 17
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 17
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 17
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 17
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 17,
+  "by_engine": {
+   "axe-core": {
+    "findings": 8,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 9,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

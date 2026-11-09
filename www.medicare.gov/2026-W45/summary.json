@@ -1,7 +1,7 @@
 {
  "domain": "www.medicare.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-07T03:53:43.695Z",
+ "generatedAt": "2026-11-09T22:42:03.570Z",
  "pagesScanned": 1039,
  "pagesAudited": 983,
  "coverage": {
@@ -21425,26 +21425,6 @@
   "pwaSignals": [],
   "recommendations": [
    {
-    "id": "cache-insight",
-    "category": "performance",
-    "title": "Use efficient cache lifetimes",
-    "pages": 101,
-    "examplePages": [
-     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
-     "https://www.medicare.gov/basics/costs",
-     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
-     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
-     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
-     "https://www.medicare.gov/publication-ordering/10050-SB",
-     "https://www.medicare.gov/coverage/popular-topics",
-     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
-     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 406050
-   },
-   {
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
@@ -21462,67 +21442,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 67416552,
-    "savingsMs": 224050
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 101,
-    "examplePages": [
-     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
-     "https://www.medicare.gov/basics/costs",
-     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
-     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
-     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
-     "https://www.medicare.gov/publication-ordering/10050-SB",
-     "https://www.medicare.gov/coverage/popular-topics",
-     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
-     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 225050
-   },
-   {
-    "id": "mainthread-work-breakdown",
-    "category": "performance",
-    "title": "Minimize main-thread work",
-    "pages": 101,
-    "examplePages": [
-     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
-     "https://www.medicare.gov/basics/costs",
-     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
-     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
-     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
-     "https://www.medicare.gov/publication-ordering/10050-SB",
-     "https://www.medicare.gov/coverage/popular-topics",
-     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
-     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 139950
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "Reduce JavaScript execution time",
-    "pages": 101,
-    "examplePages": [
-     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
-     "https://www.medicare.gov/basics/costs",
-     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
-     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
-     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
-     "https://www.medicare.gov/publication-ordering/10050-SB",
-     "https://www.medicare.gov/coverage/popular-topics",
-     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
-     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
-     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 138100
+    "savingsMs": 224050,
+    "savingsBytesMedian": 559284,
+    "savingsBytesP75": 836202,
+    "savingsMsMedian": 2250,
+    "savingsMsP75": 3050
    },
    {
     "id": "first-contentful-paint",
@@ -21542,7 +21466,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -21562,7 +21490,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -21582,7 +21514,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -21602,7 +21538,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "image-size-responsive",
@@ -21622,7 +21562,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "third-party-cookies",
@@ -21642,7 +21586,59 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "mainthread-work-breakdown",
+    "category": "performance",
+    "title": "Minimize main-thread work",
+    "pages": 101,
+    "examplePages": [
+     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
+     "https://www.medicare.gov/basics/costs",
+     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
+     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
+     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
+     "https://www.medicare.gov/publication-ordering/10050-SB",
+     "https://www.medicare.gov/coverage/popular-topics",
+     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
+     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 139950,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1150,
+    "savingsMsP75": 1750
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "Reduce JavaScript execution time",
+    "pages": 101,
+    "examplePages": [
+     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
+     "https://www.medicare.gov/basics/costs",
+     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
+     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
+     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
+     "https://www.medicare.gov/publication-ordering/10050-SB",
+     "https://www.medicare.gov/coverage/popular-topics",
+     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
+     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 138100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1150,
+    "savingsMsP75": 1750
    },
    {
     "id": "valid-source-maps",
@@ -21662,7 +21658,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -21682,7 +21682,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -21702,7 +21706,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -21722,7 +21730,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -21742,7 +21754,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -21762,7 +21778,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -21782,7 +21802,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "bf-cache",
@@ -21802,7 +21826,35 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "cache-insight",
+    "category": "performance",
+    "title": "Use efficient cache lifetimes",
+    "pages": 101,
+    "examplePages": [
+     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
+     "https://www.medicare.gov/basics/costs",
+     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
+     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
+     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
+     "https://www.medicare.gov/publication-ordering/10050-SB",
+     "https://www.medicare.gov/coverage/popular-topics",
+     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
+     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 406050,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 4200,
+    "savingsMsP75": 4700
    },
    {
     "id": "network-dependency-tree-insight",
@@ -21822,7 +21874,35 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 101,
+    "examplePages": [
+     "https://www.medicare.gov/account/login?client_id=carecompare&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvYWJvdXQtdGhpcy10b29sIn19",
+     "https://www.medicare.gov/basics/costs",
+     "https://www.medicare.gov/privacy-policy/third-party-privacy-policies",
+     "https://www.medicare.gov/health-drug-plans/part-d/basics/choose-coverage/switch-drop-rejoin",
+     "https://www.medicare.gov/account/login?client_id=max&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Fclaims%2F%3FdateRange%3Dlast36Months%26sortBy%3Dclaim_from_date",
+     "https://www.medicare.gov/publication-ordering/10050-SB",
+     "https://www.medicare.gov/coverage/popular-topics",
+     "https://www.medicare.gov/medical-equipment-suppliers?redirect=true",
+     "https://www.medicare.gov/account/login?client_id=mct&lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fplan-compare%2Fsls-callback&relay=eyJsYW5nIjoiZW4ifQ%3D%3D",
+     "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 225050,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 2050,
+    "savingsMsP75": 2250
    },
    {
     "id": "unused-css-rules",
@@ -21842,7 +21922,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 7804152,
-    "savingsMs": 42650
+    "savingsMs": 42650,
+    "savingsBytesMedian": 80037,
+    "savingsBytesP75": 81410,
+    "savingsMsMedian": 450,
+    "savingsMsP75": 600
    },
    {
     "id": "speed-index",
@@ -21862,7 +21946,11 @@
      "https://www.medicare.gov/my/account-settings/get-my-medicare-card?client_id=max&client_id=max&client_id=max&client_id=max&Lang=en-us&Lang=en-us&Lang=en-us&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "max-potential-fid",
@@ -21882,7 +21970,11 @@
      "https://www.medicare.gov/publications/search/all-non-english-pubs?page=1"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "unminified-javascript",
@@ -21902,7 +21994,11 @@
      "https://www.medicare.gov/publications/search/all-non-english-pubs?page=1"
     ],
     "savingsBytes": 7694041,
-    "savingsMs": 29800
+    "savingsMs": 29800,
+    "savingsBytesMedian": 77806,
+    "savingsBytesP75": 78065,
+    "savingsMsMedian": 300,
+    "savingsMsP75": 500
    },
    {
     "id": "deprecations",
@@ -21922,7 +22018,11 @@
      "https://www.medicare.gov/publications/search/all-non-english-pubs?page=1"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "legacy-javascript-insight",
@@ -21942,7 +22042,11 @@
      "https://www.medicare.gov/account/login?client_id=mgas&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fapi%2Fappointments%2Fauth%2Fcallback&relay=%2Fappointments"
     ],
     "savingsBytes": 0,
-    "savingsMs": 19800
+    "savingsMs": 19800,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 200,
+    "savingsMsP75": 300
    },
    {
     "id": "font-display-insight",
@@ -21962,7 +22066,11 @@
      "https://www.medicare.gov/publications/search/all-non-english-pubs?page=1"
     ],
     "savingsBytes": 0,
-    "savingsMs": 7900
+    "savingsMs": 7900,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 100
    },
    {
     "id": "meta-description",
@@ -21982,7 +22090,11 @@
      "https://www.medicare.gov/publication-ordering/11579-S"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "server-response-time",
@@ -22002,7 +22114,11 @@
      "https://www.medicare.gov/health-drug-plans/health-plans/your-health-plan-options/MSA"
     ],
     "savingsBytes": 0,
-    "savingsMs": 6050
+    "savingsMs": 6050,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 200
    },
    {
     "id": "errors-in-console",
@@ -22022,7 +22138,11 @@
      "https://www.medicare.gov/account/login?client_id=max&Lang=en-us&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fmy&relay=%2Faccount-settings%2F%3Fclient_id%3Dmax%26Lang%3Den-us%26redirect_uri%3Dhttps%253A%252F%252Fwww.medicare.gov%252Fmy%26client_id%3Dmax%26Lang%3Den-us%26redirect_uri%3Dhttps%253A%252F%252Fwww.medicare.gov%252Fmy%26client_id%3Dmax%26Lang%3Des-mx%26redirect_uri%3Dhttps%253A%252F%252Fwww.medicare.gov%252Fmy"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "crawlable-anchors",
@@ -22042,7 +22162,11 @@
      "https://www.medicare.gov/coverage/respiratory-assist-devices"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "forced-reflow-insight",
@@ -22062,7 +22186,11 @@
      "https://www.medicare.gov/publication-ordering/11534-S"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "image-delivery-insight",
@@ -22082,7 +22210,11 @@
      "https://www.medicare.gov/account/login?client_id=carecompare&Lang=es-mx&redirect_uri=https%3A%2F%2Fwww.medicare.gov%2Fcare-compare%2Foauth&relay=eyJhY3Rpb24iOiJsb2dpbiIsImRhdGEiOnsibGFzdFVybCI6Ii9yZXNvdXJjZXMvaW5mb3JtYXRpb24tYWJvdXQtcHJvdmlkZXItdHlwZXMifX0%3D"
     ],
     "savingsBytes": 0,
-    "savingsMs": 2300
+    "savingsMs": 2300,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "cumulative-layout-shift",
@@ -22102,7 +22234,11 @@
      "https://www.medicare.gov/basics/forms-publications-mailings/forms/other"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -22122,7 +22258,11 @@
      "https://www.medicare.gov/account/login?lang=es-mx"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "lcp-breakdown-insight",
@@ -22138,7 +22278,11 @@
      "https://www.medicare.gov/coverage/depression-screening"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "redirects",
@@ -22152,29 +22296,11 @@
      "https://www.medicare.gov/care-compare/resources/nursing-home/staffing"
     ],
     "savingsBytes": 0,
-    "savingsMs": 49450
-   },
-   {
-    "id": "duplicated-javascript-insight",
-    "category": "performance",
-    "title": "Duplicated JavaScript",
-    "pages": 1,
-    "examplePages": [
-     "https://www.medicare.gov/care-compare/resources/nursing-home/staffing"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 150
-   },
-   {
-    "id": "document-latency-insight",
-    "category": "performance",
-    "title": "Document request latency",
-    "pages": 1,
-    "examplePages": [
-     "https://www.medicare.gov/care-compare/resources/nursing-home/staffing"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 50
+    "savingsMs": 49450,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 15100,
+    "savingsMsP75": 17650
    },
    {
     "id": "geolocation-on-start",
@@ -22185,7 +22311,41 @@
      "https://www.medicare.gov/care-compare/resources/nursing-home/staffing"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "document-latency-insight",
+    "category": "performance",
+    "title": "Document request latency",
+    "pages": 1,
+    "examplePages": [
+     "https://www.medicare.gov/care-compare/resources/nursing-home/staffing"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 50,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
+   },
+   {
+    "id": "duplicated-javascript-insight",
+    "category": "performance",
+    "title": "Duplicated JavaScript",
+    "pages": 1,
+    "examplePages": [
+     "https://www.medicare.gov/care-compare/resources/nursing-home/staffing"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 150,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "lcp-discovery-insight",
@@ -22196,7 +22356,11 @@
      "https://www.medicare.gov/basics/get-started-with-medicare/using-medicare/your-medicare-card"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    }
   ]
  },
@@ -23621,6 +23785,9 @@
     "tech": "Drupal",
     "finding": "axe:region",
     "ratio": 36,
+    "ci_low": 5.21,
+    "ci_high": 248.66,
+    "certainty": "ci_above_one",
     "lift": 1.6,
     "pairPages": 57,
     "techPages": 57,
@@ -23632,6 +23799,9 @@
     "tech": "Font Awesome",
     "finding": "axe:region",
     "ratio": 36,
+    "ci_low": 5.21,
+    "ci_high": 248.66,
+    "certainty": "ci_above_one",
     "lift": 1.6,
     "pairPages": 57,
     "techPages": 57,
@@ -23643,6 +23813,9 @@
     "tech": "jQuery",
     "finding": "axe:region",
     "ratio": 36,
+    "ci_low": 5.21,
+    "ci_high": 248.66,
+    "certainty": "ci_above_one",
     "lift": 1.6,
     "pairPages": 57,
     "techPages": 57,
@@ -23654,6 +23827,9 @@
     "tech": "Acquia Cloud Platform",
     "finding": "axe:region",
     "ratio": 36,
+    "ci_low": 5.21,
+    "ci_high": 248.66,
+    "certainty": "ci_above_one",
     "lift": 1.6,
     "pairPages": 57,
     "techPages": 57,
@@ -23665,6 +23841,9 @@
     "tech": "Amazon Web Services",
     "finding": "axe:region",
     "ratio": 36,
+    "ci_low": 5.21,
+    "ci_high": 248.66,
+    "certainty": "ci_above_one",
     "lift": 1.6,
     "pairPages": 57,
     "techPages": 57,
@@ -23676,6 +23855,9 @@
     "tech": "PHP",
     "finding": "axe:region",
     "ratio": 36,
+    "ci_low": 5.21,
+    "ci_high": 248.66,
+    "certainty": "ci_above_one",
     "lift": 1.6,
     "pairPages": 57,
     "techPages": 57,
@@ -23687,6 +23869,9 @@
     "tech": "Nextdoor Ads",
     "finding": "axe:region",
     "ratio": 5.52,
+    "ci_low": 2.22,
+    "ci_high": 13.74,
+    "certainty": "ci_above_one",
     "lift": 1.31,
     "pairPages": 54,
     "techPages": 66,
@@ -35987,5 +36172,66 @@
   "errorStatuses": {
    "404": 14
   }
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 20,
+  "occurrences_stored": 80,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 8,
+   "not_applicable": 12,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 20
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 20
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 20
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 20
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 20
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 20
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 20,
+  "by_engine": {
+   "axe-core": {
+    "findings": 8,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 12,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }

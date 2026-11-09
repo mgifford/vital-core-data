@@ -1,7 +1,7 @@
 {
  "domain": "www.healthcare.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-07T03:54:36.336Z",
+ "generatedAt": "2026-11-09T22:42:48.631Z",
  "pagesScanned": 554,
  "pagesAudited": 554,
  "coverage": {
@@ -12121,87 +12121,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 21001246,
-    "savingsMs": 74500
-   },
-   {
-    "id": "render-blocking-insight",
-    "category": "performance",
-    "title": "Render-blocking requests",
-    "pages": 48,
-    "examplePages": [
-     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
-     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
-     "https://www.healthcare.gov/coverage/pre-existing-conditions",
-     "https://www.healthcare.gov/glossary/actuarial-value",
-     "https://www.healthcare.gov/glossary/preferred-provider",
-     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
-     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
-     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
-     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
-     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 89000
-   },
-   {
-    "id": "bootup-time",
-    "category": "performance",
-    "title": "Reduce JavaScript execution time",
-    "pages": 48,
-    "examplePages": [
-     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
-     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
-     "https://www.healthcare.gov/coverage/pre-existing-conditions",
-     "https://www.healthcare.gov/glossary/actuarial-value",
-     "https://www.healthcare.gov/glossary/preferred-provider",
-     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
-     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
-     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
-     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
-     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 64400
-   },
-   {
-    "id": "mainthread-work-breakdown",
-    "category": "performance",
-    "title": "Minimize main-thread work",
-    "pages": 48,
-    "examplePages": [
-     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
-     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
-     "https://www.healthcare.gov/coverage/pre-existing-conditions",
-     "https://www.healthcare.gov/glossary/actuarial-value",
-     "https://www.healthcare.gov/glossary/preferred-provider",
-     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
-     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
-     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
-     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
-     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 63500
-   },
-   {
-    "id": "cache-insight",
-    "category": "performance",
-    "title": "Use efficient cache lifetimes",
-    "pages": 48,
-    "examplePages": [
-     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
-     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
-     "https://www.healthcare.gov/coverage/pre-existing-conditions",
-     "https://www.healthcare.gov/glossary/actuarial-value",
-     "https://www.healthcare.gov/glossary/preferred-provider",
-     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
-     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
-     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
-     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
-     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 48100
+    "savingsMs": 74500,
+    "savingsBytesMedian": 445498,
+    "savingsBytesP75": 448614,
+    "savingsMsMedian": 1800,
+    "savingsMsP75": 1950
    },
    {
     "id": "unminified-javascript",
@@ -12221,27 +12145,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 7757857,
-    "savingsMs": 32700
-   },
-   {
-    "id": "redirects",
-    "category": "performance",
-    "title": "Avoid multiple page redirects",
-    "pages": 48,
-    "examplePages": [
-     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
-     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
-     "https://www.healthcare.gov/coverage/pre-existing-conditions",
-     "https://www.healthcare.gov/glossary/actuarial-value",
-     "https://www.healthcare.gov/glossary/preferred-provider",
-     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
-     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
-     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
-     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
-     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 38500
+    "savingsMs": 32700,
+    "savingsBytesMedian": 161595,
+    "savingsBytesP75": 161595,
+    "savingsMsMedian": 750,
+    "savingsMsP75": 850
    },
    {
     "id": "unused-css-rules",
@@ -12261,7 +12169,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 2274303,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 47264,
+    "savingsBytesP75": 47424,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "first-contentful-paint",
@@ -12281,7 +12193,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "largest-contentful-paint",
@@ -12301,7 +12217,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "speed-index",
@@ -12321,7 +12241,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "total-blocking-time",
@@ -12341,7 +12265,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "max-potential-fid",
@@ -12361,7 +12289,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "errors-in-console",
@@ -12381,7 +12313,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "interactive",
@@ -12401,7 +12337,35 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "redirects",
+    "category": "performance",
+    "title": "Avoid multiple page redirects",
+    "pages": 48,
+    "examplePages": [
+     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
+     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
+     "https://www.healthcare.gov/coverage/pre-existing-conditions",
+     "https://www.healthcare.gov/glossary/actuarial-value",
+     "https://www.healthcare.gov/glossary/preferred-provider",
+     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
+     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
+     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
+     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
+     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 38500,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 800,
+    "savingsMsP75": 800
    },
    {
     "id": "third-party-cookies",
@@ -12421,7 +12385,59 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "mainthread-work-breakdown",
+    "category": "performance",
+    "title": "Minimize main-thread work",
+    "pages": 48,
+    "examplePages": [
+     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
+     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
+     "https://www.healthcare.gov/coverage/pre-existing-conditions",
+     "https://www.healthcare.gov/glossary/actuarial-value",
+     "https://www.healthcare.gov/glossary/preferred-provider",
+     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
+     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
+     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
+     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
+     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 63500,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1200,
+    "savingsMsP75": 1400
+   },
+   {
+    "id": "bootup-time",
+    "category": "performance",
+    "title": "Reduce JavaScript execution time",
+    "pages": 48,
+    "examplePages": [
+     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
+     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
+     "https://www.healthcare.gov/coverage/pre-existing-conditions",
+     "https://www.healthcare.gov/glossary/actuarial-value",
+     "https://www.healthcare.gov/glossary/preferred-provider",
+     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
+     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
+     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
+     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
+     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 64400,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1250,
+    "savingsMsP75": 1450
    },
    {
     "id": "valid-source-maps",
@@ -12441,7 +12457,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "inspector-issues",
@@ -12461,7 +12481,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "robots-txt",
@@ -12481,7 +12505,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-registered-tools",
@@ -12501,7 +12529,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-form-coverage",
@@ -12521,7 +12553,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "webmcp-schema-validity",
@@ -12541,7 +12577,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "llms-txt",
@@ -12561,7 +12601,11 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "ard-schema",
@@ -12581,7 +12625,35 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "cache-insight",
+    "category": "performance",
+    "title": "Use efficient cache lifetimes",
+    "pages": 48,
+    "examplePages": [
+     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
+     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
+     "https://www.healthcare.gov/coverage/pre-existing-conditions",
+     "https://www.healthcare.gov/glossary/actuarial-value",
+     "https://www.healthcare.gov/glossary/preferred-provider",
+     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
+     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
+     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
+     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
+     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 48100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1025,
+    "savingsMsP75": 1200
    },
    {
     "id": "network-dependency-tree-insight",
@@ -12601,7 +12673,35 @@
      "https://www.healthcare.gov/taxes-2020/job-based-coverage"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 48,
+    "examplePages": [
+     "https://www.healthcare.gov/small-businesses/shop-calculators-mpr",
+     "https://www.healthcare.gov/appeal-insurance-company-decision/external-review",
+     "https://www.healthcare.gov/coverage/pre-existing-conditions",
+     "https://www.healthcare.gov/glossary/actuarial-value",
+     "https://www.healthcare.gov/glossary/preferred-provider",
+     "https://www.healthcare.gov/taxes-2019/marketplace-plan-with-savings",
+     "https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage",
+     "https://www.healthcare.gov/how-to-cancel-a-marketplace-plan",
+     "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
+     "https://www.healthcare.gov/taxes-2020/job-based-coverage"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 89000,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 1800,
+    "savingsMsP75": 1950
    },
    {
     "id": "document-latency-insight",
@@ -12621,7 +12721,11 @@
      "https://www.healthcare.gov/glossary/life-time-limit"
     ],
     "savingsBytes": 0,
-    "savingsMs": 2500
+    "savingsMs": 2500,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 100
    },
    {
     "id": "cumulative-layout-shift",
@@ -12641,7 +12745,11 @@
      "https://www.healthcare.gov/glossary/state-medical-assistance-office"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "cls-culprits-insight",
@@ -12661,7 +12769,11 @@
      "https://www.healthcare.gov/glossary/state-medical-assistance-office"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "legacy-javascript-insight",
@@ -12681,7 +12793,11 @@
      "https://www.healthcare.gov/glossary/federally-recognized-tribe"
     ],
     "savingsBytes": 0,
-    "savingsMs": 1300
+    "savingsMs": 1300,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 150,
+    "savingsMsP75": 150
    },
    {
     "id": "server-response-time",
@@ -12697,7 +12813,11 @@
      "https://www.healthcare.gov/glossary/eligibility-assessment"
     ],
     "savingsBytes": 0,
-    "savingsMs": 850
+    "savingsMs": 850,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 300
    },
    {
     "id": "forced-reflow-insight",
@@ -12713,7 +12833,11 @@
      "https://www.healthcare.gov/glossary/state-medical-assistance-office"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "deprecations",
@@ -12726,19 +12850,11 @@
      "https://www.healthcare.gov/people-with-disabilities/marketplace-application"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
-   },
-   {
-    "id": "font-display-insight",
-    "category": "performance",
-    "title": "Font display",
-    "pages": 2,
-    "examplePages": [
-     "https://www.healthcare.gov/marketplace-appeals/appeal-forms",
-     "https://www.healthcare.gov/glossary/state-medical-assistance-office"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 100
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    },
    {
     "id": "bf-cache",
@@ -12750,7 +12866,27 @@
      "https://www.healthcare.gov/marketplace-appeals/appeal-forms"
     ],
     "savingsBytes": 0,
-    "savingsMs": 0
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "font-display-insight",
+    "category": "performance",
+    "title": "Font display",
+    "pages": 2,
+    "examplePages": [
+     "https://www.healthcare.gov/marketplace-appeals/appeal-forms",
+     "https://www.healthcare.gov/glossary/state-medical-assistance-office"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 100,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 50,
+    "savingsMsP75": 50
    }
   ]
  },
@@ -29293,5 +29429,66 @@
   },
   "connection": null,
   "errorStatuses": {}
+ },
+ "evidenceCoverage": {
+  "basis": "findings",
+  "findings_total": 24,
+  "occurrences_stored": 90,
+  "element_evidence": {
+   "captured": 0,
+   "not_captured": 10,
+   "not_applicable": 14,
+   "unsupported_dom_boundary": 0,
+   "no_stored_examples": 0
+  },
+  "usable_locator": {
+   "captured": 0,
+   "unavailable": 24
+  },
+  "semantic_region": {
+   "captured": 0,
+   "no_containing_landmark": 0,
+   "unavailable": 24
+  },
+  "widget": {
+   "captured": 0,
+   "no_widget": 0,
+   "unavailable": 24
+  },
+  "component": {
+   "attributed": 0,
+   "unattributed": 24
+  },
+  "screenshot": {
+   "available": 0,
+   "unavailable": 24
+  },
+  "reproduction": {
+   "eligible": 0,
+   "unavailable": 24
+  },
+  "findings_with_detailed_evidence": 0,
+  "findings_without_detailed_evidence": 24,
+  "by_engine": {
+   "axe-core": {
+    "findings": 10,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "alfa": {
+    "findings": 14,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   },
+   "deprecated-html": {
+    "findings": 0,
+    "element_captured": 0,
+    "locator_captured": 0,
+    "reproduction_eligible": 0
+   }
+  },
+  "notes": "Finding-level sample coverage. Counts are not element-occurrence totals; screenshots and page detail follow retention."
  }
 }
