@@ -1,6 +1,6 @@
 {
  "domain": "data.healthcare.gov",
- "updatedAt": "2026-11-09T22:42:25.793Z",
+ "updatedAt": "2026-11-10T20:00:17.550Z",
  "links": {
   "https://data.healthcare.gov/whats-new": {
    "status": 404,
@@ -386,7 +386,9 @@
    ],
    "weeksBroken": 23,
    "foundOn": [
-    "https://data.healthcare.gov/dataset/324ab636-3090-4494-b170-fa178222ab27?page=4"
+    "https://data.healthcare.gov/dataset/324ab636-3090-4494-b170-fa178222ab27?page=4",
+    "https://data.healthcare.gov/dataset/324ab636-3090-4494-b170-fa178222ab27?page=3",
+    "https://data.healthcare.gov/dataset/324ab636-3090-4494-b170-fa178222ab27"
    ]
   },
   "https://insurance.kansas.gov/": {
@@ -927,11 +929,12 @@
    "status": 404,
    "reason": "HTTP 404",
    "firstSeen": "2026-W45",
-   "lastSeen": "2026-W45",
+   "lastSeen": "2026-W46",
    "_weeks": [
-    "2026-W45"
+    "2026-W45",
+    "2026-W46"
    ],
-   "weeksBroken": 1,
+   "weeksBroken": 2,
    "foundOn": [
     "https://data.healthcare.gov/dataset/4605f9bd-2d2c-46d5-9568-973545baf6e1"
    ]
@@ -947,6 +950,34 @@
    "weeksBroken": 1,
    "foundOn": [
     "https://data.healthcare.gov/dataset/b612fc21-34ac-4041-9c7a-e73b3d2e5175?page=2"
+   ]
+  },
+  "https://data.healthcare.gov/api/1/datastore/query/82431da4-098c-5c4f-b4ea-9d1370af1e58?": {
+   "status": 400,
+   "reason": "HTTP 400",
+   "firstSeen": "2026-W46",
+   "lastSeen": "2026-W46",
+   "_weeks": [
+    "2026-W46"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.healthcare.gov/ab-suspension-and-termination-list?page=324"
+   ]
+  },
+  "https://data.healthcare.gov/api/1/datastore/query/9d93b7f5-0ce9-5564-9f83-9fe9ebed364d?": {
+   "status": 400,
+   "reason": "HTTP 400",
+   "firstSeen": "2026-W46",
+   "lastSeen": "2026-W46",
+   "_weeks": [
+    "2026-W46"
+   ],
+   "weeksBroken": 1,
+   "foundOn": [
+    "https://data.healthcare.gov/ab-registration-completion-list?page=40411",
+    "https://data.healthcare.gov/ab-registration-completion-list?page=41974",
+    "https://data.healthcare.gov/ab-registration-completion-list?page=39533"
    ]
   }
  }
