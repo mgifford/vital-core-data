@@ -1,6 +1,6 @@
 {
  "domain": "data.cms.gov",
- "updatedAt": "2026-11-10T20:56:43.812Z",
+ "updatedAt": "2026-11-10T22:49:33.044Z",
  "links": {
   "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/IRF-Quality-Reporting/index.html": {
    "status": 404,
@@ -1228,9 +1228,9 @@
   },
   "https://www.qualitynet.org/pch/pchqr/measures": {
    "status": 0,
-   "reason": "ECONNREFUSED",
+   "reason": "UND_ERR_CONNECT_TIMEOUT",
    "firstSeen": "2026-W35",
-   "lastSeen": "2026-W45",
+   "lastSeen": "2026-W46",
    "_weeks": [
     "2026-W35",
     "2026-W38",
@@ -1238,9 +1238,10 @@
     "2026-W41",
     "2026-W42",
     "2026-W44",
-    "2026-W45"
+    "2026-W45",
+    "2026-W46"
    ],
-   "weeksBroken": 7,
+   "weeksBroken": 8,
    "foundOn": [
     "https://data.cms.gov/provider-data/topics/hospitals/pps-exempt-cancer-hospitals"
    ]
