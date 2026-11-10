@@ -1,24 +1,25 @@
 {
  "domain": "nih.gov",
  "week": "2026-W46",
- "generatedAt": "2026-11-10T20:00:49.163Z",
- "pagesScanned": 1949,
- "pagesAudited": 11,
+ "generatedAt": "2026-11-10T20:56:52.175Z",
+ "pagesScanned": 2099,
+ "pagesAudited": 12,
  "coverage": {
-  "axe": 11,
-  "alfa": 5,
-  "plain-language": 6,
-  "resources": 11,
-  "standards": 3,
+  "axe": 12,
+  "alfa": 6,
+  "plain-language": 7,
+  "resources": 12,
+  "standards": 4,
   "security": 2,
-  "lighthouse": 1,
-  "sustainability": 1
+  "lighthouse": 2,
+  "sustainability": 1,
+  "deprecated-html": 1
  },
  "blocked": null,
  "axe": {
-  "violationTotal": 84,
-  "pagesWithViolations": 11,
-  "pagesScanned": 11,
+  "violationTotal": 169,
+  "pagesWithViolations": 12,
+  "pagesScanned": 12,
   "medianViolations": 8,
   "context": {
    "viewport": {
@@ -723,8 +724,8 @@
     ]
    },
    "landmark-unique": {
-    "count": 11,
-    "pages": 11,
+    "count": 12,
+    "pages": 12,
     "impact": "moderate",
     "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axeAPI",
@@ -771,6 +772,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
       "instances": 1
      },
      {
@@ -1261,8 +1266,8 @@
     ]
    },
    "link-in-text-block": {
-    "count": 40,
-    "pages": 11,
+    "count": 122,
+    "pages": 12,
     "impact": "serious",
     "help": "Links must be distinguishable without relying on color",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI",
@@ -1311,6 +1316,10 @@
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
       "instances": 4
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+      "instances": 82
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
@@ -1700,8 +1709,8 @@
     ]
    },
    "region": {
-    "count": 22,
-    "pages": 11,
+    "count": 24,
+    "pages": 12,
     "impact": "moderate",
     "help": "All page content should be contained by landmarks",
     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
@@ -1748,6 +1757,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
       "instances": 2
      },
      {
@@ -2060,18 +2073,18 @@
   }
  },
  "alfa": {
-  "failedTotal": 419,
-  "pagesWithFailures": 5,
-  "pagesScanned": 5,
-  "medianFailures": 81,
+  "failedTotal": 764,
+  "pagesWithFailures": 6,
+  "pagesScanned": 6,
+  "medianFailures": 88,
   "element_evidence": {
    "status": "unavailable",
    "reason": "alfa-target-is-a-serialized-node-description-not-a-selector"
   },
   "rules": {
    "sia-r66": {
-    "count": 214,
-    "pages": 5,
+    "count": 417,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r66",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -2090,6 +2103,10 @@
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
       "instances": 37
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+      "instances": 203
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
@@ -2412,8 +2429,8 @@
     ]
    },
    "sia-r73": {
-    "count": 16,
-    "pages": 5,
+    "count": 19,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r73",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -2431,6 +2448,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+      "instances": 3
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
       "instances": 3
      },
      {
@@ -2546,8 +2567,8 @@
     ]
    },
    "sia-r62": {
-    "count": 10,
-    "pages": 5,
+    "count": 97,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r62",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -2566,6 +2587,10 @@
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
       "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+      "instances": 87
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
@@ -2680,8 +2705,8 @@
     ]
    },
    "sia-r18": {
-    "count": 10,
-    "pages": 5,
+    "count": 12,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r18",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -2699,6 +2724,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+      "instances": 2
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
       "instances": 2
      },
      {
@@ -2814,8 +2843,8 @@
     ]
    },
    "sia-r61": {
-    "count": 5,
-    "pages": 5,
+    "count": 6,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r61",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -2833,6 +2862,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+      "instances": 1
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
       "instances": 1
      },
      {
@@ -2906,6 +2939,26 @@
       }
      },
      {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+      "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
+      "html": null,
+      "page_id": "e28a58e5941e55d3",
+      "run_id": "2026-11-10T20-41-07-013Z-fdfae7",
+      "scanned_at": "2026-11-10T20:41:11.847Z",
+      "engine_version": "0.117.0",
+      "browser_context": {
+       "viewport": {
+        "width": 1280,
+        "height": 800
+       },
+       "device_scale_factor": 1,
+       "color_scheme": "light",
+       "forced_colors": "none",
+       "reduced_motion": "no-preference",
+       "locale": "en"
+      }
+     },
+     {
       "url": "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
       "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
       "html": null,
@@ -2924,32 +2977,12 @@
        "reduced_motion": "no-preference",
        "locale": "en"
       }
-     },
-     {
-      "url": "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism",
-      "target": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
-      "html": null,
-      "page_id": "fb03512c2caf4105",
-      "run_id": "2026-11-09T12-13-42-952Z-c0a221",
-      "scanned_at": "2026-11-09T12:13:57.810Z",
-      "engine_version": "0.117.0",
-      "browser_context": {
-       "viewport": {
-        "width": 1280,
-        "height": 800
-       },
-       "device_scale_factor": 1,
-       "color_scheme": "light",
-       "forced_colors": "none",
-       "reduced_motion": "no-preference",
-       "locale": "en"
-      }
      }
     ]
    },
    "sia-r57": {
-    "count": 30,
-    "pages": 5,
+    "count": 36,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r57",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -2967,6 +3000,10 @@
      },
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+      "instances": 6
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
       "instances": 6
      },
      {
@@ -3143,8 +3180,8 @@
     ]
    },
    "sia-r111": {
-    "count": 125,
-    "pages": 5,
+    "count": 168,
+    "pages": 6,
     "ruleUrl": "https://alfa.siteimprove.com/rules/sia-r111",
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -3163,6 +3200,10 @@
      {
       "url": "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
       "instances": 22
+     },
+     {
+      "url": "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+      "instances": 43
      },
      {
       "url": "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
@@ -3279,12 +3320,12 @@
   }
  },
  "consensus": {
-  "uniqueIssues": 86,
+  "uniqueIssues": 96,
   "consensus": 2,
-  "axeOnly": 42,
-  "alfaOnly": 42,
-  "rawAxe": 44,
-  "rawAlfa": 44,
+  "axeOnly": 45,
+  "alfaOnly": 49,
+  "rawAxe": 47,
+  "rawAlfa": 51,
   "byKey": {
    "act:ffd0e9": {
     "actRuleId": "ffd0e9",
@@ -3312,7 +3353,7 @@
      "landmark-unique"
     ],
     "alfaRules": [],
-    "pages": 11,
+    "pages": 12,
     "engines": "axe"
    },
    "axe-core:link-in-text-block": {
@@ -3321,7 +3362,7 @@
      "link-in-text-block"
     ],
     "alfaRules": [],
-    "pages": 11,
+    "pages": 12,
     "engines": "axe"
    },
    "axe-core:region": {
@@ -3330,7 +3371,7 @@
      "region"
     ],
     "alfaRules": [],
-    "pages": 11,
+    "pages": 12,
     "engines": "axe"
    },
    "alfa:sia-r66": {
@@ -3339,7 +3380,7 @@
     "alfaRules": [
      "sia-r66"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    },
    "alfa:sia-r85": {
@@ -3375,7 +3416,7 @@
     "alfaRules": [
      "sia-r73"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    },
    "alfa:sia-r62": {
@@ -3384,7 +3425,7 @@
     "alfaRules": [
      "sia-r62"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    },
    "act:5c01ea": {
@@ -3393,7 +3434,7 @@
     "alfaRules": [
      "sia-r18"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    },
    "alfa:sia-r61": {
@@ -3402,7 +3443,7 @@
     "alfaRules": [
      "sia-r61"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    },
    "alfa:sia-r57": {
@@ -3411,7 +3452,7 @@
     "alfaRules": [
      "sia-r57"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    },
    "alfa:sia-r111": {
@@ -3420,7 +3461,7 @@
     "alfaRules": [
      "sia-r111"
     ],
-    "pages": 5,
+    "pages": 6,
     "engines": "alfa"
    }
   }
@@ -3439,9 +3480,9 @@
     "label": "main (unnamed)",
     "unclassified": false,
     "findings": 3,
-    "instances_total": 51,
+    "instances_total": 133,
     "stored_instances": 10,
-    "pages_affected_sum": 22,
+    "pages_affected_sum": 23,
     "engines": {
      "axe-core": 3
     },
@@ -3464,9 +3505,9 @@
     "label": "search (unnamed)",
     "unclassified": false,
     "findings": 1,
-    "instances_total": 11,
+    "instances_total": 12,
     "stored_instances": 5,
-    "pages_affected_sum": 11,
+    "pages_affected_sum": 12,
     "engines": {
      "axe-core": 1
     },
@@ -3485,9 +3526,9 @@
     "label": "unclassified (no landmark)",
     "unclassified": true,
     "findings": 1,
-    "instances_total": 22,
+    "instances_total": 24,
     "stored_instances": 5,
-    "pages_affected_sum": 11,
+    "pages_affected_sum": 12,
     "engines": {
      "axe-core": 1
     },
@@ -3613,96 +3654,96 @@
   ]
  },
  "standards": {
-  "pagesChecked": 3,
+  "pagesChecked": 4,
   "checks": [
    {
     "id": "schema-gov",
     "label": "schema.org GovernmentOrganization markup",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0
    },
    {
     "id": "hreflang",
     "label": "hreflang alternates declared",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0
    },
    {
     "id": "open-social",
     "label": "Open social presence (Mastodon/Bluesky) linked",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0
    },
    {
     "id": "description",
     "label": "Meta description present",
-    "pass": 2,
-    "total": 3,
-    "rate": 67
+    "pass": 3,
+    "total": 4,
+    "rate": 75
    },
    {
     "id": "canonical",
     "label": "Canonical URL declared",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100
    },
    {
     "id": "title",
     "label": "Page has a <title>",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100
    },
    {
     "id": "charset",
     "label": "Character encoding declared",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100
    },
    {
     "id": "lang",
     "label": "Document language (lang) set",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100
    },
    {
     "id": "viewport",
     "label": "Responsive viewport (zoom not disabled)",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100
    },
    {
     "id": "open-graph",
-    "label": "Open Graph tags (6/6)",
-    "pass": 3,
-    "total": 3,
+    "label": "Open Graph tags (5/6)",
+    "pass": 4,
+    "total": 4,
     "rate": 100
    },
    {
     "id": "twitter-card",
     "label": "Twitter card metadata",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100
    }
   ],
   "social": []
  },
  "resilience": {
-  "pagesChecked": 3,
+  "pagesChecked": 4,
   "checks": [
    {
     "id": "pwa-manifest",
     "label": "Web app manifest declared",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "A web app manifest is required for installability and controls how the app appears when launched.",
     "evidenceExamples": []
@@ -3711,7 +3752,7 @@
     "id": "pwa-service-worker",
     "label": "Service worker registered",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "A service worker is what makes offline access, caching, and background sync possible.",
     "evidenceExamples": []
@@ -3720,7 +3761,7 @@
     "id": "pwa-theme-color",
     "label": "Theme color declared",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "Theme color controls the browser chrome/status-bar color when the site is installed or bookmarked.",
     "evidenceExamples": []
@@ -3729,7 +3770,7 @@
     "id": "pwa-apple-touch-icon",
     "label": "Apple touch icon (iOS/bookmark icon)",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "iOS uses this icon for home-screen bookmarks and \"Add to Home Screen\" — without it the icon falls back to a screenshot.",
     "evidenceExamples": []
@@ -3738,7 +3779,7 @@
     "id": "manifest-parsed",
     "label": "Manifest fetched and parsed successfully",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "A manifest that fails to parse cannot drive installability or launch behavior even if the link is present.",
     "evidenceExamples": [
@@ -3760,7 +3801,7 @@
     "id": "manifest-maskable-icon",
     "label": "Manifest declares a maskable icon",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "A maskable icon lets the OS safely crop/mask the app icon on different device shapes without clipping content.",
     "evidenceExamples": [
@@ -3782,7 +3823,7 @@
     "id": "sw-active",
     "label": "Service worker is active (not just registered)",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "An active service worker (not just registered) is what actually intercepts requests and serves cached content.",
     "evidenceExamples": []
@@ -3791,7 +3832,7 @@
     "id": "sw-controlling",
     "label": "Service worker controls this page load",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "A controlling service worker means THIS page load is being served/intercepted, not just a future one.",
     "evidenceExamples": []
@@ -3800,7 +3841,7 @@
     "id": "installable",
     "label": "Meets basic installability criteria",
     "pass": 0,
-    "total": 3,
+    "total": 4,
     "rate": 0,
     "why": "Determines whether the browser can realistically offer \"Add to Home Screen\" / install, based on manifest + service worker + HTTPS together.",
     "evidenceExamples": [
@@ -3821,8 +3862,8 @@
    {
     "id": "pwa-https",
     "label": "HTTPS (required for service workers)",
-    "pass": 3,
-    "total": 3,
+    "pass": 4,
+    "total": 4,
     "rate": 100,
     "why": "HTTPS is required for service workers and most install prompts.",
     "evidenceExamples": []
@@ -3920,11 +3961,11 @@
   }
  },
  "plainLanguage": {
-  "pagesChecked": 6,
-  "pagesScored": 5,
-  "medianWordsPerPage": 694,
-  "medianReadingEase": 44.4,
-  "medianGrade": 13.2,
+  "pagesChecked": 7,
+  "pagesScored": 6,
+  "medianWordsPerPage": 753,
+  "medianReadingEase": 38,
+  "medianGrade": 14,
   "topUnexplainedAcronyms": [
    {
     "acronym": "RSS",
@@ -3944,9 +3985,26 @@
    },
    {
     "acronym": "IC",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials/learn-how-you-too-can-participate-tomorrows-medical-progress-poster"
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials/learn-how-you-too-can-participate-tomorrows-medical-progress-poster",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "acronym": "AIDS",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/research-training/research-riddle-resolved",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "acronym": "CDC",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ]
    },
    {
@@ -3971,24 +4029,10 @@
     ]
    },
    {
-    "acronym": "AIDS",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/research-training/research-riddle-resolved"
-    ]
-   },
-   {
     "acronym": "UK",
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/research-training/research-riddle-resolved"
-    ]
-   },
-   {
-    "acronym": "CDC",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
     ]
    },
    {
@@ -4048,6 +4092,14 @@
     ]
    },
    {
+    "word": "Fogarty",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
     "word": "www",
     "pages": 2,
     "examplePages": [
@@ -4065,13 +4117,6 @@
    },
    {
     "word": "Schiff",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research"
-    ]
-   },
-   {
-    "word": "Fogarty",
     "pages": 1,
     "examplePages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research"
@@ -4220,37 +4265,37 @@
   ]
  },
  "lighthouse": {
-  "pagesSampled": 1,
-  "medianPerformance": 40,
-  "medianAccessibility": 95,
+  "pagesSampled": 2,
+  "medianPerformance": 33,
+  "medianAccessibility": 96,
   "medianBestPractices": 54,
   "medianSeo": 100,
   "medianPwa": null,
-  "medianAgentic": 100,
+  "medianAgentic": 80,
   "distributions": {
    "performance": {
-    "min": 40,
+    "min": 26,
     "max": 40,
-    "p10": 40,
-    "p25": 40,
-    "p50": 40,
-    "p75": 40,
-    "p90": 40,
-    "range": 0,
-    "spreadP10toP90": 0,
-    "iqr": 0
+    "p10": 27.4,
+    "p25": 29.5,
+    "p50": 33,
+    "p75": 36.5,
+    "p90": 38.6,
+    "range": 14,
+    "spreadP10toP90": 11.2,
+    "iqr": 7
    },
    "accessibility": {
     "min": 95,
-    "max": 95,
-    "p10": 95,
-    "p25": 95,
-    "p50": 95,
-    "p75": 95,
-    "p90": 95,
-    "range": 0,
-    "spreadP10toP90": 0,
-    "iqr": 0
+    "max": 96,
+    "p10": 95.1,
+    "p25": 95.3,
+    "p50": 95.5,
+    "p75": 95.8,
+    "p90": 95.9,
+    "range": 1,
+    "spreadP10toP90": 0.8,
+    "iqr": 0.5
    },
    "bestPractices": {
     "min": 54,
@@ -4277,23 +4322,23 @@
     "iqr": 0
    },
    "agentic": {
-    "min": 100,
+    "min": 59,
     "max": 100,
-    "p10": 100,
-    "p25": 100,
-    "p50": 100,
-    "p75": 100,
-    "p90": 100,
-    "range": 0,
-    "spreadP10toP90": 0,
-    "iqr": 0
+    "p10": 63.1,
+    "p25": 69.3,
+    "p50": 79.5,
+    "p75": 89.8,
+    "p90": 95.9,
+    "range": 41,
+    "spreadP10toP90": 32.8,
+    "iqr": 20.5
    }
   },
   "metrics": {
-   "firstContentfulPaintMs": 3060,
-   "largestContentfulPaintMs": 11534,
-   "speedIndexMs": 6404,
-   "totalBlockingTimeMs": 1240,
+   "firstContentfulPaintMs": 3052,
+   "largestContentfulPaintMs": 11115,
+   "speedIndexMs": 5148,
+   "totalBlockingTimeMs": 1100,
    "cumulativeLayoutShift": 0
   },
   "pwaSignals": [],
@@ -4302,42 +4347,45 @@
     "id": "unused-javascript",
     "category": "performance",
     "title": "Reduce unused JavaScript",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
-    "savingsBytes": 366552,
-    "savingsMs": 1550,
-    "savingsBytesMedian": 366552,
+    "savingsBytes": 732745,
+    "savingsMs": 3700,
+    "savingsBytesMedian": 366373,
     "savingsBytesP75": 366552,
-    "savingsMsMedian": 1550,
-    "savingsMsP75": 1550
+    "savingsMsMedian": 1850,
+    "savingsMsP75": 2150
    },
    {
     "id": "unused-css-rules",
     "category": "performance",
     "title": "Reduce unused CSS",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
-    "savingsBytes": 113713,
-    "savingsMs": 1200,
-    "savingsBytesMedian": 113713,
-    "savingsBytesP75": 113713,
-    "savingsMsMedian": 1200,
+    "savingsBytes": 227666,
+    "savingsMs": 1650,
+    "savingsBytesMedian": 113833,
+    "savingsBytesP75": 113953,
+    "savingsMsMedian": 825,
     "savingsMsP75": 1200
    },
    {
     "id": "unminified-javascript",
     "category": "performance",
     "title": "Minify JavaScript",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
-    "savingsBytes": 19164,
-    "savingsMs": 150,
+    "savingsBytes": 38328,
+    "savingsMs": 300,
     "savingsBytesMedian": 19164,
     "savingsBytesP75": 19164,
     "savingsMsMedian": 150,
@@ -4347,9 +4395,10 @@
     "id": "first-contentful-paint",
     "category": "performance",
     "title": "First Contentful Paint",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4362,9 +4411,10 @@
     "id": "largest-contentful-paint",
     "category": "performance",
     "title": "Largest Contentful Paint",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4377,9 +4427,10 @@
     "id": "speed-index",
     "category": "performance",
     "title": "Speed Index",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4392,9 +4443,10 @@
     "id": "total-blocking-time",
     "category": "performance",
     "title": "Total Blocking Time",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4407,9 +4459,10 @@
     "id": "max-potential-fid",
     "category": "performance",
     "title": "Max Potential First Input Delay",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4422,9 +4475,10 @@
     "id": "errors-in-console",
     "category": "best-practices",
     "title": "Browser errors were logged to the console",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4437,9 +4491,10 @@
     "id": "interactive",
     "category": "performance",
     "title": "Time to Interactive",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4452,9 +4507,10 @@
     "id": "deprecations",
     "category": "best-practices",
     "title": "Uses deprecated APIs",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4467,9 +4523,10 @@
     "id": "third-party-cookies",
     "category": "best-practices",
     "title": "Uses third-party cookies",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4482,39 +4539,42 @@
     "id": "mainthread-work-breakdown",
     "category": "performance",
     "title": "Minimize main-thread work",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
-    "savingsMs": 1250,
+    "savingsMs": 2200,
     "savingsBytesMedian": 0,
     "savingsBytesP75": 0,
-    "savingsMsMedian": 1250,
+    "savingsMsMedian": 1100,
     "savingsMsP75": 1250
    },
    {
     "id": "bootup-time",
     "category": "performance",
     "title": "Reduce JavaScript execution time",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
-    "savingsMs": 1150,
+    "savingsMs": 2250,
     "savingsBytesMedian": 0,
     "savingsBytesP75": 0,
-    "savingsMsMedian": 1150,
+    "savingsMsMedian": 1125,
     "savingsMsP75": 1150
    },
    {
     "id": "inspector-issues",
     "category": "best-practices",
     "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4527,9 +4587,10 @@
     "id": "webmcp-registered-tools",
     "category": "agentic-browsing",
     "title": "WebMCP tools registered",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4542,9 +4603,10 @@
     "id": "webmcp-form-coverage",
     "category": "agentic-browsing",
     "title": "WebMCP form coverage",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4557,9 +4619,10 @@
     "id": "webmcp-schema-validity",
     "category": "agentic-browsing",
     "title": "WebMCP schemas are valid",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4572,9 +4635,10 @@
     "id": "llms-txt",
     "category": "agentic-browsing",
     "title": "llms.txt follows recommendations",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4587,9 +4651,10 @@
     "id": "ard-schema",
     "category": "agentic-browsing",
     "title": "`ai-catalog.json` schema is valid",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4602,12 +4667,13 @@
     "id": "cache-insight",
     "category": "performance",
     "title": "Use efficient cache lifetimes",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
-    "savingsMs": 300,
+    "savingsMs": 600,
     "savingsBytesMedian": 0,
     "savingsBytesP75": 0,
     "savingsMsMedian": 300,
@@ -4617,16 +4683,65 @@
     "id": "font-display-insight",
     "category": "performance",
     "title": "Font display",
-    "pages": 1,
+    "pages": 2,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
-    "savingsMs": 50,
+    "savingsMs": 100,
     "savingsBytesMedian": 0,
     "savingsBytesP75": 0,
     "savingsMsMedian": 50,
     "savingsMsP75": 50
+   },
+   {
+    "id": "image-delivery-insight",
+    "category": "performance",
+    "title": "Improve image delivery",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 650,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 325,
+    "savingsMsP75": 500
+   },
+   {
+    "id": "network-dependency-tree-insight",
+    "category": "performance",
+    "title": "Network dependency tree",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 0,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
+   },
+   {
+    "id": "render-blocking-insight",
+    "category": "performance",
+    "title": "Render-blocking requests",
+    "pages": 2,
+    "examplePages": [
+     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ],
+    "savingsBytes": 0,
+    "savingsMs": 1500,
+    "savingsBytesMedian": 0,
+    "savingsBytesP75": 0,
+    "savingsMsMedian": 750,
+    "savingsMsP75": 850
    },
    {
     "id": "forced-reflow-insight",
@@ -4644,27 +4759,12 @@
     "savingsMsP75": 0
    },
    {
-    "id": "image-delivery-insight",
-    "category": "performance",
-    "title": "Improve image delivery",
+    "id": "cumulative-layout-shift",
+    "category": "agentic-browsing",
+    "title": "Cumulative Layout Shift",
     "pages": 1,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
-    ],
-    "savingsBytes": 0,
-    "savingsMs": 500,
-    "savingsBytesMedian": 0,
-    "savingsBytesP75": 0,
-    "savingsMsMedian": 500,
-    "savingsMsP75": 500
-   },
-   {
-    "id": "network-dependency-tree-insight",
-    "category": "performance",
-    "title": "Network dependency tree",
-    "pages": 1,
-    "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
     "savingsMs": 0,
@@ -4674,24 +4774,24 @@
     "savingsMsP75": 0
    },
    {
-    "id": "render-blocking-insight",
+    "id": "cls-culprits-insight",
     "category": "performance",
-    "title": "Render-blocking requests",
+    "title": "Layout shift culprits",
     "pages": 1,
     "examplePages": [
-     "https://www.nih.gov/news-events/news-releases/researchers-identify-first-suite-human-antibodies-against-measles-virus"
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ],
     "savingsBytes": 0,
-    "savingsMs": 650,
+    "savingsMs": 0,
     "savingsBytesMedian": 0,
     "savingsBytesP75": 0,
-    "savingsMsMedian": 650,
-    "savingsMsP75": 650
+    "savingsMsMedian": 0,
+    "savingsMsP75": 0
    }
   ]
  },
  "linkCheck": {
-  "brokenCount": 4,
+  "brokenCount": 13,
   "broken": [
    {
     "url": "https://oig.hhs.gov/",
@@ -4708,7 +4808,8 @@
      "https://www.nih.gov/news-events/news-releases/human-genome-project-awarded-thai-2017-prince-mahidol-award-field-medicine",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/research-training/research-riddle-resolved",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials/learn-how-you-too-can-participate-tomorrows-medical-progress-poster"
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/promotional-materials/learn-how-you-too-can-participate-tomorrows-medical-progress-poster",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ]
    },
    {
@@ -4733,6 +4834,78 @@
     "reason": "HTTP 405",
     "foundOn": [
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease"
+    ]
+   },
+   {
+    "url": "https://www.fic.nih.gov/News/Events/Pages/africa-leaders-summit-2014.aspx",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "http://www.astmh.org/news-events/in-the-news-old/ajtmh-fake-malaria-drugs",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "http://www.usatoday.com/story/opinion/2017/03/28/trump-budget-threatens-us-global-health-leadership-role-column/99666446/",
+    "status": 402,
+    "reason": "HTTP 402",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "https://www.ajtmh.org/view/journals/tpmd/97/3/tpmd.97.issue-3.xml",
+    "status": 405,
+    "reason": "HTTP 405",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "https://programme.ias2017.org/Programme/Session/92",
+    "status": 0,
+    "reason": "ENOTFOUND",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "http://mal-ed.fnih.org/",
+    "status": 0,
+    "reason": "UND_ERR_CONNECT_TIMEOUT",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "https://www.ajtmh.org/view/journals/tpmd/100/1_Suppl/tpmd.100.issue-1_Suppl.xml",
+    "status": 405,
+    "reason": "HTTP 405",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "https://nih.sharepoint.com/sites/FIC-Communications/Shared%20Documents/FIC-Communications-Digital/Content%20for%20NIH%20sites/NIH%20Almanac/%E2%80%A2%09Focus:%20Fogarty-led%20project%20aims%20to%20advance%20emergency%20care%20research%20in%20low-%20and%20middle-income%20countries",
+    "status": 400,
+    "reason": "HTTP 400",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "url": "https://www.fic.nih.gov/Programs/Pages/us-postdoc.aspx",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ]
    }
   ]
@@ -4763,6 +4936,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/news-events/news-releases/investigational-covid-19-therapeutics-be-evaluated-large-clinical-trials",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/research-training/medical-research-initiatives/advancing-mecfs-research/events/metabolism-october-26-2023",
    "status": 403
   },
@@ -4783,6 +4960,10 @@
    "status": 403
   },
   {
+   "url": "https://www.nih.gov/news-events/nih-research-matters/cell-atlases-give-detailed-views-human-organs",
+   "status": 403
+  },
+  {
    "url": "https://www.nih.gov/news-events/news-releases/brain-scan-guided-emergency-stroke-treatment-can-save-more-lives",
    "status": 403
   },
@@ -4796,6 +4977,10 @@
   },
   {
    "url": "https://www.nih.gov/news-events/nih-research-matters/improving-control-bionic-prosthetic-hands",
+   "status": 403
+  },
+  {
+   "url": "https://www.nih.gov/brain-initiative/about/multi-council-working-group/brain-multi-council-working-group-mcwg-meeting-august-2026",
    "status": 403
   },
   {
@@ -4825,30 +5010,18 @@
   {
    "url": "https://www.nih.gov/news-events/nih-research-matters/diabetes-boosts-antibiotic-resistance-mice",
    "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/research-training/medical-research-initiatives/environmental-influences-child-health-outcomes-echo-program/funding/idea-states-pediatric-clinical-trials-network-data-coordinating-operations-center-foa",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/news-events/nih-research-matters/faster-better-images-cutting-edge-microscopes",
-   "status": 403
-  },
-  {
-   "url": "https://www.nih.gov/news-events/nih-research-matters/drug-may-slow-development-type-1-diabetes",
-   "status": 403
   }
  ],
  "tech": null,
  "images": {
-  "pagesScanned": 11,
-  "totalImages": 157,
-  "uniqueImages": 24,
+  "pagesScanned": 12,
+  "totalImages": 171,
+  "uniqueImages": 25,
   "missingAlt": 0,
   "decorative": 0,
-  "withAlt": 157,
+  "withAlt": 171,
   "altVerdicts": {
-   "GOOD": 18,
+   "GOOD": 19,
    "SUSPICIOUS": 4,
    "TOO_SHORT": 2
   }
@@ -5074,16 +5247,16 @@
   "design_system_label": "none",
   "design_system_theme": null,
   "template_page_threshold": 10,
-  "total_clusters": 50,
+  "total_clusters": 53,
   "clusters": [
    {
     "id": "cc-340e0be35f96",
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -5093,14 +5266,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 26.4,
+    "action_score": 28.8,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
+     "findings": 12,
+     "pages": 12,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 11 engine finding instance(s) on 11 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 12 engine finding instance(s) on 12 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -5112,6 +5285,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -5121,9 +5295,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -5133,14 +5307,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
+     "findings": 12,
+     "pages": 12,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 11 engine finding instance(s) on 11 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 12 engine finding instance(s) on 12 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -5152,6 +5326,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -5161,9 +5336,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -5173,14 +5348,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
+     "findings": 12,
+     "pages": 12,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 11 engine finding instance(s) on 11 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 12 engine finding instance(s) on 12 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -5192,6 +5367,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -5201,9 +5377,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r61",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
     "snippet_shape": "",
     "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
@@ -5213,19 +5389,90 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 10,
+    "action_score": 12,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-cd5f617ba5c1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 6,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-424dd2ea2877",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 6,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -5263,69 +5510,316 @@
     ]
    },
    {
-    "id": "cc-cd5f617ba5c1",
+    "id": "cc-8e242a862e3a",
     "engine_key": "alfa",
-    "rule_id": "sia-r18",
+    "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 5,
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
    },
    {
-    "id": "cc-424dd2ea2877",
+    "id": "cc-779065448143",
     "engine_key": "alfa",
-    "rule_id": "sia-r18",
+    "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"executive order #\"",
     "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_selector": "text: \"Executive Order 14434\"",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
     "drift_tokens": [],
     "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 5,
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-992ed06f0f6c",
+    "engine_key": "alfa",
+    "rule_id": "sia-r66",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"health information\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Health Information\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-b3dd9d9563fe",
+    "engine_key": "alfa",
+    "rule_id": "sia-r57",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"nih websites are changing\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"NIH Websites Are Changing\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-aba72eba36dd",
+    "engine_key": "alfa",
+    "rule_id": "sia-r57",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"get the latest updates and faqs\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-ebbc1cb4ee84",
+    "engine_key": "alfa",
+    "rule_id": "sia-r57",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"per \"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Per \"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-7c67d227d1f8",
+    "engine_key": "alfa",
+    "rule_id": "sia-r111",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "<a class=\"usa-button\" href=\"/web-modernization\">",
+    "snippet_shape": "",
+    "representative_selector": "<a class=\"usa-button\" href=\"/web-modernization\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-3c8788d59ab6",
+    "engine_key": "alfa",
+    "rule_id": "sia-r111",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "<button type=\"button\" aria-label=\"ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
+    "snippet_shape": "",
+    "representative_selector": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-b39e5ed2e696",
+    "engine_key": "alfa",
+    "rule_id": "sia-r111",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "<a href=\"/virtual-tour\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"/virtual-tour\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -5362,319 +5856,13 @@
     ]
    },
    {
-    "id": "cc-8e242a862e3a",
-    "engine_key": "alfa",
-    "rule_id": "sia-r66",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "text: \"get the latest updates and faqs\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-779065448143",
-    "engine_key": "alfa",
-    "rule_id": "sia-r66",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "text: \"executive order #\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Executive Order 14434\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-992ed06f0f6c",
-    "engine_key": "alfa",
-    "rule_id": "sia-r66",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "text: \"health information\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Health Information\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-b3dd9d9563fe",
-    "engine_key": "alfa",
-    "rule_id": "sia-r57",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "text: \"nih websites are changing\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"NIH Websites Are Changing\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-aba72eba36dd",
-    "engine_key": "alfa",
-    "rule_id": "sia-r57",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "text: \"get the latest updates and faqs\"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-ebbc1cb4ee84",
-    "engine_key": "alfa",
-    "rule_id": "sia-r57",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "text: \"per \"",
-    "snippet_shape": "",
-    "representative_selector": "text: \"Per \"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-7c67d227d1f8",
-    "engine_key": "alfa",
-    "rule_id": "sia-r111",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "<a class=\"usa-button\" href=\"/web-modernization\">",
-    "snippet_shape": "",
-    "representative_selector": "<a class=\"usa-button\" href=\"/web-modernization\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-3c8788d59ab6",
-    "engine_key": "alfa",
-    "rule_id": "sia-r111",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "<button type=\"button\" aria-label=\"ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
-    "snippet_shape": "",
-    "representative_selector": "<button type=\"button\" aria-label=\"Ocultar alerta\" class=\"usa-alert__toggle icon-close\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-b39e5ed2e696",
-    "engine_key": "alfa",
-    "rule_id": "sia-r111",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "<a href=\"/virtual-tour\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"/virtual-tour\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 3,
-    "action_score": 3.33,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
     "id": "cc-19c608daabd2",
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "<p class=\"usa-banner__header-text\">",
     "snippet_shape": "",
     "representative_selector": "<p class=\"usa-banner__header-text\">",
@@ -5684,19 +5872,20 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 4,
-    "action_score": 2.5,
+    "action_score": 3,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -5706,12 +5895,47 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "<p class=\"usa-identifier__identity-domain\">",
     "snippet_shape": "",
     "representative_selector": "<p class=\"usa-identifier__identity-domain\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 4,
+    "action_score": 3,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-e5e84016a2ec",
+    "engine_key": "alfa",
+    "rule_id": "sia-r73",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 5,
+    "instances": 5,
+    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
+    "snippet_shape": "",
+    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
     "representative_snippet": null,
     "design_components": [],
     "drift": false,
@@ -5731,40 +5955,7 @@
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-e5e84016a2ec",
-    "engine_key": "alfa",
-    "rule_id": "sia-r73",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 4,
-    "instances": 4,
-    "selector_path": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"official website of the department of health and human services\">",
-    "snippet_shape": "",
-    "representative_selector": "<p class=\"usa-identifier__identity-disclaimer\" aria-label=\"Official website of the Department of Health and Human Services\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 4,
-    "action_score": 2,
-    "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 4,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 4 engine finding instance(s) on 4 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
     ]
    },
@@ -5894,45 +6085,11 @@
     ]
    },
    {
-    "id": "cc-8cbcff6b68da",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 6,
-    "action_score": 1.67,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
     "id": "cc-0cb84ddbdf67",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 6,
     "instances": 6,
     "selector_path": ".usa-identifier__identity-disclaimer > a[href$=\"hhs.gov/\"]",
@@ -5994,11 +6151,45 @@
     ]
    },
    {
+    "id": "cc-8cbcff6b68da",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 5,
+    "instances": 5,
+    "selector_path": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.hhs.gov/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 9,
+    "action_score": 1.11,
+    "estimated_fix_impact": {
+     "findings": 5,
+     "pages": 5,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
     "id": "cc-50d6944a3868",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 4,
     "instances": 4,
     "selector_path": "p:nth-child(*) > a[href=\"/\"]",
@@ -6054,6 +6245,38 @@
     },
     "affected_pages": [
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-c3982f3f2935",
+    "engine_key": "axe-core",
+    "rule_id": "link-in-text-block",
+    "severity": "Serious",
+    "rule_pages_affected": 12,
+    "pages_affected": 3,
+    "instances": 7,
+    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "snippet_shape": "a:href",
+    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
+    "representative_snippet": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30760925\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Sleep modulates haematopoiesis and",
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 14,
+    "action_score": 0.77,
+    "estimated_fix_impact": {
+     "findings": 7,
+     "pages": 3,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 7 engine finding instance(s) on 3 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
     ]
    },
    {
@@ -6147,42 +6370,11 @@
     ]
    },
    {
-    "id": "cc-c3982f3f2935",
-    "engine_key": "axe-core",
-    "rule_id": "link-in-text-block",
-    "severity": "Serious",
-    "rule_pages_affected": 11,
-    "pages_affected": 2,
-    "instances": 4,
-    "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "snippet_shape": "a:href",
-    "representative_selector": "p:nth-child(18) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
-    "representative_snippet": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30760925\" class=\"ext\" data-extlink=\"\" target=\"_blank\" rel=\"noopener nofollow noreferrer\" title=\"(opens in a new window)\">Sleep modulates haematopoiesis and",
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 14,
-    "action_score": 0.51,
-    "estimated_fix_impact": {
-     "findings": 4,
-     "pages": 2,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 4 engine finding instance(s) on 2 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis"
-    ]
-   },
-   {
     "id": "cc-7593579d1f63",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 2,
     "instances": 3,
     "selector_path": "p:nth-child(*) > a:nth-child(*)",
@@ -6213,7 +6405,7 @@
     "engine_key": "alfa",
     "rule_id": "sia-r73",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
+    "rule_pages_affected": 6,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "<p class=\"nih-subtitle\">",
@@ -6239,161 +6431,11 @@
     ]
    },
    {
-    "id": "cc-cc056c9404b9",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://www.fic.nih.gov/\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://www.fic.nih.gov/\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research"
-    ]
-   },
-   {
-    "id": "cc-10240c1aa126",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30760925\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease"
-    ]
-   },
-   {
-    "id": "cc-c89b0ff9d8a2",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"/news-events/media-contacts\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"/news-events/media-contacts\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines"
-    ]
-   },
-   {
-    "id": "cc-b7a5f1c1907e",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://vimeo.com/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://vimeo.com/319018025\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
-    ]
-   },
-   {
-    "id": "cc-4e06ea0fb357",
-    "engine_key": "alfa",
-    "rule_id": "sia-r62",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 1,
-    "instances": 1,
-    "selector_path": "<a href=\"https://mecfs.rti.org/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "snippet_shape": "",
-    "representative_selector": "<a href=\"https://mecfs.rti.org/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 6,
-    "action_score": 0.33,
-    "estimated_fix_impact": {
-     "findings": 1,
-     "pages": 1,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
-    ]
-   },
-   {
     "id": "cc-c95de530cabf",
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"fic.nih.gov/\"][data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6423,7 +6465,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"genome.gov/\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -6453,7 +6495,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"niaid.nih.gov/\"][data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6483,7 +6525,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[data-extlink=\"\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -6513,7 +6555,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "li:nth-child(*) > a[data-extlink=\"\"][target=\"_blank\"][rel=\"noopener nofollow noreferrer\"]",
@@ -6543,7 +6585,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": ".mailto[data-extlink=\"\"]",
@@ -6573,7 +6615,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"media-contacts\"]",
@@ -6603,7 +6645,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href$=\"alzheimers.gov/\"]",
@@ -6633,7 +6675,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "a[href=\"https://vimeo.com/#\"]",
@@ -6663,7 +6705,7 @@
     "engine_key": "axe-core",
     "rule_id": "link-in-text-block",
     "severity": "Serious",
-    "rule_pages_affected": 11,
+    "rule_pages_affected": 12,
     "pages_affected": 1,
     "instances": 1,
     "selector_path": "p:nth-child(*) > a[href$=\"mecfs.rti.org/\"][rel=\"noopener nofollow noreferrer\"][title=\"(opens in a new window)\"]",
@@ -6687,6 +6729,246 @@
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
     ]
+   },
+   {
+    "id": "cc-cc056c9404b9",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.fic.nih.gov/\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.fic.nih.gov/\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research"
+    ]
+   },
+   {
+    "id": "cc-10240c1aa126",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30760925\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease"
+    ]
+   },
+   {
+    "id": "cc-c89b0ff9d8a2",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"/news-events/media-contacts\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"/news-events/media-contacts\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines"
+    ]
+   },
+   {
+    "id": "cc-57e02c99d569",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.biomedcentral.com/collections/lessonsfromthefield\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.biomedcentral.com/collections/lessonsfromthefield\" target=\"_blank\" class=\"ext\" data-extlink=\"\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "id": "cc-e99a32587559",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.fic.nih.gov/about/staff/policy-planning-evaluation/pages/fogarty-program-evaluation-international-research-scientist-development-irsda.aspx\" class=\"ext\" data-extlink=\"\" target=\"_b",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.fic.nih.gov/About/Staff/Policy-Planning-Evaluation/Pages/fogarty-program-evaluation-international-research-scientist-development-irsda.aspx\" class=\"ext\" data-extlink=\"\" target=\"_b",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "id": "cc-6960addc5ebc",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://www.fic.nih.gov/about/center-global-health-studies/pages/default.aspx\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://www.fic.nih.gov/About/center-global-health-studies/Pages/default.aspx\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic"
+    ]
+   },
+   {
+    "id": "cc-b7a5f1c1907e",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://vimeo.com/#\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://vimeo.com/319018025\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
+    ]
+   },
+   {
+    "id": "cc-4e06ea0fb357",
+    "engine_key": "alfa",
+    "rule_id": "sia-r62",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 1,
+    "instances": 1,
+    "selector_path": "<a href=\"https://mecfs.rti.org/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "snippet_shape": "",
+    "representative_selector": "<a href=\"https://mecfs.rti.org/\" class=\"ext\" data-extlink=\"\" target=\"_blank\">",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "content",
+    "distinct_components_for_rule": 9,
+    "action_score": 0.22,
+    "estimated_fix_impact": {
+     "findings": 1,
+     "pages": 1,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 1 engine finding instance(s) on 1 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
+    ]
    }
   ],
   "top_actions": [
@@ -6695,9 +6977,9 @@
     "engine_key": "axe-core",
     "rule_id": "landmark-unique",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": "#block-nih2-uswds-search",
     "snippet_shape": "div:role",
     "representative_selector": "#block-nih2-uswds-search",
@@ -6707,14 +6989,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 1,
-    "action_score": 26.4,
+    "action_score": 28.8,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
+     "findings": 12,
+     "pages": 12,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 11 engine finding instance(s) on 11 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 12 engine finding instance(s) on 12 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -6726,6 +7008,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -6735,9 +7018,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": ".usa-alert",
     "snippet_shape": "div:",
     "representative_selector": ".usa-alert",
@@ -6747,14 +7030,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
+     "findings": 12,
+     "pages": 12,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 11 engine finding instance(s) on 11 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 12 engine finding instance(s) on 12 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -6766,6 +7049,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -6775,9 +7059,9 @@
     "engine_key": "axe-core",
     "rule_id": "region",
     "severity": "Moderate",
-    "rule_pages_affected": 11,
-    "pages_affected": 11,
-    "instances": 11,
+    "rule_pages_affected": 12,
+    "pages_affected": 12,
+    "instances": 12,
     "selector_path": "#system-breadcrumb",
     "snippet_shape": "h2:",
     "representative_selector": "#system-breadcrumb",
@@ -6787,14 +7071,14 @@
     "drift_tokens": [],
     "likely_source": "template",
     "distinct_components_for_rule": 2,
-    "action_score": 13.2,
+    "action_score": 14.4,
     "estimated_fix_impact": {
-     "findings": 11,
-     "pages": 11,
+     "findings": 12,
+     "pages": 12,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 11 engine finding instance(s) on 11 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 12 engine finding instance(s) on 12 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
@@ -6806,6 +7090,7 @@
      "https://www.nih.gov/news-events/nih-research-matters/clues-what-causes-multiple-sclerosis",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
      "https://www.nih.gov/news-events/nih-research-matters/viagra-associated-reduced-risk-alzheimers-disease",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -6815,9 +7100,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r61",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicid\":null,\"sys",
     "snippet_shape": "",
     "representative_selector": "{\"type\":\"document\",\"children\":[{\"type\":\"type\",\"name\":\"html\",\"publicId\":null,\"sys",
@@ -6827,19 +7112,90 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 1,
-    "action_score": 10,
+    "action_score": 12,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-cd5f617ba5c1",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "@aria-label=\"descripción de la agencia\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 6,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-424dd2ea2877",
+    "engine_key": "alfa",
+    "rule_id": "sia-r18",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
+    "snippet_shape": "",
+    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 2,
+    "action_score": 6,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -6877,112 +7233,13 @@
     ]
    },
    {
-    "id": "cc-cd5f617ba5c1",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "@aria-label=\"descripción de la agencia\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Descripción de la agencia\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 5,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-424dd2ea2877",
-    "engine_key": "alfa",
-    "rule_id": "sia-r18",
-    "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
-    "selector_path": "@aria-label=\"official website of the department of health and human services\"",
-    "snippet_shape": "",
-    "representative_selector": "@aria-label=\"Official website of the Department of Health and Human Services\"",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "unknown",
-    "distinct_components_for_rule": 2,
-    "action_score": 5,
-    "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
-     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
-     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
-    ]
-   },
-   {
-    "id": "cc-8b5b40b39985",
-    "engine_key": "alfa",
-    "rule_id": "sia-r64",
-    "severity": "Moderate",
-    "rule_pages_affected": 2,
-    "pages_affected": 2,
-    "instances": 2,
-    "selector_path": "<h3>",
-    "snippet_shape": "",
-    "representative_selector": "<h3>",
-    "representative_snippet": null,
-    "design_components": [],
-    "drift": false,
-    "drift_tokens": [],
-    "likely_source": "content",
-    "distinct_components_for_rule": 1,
-    "action_score": 4,
-    "estimated_fix_impact": {
-     "findings": 2,
-     "pages": 2,
-     "counting_basis": "engine_observations_not_tasks",
-     "remediation_task_count": null,
-     "ownership": "not_established",
-     "statement": "Observed 2 engine finding instance(s) on 2 page(s); number of fixes and ownership are not established."
-    },
-    "affected_pages": [
-     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
-     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs"
-    ]
-   },
-   {
     "id": "cc-8e242a862e3a",
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "text: \"get the latest updates and faqs\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Get the Latest Updates and FAQs\"",
@@ -6992,19 +7249,20 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 3.33,
+    "action_score": 4,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -7014,9 +7272,9 @@
     "engine_key": "alfa",
     "rule_id": "sia-r66",
     "severity": "Moderate",
-    "rule_pages_affected": 5,
-    "pages_affected": 5,
-    "instances": 5,
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
     "selector_path": "text: \"executive order #\"",
     "snippet_shape": "",
     "representative_selector": "text: \"Executive Order 14434\"",
@@ -7026,19 +7284,55 @@
     "drift_tokens": [],
     "likely_source": "unknown",
     "distinct_components_for_rule": 3,
-    "action_score": 3.33,
+    "action_score": 4,
     "estimated_fix_impact": {
-     "findings": 5,
-     "pages": 5,
+     "findings": 6,
+     "pages": 6,
      "counting_basis": "engine_observations_not_tasks",
      "remediation_task_count": null,
      "ownership": "not_established",
-     "statement": "Observed 5 engine finding instance(s) on 5 page(s); number of fixes and ownership are not established."
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
     },
     "affected_pages": [
      "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
      "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
      "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
+     "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
+     "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
+    ]
+   },
+   {
+    "id": "cc-992ed06f0f6c",
+    "engine_key": "alfa",
+    "rule_id": "sia-r66",
+    "severity": "Moderate",
+    "rule_pages_affected": 6,
+    "pages_affected": 6,
+    "instances": 6,
+    "selector_path": "text: \"health information\"",
+    "snippet_shape": "",
+    "representative_selector": "text: \"Health Information\"",
+    "representative_snippet": null,
+    "design_components": [],
+    "drift": false,
+    "drift_tokens": [],
+    "likely_source": "unknown",
+    "distinct_components_for_rule": 3,
+    "action_score": 4,
+    "estimated_fix_impact": {
+     "findings": 6,
+     "pages": 6,
+     "counting_basis": "engine_observations_not_tasks",
+     "remediation_task_count": null,
+     "ownership": "not_established",
+     "statement": "Observed 6 engine finding instance(s) on 6 page(s); number of fixes and ownership are not established."
+    },
+    "affected_pages": [
+     "https://www.nih.gov/news-events/news-releases/nih-selects-dr-steven-schiff-director-fogarty-international-center-associate-director-international-research",
+     "https://www.nih.gov/news-events/nih-research-matters/how-disrupted-sleep-may-lead-heart-disease",
+     "https://www.nih.gov/news-events/nih-social-media/nih-comment-guidelines",
+     "https://www.nih.gov/about-nih/nih-almanac/fogarty-international-center-fic",
      "https://www.nih.gov/news-events/news-releases/studies-find-microbiome-changes-may-be-signature-mecfs",
      "https://www.nih.gov/health-information/nih-clinical-research-trials-you/personal-stories/volunteer-story-lydia-hypoparathyroidism"
     ]
@@ -7053,18 +7347,18 @@
  "sharedComponents": null,
  "componentGroups": null,
  "pageFamilies": null,
- "pagesAttempted": 1949,
- "pagesSucceeded": 11,
+ "pagesAttempted": 2099,
+ "pagesSucceeded": 12,
  "access": {
   "level": "partial",
-  "audited": 11,
-  "attempted": 1949,
+  "audited": 12,
+  "attempted": 2099,
   "firewall": {
-   "pages": 1938,
+   "pages": 2087,
    "challenges": 0,
-   "refusals": 1938,
+   "refusals": 2087,
    "statuses": {
-    "403": 1938
+    "403": 2087
    },
    "by": [
     "Cloudflare"

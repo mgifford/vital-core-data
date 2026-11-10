@@ -1,6 +1,6 @@
 {
  "domain": "data.cms.gov",
- "updatedAt": "2026-11-10T20:00:38.886Z",
+ "updatedAt": "2026-11-10T20:56:43.798Z",
  "findings": {
   "VS-179ad9b3": {
    "engine": "Siteimprove Alfa",
@@ -36,8 +36,9 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 14,
+   "lastPagesAffected": 16,
    "lastAffectedPages": [
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/resources/opt-out-affidavits-methodology",
     "https://data.cms.gov/provider-summary-by-type-of-service",
@@ -50,6 +51,7 @@
     "https://data.cms.gov/resources/medicare-physician-other-practitioners-methodology",
     "https://data.cms.gov/resources/pending-initial-logging-and-tracking-physician-and-non-physicians-methodology",
     "https://data.cms.gov/resources/market-saturation-utilization-core-based-statistical-areas-methodology",
+    "https://data.cms.gov/resources/cms-program-statistics-methodology",
     "https://data.cms.gov/resources/payroll-based-journal-methodology-0",
     "https://data.cms.gov/resources/esrd-treatment-choices-etc-model-methodology"
    ]
@@ -84,11 +86,13 @@
     "2026-W46"
    ],
    "weeksSeen": 19,
-   "lastPagesAffected": 144,
+   "lastPagesAffected": 151,
    "lastAffectedPages": [
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums",
     "https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology",
@@ -108,9 +112,7 @@
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/cms-program-statistics-medicare-hospice",
     "https://data.cms.gov/provider-summary-by-type-of-service",
     "https://data.cms.gov/resources/webinars-and-forums-methodology",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicaid-spending-by-drug",
-    "https://data.cms.gov/resources/health-insurance-exchanges-monthly-effectuated-enrollment-methodology",
-    "https://data.cms.gov/resources/acos-data-dictionary"
+    "https://data.cms.gov/resources/nursing-home-chain-performance-measures-data-dictionary"
    ]
   },
   "VS-ede1e565": {
@@ -426,11 +428,12 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 4,
+   "lastPagesAffected": 5,
    "lastAffectedPages": [
     "https://data.cms.gov/about",
     "https://data.cms.gov/medicare-value-based-payment-modifier-program/value-modifier",
     "https://data.cms.gov/resources/medicare-physician-other-practitioners-by-provider-data-dictionary-legacy",
+    "https://data.cms.gov/resources/cms-program-statistics-methodology",
     "https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event"
    ]
   },
@@ -468,7 +471,7 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 484,
+   "lastPagesAffected": 518,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospice-all-owners/data/q4-2025",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-quarterly-part-d-spending-by-drug/data",
@@ -531,13 +534,16 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 72,
+   "lastPagesAffected": 80,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/aco-reach-providers/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/quality-of-care/medicare-dialysis-facilities/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/api-docs",
@@ -551,13 +557,10 @@
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories/api-docs",
     "https://data.cms.gov/quality-of-care/quality-payment-program-experience/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs",
-    "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider/api-docs",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service/api-docs"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs"
    ]
   },
   "VS-fafffee0": {
@@ -708,13 +711,14 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 238,
+   "lastPagesAffected": 257,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-data/dataset/0b1a-da3f?page=5",
     "https://data.cms.gov/provider-data/dataset/7d6a-e7a6?page=5",
     "https://data.cms.gov/provider-data/dataset/5sqm-2qku?page=2",
     "https://data.cms.gov/provider-data/dataset/mj5m-pzi6?page=135518",
     "https://data.cms.gov/provider-data/dataset/ptds-r8im?page=59",
+    "https://data.cms.gov/provider-data/dataset/3xeb-u9wp",
     "https://data.cms.gov/provider-data/dataset/4jcv-atw7?page=5",
     "https://data.cms.gov/provider-data/dataset/d2k3-k3ac",
     "https://data.cms.gov/provider-data/dataset/84jm-wiui?page=2",
@@ -733,8 +737,7 @@
     "https://data.cms.gov/provider-data/dataset/97xg-v3wv?page=3",
     "https://data.cms.gov/provider-data/dataset/6qxe-iqz8?page=2",
     "https://data.cms.gov/provider-data/dataset/029b-dd7e?page=1719",
-    "https://data.cms.gov/provider-data/dataset/dgmq-aat3?page=99",
-    "https://data.cms.gov/provider-data/dataset/ynj2-r877?page=5"
+    "https://data.cms.gov/provider-data/dataset/dgmq-aat3?page=99"
    ]
   },
   "VS-a48e6078": {
@@ -771,16 +774,20 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 35,
+   "lastPagesAffected": 42,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/revalidation-due-date-list/api-docs",
     "https://data.cms.gov/quality-of-care/nursing-home-chain-performance-measures/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs",
@@ -793,11 +800,7 @@
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/medicare-monthly-enrollment/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/disease-episode-based-payment-models/comprehensive-end-stage-renal-disease-care-model-data/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-geography-and-service/api-docs",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service/market-saturation-utilization-core-based-statistical-areas/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-utilization-inpatient-rehabilitation-facility-by-geography-provider-and-service/api-docs",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-quarterly-part-d-spending-by-drug/api-docs"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service/api-docs"
    ]
   },
   "VS-a2a3dffb": {
@@ -834,10 +837,12 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 94,
+   "lastPagesAffected": 100,
    "lastAffectedPages": [
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology",
     "https://data.cms.gov/resources/medicaid-opioid-prescribing-rates-by-geography-data-dictionary-0",
@@ -851,16 +856,14 @@
     "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-data-dictionary",
     "https://data.cms.gov/provider-summary-by-type-of-service",
     "https://data.cms.gov/resources/webinars-and-forums-methodology",
+    "https://data.cms.gov/resources/nursing-home-chain-performance-measures-data-dictionary",
     "https://data.cms.gov/resources/health-insurance-exchanges-monthly-effectuated-enrollment-methodology",
     "https://data.cms.gov/resources/acos-data-dictionary",
     "https://data.cms.gov/resources/innovation-advisors-methodology",
     "https://data.cms.gov/resources/medicare-pac-utilization-hha-by-geography-and-provider-data-dictionary-2014-2019",
     "https://data.cms.gov/resources/model-awardees-methodology",
     "https://data.cms.gov/resources/medicare-alternative-payment-model-adoption-methodology",
-    "https://data.cms.gov/resources/medicare-pac-utilization-irf-by-geography-provider-and-service-data-dictionary",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments",
-    "https://data.cms.gov/resources/medicare-monthly-enrollment-dashboard-data-dictionary",
-    "https://data.cms.gov/resources/medicare-alternative-payment-model-adoption-data-dictionary"
+    "https://data.cms.gov/resources/medicare-pac-utilization-irf-by-geography-provider-and-service-data-dictionary"
    ]
   },
   "VS-be8d563e": {
@@ -946,33 +949,33 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 464,
+   "lastPagesAffected": 502,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2025",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/data",
     "https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries/data/2023",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments/data/q3-2025",
     "https://data.cms.gov/provider-compliance/cost-reports/skilled-nursing-facility-cost-report/data/2023",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information/data/q1-2025",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service/data/2018",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/october-20-2026",
     "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/data/q3-2024",
+    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology-2021-2023",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service/data/2021",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/datasets?page=8&theme%5B0%5D=Hospitals",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-enrollments/data/q4-2025",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/physiciansupplier-procedure-summary/data",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/data/july-7-2026",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider-and-drug/data/2019"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026"
    ]
   },
   "VS-646b1e0b": {
@@ -1009,33 +1012,33 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 478,
+   "lastPagesAffected": 517,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2025",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/data",
     "https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries/data/2023",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments/data/q3-2025",
     "https://data.cms.gov/provider-compliance/cost-reports/skilled-nursing-facility-cost-report/data/2023",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information/data/q1-2025",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service/data/2018",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/october-20-2026",
     "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/data/q3-2024",
+    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology-2021-2023",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service/data/2021",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/datasets?page=8&theme%5B0%5D=Hospitals",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-enrollments/data/q4-2025",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/physiciansupplier-procedure-summary/data",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/data/july-7-2026",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider-and-drug/data/2019"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026"
    ]
   },
   "VS-2208081b": {
@@ -1072,9 +1075,10 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 782,
+   "lastPagesAffected": 846,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2025",
     "https://data.cms.gov/provider-data/dataset/0b1a-da3f?page=5",
@@ -1085,6 +1089,8 @@
     "https://data.cms.gov/provider-data/dataset/mj5m-pzi6?page=135518",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
     "https://data.cms.gov/provider-data/dataset/ptds-r8im?page=59",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
+    "https://data.cms.gov/provider-data/dataset/3xeb-u9wp",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments/data/q3-2025",
     "https://data.cms.gov/provider-compliance/cost-reports/skilled-nursing-facility-cost-report/data/2023",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information/data/q1-2025",
@@ -1092,13 +1098,10 @@
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/october-20-2026",
     "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/data/q3-2024",
     "https://data.cms.gov/provider-data/dataset/4jcv-atw7?page=5",
+    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology-2021-2023",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
-    "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021",
-    "https://data.cms.gov/provider-data/dataset/d2k3-k3ac",
-    "https://data.cms.gov/provider-data/dataset/84jm-wiui?page=2",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
-    "https://data.cms.gov/provider-data/dataset/ptds-r8im?page=5",
-    "https://data.cms.gov/provider-data/dataset/0938-3dfa?page=2"
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
+    "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021"
    ]
   },
   "VS-fbf54eba": {
@@ -1135,8 +1138,9 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 21,
+   "lastPagesAffected": 23,
    "lastAffectedPages": [
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
     "https://data.cms.gov/tools/medicare-part-d-drug-spending-dashboard",
     "https://data.cms.gov/tools/medicaid-managed-care-dashboard",
@@ -1152,6 +1156,7 @@
     "https://data.cms.gov/tools/medicare-revalidation-list",
     "https://data.cms.gov/tools/mapping-disparities-by-social-determinants-of-health",
     "https://data.cms.gov/cms-innovation-center-programs/healthcare-support-models",
+    "https://data.cms.gov/summary-statistics-on-provider-enrollment/medicare-provider-type-reports",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models",
     "https://data.cms.gov/summary-statistics-on-provider-enrollment",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals",
@@ -1194,9 +1199,10 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 771,
+   "lastPagesAffected": 834,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2025",
     "https://data.cms.gov/provider-data/dataset/0b1a-da3f?page=5",
@@ -1207,6 +1213,8 @@
     "https://data.cms.gov/provider-data/dataset/mj5m-pzi6?page=135518",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
     "https://data.cms.gov/provider-data/dataset/ptds-r8im?page=59",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
+    "https://data.cms.gov/provider-data/dataset/3xeb-u9wp",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments/data/q3-2025",
     "https://data.cms.gov/provider-compliance/cost-reports/skilled-nursing-facility-cost-report/data/2023",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information/data/q1-2025",
@@ -1214,13 +1222,10 @@
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/october-20-2026",
     "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/data/q3-2024",
     "https://data.cms.gov/provider-data/dataset/4jcv-atw7?page=5",
+    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology-2021-2023",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
-    "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021",
-    "https://data.cms.gov/provider-data/dataset/d2k3-k3ac",
-    "https://data.cms.gov/provider-data/dataset/84jm-wiui?page=2",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
-    "https://data.cms.gov/provider-data/dataset/ptds-r8im?page=5",
-    "https://data.cms.gov/provider-data/dataset/0938-3dfa?page=2"
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
+    "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021"
    ]
   },
   "VS-30db094d": {
@@ -1257,7 +1262,7 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 939,
+   "lastPagesAffected": 1011,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospice-all-owners/data/q4-2025",
     "https://data.cms.gov/resources/mcbs-summary-tables-glossary",
@@ -1267,12 +1272,14 @@
     "https://data.cms.gov/cms-innovation-center-programs/disease-episode-based-payment-models/ambulatory-specialty-model-participants/data",
     "https://data.cms.gov/resources/public-reporting-of-missing-digital-contact-information-data-dictionary",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2025",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/data",
     "https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries/data/2023",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments/data/q3-2025",
     "https://data.cms.gov/provider-compliance/cost-reports/skilled-nursing-facility-cost-report/data/2023",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information/data/q1-2025",
@@ -1281,9 +1288,7 @@
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-all-owners",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data/september-18-2026",
     "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/data/q3-2024",
-    "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
-    "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/data/2021"
+    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology-2021-2023"
    ]
   },
   "VS-33841929": {
@@ -1357,33 +1362,33 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 478,
+   "lastPagesAffected": 517,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/data/q1-2025",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/data",
     "https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries/data/2023",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/home-health-agency-enrollments/data/q3-2025",
     "https://data.cms.gov/provider-compliance/cost-reports/skilled-nursing-facility-cost-report/data/2023",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership-owner-information/data/q1-2025",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-geography-and-service/data/2018",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/october-20-2026",
     "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/data/q3-2024",
+    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology-2021-2023",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data/2021",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service/data/2021",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/datasets?page=8&theme%5B0%5D=Hospitals",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-enrollments/data/q4-2025",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/physiciansupplier-procedure-summary/data",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/data/july-7-2026",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider-and-drug/data/2019"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-enrollments/data/march-2026"
    ]
   },
   "VS-e05344b9": {
@@ -1420,14 +1425,18 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 53,
+   "lastPagesAffected": 62,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
     "https://data.cms.gov/resources/opt-out-affidavits-methodology",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/api-docs",
@@ -1438,15 +1447,11 @@
     "https://data.cms.gov/cms-cross-program-data",
     "https://data.cms.gov/resources/additional-information-on-revalidation",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs",
-    "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider/api-docs",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/api-docs",
-    "https://data.cms.gov/resources/medicare-and-medicaid-reports-methodology",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-internet-quality-improvement-and-evaluation-system/api-docs",
-    "https://data.cms.gov/medicare-shared-savings-program/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries/api-docs"
+    "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors/api-docs"
    ]
   },
   "VS-d25f622d": {
@@ -1483,19 +1488,22 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 153,
+   "lastPagesAffected": 168,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/aco-reach-providers/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/datasets?page=8&theme%5B0%5D=Hospitals",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
     "https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology",
     "https://data.cms.gov/datasets?page=3&theme%5B0%5D=Dialysis+facilities",
     "https://data.cms.gov/resources/medicare-covid-19-cases-hospitalizations-data-dictionary",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/quality-of-care/medicare-dialysis-facilities/api-docs",
     "https://data.cms.gov/resources/independent-dispute-resolution-methodology",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider/api-docs",
@@ -1506,10 +1514,7 @@
     "https://data.cms.gov/beneficiary-populations",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/api-docs",
-    "https://data.cms.gov/datasets?page=2&theme%5B0%5D=Dialysis+facilities",
-    "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/aco-reach-aligned-beneficiaries/api-docs",
-    "https://data.cms.gov/resources/comprehensive-esrd-care-model-data-methodology"
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/api-docs"
    ]
   },
   "VS-f054f4a4": {
@@ -1546,15 +1551,18 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 78,
+   "lastPagesAffected": 88,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
     "https://data.cms.gov/datasets?page=8&theme%5B0%5D=Hospitals",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
     "https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/api-docs",
@@ -1569,10 +1577,7 @@
     "https://data.cms.gov/cms-cross-program-data",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
     "https://data.cms.gov/resources/medicare-telemedicine-snapshot-methodology",
-    "https://data.cms.gov/resources/restructured-betos-classification-system-data-dictionary",
-    "https://data.cms.gov/resources/medicare-fee-for-service-public-provider-enrollment-methodology",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
-    "https://data.cms.gov/datasets?keyword%5B0%5D=Outpatient&page=2"
+    "https://data.cms.gov/resources/restructured-betos-classification-system-data-dictionary"
    ]
   },
   "VS-2cd767ca": {
@@ -1655,15 +1660,19 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 89,
+   "lastPagesAffected": 99,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/aco-reach-providers/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
     "https://data.cms.gov/tools/medicare-part-d-drug-spending-dashboard",
     "https://data.cms.gov/tools/medicaid-managed-care-dashboard",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/quality-of-care/medicare-dialysis-facilities/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/api-docs",
@@ -1676,12 +1685,8 @@
     "https://data.cms.gov/quality-of-care/nursing-home-chain-performance-measures/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospice-enrollments/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-quarterly-part-d-spending-by-drug",
-    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories/api-docs",
-    "https://data.cms.gov/quality-of-care/quality-payment-program-experience/api-docs",
-    "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
-    "https://data.cms.gov/tools/mapping-medicare-disparities-by-population",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
-    "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs"
+    "https://data.cms.gov/tools/market-saturation-utilization-state-county-mapping-tool",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories/api-docs"
    ]
   },
   "VS-c18be945": {
@@ -1792,9 +1797,10 @@
     "2026-W46"
    ],
    "weeksSeen": 23,
-   "lastPagesAffected": 1,
+   "lastPagesAffected": 2,
    "lastAffectedPages": [
-    "https://data.cms.gov/provider-data/topics/nursing-homes/quality-measures"
+    "https://data.cms.gov/provider-data/topics/nursing-homes/quality-measures",
+    "https://data.cms.gov/resources/geographic-variation-methodology-2018"
    ]
   },
   "VS-0066c67d": {
@@ -1974,7 +1980,7 @@
     "2026-W46"
    ],
    "weeksSeen": 19,
-   "lastPagesAffected": 11,
+   "lastPagesAffected": 12,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/september-8-2026",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/fiscal-intermediary-shared-system-attending-and-rendering/data/september-1-2026",
@@ -1986,7 +1992,8 @@
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/july-10-2026",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/june-30-2026",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/data/august-25-2026",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/september-11-2026"
+    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-physicians/data/september-11-2026",
+    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/data/august-28-2026"
    ]
   },
   "VS-f2542d87": {
@@ -2026,19 +2033,23 @@
     "2026-W46"
    ],
    "weeksSeen": 6,
-   "lastPagesAffected": 170,
+   "lastPagesAffected": 189,
    "lastAffectedPages": [
     "https://data.cms.gov/resources/mcbs-summary-tables-glossary",
     "https://data.cms.gov/resources/public-reporting-of-missing-digital-contact-information-data-dictionary",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/resources/medicare-covid-19-hospitalization-trends-methodology-2023",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
+    "https://data.cms.gov/resources/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes-data-dictionary",
     "https://data.cms.gov/resources/provider-of-services-file-clinical-laboratories-methodology",
     "https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology",
     "https://data.cms.gov/resources/medicare-part-b-spending-by-drug-data-dictionary",
     "https://data.cms.gov/resources/medicaid-opioid-prescribing-rates-by-geography-data-dictionary-0",
     "https://data.cms.gov/resources/opt-out-affidavits-methodology",
+    "https://data.cms.gov/resources/home-health-agency-cost-report-data-dictionary",
     "https://data.cms.gov/tools/medicare-part-d-drug-spending-dashboard",
     "https://data.cms.gov/tools/medicaid-managed-care-dashboard",
     "https://data.cms.gov/resources/webinars-and-forums-data-dictionary",
@@ -2048,11 +2059,7 @@
     "https://data.cms.gov/resources/medicare-pac-utilization-hha-by-geography-provider-and-service-data-dictionary",
     "https://data.cms.gov/resources/opt-out-affidavits-data-dictionary",
     "https://data.cms.gov/resources/milestones-and-updates-data-dictionary",
-    "https://data.cms.gov/resources/medicare-physician-other-practitioners-by-provider-and-service-data-dictionary",
-    "https://data.cms.gov/resources/model-participants-data-dictionary",
-    "https://data.cms.gov/resources/county-level-aggregate-expenditure-and-risk-score-data-on-assignable-beneficiaries-methodology",
-    "https://data.cms.gov/resources/hospital-provider-cost-report-methodology",
-    "https://data.cms.gov/resources/medicare-part-d-spending-by-drug-data-dictionary"
+    "https://data.cms.gov/resources/medicare-physician-other-practitioners-by-provider-and-service-data-dictionary"
    ]
   },
   "VS-3804c2fa": {
@@ -2072,16 +2079,20 @@
     "2026-W46"
    ],
    "weeksSeen": 6,
-   "lastPagesAffected": 35,
+   "lastPagesAffected": 42,
    "lastAffectedPages": [
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/pending-initial-logging-and-tracking-non-physicians/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-change-of-ownership/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/revalidation-due-date-list/api-docs",
     "https://data.cms.gov/quality-of-care/nursing-home-chain-performance-measures/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs",
@@ -2094,11 +2105,7 @@
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/medicare-monthly-enrollment/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/disease-episode-based-payment-models/comprehensive-end-stage-renal-disease-care-model-data/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier-and-service/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-geography-and-service/api-docs",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/program-integrity-market-saturation-by-type-of-service/market-saturation-utilization-core-based-statistical-areas/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-utilization-inpatient-rehabilitation-facility-by-geography-provider-and-service/api-docs",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-quarterly-part-d-spending-by-drug/api-docs"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-geography-and-service/api-docs"
    ]
   },
   "VS-4fac2f41": {
@@ -2118,13 +2125,16 @@
     "2026-W46"
    ],
    "weeksSeen": 6,
-   "lastPagesAffected": 72,
+   "lastPagesAffected": 80,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/aco-reach-providers/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/quality-of-care/medicare-dialysis-facilities/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/api-docs",
@@ -2138,13 +2148,10 @@
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories/api-docs",
     "https://data.cms.gov/quality-of-care/quality-payment-program-experience/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs",
-    "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider/api-docs",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service/api-docs"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs"
    ]
   },
   "VS-096684ad": {
@@ -2164,13 +2171,16 @@
     "2026-W46"
    ],
    "weeksSeen": 6,
-   "lastPagesAffected": 72,
+   "lastPagesAffected": 80,
    "lastAffectedPages": [
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/medicare-telehealth-trends/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-outpatient-hospitals/medicare-outpatient-hospitals-by-provider-and-service/api-docs",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/skilled-nursing-facility-change-of-ownership/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/aco-reach-providers/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/next-generation-accountable-care-organization-model-data/api-docs",
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-supplier/api-docs",
+    "https://data.cms.gov/quality-of-care/payroll-based-journal-employee-detail-nursing-home-staffing/api-docs",
     "https://data.cms.gov/quality-of-care/medicare-dialysis-facilities/api-docs",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider/api-docs",
     "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/order-and-referring/api-docs",
@@ -2184,13 +2194,10 @@
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-clinical-laboratories/api-docs",
     "https://data.cms.gov/quality-of-care/quality-payment-program-experience/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model/api-docs",
+    "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-all-owners/api-docs",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-b-spending-by-drug/api-docs",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs",
-    "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-innovation-advisors/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-durable-medical-equipment-devices-supplies/medicare-durable-medical-equipment-devices-supplies-by-referring-provider/api-docs",
-    "https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers/api-docs",
-    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service/api-docs"
+    "https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/hospital-service-area/api-docs"
    ]
   },
   "VS-860306d8": {
@@ -2209,17 +2216,20 @@
     "2026-W46"
    ],
    "weeksSeen": 5,
-   "lastPagesAffected": 273,
+   "lastPagesAffected": 296,
    "lastAffectedPages": [
     "https://data.cms.gov/resources/mcbs-summary-tables-glossary",
     "https://data.cms.gov/resources/public-reporting-of-missing-digital-contact-information-data-dictionary",
     "https://data.cms.gov/cms-innovation-center-programs/cms-innovation-models-overview/innovation-center-model-summary-information",
     "https://data.cms.gov/resources/value-modifier-data-dictionary",
+    "https://data.cms.gov/tools/medicare-part-d-prescriber-look-up-tool",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/federally-qualified-health-center-all-owners",
     "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment",
+    "https://data.cms.gov/resources/medicare-part-d-prescribers-by-provider-and-drug-data-dictionary",
     "https://data.cms.gov/provider-summary-by-type-of-service/medicare-post-acute-care-hospice/medicare-post-acute-care-utilization-home-health-agency-by-geography-and-provider",
     "https://data.cms.gov/resources/medicare-covid-19-hospitalization-trends-methodology-2023",
     "https://data.cms.gov/resources/medicare-service-type-reports-methodology",
+    "https://data.cms.gov/resources/medicare-clinical-laboratory-fee-schedule-private-payer-rates-and-volumes-data-dictionary",
     "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-premium-reports/cms-program-statistics-medicare-premiums",
     "https://data.cms.gov/resources/provider-of-services-file-clinical-laboratories-methodology",
     "https://data.cms.gov/resources/nursing-home-affiliated-entity-performance-measures-methodology",
@@ -2228,14 +2238,11 @@
     "https://data.cms.gov/quality-of-care/payroll-based-journal-daily-non-nurse-staffing",
     "https://data.cms.gov/resources/medicaid-opioid-prescribing-rates-by-geography-data-dictionary-0",
     "https://data.cms.gov/resources/opt-out-affidavits-methodology",
+    "https://data.cms.gov/resources/home-health-agency-cost-report-data-dictionary",
     "https://data.cms.gov/tools/medicare-part-d-drug-spending-dashboard",
     "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/rural-health-clinic-all-owners",
     "https://data.cms.gov/cms-innovation-center-programs/disease-episode-based-payment-models/medicare-alternative-payment-model-adoption",
-    "https://data.cms.gov/tools/medicaid-managed-care-dashboard",
-    "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-service-type-reports/cms-program-statistics-medicare-advantage-outpatient-facility",
-    "https://data.cms.gov/resources/webinars-and-forums-data-dictionary",
-    "https://data.cms.gov/resources/medicare-telehealth-trends-methodology",
-    "https://data.cms.gov/cms-innovation-center-programs/accountable-care-models/pioneer-aco-model"
+    "https://data.cms.gov/tools/medicaid-managed-care-dashboard"
    ]
   }
  }
