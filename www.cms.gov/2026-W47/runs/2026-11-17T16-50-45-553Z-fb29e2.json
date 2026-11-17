@@ -1,0 +1,1065 @@
+{
+ "runId": "2026-11-17T16-50-45-553Z-fb29e2",
+ "week": "2026-W47",
+ "domain": "www.cms.gov",
+ "canonical": {
+  "origin": "https://www.cms.gov",
+  "configured": "https://www.cms.gov",
+  "httpsProblem": null,
+  "note": null
+ },
+ "robots": {
+  "rootAllowed": true
+ },
+ "startedAt": "2026-11-17T16:50:48.899Z",
+ "scanned": [
+  "e47fca9cb3c89dc2",
+  "4ec05f9791614f45",
+  "d3600c799044a451",
+  "f5ea48f4ea5e2646",
+  "be7a79d4f60013df",
+  "9b2c8a93b7e855b2",
+  "444a5b4f7226302d",
+  "8a5d1a54c8cc4605",
+  "189fb55ec1ec5753",
+  "b22ff45eb9f2cb90",
+  "d3696e0d4bc36843",
+  "09d5991375b25737",
+  "811f8e6ef2d2ae2c",
+  "30993c0faac53217",
+  "a0e8e99410a72000",
+  "902eb7461ece4338",
+  "b98ad4c8c10b02e5",
+  "60a360deff0a9d3d",
+  "ba98f37bbd3a9f51",
+  "34b7ca4fe4feb3b5",
+  "c180e9c1b7865e61",
+  "19882c4444d927e0",
+  "650aed606f405fdc"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 15,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 75,
+  "images": 75,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25,
+  "performance-resources": 100
+ },
+ "browser": {
+  "userAgent": "vital-scans/0.1 (+https://github.com/mgifford/vital-core; accessibility and sustainability monitoring)",
+  "viewport": {
+   "width": 1280,
+   "height": 800
+  }
+ },
+ "screenshots": {
+  "enabled": false,
+  "captured": 0
+ },
+ "performanceCohort": {
+  "stable": [],
+  "selected_in_batch": 0
+ },
+ "stoppedReason": "blocked",
+ "blockedStop": {
+  "reason": "10 of 23 attempts blocked (43%)",
+  "attempted": 23,
+  "blocked": 10,
+  "consecutive": 1,
+  "nextProbeWeek": "2027-W02",
+  "at": "2026-11-17T16:52:32.727Z"
+ },
+ "linkCheck": {
+  "total": 782,
+  "checked": 500,
+  "brokenCount": 95,
+  "broken": [
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/search.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/medicare-fee-service-recovery-audit-program/approved-rac-topics?items_per_page=25&order=field_dyna_mac_jurisdiction&page=6&sort=asc",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "http://www.medicaid.gov/chip/index.html",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/medicare-fee-service-recovery-audit-program/approved-rac-topics?items_per_page=25&order=field_dyna_mac_jurisdiction&page=6&sort=asc"
+    ]
+   },
+   {
+    "url": "https://www.agentbrokerfaq.cms.gov/s/",
+    "status": 0,
+    "reason": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "foundOn": [
+     "https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/medicare-fee-service-recovery-audit-program/approved-rac-topics?items_per_page=25&order=field_dyna_mac_jurisdiction&page=6&sort=asc"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/downloads/downloads.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/reports.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-whats-new-report.aspx?docType=all&timeframe=30",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-annual-report.aspx?docType=all&year=2026",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-ncacal-status-report.aspx?ncacaldoctype=all&status=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-ncacal-status-report.aspx?ncacaldoctype=all&status=Open%20for%20Public%20Comment",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-ncd-report.aspx?chapter=all&labOnly=allncd&sortBy=title",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-ncd-report.aspx?chapter=190&labOnly=labonlyncd&sortBy=chapter",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-medicare-coverage-documents-report.aspx?docTypeId=-1&status=Open%20for%20Public%20Comment",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-medcac-meetings-report.aspx?year=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-medicare-coverage-documents-report.aspx?docTypeId=-1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-technology-assessments-report.aspx?year=0",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-whats-new-report.aspx?contractorName=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&lcdStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-state-report.aspx?stateRegion=all&contractorNumber=all&lcdStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-final-lcds-alphabetical-report.aspx?lcdStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-proposed-lcds-contractor-report.aspx?contractorName=all&contractorNumber=all&proposedStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-articles-state-report.aspx?stateRegion=all&contractorNumber=all&articleStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-proposed-lcds-state-report.aspx?stateRegion=all&contractorNumber=all&proposedStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-proposed-lcds-alphabetical-report.aspx?proposedStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-articles-contractor-report.aspx?contractorName=all&contractorNumber=all&articleStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-sad-exclusion-list-report.aspx?contractorName=all&dateOption=current",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-mac-contacts-report.aspx?contractType=all&stateRegion=all&contractorName=all&contractorNumber=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/basket/basket.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-articles-alphabetical-report.aspx?articleStatus=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=34061&ver=26",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/help/help-and-resources.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=18&",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=17&",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/Outreach-and-Education/Outreach/CMSFeeds/index",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/help/mcd-bene-help.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/new-search/search.aspx",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56692&ver=19",
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57204&articleStatus=all&bc=4&contractorName=all&contractorNumber=all&sortBy=title&ver=38"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/search.aspx?error=Document%20in%20Archive&articleid=57689&ver=43",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-ncacal-status-report.aspx?ncacaldoctype=CAL&status=Open%20for%20Public%20Comment",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/national-coverage-ncacal-status-report.aspx?ncacaldoctype=NCA&status=Open%20for%20Public%20Comment",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search.aspx?articleid=57689&error=Document+in+Archive&ver=43"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57954&ver=30&bc=0",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/reports/local-coverage-articles-state-report.aspx?articleStatus=all&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=38902&ver=12",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=217&NCDver=6",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58903&ver=6",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=315&NCDver=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=232&NCDver=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=131&NCDver=3",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=139&NCDver=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=47&NCDver=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&ver=55&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&ver=52&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&ver=50&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&ver=46&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&ver=41&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&ver=43&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58565&articleStatus=all&bc=5&contractorNumber=all&sortBy=title&stateRegion=all&ver=37"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=52711&ver=18&",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=55426&ver=132",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=34823&ver=27",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52711&ver=22"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=57917&ver=32&",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=38065&ver=12",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=372&NCDver=2",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=57917&ver=31"
+    ]
+   },
+   {
+    "url": "http://www.cms.gov/AboutWebsite/02_Privacy%20Policy.asp",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/icd10m/FY2024-version41-fullcode-cms/fullcode_cms/P2950.html",
+     "https://www.cms.gov/icd10m/FY2023-version40.1-fullcode-cms/fullcode_cms/P0129.html",
+     "https://www.cms.gov/icd10m/version%20371r1-fullcode-cms/fullcode_cms/P0583.html"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34561&ver=69&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "http://www.cms.gov/AboutWebsite/06_NoFearAct.asp",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/icd10m/FY2024-version41-fullcode-cms/fullcode_cms/P2950.html",
+     "https://www.cms.gov/icd10m/FY2023-version40.1-fullcode-cms/fullcode_cms/P0129.html",
+     "https://www.cms.gov/icd10m/version%20371r1-fullcode-cms/fullcode_cms/P0583.html"
+    ]
+   },
+   {
+    "url": "http://www.cms.gov/AboutWebsite/04_FOIA.asp",
+    "status": 404,
+    "reason": "HTTP 404",
+    "foundOn": [
+     "https://www.cms.gov/icd10m/FY2024-version41-fullcode-cms/fullcode_cms/P2950.html",
+     "https://www.cms.gov/icd10m/FY2023-version40.1-fullcode-cms/fullcode_cms/P0129.html",
+     "https://www.cms.gov/icd10m/version%20371r1-fullcode-cms/fullcode_cms/P0583.html"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33252&ver=29&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39853&ver=3&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=35101&ver=128&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34353&ver=35&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34570&ver=52&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33624&ver=34&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34183&ver=20&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33975&ver=25&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34616&ver=44&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34196&ver=30&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33626&ver=45&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33632&ver=83&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34646&ver=26&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34520&ver=32&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=34539&ver=16&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=38970&ver=8&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39513&ver=4&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39396&ver=7&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39398&ver=6&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39270&ver=8&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39492&ver=7&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39490&ver=7&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=40224&ver=3&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   },
+   {
+    "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=39477&ver=7&keyword=psych&keywordType=all&areaId=all&docType=F&contractOption=all&sortBy=relevance&bc=1",
+    "status": 503,
+    "reason": "HTTP 503",
+    "foundOn": [
+     "https://www.cms.gov/medicare-coverage-database/search-results.aspx?areaId=all&contractOption=all&docType=F&keyword=psych&keywordType=all&lcdid=36920&sortBy=relevance"
+    ]
+   }
+  ]
+ },
+ "enginesRun": {
+  "performance-resources": 13,
+  "axe": 13,
+  "plain-language": 6,
+  "resources": 9,
+  "images": 9,
+  "third-party": 7,
+  "link-check": 13,
+  "lighthouse": 1,
+  "standards": 7,
+  "security": 2,
+  "deprecated-html": 2,
+  "public-interest": 3,
+  "sustainability": 1
+ },
+ "tally": {
+  "ok": 13,
+  "blocked": 10,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 0,
+  "redirect": 1,
+  "error": 0
+ },
+ "finishedAt": "2026-11-17T16:53:07.184Z"
+}
