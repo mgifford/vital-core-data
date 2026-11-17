@@ -1,0 +1,93 @@
+{
+ "runId": "2026-11-17T17-13-11-207Z-4f664d",
+ "week": "2026-W47",
+ "domain": "nih.gov",
+ "canonical": {
+  "origin": "https://www.nih.gov",
+  "configured": "https://nih.gov",
+  "httpsProblem": null,
+  "note": "homepage redirects from https://nih.gov"
+ },
+ "robots": {
+  "rootAllowed": true
+ },
+ "startedAt": "2026-11-17T17:13:14.981Z",
+ "scanned": [
+  "e8d40b16037584ae",
+  "f184499d908f85cd",
+  "12e80f97cd66bd73",
+  "24771ef2bee0fd84",
+  "4b46755b92713171",
+  "d9746360f226da12"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25,
+  "performance-resources": 100
+ },
+ "browser": {
+  "userAgent": "vital-scans/0.1 (+https://github.com/mgifford/vital-core; accessibility and sustainability monitoring)",
+  "viewport": {
+   "width": 1280,
+   "height": 800
+  }
+ },
+ "screenshots": {
+  "enabled": false,
+  "captured": 0
+ },
+ "performanceCohort": {
+  "stable": [],
+  "selected_in_batch": 0
+ },
+ "stoppedReason": "blocked",
+ "blockedStop": {
+  "reason": "5 consecutive blocked responses",
+  "attempted": 6,
+  "blocked": 5,
+  "consecutive": 5,
+  "nextProbeWeek": "2027-W02",
+  "at": "2026-11-17T17:13:30.742Z"
+ },
+ "linkCheck": {
+  "total": 85,
+  "checked": 85,
+  "brokenCount": 0,
+  "broken": []
+ },
+ "enginesRun": {
+  "sustainability": 1,
+  "performance-resources": 1,
+  "axe": 1,
+  "plain-language": 1,
+  "resources": 1,
+  "images": 1,
+  "standards": 1,
+  "link-check": 1
+ },
+ "tally": {
+  "ok": 1,
+  "blocked": 5,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 0,
+  "redirect": 0,
+  "error": 0
+ },
+ "finishedAt": "2026-11-17T17:13:37.470Z"
+}
