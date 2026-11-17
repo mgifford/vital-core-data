@@ -1,7 +1,7 @@
 {
  "domain": "www.cdc.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-15T01:34:07.166Z",
+ "generatedAt": "2026-11-17T13:23:20.415Z",
  "pagesScanned": 3183,
  "pagesAudited": 2650,
  "coverage": {
@@ -16,6 +16,7 @@
   "lighthouse": 264,
   "tech": 262
  },
+ "performanceResources": null,
  "blocked": null,
  "axe": {
   "violationTotal": 36434,
@@ -184949,6 +184950,742 @@
   "errorStatuses": {
    "404": 438
   }
+ },
+ "performanceCohort": null,
+ "performanceInvestigations": {
+  "schema_version": "performance-investigation/1",
+  "generated_from": "stored weekly summary; no live browser",
+  "rank_basis": "category evidence class, then sampled-page reach, then evidence-estimated savings; ties by stable ID",
+  "candidates": [
+   {
+    "id": "slow-page:266bfa469245",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/tobacco/campaign/tips/stories/mark.html?s_cid=OSH_misc_M442",
+     "performance": 27,
+     "metrics": {
+      "lcp_ms": 5335,
+      "tbt_ms": 2894,
+      "cls": 0.41
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:41b9d61d1fc1",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/nchs/products/databriefs/db485.htm",
+     "performance": 47,
+     "metrics": {
+      "lcp_ms": 7055,
+      "tbt_ms": 228,
+      "cls": 0.657
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:4f9b1a951ce3",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/tb/statistics/reports/2022/table24.htm",
+     "performance": 45,
+     "metrics": {
+      "lcp_ms": 29180,
+      "tbt_ms": 63,
+      "cls": 0.333
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:7bfe1da4e1ad",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm?s_cid=mm6950a6_w",
+     "performance": 44,
+     "metrics": {
+      "lcp_ms": 3083,
+      "tbt_ms": 1588,
+      "cls": 0.365
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:a28a44552d38",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/nchhstp/whats-new/world-hepatitis-day-2026.html",
+     "performance": 48,
+     "metrics": {
+      "lcp_ms": 28186,
+      "tbt_ms": 619,
+      "cls": 0.077
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:ac75e293b234",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/pcd/issues/2021/20_0615.htm",
+     "performance": 45,
+     "metrics": {
+      "lcp_ms": 7202,
+      "tbt_ms": 276,
+      "cls": 0.873
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:b38e27d115a2",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/ccindex/everydaywords/index.html?word=Preventable",
+     "performance": 47,
+     "metrics": {
+      "lcp_ms": 7339,
+      "tbt_ms": 288,
+      "cls": 0.43
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:bb9b883590d5",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/mmwr/indrr_2024.html",
+     "performance": 29,
+     "metrics": {
+      "lcp_ms": 7157,
+      "tbt_ms": 1548,
+      "cls": 0.472
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:bd05dc532b09",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/laboratory/specimen-submission/detail.html?CDCTestCode=CDC-10544",
+     "performance": 24,
+     "metrics": {
+      "lcp_ms": 8700,
+      "tbt_ms": 1404,
+      "cls": 1.045
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:dd1b33d4a10d",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/overdose-prevention/data-research/facts-stats/about-dose-system.html",
+     "performance": 37,
+     "metrics": {
+      "lcp_ms": 19904,
+      "tbt_ms": 862,
+      "cls": 0.186
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:debed4426512",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/PCD/issues/2016/16_0236.htm",
+     "performance": 25,
+     "metrics": {
+      "lcp_ms": 7457,
+      "tbt_ms": 2766,
+      "cls": 0.428
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:dfad9811acf7",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/mmwr/volumes/65/wr/mm6506md.htm?s_cid=mm6506md_w",
+     "performance": 43,
+     "metrics": {
+      "lcp_ms": 30160,
+      "tbt_ms": 669,
+      "cls": 0.238
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:e4684e155e89",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.cdc.gov/pcd/issues/2021/20_0316a.htm",
+     "performance": 35,
+     "metrics": {
+      "lcp_ms": 6929,
+      "tbt_ms": 672,
+      "cls": 0.848
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 264,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:bootup-time",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "bootup-time",
+     "title": "JavaScript execution time",
+     "category": "performance",
+     "pages": 261,
+     "savings_ms": 75100,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000643.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nchs/hus/sources-definitions/nndss.htm",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00033940.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000981.htm",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 261 sampled page(s)",
+     "estimated savings: 75100 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unused-javascript",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "category": "performance",
+     "pages": 261,
+     "savings_ms": 47800,
+     "savings_bytes": 48828022
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000643.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nchs/hus/sources-definitions/nndss.htm",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00033940.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000981.htm",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 261 sampled page(s)",
+     "estimated savings: 47800 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:mainthread-work-breakdown",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimizes main-thread work",
+     "category": "performance",
+     "pages": 257,
+     "savings_ms": 68600,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000643.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nchs/hus/sources-definitions/nndss.htm",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00033940.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000981.htm",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 257 sampled page(s)",
+     "estimated savings: 68600 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:cache-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "category": "performance",
+     "pages": 244,
+     "savings_ms": 667800,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00033940.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm",
+      "https://www.cdc.gov/museum/exhibits/witness.html",
+      "https://www.cdc.gov/locs/php/clcr-calls/2020/2020-06-15.html",
+      "https://www.cdc.gov/nchs/products/bibliographies.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 244 sampled page(s)",
+     "estimated savings: 667800 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:render-blocking-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "render-blocking-insight",
+     "title": "Render-blocking requests",
+     "category": "performance",
+     "pages": 218,
+     "savings_ms": 139750,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm",
+      "https://www.cdc.gov/museum/exhibits/witness.html",
+      "https://www.cdc.gov/locs/php/clcr-calls/2020/2020-06-15.html",
+      "https://www.cdc.gov/nchs/products/bibliographies.htm",
+      "https://www.cdc.gov/mmwr/volumes/68/wr/mm6846e1.htm?s_cid=mm6846e1_w"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 218 sampled page(s)",
+     "estimated savings: 139750 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unused-css-rules",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "category": "performance",
+     "pages": 200,
+     "savings_ms": 95100,
+     "savings_bytes": 18677675
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nchs/hus/sources-definitions/nndss.htm",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm",
+      "https://www.cdc.gov/museum/exhibits/witness.html",
+      "https://www.cdc.gov/locs/php/clcr-calls/2020/2020-06-15.html",
+      "https://www.cdc.gov/nchs/products/bibliographies.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 200 sampled page(s)",
+     "estimated savings: 95100 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unminified-javascript",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unminified-javascript",
+     "title": "Minify JavaScript",
+     "category": "performance",
+     "pages": 152,
+     "savings_ms": 15150,
+     "savings_bytes": 6555166
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nchs/hus/sources-definitions/nndss.htm",
+      "https://www.cdc.gov/niosh/oil-gas/php/nora-safety-summit/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm",
+      "https://www.cdc.gov/locs/php/clcr-calls/2020/2020-06-15.html",
+      "https://www.cdc.gov/mmwr/volumes/68/wr/mm6846e1.htm?s_cid=mm6846e1_w",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/ncezid/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/vpd/rsv/immunization-information-statement.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 152 sampled page(s)",
+     "estimated savings: 15150 ms"
+    ]
+   }
+  ],
+  "limitations": [
+   "Resource presence is correlation, not proof of a performance defect or ownership.",
+   "Page counts use sampled pages with Resource Timing evidence, not the whole site.",
+   "No energy measurement or causal attribution is included."
+  ]
  },
  "evidenceCoverage": {
   "basis": "findings",

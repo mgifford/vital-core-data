@@ -1,10 +1,11 @@
 {
  "domain": "hhs.gov",
  "week": "2026-W47",
- "generatedAt": "2026-11-16T22:31:24.700Z",
+ "generatedAt": "2026-11-17T13:23:54.553Z",
  "pagesScanned": 1,
  "pagesAudited": 0,
  "coverage": {},
+ "performanceResources": null,
  "blocked": {
   "status": 403
  },
@@ -96,6 +97,18 @@
   },
   "connection": null,
   "errorStatuses": {}
+ },
+ "performanceCohort": null,
+ "performanceInvestigations": {
+  "schema_version": "performance-investigation/1",
+  "generated_from": "stored weekly summary; no live browser",
+  "rank_basis": "category evidence class, then sampled-page reach, then evidence-estimated savings; ties by stable ID",
+  "candidates": [],
+  "limitations": [
+   "Resource presence is correlation, not proof of a performance defect or ownership.",
+   "Page counts use sampled pages with Resource Timing evidence, not the whole site.",
+   "No energy measurement or causal attribution is included."
+  ]
  },
  "evidenceCoverage": {
   "basis": "findings",

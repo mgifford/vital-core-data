@@ -1,7 +1,7 @@
 {
  "domain": "openpaymentsdata.cms.gov",
  "week": "2026-W46",
- "generatedAt": "2026-11-10T22:49:11.729Z",
+ "generatedAt": "2026-11-17T13:23:14.076Z",
  "pagesScanned": 382,
  "pagesAudited": 226,
  "coverage": {
@@ -15,6 +15,7 @@
   "deprecated-html": 22,
   "security": 22
  },
+ "performanceResources": null,
  "blocked": null,
  "axe": {
   "violationTotal": 55,
@@ -12253,6 +12254,18 @@
   "errorStatuses": {
    "404": 24
   }
+ },
+ "performanceCohort": null,
+ "performanceInvestigations": {
+  "schema_version": "performance-investigation/1",
+  "generated_from": "stored weekly summary; no live browser",
+  "rank_basis": "category evidence class, then sampled-page reach, then evidence-estimated savings; ties by stable ID",
+  "candidates": [],
+  "limitations": [
+   "Resource presence is correlation, not proof of a performance defect or ownership.",
+   "Page counts use sampled pages with Resource Timing evidence, not the whole site.",
+   "No energy measurement or causal attribution is included."
+  ]
  },
  "evidenceCoverage": {
   "basis": "findings",

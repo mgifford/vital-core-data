@@ -1,7 +1,7 @@
 {
  "domain": "nih.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-15T01:34:28.799Z",
+ "generatedAt": "2026-11-17T13:23:52.497Z",
  "pagesScanned": 2595,
  "pagesAudited": 17,
  "coverage": {
@@ -16,6 +16,7 @@
   "lighthouse": 3,
   "sustainability": 1
  },
+ "performanceResources": null,
  "blocked": null,
  "axe": {
   "violationTotal": 258,
@@ -6973,6 +6974,363 @@
   },
   "connection": null,
   "errorStatuses": {}
+ },
+ "performanceCohort": null,
+ "performanceInvestigations": {
+  "schema_version": "performance-investigation/1",
+  "generated_from": "stored weekly summary; no live browser",
+  "rank_basis": "category evidence class, then sampled-page reach, then evidence-estimated savings; ties by stable ID",
+  "candidates": [
+   {
+    "id": "slow-page:5e96707951cc",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+     "performance": 35,
+     "metrics": {
+      "lcp_ms": 4328,
+      "tbt_ms": 1705,
+      "cls": 0.486
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 3,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:93c5a60f1f99",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+     "performance": 41,
+     "metrics": {
+      "lcp_ms": 9787,
+      "tbt_ms": 1476,
+      "cls": 0
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 3,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:9599c79bbd0d",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking",
+     "performance": 37,
+     "metrics": {
+      "lcp_ms": 4085,
+      "tbt_ms": 1413,
+      "cls": 0.547
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 3,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:bootup-time",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "bootup-time",
+     "title": "Reduce JavaScript execution time",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 4600,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 4600 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:mainthread-work-breakdown",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimize main-thread work",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 4600,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 4600 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unused-css-rules",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 1850,
+     "savings_bytes": 341231
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 1850 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unused-javascript",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 1650,
+     "savings_bytes": 1099652
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 1650 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:image-delivery-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 750,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 750 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:font-display-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 150,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 150 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unminified-javascript",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unminified-javascript",
+     "title": "Minify JavaScript",
+     "category": "performance",
+     "pages": 3,
+     "savings_ms": 150,
+     "savings_bytes": 57492
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 3,
+     "examples": [
+      "https://www.nih.gov/include-project/funding/past-funding-opportunities",
+      "https://www.nih.gov/about-nih/nih-director/statements/nih-establish-new-policies-allowable-publication-costs",
+      "https://www.nih.gov/news-events/nih-research-matters/glp-1-plus-therapy-can-reduce-heavy-drinking"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 3 sampled page(s)",
+     "estimated savings: 150 ms"
+    ]
+   }
+  ],
+  "limitations": [
+   "Resource presence is correlation, not proof of a performance defect or ownership.",
+   "Page counts use sampled pages with Resource Timing evidence, not the whole site.",
+   "No energy measurement or causal attribution is included."
+  ]
  },
  "evidenceCoverage": {
   "basis": "findings",
