@@ -1,7 +1,7 @@
 {
  "domain": "www.healthcare.gov",
  "week": "2026-W47",
- "generatedAt": "2026-11-18T20:54:55.153Z",
+ "generatedAt": "2026-11-19T11:01:52.294Z",
  "pagesScanned": 554,
  "pagesAudited": 554,
  "coverage": {
@@ -33684,6 +33684,39 @@
     ]
    },
    {
+    "id": "slow-page:15a6bbbe244d",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/small-businesses/provide-shop-coverage/business-in-more-than-one-state",
+     "performance": 45,
+     "metrics": {
+      "lcp_ms": 13464,
+      "tbt_ms": 891,
+      "cls": 0
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:16992f7163ac",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -33915,6 +33948,39 @@
     ]
    },
    {
+    "id": "slow-page:64d4deafbc0b",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/glossary/capital-gains",
+     "performance": 47,
+     "metrics": {
+      "lcp_ms": 13346,
+      "tbt_ms": 695,
+      "cls": 0.036
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:6af4cdf2074a",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -34047,6 +34113,72 @@
     ]
    },
    {
+    "id": "slow-page:8b63d648ab74",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/glossary/exemption",
+     "performance": 48,
+     "metrics": {
+      "lcp_ms": 13097,
+      "tbt_ms": 643,
+      "cls": 0
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:9e2ee9d843f9",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/glossary/summary-of-benefits-and-coverage",
+     "performance": 44,
+     "metrics": {
+      "lcp_ms": 13753,
+      "tbt_ms": 847,
+      "cls": 0.05
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:9f15691b75cc",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -34113,6 +34245,39 @@
     ]
    },
    {
+    "id": "slow-page:b5556188f398",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/shop-dental-plan-information",
+     "performance": 47,
+     "metrics": {
+      "lcp_ms": 13040,
+      "tbt_ms": 753,
+      "cls": 0
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:ba9c2f1b76b2",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -34123,6 +34288,39 @@
       "lcp_ms": 14642,
       "tbt_ms": 1181,
       "cls": 0.017
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:d7ffd0d982a3",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/glossary/special-health-care-need",
+     "performance": 43,
+     "metrics": {
+      "lcp_ms": 13778,
+      "tbt_ms": 1045,
+      "cls": 0
      }
     },
     "evidence": {
@@ -34278,6 +34476,39 @@
     ]
    },
    {
+    "id": "slow-page:fda6a5b77f7b",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://www.healthcare.gov/glossary/supplemental-security-income",
+     "performance": 45,
+     "metrics": {
+      "lcp_ms": 14376,
+      "tbt_ms": 870,
+      "cls": 0.03
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 50,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:fdc15f1286bf",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -34308,6 +34539,132 @@
      "category: slow-representative-page",
      "evidence: direct-observation",
      "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:render-blocking-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "render-blocking-insight",
+     "title": "Render-blocking requests",
+     "category": "performance",
+     "pages": 50,
+     "savings_ms": 94500,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 50,
+     "examples": [
+      "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+      "https://www.healthcare.gov/glossary/agent",
+      "https://www.healthcare.gov/small-businesses",
+      "https://www.healthcare.gov/glossary/brand-name-drugs",
+      "https://www.healthcare.gov/small-businesses/provide-shop-coverage/business-in-more-than-one-state",
+      "https://www.healthcare.gov/glossary/platinum-health-plan",
+      "https://www.healthcare.gov/glossary/point-of-service-plan-pos-plan",
+      "https://www.healthcare.gov/verify-information/after-you-submit-documents",
+      "https://www.healthcare.gov/taxes-2023/no-health-coverage",
+      "https://www.healthcare.gov/glossary/preferred-provider"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 50 sampled page(s)",
+     "estimated savings: 94500 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unused-javascript",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "category": "performance",
+     "pages": 50,
+     "savings_ms": 67800,
+     "savings_bytes": 19853500
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 50,
+     "examples": [
+      "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+      "https://www.healthcare.gov/glossary/agent",
+      "https://www.healthcare.gov/small-businesses",
+      "https://www.healthcare.gov/glossary/brand-name-drugs",
+      "https://www.healthcare.gov/small-businesses/provide-shop-coverage/business-in-more-than-one-state",
+      "https://www.healthcare.gov/glossary/platinum-health-plan",
+      "https://www.healthcare.gov/glossary/point-of-service-plan-pos-plan",
+      "https://www.healthcare.gov/verify-information/after-you-submit-documents",
+      "https://www.healthcare.gov/taxes-2023/no-health-coverage",
+      "https://www.healthcare.gov/glossary/preferred-provider"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 50 sampled page(s)",
+     "estimated savings: 67800 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:cache-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "category": "performance",
+     "pages": 50,
+     "savings_ms": 49450,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 50,
+     "examples": [
+      "https://www.healthcare.gov/people-with-disabilities/coverage-options",
+      "https://www.healthcare.gov/glossary/agent",
+      "https://www.healthcare.gov/small-businesses",
+      "https://www.healthcare.gov/glossary/brand-name-drugs",
+      "https://www.healthcare.gov/small-businesses/provide-shop-coverage/business-in-more-than-one-state",
+      "https://www.healthcare.gov/glossary/platinum-health-plan",
+      "https://www.healthcare.gov/glossary/point-of-service-plan-pos-plan",
+      "https://www.healthcare.gov/verify-information/after-you-submit-documents",
+      "https://www.healthcare.gov/taxes-2023/no-health-coverage",
+      "https://www.healthcare.gov/glossary/preferred-provider"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 50 sampled page(s)",
+     "estimated savings: 49450 ms"
     ]
    }
   ],

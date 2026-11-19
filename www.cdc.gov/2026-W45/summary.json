@@ -1,7 +1,7 @@
 {
  "domain": "www.cdc.gov",
  "week": "2026-W45",
- "generatedAt": "2026-11-18T20:54:33.155Z",
+ "generatedAt": "2026-11-19T11:01:30.940Z",
  "pagesScanned": 3183,
  "pagesAudited": 2650,
  "coverage": {
@@ -185679,6 +185679,299 @@
      "evidence: direct-observation",
      "reach: 152 sampled page(s)",
      "estimated savings: 15150 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:font-display-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "category": "performance",
+     "pages": 139,
+     "savings_ms": 7950,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/idlh/76222.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/acip/evidence-to-recommendations/rabies-booster-dose-etr.html",
+      "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm",
+      "https://www.cdc.gov/mmwr/volumes/68/wr/mm6846e1.htm?s_cid=mm6846e1_w",
+      "https://www.cdc.gov/child-development/es/site.html",
+      "https://www.cdc.gov/mmwr/volumes/70/ss/ss7001a1.htm?s_cid=ss7001a1_w",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nndss/technical-resource-center/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/index.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 139 sampled page(s)",
+     "estimated savings: 7950 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:image-delivery-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "category": "performance",
+     "pages": 90,
+     "savings_ms": 281900,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/dengue/data-research/facts-stats/index.html",
+      "https://www.cdc.gov/museum/exhibits/witness.html",
+      "https://www.cdc.gov/locs/php/clcr-calls/2020/2020-06-15.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/ncezid/index.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6116a6.htm?s_cid=mm6116a6_w",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5512md.htm",
+      "https://www.cdc.gov/laboratory-quality-assurance/php/nutritional-biomarkers/folate-harmonization.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/index.html",
+      "https://www.cdc.gov/radiation-emergencies/hcp/radiological-terrorism-toolkit/index.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 90 sampled page(s)",
+     "estimated savings: 281900 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:legacy-javascript-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "category": "performance",
+     "pages": 33,
+     "savings_ms": 3200,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/museum/exhibits/witness.html",
+      "https://www.cdc.gov/nchs/products/bibliographies.htm",
+      "https://www.cdc.gov/mmwr/volumes/66/wr/mm6644a1.htm?s_cid=mm6644a1_w",
+      "https://www.cdc.gov/asthma/brfss/2012/brfssdata.htm",
+      "https://www.cdc.gov/spanish/niosh/hhe/folletos.html",
+      "https://www.cdc.gov/niosh/npg/npgd0177.html",
+      "https://www.cdc.gov/nchs/products/databriefs/db485.htm",
+      "https://www.cdc.gov/dpdx/monthlycasestudies/2005/case162.html",
+      "https://www.cdc.gov/mmwr/volumes/68/wr/mm6850a7.htm?s_cid=mm6850a7_w",
+      "https://www.cdc.gov/tb/statistics/reports/2022/table24.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 33 sampled page(s)",
+     "estimated savings: 3200 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:server-response-time",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "server-response-time",
+     "title": "Reduce initial server response time",
+     "category": "performance",
+     "pages": 28,
+     "savings_ms": 17350,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00033940.htm",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/00020850.htm",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5738a2.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/angiostrongylus/prevention/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/tularemia/signs-symptoms/index.html",
+      "https://www.cdc.gov/pcd/issues/2014/13_0264.htm",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5425md.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/listeria/causes/dairy.html",
+      "https://www.cdc.gov/tb/statistics/reports/2022/table24.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 28 sampled page(s)",
+     "estimated savings: 17350 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:document-latency-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "document-latency-insight",
+     "title": "Document request latency",
+     "category": "performance",
+     "pages": 24,
+     "savings_ms": 16450,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/food-safety/foods/raw-milk.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/angiostrongylus/prevention/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/tularemia/signs-symptoms/index.html",
+      "https://www.cdc.gov/clinical-standardization-programs/php/vitamin-d",
+      "https://www.cdc.gov/neglected-tropical-diseases/programs",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/listeria/causes/dairy.html",
+      "https://www.cdc.gov/hepatitis/php/npr-2025",
+      "https://www.cdc.gov/salmonella/php/surveillance",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/ss6408a1.htm?s_cid=ss6408a1_w",
+      "https://www.cdc.gov/school-nutrition/school-meals/time-for-lunch.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 24 sampled page(s)",
+     "estimated savings: 16450 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:redirects",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "redirects",
+     "title": "Avoid multiple page redirects",
+     "category": "performance",
+     "pages": 16,
+     "savings_ms": 12350,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/nchs/hus/sources-definitions/nndss.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/vpd/rsv/immunization-information-statement.html",
+      "https://www.cdc.gov/clinical-standardization-programs/php/vitamin-d",
+      "https://www.cdc.gov/art/about",
+      "https://www.cdc.gov/neglected-tropical-diseases/programs",
+      "https://www.cdc.gov/hepatitis/php/npr-2025",
+      "https://www.cdc.gov/salmonella/php/surveillance",
+      "https://www.cdc.gov/cryptosporidium/about",
+      "https://www.cdc.gov/tatfar/php/story",
+      "https://www.cdc.gov/rdc/nchs-geographic-variables/nhis.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 16 sampled page(s)",
+     "estimated savings: 12350 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unminified-css",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unminified-css",
+     "title": "Minify CSS",
+     "category": "performance",
+     "pages": 9,
+     "savings_ms": 150,
+     "savings_bytes": 126477
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 264,
+     "examples": [
+      "https://www.cdc.gov/niosh/npg/npgd0177.html",
+      "https://www.cdc.gov/fluview/surveillance/2025-week-10.html",
+      "https://www.cdc.gov/niosh/npg/npgd0149.html",
+      "https://www.cdc.gov/niosh/npg/npgd0412.html",
+      "https://www.cdc.gov/niosh-rtecs/EJAAE60.html",
+      "https://www.cdc.gov/niosh/npg/npgd0019.html",
+      "https://www.cdc.gov/ccindex/everydaywords/index.html?word=Preventable",
+      "https://www.cdc.gov/niosh-rtecs/PB602160.html",
+      "https://www.cdc.gov/niosh-rtecs/TX4D7038.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 9 sampled page(s)",
+     "estimated savings: 150 ms"
     ]
    }
   ],

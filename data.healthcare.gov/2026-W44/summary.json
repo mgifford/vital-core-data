@@ -1,7 +1,7 @@
 {
  "domain": "data.healthcare.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-18T20:54:25.798Z",
+ "generatedAt": "2026-11-19T11:01:23.731Z",
  "pagesScanned": 2440,
  "pagesAudited": 1527,
  "coverage": {
@@ -32781,6 +32781,39 @@
     ]
    },
    {
+    "id": "slow-page:081b78d805aa",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/e8uy-7rnp?page=332",
+     "performance": 10,
+     "metrics": {
+      "lcp_ms": 15994,
+      "tbt_ms": 1016,
+      "cls": 0.801
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:0d5ebf1161cb",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -32880,6 +32913,39 @@
     ]
    },
    {
+    "id": "slow-page:1f382cba9a29",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/e4rr-zk4i?page=5318",
+     "performance": 9,
+     "metrics": {
+      "lcp_ms": 14536,
+      "tbt_ms": 994,
+      "cls": 1.307
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:43bca5f439f1",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -32890,6 +32956,72 @@
       "lcp_ms": 16469,
       "tbt_ms": 1566,
       "cls": 0.778
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:4681a063b4f5",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/wb6u-x2ny?page=39548",
+     "performance": 10,
+     "metrics": {
+      "lcp_ms": 17100,
+      "tbt_ms": 971,
+      "cls": 0.952
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:4b1f33451808",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/d1d5aef7-0549-4173-b625-c0ace09c8634?page=4",
+     "performance": 9,
+     "metrics": {
+      "lcp_ms": 16097,
+      "tbt_ms": 1056,
+      "cls": 1.307
      }
     },
     "evidence": {
@@ -32946,6 +33078,39 @@
     ]
    },
    {
+    "id": "slow-page:552cb01c74e0",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/r3nu-ebdw?page=4",
+     "performance": 9,
+     "metrics": {
+      "lcp_ms": 16330,
+      "tbt_ms": 1087,
+      "cls": 0.874
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:67909620cd30",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -32956,6 +33121,39 @@
       "lcp_ms": 16299,
       "tbt_ms": 1262,
       "cls": 0.793
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:68ed41032f94",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/dtns-y2t8?page=26",
+     "performance": 10,
+     "metrics": {
+      "lcp_ms": 13811,
+      "tbt_ms": 972,
+      "cls": 0.858
      }
     },
     "evidence": {
@@ -33045,6 +33243,39 @@
     ]
    },
    {
+    "id": "slow-page:6c4aee1523fe",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/pszf-56pp?page=3",
+     "performance": 9,
+     "metrics": {
+      "lcp_ms": 16610,
+      "tbt_ms": 1041,
+      "cls": 1.219
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:7a6b57e7bff9",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -33055,6 +33286,39 @@
       "lcp_ms": 14653,
       "tbt_ms": 1583,
       "cls": 0.651
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:8485eb6bd8bf",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/9hay-v3sx?page=5",
+     "performance": 10,
+     "metrics": {
+      "lcp_ms": 13894,
+      "tbt_ms": 907,
+      "cls": 1.205
      }
     },
     "evidence": {
@@ -33253,6 +33517,72 @@
       "lcp_ms": 17182,
       "tbt_ms": 1100,
       "cls": 0.951
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:cbc0f4eb17a9",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/eh65-eh2p?page=3",
+     "performance": 9,
+     "metrics": {
+      "lcp_ms": 16159,
+      "tbt_ms": 1072,
+      "cls": 0.914
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 147,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:ce18fd355aa9",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.healthcare.gov/dataset/e8uy-7rnp?page=335",
+     "performance": 9,
+     "metrics": {
+      "lcp_ms": 14384,
+      "tbt_ms": 1042,
+      "cls": 1.277
      }
     },
     "evidence": {

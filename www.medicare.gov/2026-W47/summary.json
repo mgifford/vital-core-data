@@ -1,7 +1,7 @@
 {
  "domain": "www.medicare.gov",
  "week": "2026-W47",
- "generatedAt": "2026-11-18T20:54:02.554Z",
+ "generatedAt": "2026-11-19T11:01:00.119Z",
  "pagesScanned": 1222,
  "pagesAudited": 1165,
  "coverage": {
@@ -43223,6 +43223,9 @@
      "pages": 398,
      "render_blocking_pages": 398
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43253,6 +43256,9 @@
      "pages": 397,
      "render_blocking_pages": 194
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43282,6 +43288,9 @@
      "type": "script",
      "pages": 385,
      "render_blocking_pages": 382
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43314,6 +43323,9 @@
      "pages": 398,
      "transfer_bytes": 0
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43344,6 +43356,9 @@
      "origin": "tiqcdn.com",
      "pages": 398,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43376,6 +43391,9 @@
      "pages": 398,
      "transfer_bytes": 0
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43406,6 +43424,9 @@
      "origin": "tiqcdn.com",
      "pages": 398,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43438,6 +43459,9 @@
      "pages": 398,
      "transfer_bytes": 0
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43468,6 +43492,9 @@
      "origin": "youtube.com",
      "pages": 398,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43500,6 +43527,43 @@
      "pages": 397,
      "transfer_bytes": 0
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://api-cdn.use2.us-gov-pure.cloud/webdeployments/v1/deployments/ab956791-73f1-4395-8cdf-7a50a0a89550/en-us.json",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://api-cdn.use2.us-gov-pure.cloud/webdeployments/v1/deployments/ab956791-73f1-4395-8cdf-7a50a0a89550/en-us.json",
+     "type": "xmlhttprequest",
+     "origin": "us-gov-pure.cloud",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43530,6 +43594,43 @@
      "origin": "us-gov-pure.cloud",
      "pages": 397,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://apps.use2.us-gov-pure.cloud/genesys-bootstrap/hub.html",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://apps.use2.us-gov-pure.cloud/genesys-bootstrap/hub.html",
+     "type": "iframe",
+     "origin": "us-gov-pure.cloud",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43562,6 +43663,77 @@
      "pages": 397,
      "transfer_bytes": 0
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://apps.use2.us-gov-pure.cloud/messenger/messenger-renderer.html",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://apps.use2.us-gov-pure.cloud/messenger/messenger-renderer.html",
+     "type": "iframe",
+     "origin": "us-gov-pure.cloud",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://apps.use2.us-gov-pure.cloud/messenger/messenger.html",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://apps.use2.us-gov-pure.cloud/messenger/messenger.html",
+     "type": "iframe",
+     "origin": "us-gov-pure.cloud",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43592,6 +43764,9 @@
      "origin": "us-gov-pure.cloud",
      "pages": 397,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43624,6 +43799,9 @@
      "pages": 397,
      "transfer_bytes": 0
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43654,6 +43832,43 @@
      "origin": "digitalgov.gov",
      "pages": 397,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://events.launchdarkly.us/events/bulk/6019fd45b36e3a100c2d2416",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://events.launchdarkly.us/events/bulk/6019fd45b36e3a100c2d2416",
+     "type": "xmlhttprequest",
+     "origin": "launchdarkly.us",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43686,6 +43901,9 @@
      "pages": 397,
      "transfer_bytes": 230736
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43716,6 +43934,9 @@
      "origin": "qualtrics.com",
      "pages": 397,
      "transfer_bytes": 373938
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",
@@ -43748,6 +43969,43 @@
      "pages": 397,
      "transfer_bytes": 231558
     },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://gov1.sr.qualtrics.com/sr-data-ingestion-service/v2/sessions/record-playback",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://gov1.sr.qualtrics.com/sr-data-ingestion-service/v2/sessions/record-playback",
+     "type": "fetch",
+     "origin": "qualtrics.com",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
     "evidence": {
      "source": "performance-resource-inventory/1",
      "denominator": 398,
@@ -43778,6 +44036,145 @@
      "origin": "adsrvr.org",
      "pages": 397,
      "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://insight.adsrvr.org/track/realtimeconversion",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://insight.adsrvr.org/track/realtimeconversion",
+     "type": "xmlhttprequest",
+     "origin": "adsrvr.org",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://js.adsrvr.org/up_loader.3.0.0.js",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://js.adsrvr.org/up_loader.3.0.0.js",
+     "type": "script",
+     "origin": "adsrvr.org",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://tags.tiqcdn.com/utag/cmsgov/medicare-www/prod/utag.215.js",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://tags.tiqcdn.com/utag/cmsgov/medicare-www/prod/utag.215.js",
+     "type": "script",
+     "origin": "tiqcdn.com",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
+    },
+    "evidence": {
+     "source": "performance-resource-inventory/1",
+     "denominator": 398,
+     "limitations": [
+      "Third-party presence and transfer are not proof of a defect or causation."
+     ]
+    },
+    "hypothesis": "This third-party resource is loaded on multiple sampled pages and may contribute transfer or blocking cost.",
+    "alternatives": [
+     "Another first-party or third-party resource may be responsible.",
+     "The third party may be required for a core service."
+    ],
+    "proposed_test": "Measure the representative pages with the third-party resource blocked or deferred under matched conditions.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: third-party-resource-concern",
+     "evidence: direct-observation",
+     "reach: 397 sampled page(s)"
+    ]
+   },
+   {
+    "id": "third-party-resource:https://www.google-analytics.com/g/collect",
+    "category": "third-party-resource-concern",
+    "evidence_strength": "direct-observation",
+    "resource": {
+     "key": "https://www.google-analytics.com/g/collect",
+     "type": "fetch",
+     "origin": "google-analytics.com",
+     "pages": 397,
+     "transfer_bytes": 0
+    },
+    "page": {
+     "url": "https://www.medicare.gov/account/create-account?Lang=es-mx"
     },
     "evidence": {
      "source": "performance-resource-inventory/1",

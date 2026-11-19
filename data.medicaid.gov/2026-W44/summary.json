@@ -1,7 +1,7 @@
 {
  "domain": "data.medicaid.gov",
  "week": "2026-W44",
- "generatedAt": "2026-11-18T20:54:50.807Z",
+ "generatedAt": "2026-11-19T11:01:48.098Z",
  "pagesScanned": 3357,
  "pagesAudited": 2654,
  "coverage": {
@@ -50309,6 +50309,72 @@
   "rank_basis": "category evidence class, then sampled-page reach, then evidence-estimated savings; ties by stable ID",
   "candidates": [
    {
+    "id": "slow-page:005f9025a348",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/e3af839d-8175-5be0-b94e-4a302ed7a035?page=53",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 9758,
+      "tbt_ms": 895,
+      "cls": 1.446
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:1f5272bf4b19",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/c0bef49e-46ea-4b9d-9153-76b4078d58b7?page=3",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 11672,
+      "tbt_ms": 871,
+      "cls": 1.129
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:2238a5834dd7",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -50375,6 +50441,105 @@
     ]
    },
    {
+    "id": "slow-page:31413b942918",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/fbb83258-11c7-47f5-8b18-5f8e79f7e704?page=4",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 9566,
+      "tbt_ms": 907,
+      "cls": 1.291
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:31f692ed55b2",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/0bef7b8a-c663-5b14-9a46-0b5c2b86b0fe?page=4",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 11506,
+      "tbt_ms": 893,
+      "cls": 1.197
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:32aa14eabb8b",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/be496f61-3e23-47aa-b442-2334a1fbe40a?page=2",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 9425,
+      "tbt_ms": 947,
+      "cls": 0.735
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:3304e7908800",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -50408,6 +50573,39 @@
     ]
    },
    {
+    "id": "slow-page:3728fcb22042",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/eec7fbe6-c4c4-5915-b3d0-be5828ef4e9d?page=2",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 11075,
+      "tbt_ms": 904,
+      "cls": 0.838
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:375893a13fce",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -50418,6 +50616,39 @@
       "lcp_ms": 9808,
       "tbt_ms": 1225,
       "cls": 0.903
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:37cf8af45e6d",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/df124eb9-35d9-48d1-b879-ff52f9fef128",
+     "performance": 14,
+     "metrics": {
+      "lcp_ms": 9286,
+      "tbt_ms": 1031,
+      "cls": 0.738
      }
     },
     "evidence": {
@@ -50804,6 +51035,39 @@
     ]
    },
    {
+    "id": "slow-page:a30d5d95c5de",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/4f445894-a3bf-59dc-8d82-625db6d88736",
+     "performance": 13,
+     "metrics": {
+      "lcp_ms": 9459,
+      "tbt_ms": 897,
+      "cls": 1.417
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
     "id": "slow-page:a4da9ef0cd2c",
     "category": "slow-representative-page",
     "evidence_strength": "direct-observation",
@@ -50814,6 +51078,39 @@
       "lcp_ms": 9458,
       "tbt_ms": 1702,
       "cls": 0.966
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:aff372d80a84",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/8f39b637-9bb1-5894-9062-2c4f2ad70fba?page=4",
+     "performance": 13,
+     "metrics": {
+      "lcp_ms": 11528,
+      "tbt_ms": 1237,
+      "cls": 0.587
      }
     },
     "evidence": {
@@ -50880,6 +51177,39 @@
       "lcp_ms": 9397,
       "tbt_ms": 993,
       "cls": 1.412
+     }
+    },
+    "evidence": {
+     "source": "lighthouse lab run",
+     "denominator": 275,
+     "limitations": [
+      "Lighthouse is a synthetic lab measurement, not field Core Web Vitals; INP is unavailable."
+     ]
+    },
+    "hypothesis": "This sampled page has a low Lighthouse lab performance score and deserves investigation of its loading and main-thread work.",
+    "alternatives": [
+     "The run may reflect throttling, third-party variance or a transient network condition.",
+     "A single lab score is not proof of a user-facing regression."
+    ],
+    "proposed_test": "Repeat the Lighthouse run under the same configured conditions and inspect LCP/TBT plus the top recommendations before changing code.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: slow-representative-page",
+     "evidence: direct-observation",
+     "reach: 1 sampled page(s)"
+    ]
+   },
+   {
+    "id": "slow-page:da2f9b5576ac",
+    "category": "slow-representative-page",
+    "evidence_strength": "direct-observation",
+    "page": {
+     "url": "https://data.medicaid.gov/dataset/1c6d8464-2cb2-4d91-80b1-7c56e3f74089?page=3",
+     "performance": 13,
+     "metrics": {
+      "lcp_ms": 9405,
+      "tbt_ms": 1012,
+      "cls": 0.786
      }
     },
     "evidence": {

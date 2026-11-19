@@ -1,7 +1,7 @@
 {
  "domain": "www.cdc.gov",
  "week": "2026-W46",
- "generatedAt": "2026-11-18T20:54:33.662Z",
+ "generatedAt": "2026-11-19T11:01:31.824Z",
  "pagesScanned": 3205,
  "pagesAudited": 2693,
  "coverage": {
@@ -185136,6 +185136,426 @@
      "evidence: direct-observation",
      "reach: 241 sampled page(s)",
      "estimated savings: 49150 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:mainthread-work-breakdown",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "mainthread-work-breakdown",
+     "title": "Minimizes main-thread work",
+     "category": "performance",
+     "pages": 234,
+     "savings_ms": 49000,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://www.cdc.gov/pcd/issues/2006/jan/05_0129a.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/resources/protect-baby-from-getting-sick.html",
+      "https://www.cdc.gov/nchs/nsfg/nsfg_cycle6.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://www.cdc.gov/acute-flaccid-myelitis/stories/sarah.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6104a2.htm",
+      "https://www.cdc.gov/pcd/issues/2008/apr/07_0210.htm"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 234 sampled page(s)",
+     "estimated savings: 49000 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:cache-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "cache-insight",
+     "title": "Use efficient cache lifetimes",
+     "category": "performance",
+     "pages": 223,
+     "savings_ms": 690650,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/resources/protect-baby-from-getting-sick.html",
+      "https://www.cdc.gov/nchs/nsfg/nsfg_cycle6.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://www.cdc.gov/acute-flaccid-myelitis/stories/sarah.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6104a2.htm",
+      "https://www.cdc.gov/pcd/issues/2008/apr/07_0210.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/es/data/index.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 223 sampled page(s)",
+     "estimated savings: 690650 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:render-blocking-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "render-blocking-insight",
+     "title": "Render-blocking requests",
+     "category": "performance",
+     "pages": 197,
+     "savings_ms": 140200,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/resources/protect-baby-from-getting-sick.html",
+      "https://www.cdc.gov/nchs/nsfg/nsfg_cycle6.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://www.cdc.gov/acute-flaccid-myelitis/stories/sarah.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6104a2.htm",
+      "https://www.cdc.gov/pcd/issues/2008/apr/07_0210.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/es/data/index.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 197 sampled page(s)",
+     "estimated savings: 140200 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unused-css-rules",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "category": "performance",
+     "pages": 194,
+     "savings_ms": 83500,
+     "savings_bytes": 17228315
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/resources/protect-baby-from-getting-sick.html",
+      "https://www.cdc.gov/nchs/nsfg/nsfg_cycle6.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://www.cdc.gov/acute-flaccid-myelitis/stories/sarah.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/es/data/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/hepatitis-b/prevention/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/clean-hands/clean-hands-and-spaces/index.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 194 sampled page(s)",
+     "estimated savings: 83500 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:font-display-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "font-display-insight",
+     "title": "Font display",
+     "category": "performance",
+     "pages": 154,
+     "savings_ms": 9300,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/resources/protect-baby-from-getting-sick.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/es/data/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/hepatitis-b/prevention/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/clean-hands/clean-hands-and-spaces/index.html",
+      "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod12/07.html",
+      "https://www.cdc.gov/rsvvaxview/publications/index.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 154 sampled page(s)",
+     "estimated savings: 9300 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:unminified-javascript",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "unminified-javascript",
+     "title": "Minify JavaScript",
+     "category": "performance",
+     "pages": 150,
+     "savings_ms": 16300,
+     "savings_bytes": 6640889
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/vaccines/resources/protect-baby-from-getting-sick.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://www.cdc.gov/acute-flaccid-myelitis/stories/sarah.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/cancer/es/data/index.html",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/hepatitis-b/prevention/index.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/clean-hands/clean-hands-and-spaces/index.html",
+      "https://www.cdc.gov/heat-health/es/risk-factors/el-calor-y-las-personas-mayores-65-anos-o-mas.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 150 sampled page(s)",
+     "estimated savings: 16300 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:image-delivery-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "image-delivery-insight",
+     "title": "Improve image delivery",
+     "category": "performance",
+     "pages": 90,
+     "savings_ms": 305550,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/mmwr/volumes/67/wr/mm6743a7.htm",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/healthy-weight-growth/about/enhancing-immunity.html",
+      "https://www.cdc.gov/acute-flaccid-myelitis/stories/sarah.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6104a2.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/hepatitis-b/prevention/index.html",
+      "https://www.cdc.gov/mmwr/volumes/73/wr/mm7340a1.htm",
+      "https://www.cdc.gov/folic-acid/es/php/communication-resources/empiece-un-habito-saludable-hoy.html",
+      "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/choosing-a-formula.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/diabetes/diabetes-complications/statins-and-diabetes.html",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/overdose-prevention/data-research/facts-stats/about-dose-system.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 90 sampled page(s)",
+     "estimated savings: 305550 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:server-response-time",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "server-response-time",
+     "title": "Initial server response time was short",
+     "category": "performance",
+     "pages": 55,
+     "savings_ms": 21800,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/PCD/issues/2010/sep/09_0197_es.htm",
+      "https://%5C%5C%5C%5Ccdc.gov%5C%5Cproject%5C%5COPHSS_CSELS_DPHID_MMWR_OD_Editors%5C%5CMMWR-WE%5C%5Cxxx%20-%20AUGUST%2021%5C%5CRoundtable%5C%5Cvqf8@www.cdc.gov/monkeypox/hcp/diagnosis-testing/index.html",
+      "https://www.cdc.gov/rsvvaxview/publications/index.html",
+      "https://www.cdc.gov/PCD/issues/2010/jul/09_0180_es.htm",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6350md.htm?s_cid=mm6350md_w",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5439a9.htm",
+      "https://www.cdc.gov/mmwr/volumes/73/wr/mm7337e1.htm?s_cid=mm7337e1_w",
+      "https://cdc.govprojectOPHSS_CSELS_DPHID_MMWR_OD_EditorsMMWR-WECURRENT%20-%20May%2017Final%20to%20XMLbjx5@www.cdc.gov/nccdphp/leadership/director-of-the-division-of-reproductive-health.html",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/ss4803a1.htm",
+      "https://www.cdc.gov/mmwr/volumes/65/wr/mm6510md.htm?s_cid=mm6510md_w"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 55 sampled page(s)",
+     "estimated savings: 21800 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:document-latency-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "document-latency-insight",
+     "title": "Document request latency",
+     "category": "performance",
+     "pages": 29,
+     "savings_ms": 15600,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/niosh/fatigue/about",
+      "https://www.cdc.gov/rsvvaxview/publications/index.html",
+      "https://www.cdc.gov/howrightnow/espanol/hablemos",
+      "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6350md.htm?s_cid=mm6350md_w",
+      "https://www.cdc.gov/sepsis",
+      "https://www.cdc.gov/als/php/publications",
+      "https://www.cdc.gov/mmwr/volumes/73/wr/mm7337e1.htm?s_cid=mm7337e1_w",
+      "https://www.cdc.gov/pcd/issues/2024/23_0221.htm",
+      "https://www.cdc.gov/stophivtogether/library?Audience+1=Native+Hawaiian+and+Other+Pacific+Islander+People&Language=English+%28US%29&Sort=Last+Updated%3A%3Adesc",
+      "https://www.cdc.gov/niosh/learning/safetyculturehc/module-2/5.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 29 sampled page(s)",
+     "estimated savings: 15600 ms"
+    ]
+   },
+   {
+    "id": "lighthouse-recommendation:legacy-javascript-insight",
+    "category": "repeated-lighthouse-recommendation",
+    "evidence_strength": "direct-observation",
+    "recommendation": {
+     "id": "legacy-javascript-insight",
+     "title": "Legacy JavaScript",
+     "category": "performance",
+     "pages": 22,
+     "savings_ms": 2650,
+     "savings_bytes": 0
+    },
+    "evidence": {
+     "source": "lighthouse lab audit",
+     "denominator": 246,
+     "examples": [
+      "https://www.cdc.gov/howrightnow/espanol/hablemos",
+      "https://www.cdc.gov/pcd/issues/2015/15_0295.htm",
+      "https://www.cdc.gov/mmwr/volumes/65/wr/mm6510md.htm?s_cid=mm6510md_w",
+      "https://www.cdc.gov/pcd/issues/2024/23_0221.htm",
+      "https://www.cdc.gov/pcd/issues/2018/18_0222.htm",
+      "https://www.cdc.gov/asthma/nhis/2020/table2-2.htm",
+      "https://www.cdc.gov/nchs/products/databriefs/db241.htm",
+      "https://www.cdc.gov/mmwr/volumes/70/wr/mm7038a2.htm?s_cid=mm7038a2_w",
+      "https://www.cdc.gov/pcd/issues/2016/15_0436.htm",
+      "https://www.cdc.gov/niosh-rtecs/CO91B8B0.html"
+     ]
+    },
+    "hypothesis": "This Lighthouse recommendation recurs across sampled pages and may represent a shared optimization opportunity.",
+    "alternatives": [
+     "Savings estimates are model-based and may not transfer to field users.",
+     "A recurring audit can reflect shared templates rather than a single component."
+    ],
+    "proposed_test": "Select one representative page and test the recommendation in a controlled diagnostic run.",
+    "status": "investigation-candidate",
+    "priority_reasons": [
+     "category: repeated-lighthouse-recommendation",
+     "evidence: direct-observation",
+     "reach: 22 sampled page(s)",
+     "estimated savings: 2650 ms"
     ]
    }
   ],
