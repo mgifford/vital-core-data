@@ -1,0 +1,104 @@
+{
+ "runId": "2026-11-23T15-09-54-478Z-1e6ac2",
+ "week": "2026-W48",
+ "domain": "www.medicaid.gov",
+ "canonical": {
+  "origin": "https://www.medicaid.gov",
+  "configured": "https://www.medicaid.gov",
+  "httpsProblem": null,
+  "note": null
+ },
+ "robots": {
+  "rootAllowed": true
+ },
+ "startedAt": "2026-11-23T15:09:55.678Z",
+ "scanned": [
+  "303d4981e917cb69",
+  "469c205336e98750",
+  "2d8bf09db861885d",
+  "12579991938bf937",
+  "b52b53752f5fe84f",
+  "6d1bb895cd8ecda1",
+  "607b13aa875c1358",
+  "55b7db05f1b18bdb",
+  "81f901478d3bd568",
+  "a96efd687ac51e3f",
+  "0b7417d15e914470"
+ ],
+ "errors": [],
+ "sampling": {
+  "axe": 100,
+  "alfa": 50,
+  "plain-language": 50,
+  "link-check": 100,
+  "lighthouse": 10,
+  "deprecated-html": 10,
+  "resources": 100,
+  "images": 100,
+  "standards": 50,
+  "security": 10,
+  "public-interest": 10,
+  "offline-resilience": 0,
+  "sustainability": 10,
+  "tech": 10,
+  "third-party": 25,
+  "performance-resources": 100
+ },
+ "browser": {
+  "userAgent": "vital-scans/0.1 (+https://github.com/mgifford/vital-core; accessibility and sustainability monitoring)",
+  "viewport": {
+   "width": 1280,
+   "height": 800
+  }
+ },
+ "screenshots": {
+  "enabled": false,
+  "captured": 0
+ },
+ "performanceCohort": {
+  "stable": [],
+  "selected_in_batch": 0
+ },
+ "stoppedReason": "blocked",
+ "blockedStop": {
+  "reason": "5 consecutive blocked responses",
+  "attempted": 11,
+  "blocked": 5,
+  "consecutive": 5,
+  "nextProbeWeek": "2027-W03",
+  "at": "2026-11-23T15:11:10.163Z"
+ },
+ "linkCheck": {
+  "total": 322,
+  "checked": 322,
+  "brokenCount": 0,
+  "broken": []
+ },
+ "enginesRun": {
+  "sustainability": 1,
+  "performance-resources": 6,
+  "axe": 6,
+  "alfa": 4,
+  "plain-language": 5,
+  "deprecated-html": 1,
+  "resources": 6,
+  "images": 6,
+  "link-check": 6,
+  "standards": 4,
+  "third-party": 2,
+  "lighthouse": 1,
+  "security": 1,
+  "public-interest": 1
+ },
+ "tally": {
+  "ok": 6,
+  "blocked": 5,
+  "timeout": 0,
+  "robots_skipped": 0,
+  "url_filtered": 0,
+  "non_html": 0,
+  "redirect": 0,
+  "error": 0
+ },
+ "finishedAt": "2026-11-23T15:11:30.445Z"
+}
